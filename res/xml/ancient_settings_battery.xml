@@ -34,6 +34,12 @@
             android:summary="@string/wakelock_blocker_summary"
             android:fragment="com.ancient.settings.fragments.WakeLockBlocker"/>
 
+       <Preference
+            android:key="alarm_blocker"
+            android:title="@string/alarm_blocker_title"
+            android:summary="@string/alarm_blocker_summary"
+            android:fragment="com.ancient.settings.fragments.AlarmBlocker" />
+
         <com.ancient.settings.preferences.SystemSettingSwitchPreference
             android:key="sensor_block"
             android:title="@string/sensor_block_title"
