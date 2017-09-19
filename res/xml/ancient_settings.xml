@@ -50,7 +50,15 @@
             android:title="@string/buttons_title"
             android:fragment="com.ancient.settings.fragments.Buttons"
             android:icon="@drawable/ic_settings_buttons"/>
-        
+
+        <!-- PowerMenu -->   
+        <Preference
+            android:key="power_menu"
+            android:title="@string/powermenu_title"
+            android:summary="@string/powermenu_summary"
+            android:fragment="com.ancient.settings.fragments.PowerMenu"
+            android:icon="@drawable/ic_settings_powermenu" />
+       
         <!-- Gesture -->
         <Preference
             android:key="gestures_category"

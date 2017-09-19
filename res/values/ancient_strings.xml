@@ -77,4 +77,14 @@
     <string name="battery_bar_high_color">High level color"</string>
     <string name="battery_bar_low_color">Low level color"</string>
 
+    <!-- Power Menu -->
+    <string name="hardware_keys_power_category">Power Button</string>
+    <string name="powermenu_title">Power Menu</string>
+    <string name="powermenu_summary">Customize elements to be displayed in power menu</string>
+    <string name="powermenu_reboot_title">Reboot</string>
+    <string name="powermenu_advanced_reboot_title">Advanced Reboot</string>
+    <string name="powermenu_lockdown">Lockdown</string>
+    <string name="powermenu_screenshot_title">Screenshot</string>
+
+
 </resources>
