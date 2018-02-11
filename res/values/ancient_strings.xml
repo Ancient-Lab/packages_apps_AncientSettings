@@ -299,6 +299,7 @@
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Swipe to screenshot</string>
     <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
+    <string name="aosp_gesture_title">AOSP Gestures</string>
 
     <!-- Custom Ambient Display Config -->
     <string name="ambient_display_custom_title">Ambient Display</string>
@@ -717,4 +718,5 @@
     <string name="lockscreen_solid_fudge_factor_title">Sanity level</string>
     <string name="lockscreen_solid_units_opacity_title">Solid lines opacity</string>
     <string name="unit_milliseconds">ms</string>
+
 </resources>
