@@ -40,6 +40,12 @@
             android:summary="@string/notification_headers_summary"
             android:defaultValue="true" />
 
+     <com.ancient.settings.preferences.SystemSettingSwitchPreference
+            android:key="force_expanded_notifications"
+            android:title="@string/force_expanded_notifications_title"
+            android:summary="@string/force_expanded_notifications_summary"
+            android:defaultValue="false" />
+
     </PreferenceCategory>
 
     <!-- Quick settings -->
