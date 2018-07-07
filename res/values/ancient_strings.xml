@@ -308,4 +308,8 @@
     <string name="powermenu_ls_screenshot_summary">Show the screenshot option on the lockscreen</string>
     <string name="powermenu_ls_airplane_summary">Show the airplane mode option on the lockscreen</string>
 
+    <!-- Battery fully charged -->
+    <string name="battery_fully_charged_notif_title">Battery fully charged</string>
+    <string name="battery_fully_charged_notif_summary">Show a notification when the battery is fully charged</string>
+
 </resources>
