@@ -49,6 +49,11 @@
             settings:units=""
             android:persistent="false" />
 
+        <com.ancient.settings.preferences.SystemSettingSwitchPreference
+            android:key="button_brightness_sw"
+            android:title="@string/button_brightness_sw_title"
+            android:persistent="false" />
+
         <com.ancient.settings.preferences.SystemSettingListPreference
             android:entries="@array/backlight_timeout_entries"
             android:entryValues="@array/backlight_timeout_values"
