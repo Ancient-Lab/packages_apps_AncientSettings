@@ -24,4 +24,16 @@
         android:title="@string/smart_charging_title"
         android:summary="@string/smart_charging_summary" />
 
+   <PreferenceCategory
+        android:key="blocker"
+        android:title="@string/blocker_title">
+
+        <com.ancient.settings.preferences.SystemSettingSwitchPreference
+            android:key="sensor_block"
+            android:title="@string/sensor_block_title"
+            android:summary="@string/sensor_block_summary"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
+
 </PreferenceScreen>
