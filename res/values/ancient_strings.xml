@@ -94,4 +94,10 @@
     <string name="powermenu_ls_screenshot_summary">Show the screenshot option on the lockscreen</string>
     <string name="powermenu_ls_torch_summary">Show the torch option on the lockscreen</string>
 
+    <!-- Quick settings tiles columns and rows config -->
+    <string name="qs_layout_category">Layout</string>
+    <string name="qs_columns_portrait_title">Columns (Portrait)</string>
+    <string name="qs_columns_landscape_title">Columns (Landscape)</string>
+    <string name="sysui_qqs_count_title">Columns (Quickbar)</string>
+
 </resources>
