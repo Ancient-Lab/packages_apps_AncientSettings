@@ -24,6 +24,12 @@
         android:summary="@string/qs_tile_title_visibility_summary" 
         android:defaultValue="true" /> 
 
+    <com.ancient.settings.preferences.SecureSettingSwitchPreference
+        android:key="status_bar_locked_on_secure_keyguard"
+        android:title="@string/lockscreen_qs_disabled_title"
+        android:summary="@string/lockscreen_qs_disabled_summary"
+        android:defaultValue="false" />
+
     <PreferenceCategory
         android:key="qs_columns_rows_category"
         android:title="@string/qs_columns_rows_category_title">

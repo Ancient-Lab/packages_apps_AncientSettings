@@ -1087,4 +1087,8 @@ limitations under the License.
     <string name="qs_label_tint_accent">Accent Color Tint</string>
     <string name="qs_label_tint_gradient">Gradient Color Tint</string>
 
+    <!-- Quick Settings -->
+    <string name="lockscreen_qs_disabled_title">Disable quick settings when locked</string>
+    <string name="lockscreen_qs_disabled_summary">Disable expanding quick settings on secure lock screens</string>
+
 </resources>
