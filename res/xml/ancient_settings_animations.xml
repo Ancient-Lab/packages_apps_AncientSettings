@@ -53,6 +53,12 @@
             android:entryValues="@array/screen_off_animation_values"
             android:defaultValue="0" />
 
+        <com.ancient.settings.preferences.GlobalSettingSwitchPreference
+            android:key="disable_transition_animations"
+            android:title="@string/disable_transition_animations_title"
+            android:summary="@string/disable_transition_animations_summary"
+            android:defaultValue="false" />
+
         <ListPreference
             android:key="activity_open"
             android:title="@string/activity_open_title" />
