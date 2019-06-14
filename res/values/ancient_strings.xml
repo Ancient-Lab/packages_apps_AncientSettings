@@ -917,4 +917,9 @@ limitations under the License.
     <string name="force_expanded_notifications_title">Force expanded notifications</string>
     <string name="force_expanded_notifications_summary">Force apps that support expanded notifications</string>
 
+    <!-- Charging animation -->
+    <string name="lockscreen_charging_title">Lockscreen charging</string>
+    <string name="lockscreen_charging_animation_title">Lockscreen charging animation</string>
+    <string name="lockscreen_charging_animation_summary">Display a fancy animation when the device is charging</string>
+
 </resources>
