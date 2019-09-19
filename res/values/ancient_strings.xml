@@ -93,6 +93,8 @@
 
     <!-- Navbar tuner -->
     <string name="navbar_tuner_title">Navbar buttons</string>
+    <string name="navbar_invert_layout_title">Invert layout</string>
+    <string name="navbar_invert_layout_summary">Use inverted layout for navbar buttons</string>
 
     <!-- Battery Bar -->
     <string name="battery_bar_title">Battery Bar</string>
