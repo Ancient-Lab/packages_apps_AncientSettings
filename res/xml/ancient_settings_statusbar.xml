@@ -31,6 +31,12 @@
         </Preference>
 
         <com.ancient.settings.preferences.SystemSettingSwitchPreference
+            android:key="volte_icon"
+            android:title="@string/volte_icon_title"
+            android:summary="@string/volte_icon_summary"
+            android:defaultValue="true"/>
+
+        <com.ancient.settings.preferences.SystemSettingSwitchPreference
             android:key="show_fourg_icon"
             android:title="@string/show_fourg_icon_title"
             android:summary="@string/show_fourg_icon_summary"
