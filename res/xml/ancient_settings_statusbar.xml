@@ -18,6 +18,18 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/statusbar_title" >
 
+    <PreferenceCategory
+        android:key="statusbar_tuner"
+        android:title="@string/statusbar_items_category">
+
+        <com.ancient.settings.preferences.SystemSettingSwitchPreference
+            android:key="show_fourg_icon"
+            android:title="@string/show_fourg_icon_title"
+            android:summary="@string/show_fourg_icon_summary"
+            android:defaultValue="false"/>
+
+    </PreferenceCategory>
+
     <Preference
          android:key="clock_settings"
          android:title="@string/clock_style_category_title"
