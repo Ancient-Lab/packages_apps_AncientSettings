@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2018 Rebellion-OS
+<!-- Copyright (C) 2018 Havoc-OS
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -16,16 +16,12 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
-    android:title="@string/buttons_title" >
+    android:title="@string/volume_title" >
 
-    <PreferenceCategory
-        android:key="volume_rocker"
-        android:title="@string/volume_title">
+    <com.ancient.settings.preferences.SystemSettingSwitchPreference
+        android:key="volume_button_music_control"
+        android:summary="@string/volume_rocker_music_controls_summary"
+        android:title="@string/volume_rocker_music_controls_title"
+        android:defaultValue="false" />
 
-        <Preference
-            android:key="volume_key"
-            android:fragment="com.ancient.settings.fragments.Volume"
-            android:title="@string/volume_title"
-            android:summary="@string/volume_summary" />
-
-    </PreferenceCategory>
+</PreferenceScreen>
