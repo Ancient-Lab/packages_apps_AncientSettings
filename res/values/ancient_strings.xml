@@ -602,4 +602,8 @@
     <string name="enable_fc_notifications_title">Force close notifications</string>
     <string name="enable_fc_notifications_summary">Show a dialog when an application crashes</string>
 
+    <!-- Fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
+    <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
+
 </resources>
