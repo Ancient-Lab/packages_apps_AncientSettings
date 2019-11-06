@@ -606,4 +606,9 @@
     <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
     <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
 
+    <!-- Themes -->
+    <string name="theming_title">Styles &amp; Wallpapers</string>
+    <string name="theme_select_title">Themes</string>
+    <string name="theme_select_summary">Browse and select installed themes</string>
+
 </resources>
