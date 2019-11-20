@@ -18,4 +18,10 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/statusbar_title" >
 
+<Preference
+    android:key="batterybar_settings"
+    android:title="@string/battery_bar_title"
+    android:summary="@string/battery_bar_summary"
+    android:fragment="com.ancient.settings.fragments.BatterybarSettings" />
+
 </PreferenceScreen>
