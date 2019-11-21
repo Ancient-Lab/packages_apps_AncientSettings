@@ -77,23 +77,6 @@
     <string name="battery_bar_high_color">High level color"</string>
     <string name="battery_bar_low_color">Low level color"</string>
 
-    <!-- Power Menu -->
-    <string name="hardware_keys_power_category">Power Button</string>
-    <string name="powermenu_title">Power Menu</string>
-    <string name="powermenu_summary">Customize elements to be displayed in power menu</string>
-    <string name="powermenu_reboot_title">Reboot</string>
-    <string name="powermenu_advanced_reboot_title">Advanced Reboot</string>
-    <string name="powermenu_lockdown">Lockdown</string>
-    <string name="powermenu_screenshot_title">Screenshot</string>
-    <string name="powermenu_torch">Flashlight</string>
-    <string name="powermenu_category_visibility">Lockscreen options</string>
-    <string name="powermenu_lockscreen_title">Visibility on the lockscreen</string>
-    <string name="powermenu_lockscreen_summary">Enable the ability to show and use the power menu dialog while on the lockscreen</string>
-    <string name="powermenu_ls_reboot_summary">Show the reboot option on the lockscreen</string>
-    <string name="powermenu_ls_advanced_reboot_summary">Show the advanced reboot option on the lockscreen</string>
-    <string name="powermenu_ls_screenshot_summary">Show the screenshot option on the lockscreen</string>
-    <string name="powermenu_ls_torch_summary">Show the torch option on the lockscreen</string>
-
     <!-- Quick settings tiles columns and rows config -->
     <string name="qs_layout_category">Layout</string>
     <string name="qs_columns_portrait_title">Columns (Portrait)</string>
@@ -197,5 +180,18 @@
     <string name="lock_clock_font_burnstown">Burnstown</string>
     <string name="lock_clock_font_dumbledor">Dumbledor</string>
     <string name="lock_clock_font_phantombold">PhantomBold</string>
+
+    <!-- Power Menu -->
+    <string name="powermenu_title">Power Menu</string>
+    <string name="powermenu_screenshot">Screenshot</string>
+    <string name="powermenu_power">Power</string>
+    <string name="powermenu_restart">Restart</string>
+    <string name="powermenu_restart_recovery">Advanced restart</string>
+    <string name="powermenu_airplane">Airplane</string>
+    <string name="powermenu_settings">Settings</string>
+    <string name="powermenu_lockdown">Lock Down</string>
+    <string name="powermenu_users">Users</string>
+    <string name="powermenu_logout">Logout</string>
+    <string name="powermenu_torch">Flashlight</string>
 
 </resources>
