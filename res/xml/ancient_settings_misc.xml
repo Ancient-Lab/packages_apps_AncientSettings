@@ -18,6 +18,17 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
 	android:title="@string/misc_title" >
 
+    <!-- Rounded Corners -->
+    <PreferenceCategory 
+         android:key="rounded_corners"
+         android:title="@string/corners_category_title"> 
+        <Preference
+         android:key="rounded_corners" 
+         android:title="@string/corners_title"
+         android:summary="@string/corners_category_summary" 
+         android:fragment="com.ancient.settings.fragments.RoundedCornersSettings" />
+    </PreferenceCategory>
+
     <com.ancient.settings.preferences.GlobalSettingSwitchPreference
         android:key="wake_when_plugged_or_unplugged"
         android:title="@string/wakeup_when_plugged_unplugged_title"
