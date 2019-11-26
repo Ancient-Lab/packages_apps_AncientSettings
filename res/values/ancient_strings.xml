@@ -221,4 +221,13 @@
     <string name="summary_dashboard_suggestions_enabled">Dashboard suggestions are enabled</string>
     <string name="summary_dashboard_suggestions_disabled">Dashboard suggestions are disabled</string> 
 
+    <!-- QS SystemInfo -->
+    <string name="qs_system_info_title">System Info</string>
+    <string name="qs_system_info_off">Off</string>
+    <string name="qs_system_info_cpu_temp">CPU temperature</string>
+    <string name="qs_system_info_battery_temp">Battery temperature</string>
+    <string name="qs_system_info_gpu_clock">GPU frequency</string>
+    <string name="qs_system_info_gpu_busy">GPU utilization</string>
+
+
 </resources>
