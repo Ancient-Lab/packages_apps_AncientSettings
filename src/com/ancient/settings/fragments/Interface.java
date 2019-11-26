@@ -16,35 +16,54 @@
  */
 package com.ancient.settings.fragments;
 
-import android.app.Activity;
 import android.content.Context;
-import android.content.Intent;
-import android.os.Bundle;
-import androidx.preference.ListPreference;
-import androidx.preference.Preference;
-import androidx.preference.PreferenceScreen;
-import androidx.preference.Preference.OnPreferenceChangeListener;
-import androidx.preference.SwitchPreference;
-import android.provider.Settings;
 
-import com.android.internal.logging.nano.MetricsProto; 
-import com.android.settings.SettingsPreferenceFragment;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+
+import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
+import com.android.settings.dashboard.DashboardFragment;
+import com.android.settings.display.OverlayCategoryPreferenceController;
+import com.android.settingslib.core.AbstractPreferenceController;
+import com.android.settingslib.core.lifecycle.Lifecycle;
 
 import com.android.settings.R;
 
-public class Interface extends SettingsPreferenceFragment {
+import java.util.ArrayList;
+import java.util.List;
 
-    public static final String TAG = "Interface";
-
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-
-        addPreferencesFromResource(R.xml.ancient_settings_interface);
-    }
+public class Interface extends DashboardFragment {
+    private static final String TAG = "Interface";
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.ANCIENT_SETTINGS;
+        return MetricsEvent.ANCIENT_SETTINGS;
+    }
+
+    @Override
+    protected String getLogTag() {
+        return TAG;
+    }
+
+    @Override
+    protected int getPreferenceScreenResId() {
+        return R.xml.ancient_settings_interface;
+    }
+
+    @Override
+    protected List<AbstractPreferenceController> createPreferenceControllers(Context context) {
+        return buildPreferenceControllers(context, getSettingsLifecycle(), this);
+    }
+
+    private static List<AbstractPreferenceController> buildPreferenceControllers(
+            Context context, Lifecycle lifecycle, Fragment fragment) {
+        final List<AbstractPreferenceController> controllers = new ArrayList<>();
+        controllers.add(new OverlayCategoryPreferenceController(context,
+                "android.theme.customization.accent_color"));
+        controllers.add(new OverlayCategoryPreferenceController(context,
+                "android.theme.customization.font"));
+        controllers.add(new OverlayCategoryPreferenceController(context,
+                "android.theme.customization.adaptive_icon_shape"));
+        return controllers;
     }
 }
