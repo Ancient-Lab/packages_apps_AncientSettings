@@ -199,19 +199,6 @@
     <string name="show_fourg_icon_title">4G icon</string>
     <string name="show_fourg_icon_summary">Display 4G icon in signal icon instead LTE</string>
 
-    <!-- Battery -->
-    <string name="battery_category_title">Battery</string>
-    <string name="status_bar_battery_style_title">Battery icon style</string>
-    <string name="status_bar_battery_style_icon_portrait">Portrait</string>
-    <string name="status_bar_battery_style_circle">Circle</string>
-    <string name="status_bar_battery_style_dotted_circle">Circle (Dotted)</string>
-    <string name="status_bar_battery_style_filled_circle">Circle (Filled)</string>
-    <string name="status_bar_battery_style_hidden">Hidden</string>
-    <string name="battery_percentage_title">Battery percentage</string>
-    <string name="battery_percentage_off">Disabled</string>
-    <string name="battery_percentage_on">Enabled</string>
-    <string name="battery_percentage_charging">Enabled (While charging)</string>
-
     <!-- Dashboard conditions-->
     <string name="dashboard_category">Dashboard options</string>
     <string name="dashboard_conditions_title">Dashboard conditions</string>
@@ -229,5 +216,26 @@
     <string name="qs_system_info_gpu_clock">GPU frequency</string>
     <string name="qs_system_info_gpu_busy">GPU utilization</string>
 
+    <!-- Battery mode -->
+    <string name="battery_mode_title">Battery Styles</string>
+    <string name="battery_mode_summary">Config SB n QS Battery</string>
+    <string name="battery_percentage_title">Battery Percent</string>
+    <string name="qs_battery_percentage_title">QS Battery Style</string>
+    <string name="battery_percentage_off">Disabled</string>
+    <string name="battery_percentage_next">Enabled</string>
+    <string name="battery_percentage_inside">Enabled (inside icon)</string>
+    <string name="battery_percentage_estimate">Enabled (estimate)</string>
+    <string name="battery_percentage_percentage_estimate">Enabled (percent | estimate)</string>
+
+    <!-- Status bar - Battery -->
+    <string name="battery_category_title">Battery Styles</string>
+    <string name="status_bar_battery_style_title">Battery Styles</string>
+    <string name="status_bar_battery_style_icon_portrait">Icon portrait</string>
+    <string name="status_bar_battery_style_circle">Circle</string>
+    <string name="status_bar_battery_style_dotted_circle">Circle (Dotted)</string>
+    <string name="status_bar_battery_style_filled_circle">Circle (Filled)</string>
+    <string name="status_bar_battery_style_hidden">Hidden</string>
+    <string name="status_bar_battery_text_charging_title">Battery percentage when charging</string>
+    <string name="status_bar_battery_text_charging_summary">Always display battery percentage when charging</string>
 
 </resources>
