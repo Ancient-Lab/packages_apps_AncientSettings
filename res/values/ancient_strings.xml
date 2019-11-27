@@ -1010,4 +1010,9 @@ limitations under the License.
     <string name="sb_weather_statusbar">Status bar</string>
     <string name="sb_weather_header">Expanded header</string>
 
+    <!-- QS Footer Text -->
+    <string name="qs_footer_title">QS footer</string>
+    <string name="qs_footer_text_title">QS footer text</string>
+    <string name="qs_footer_text_summary">Display text at bottom of QS panel</string>
+
 </resources>
