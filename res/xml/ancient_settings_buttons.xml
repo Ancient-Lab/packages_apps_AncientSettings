@@ -29,3 +29,5 @@
             android:summary="@string/volume_summary" />
 
     </PreferenceCategory>
+
+</PreferenceScreen>
