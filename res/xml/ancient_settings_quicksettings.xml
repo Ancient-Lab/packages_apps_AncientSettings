@@ -56,6 +56,10 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:key="qs_system_info_category"
+        android:title="@string/qs_system_info_title">
+
      <com.ancient.settings.preferences.SystemSettingListPreference
          android:key="qs_system_info"
          android:title="@string/qs_system_info_title"
@@ -63,5 +67,25 @@
          android:entryValues="@array/qs_system_info_values"
          android:defaultValue="0"
          android:summary="%s" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="brightness_slider"
+        android:title="@string/qs_brightness_slider">
+
+        <com.ancient.settings.preferences.SecureSettingListPreference
+            android:key="qs_show_brightness_slider"
+            android:title="@string/qs_brightness_slider_title"
+            android:entries="@array/qs_brightness_slider_entries"
+            android:entryValues="@array/qs_brightness_slider_values"
+            android:defaultValue="1" />
+
+        <com.ancient.settings.preferences.SecureSettingSwitchPreference
+            android:key="qs_show_auto_brightness"
+            android:title="@string/brightness_icon_title"
+            android:summary="@string/brightness_icon_summary"
+            android:defaultValue="true" />
+    </PreferenceCategory>
 
 </PreferenceScreen>
