@@ -276,7 +276,6 @@
     <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
 
     <!-- Custom Ambient Display Config -->
-    <string name="ambient_display_screen_title">Ambient Display</string>
-    <string name="ambient_display_screen_summary">Custom Ambient Display Configuration</string>
+    <string name="ambient_display_custom_title">Ambient Display</string>
 
 </resources>

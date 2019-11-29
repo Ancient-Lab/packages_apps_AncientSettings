@@ -37,6 +37,18 @@
             android:fragment="com.ancient.settings.fragments.Interface"
             android:icon="@drawable/ic_settings_interface"/>
 
+        <!-- Ambient Display -->
+        <Preference
+            android:key="ambient_display_custom"
+            android:persistent="false"
+            android:title="@string/ambient_display_custom_title"
+            android:icon="@drawable/ic_settings_ambient" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetPackage="com.custom.ambient.display"
+                android:targetClass="com.custom.ambient.display.DozeSettings" />
+        </Preference>
+
         <!-- Quick Settings -->
         <Preference
             android:key="quicksettings_category"
