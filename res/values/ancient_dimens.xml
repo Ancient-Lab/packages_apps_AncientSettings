@@ -38,4 +38,9 @@
     <dimen name="ambient_light_preview_layout_width">150dp</dimen>
     <dimen name="ambient_light_preview_paddingHorizontal">50dp</dimen>
     <dimen name="ambient_light_preview_paddingVertical">30dp</dimen>
+
+    <!-- FOD -->
+    <dimen name="fod_picker_item_margin">20dp</dimen>
+    <dimen name="fod_picker_item_size">100dp</dimen>
+    <dimen name="fod_picker_item_padding">20dp</dimen>
 </resources>

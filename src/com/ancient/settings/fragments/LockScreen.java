@@ -25,6 +25,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.provider.Settings;
 import androidx.preference.*;
+import android.content.pm.PackageManager;
 
 import com.android.internal.logging.nano.MetricsProto;
 
@@ -37,9 +38,11 @@ public class LockScreen extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
     private static final String FINGERPRINT_VIB = "fingerprint_success_vib";
+    private static final String FOD_ICON_PICKER_CATEGORY = "fod_icon_picker_category";
 
     private FingerprintManager mFingerprintManager;
     private SwitchPreference mFingerprintVib;
+    private Preference mFODIconPicker;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -47,6 +50,8 @@ public class LockScreen extends SettingsPreferenceFragment implements
         addPreferencesFromResource(R.xml.ancient_settings_lockscreen);
         final PreferenceScreen prefScreen = getPreferenceScreen();
         Resources resources = getResources();
+        PreferenceScreen prefSet = getPreferenceScreen();
+        Context mContext = getContext();
 
         ContentResolver resolver = getActivity().getContentResolver();
         mFingerprintManager = (FingerprintManager) getActivity().getSystemService(Context.FINGERPRINT_SERVICE);
@@ -57,6 +62,13 @@ public class LockScreen extends SettingsPreferenceFragment implements
         mFingerprintVib.setChecked((Settings.System.getInt(getContentResolver(),
                 Settings.System.FINGERPRINT_SUCCESS_VIB, 1) == 1));
         mFingerprintVib.setOnPreferenceChangeListener(this);
+        }
+
+        boolean hasFod = packageManager.hasSystemFeature(LineageContextConstants.Features.FOD);
+
+        mFODIconPicker = (Preference) findPreference(FOD_ICON_PICKER_CATEGORY);
+        if (mFODIconPicker != null && !hasFod) {
+            prefSet.removePreference(mFODIconPicker);
         }
     }
 
