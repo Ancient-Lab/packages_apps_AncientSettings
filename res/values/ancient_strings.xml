@@ -93,12 +93,6 @@
     <!-- Lock screen media blur -->
     <string name="lockscreen_media_blur_title">Media artwork blur level</string>
 
-    <!-- Statusbar net monitor -->
-    <string name="statusbar_ntraffic">Network</string>
-    <string name="network_traffic_state_title">Network traffic</string>
-    <string name="network_traffic_state_summary">Show the network activity in statusbar</string>
-    <string name="network_traffic_autohide_threshold_title">Auto-hide threshold</string>
-
     <!-- Lockscreen battery info indicator -->
     <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
     <string name="lockscreen_battery_info_summary">Display negociated charger max current and voltage and battery temperature on lockscreen while charging</string>
@@ -284,5 +278,27 @@
     <string name="text_charging_symbol_default">Disabled</string>
     <string name="text_charging_symbol_flash">Flash</string>
     <string name="text_charging_symbol_tilde">Tilde</string>
+
+    <!-- Network Traffic -->
+    <string name="statusbar_trafficat">Network Traffic</string>
+    <string name="trafficat">Network Traffic Indicators</string>
+    <string name="trafficat_summary">Network speed indicator</string>
+    <string name="network_traffic_state_title">Location</string>
+    <string name="network_traffic_autohide_threshold_title">Auto-hide threshold</string>
+    <string name="network_traffic_hidearrow">Activity arrows</string>
+    <string name="network_traffic_hidearrow_summary">Show the network traffic indicator arrows</string>
+    <string name="network_traffic_type">Activity type</string>
+    <string name="network_traffic_layout">Activity layout</string>
+    <string name="network_traffic_layout_h">Horizontal</string>
+    <string name="network_traffic_layout_v">Verticle</string>
+    <string name="show_network_traffic_combined">Combined (Upload + Download)</string>
+    <string name="show_network_traffic_dynamic">Dynamic</string>
+    <string name="show_network_traffic_up">Upload</string>
+    <string name="show_network_traffic_down">Download</string>
+    <string name="show_network_traffic_all">Both</string>
+    <string name="traffic_disabled">Disabled</string>
+    <string name="traffic_statusbar">Statusbar</string>
+    <string name="traffic_expanded_statusbar">Expanded Statusbar</string>
+    <string name="network_traffic_refresh_interval_title">Refresh interval</string>
 
 </resources>

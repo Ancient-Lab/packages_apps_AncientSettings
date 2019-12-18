@@ -90,22 +90,13 @@
 
     <PreferenceCategory
         android:key="statusbar_ntraffic"
-        android:title="@string/statusbar_ntraffic">
+        android:title="@string/statusbar_trafficat">
 
-        <com.ancient.settings.preferences.SystemSettingSwitchPreference
-            android:key="network_traffic_state"
-            android:title="@string/network_traffic_state_title"
-            android:summary="@string/network_traffic_state_summary"
-            android:defaultValue="false" />
-
-        <com.ancient.settings.preferences.SystemSettingSeekBarPreference
-            android:key="network_traffic_autohide_threshold"
-            android:title="@string/network_traffic_autohide_threshold_title"
-            android:max="10"
-            settings:min="0"
-            android:defaultValue="0"
-            settings:units="KB/s"
-            android:dependency="network_traffic_state" />
+    <Preference
+        android:key="traffic_category"
+        android:title="@string/trafficat"
+        android:summary="@string/trafficat_summary"
+        android:fragment="com.ancient.settings.fragments.NetworkTraffic" />
 
     </PreferenceCategory>
 
