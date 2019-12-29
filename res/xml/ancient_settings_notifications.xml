@@ -30,6 +30,19 @@
 
     </PreferenceCategory>
 
+    <!-- Quick settings -->
+    <PreferenceCategory
+        android:key="qs_category"
+        android:title="@string/qs_category">
+
+        <com.ancient.settings.preferences.SystemSettingSwitchPreference
+            android:key="dismiss_all_button"
+            android:title="@string/enable_clear_all_button"
+            android:summary="@string/enable_clear_all_button_summary"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
+
     <!-- Battery full charged notification -->
     <com.ancient.settings.preferences.SystemSettingSwitchPreference
         android:key="battery_fully_charged_notif"
