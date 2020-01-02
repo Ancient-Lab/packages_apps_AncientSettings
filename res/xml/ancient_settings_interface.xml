@@ -68,6 +68,12 @@
             settings:interval="5"
             android:defaultValue="255" />
 
+        <com.ancient.settings.preferences.SystemSettingSwitchPreference
+            android:key="settings_spacer"
+            android:title="@string/enable_oneui"
+            android:summary="@string/enable_oneui_summary"
+            android:defaultValue="true" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>
