@@ -19,6 +19,20 @@
     android:title="@string/lockscreen_title" >
 
     <PreferenceCategory
+        android:key="lockscreen_style_title"
+        android:title="@string/lockscreen_style_title" >
+
+        <com.ancient.settings.preferences.SecureSettingListPreference
+            android:key="lockscreen_clock_selection"
+            android:title="@string/lockscreen_clock_title"
+            android:dialogTitle="@string/lockscreen_clock_dialog_title"
+            android:entries="@array/lockscreen_clock_titles"
+            android:entryValues="@array/lockscreen_clock_values"
+            android:defaultValue="2" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="ls_unlocking_title"
         android:title="@string/ls_unlocking_title" >
 
