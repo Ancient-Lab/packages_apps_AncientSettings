@@ -1218,4 +1218,8 @@ limitations under the License.
     <string name="unit_seconds">seconds</string>
     <string name="unit_milliseconds">milliseconds</string>
 
+    <!-- Lockscreen lock icon -->
+    <string name="lockscreen_lock_icon_title">Lock icon</string>
+    <string name="lockscreen_lock_icon_summary">Display lock icon on the lockscreen</string>
+
 </resources>
