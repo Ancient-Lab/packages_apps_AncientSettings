@@ -74,6 +74,12 @@
             android:summary="@string/enable_oneui_summary"
             android:defaultValue="true" />
 
+        <com.ancient.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_blur"
+            android:title="@string/blur_quicksettings"
+            android:summary="@string/blur_quicksettings_subtitle"
+            android:defaultValue="true" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>
