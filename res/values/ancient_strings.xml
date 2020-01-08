@@ -619,11 +619,17 @@
     <string name="lockscreen_style_title">Lockscreen Style</string>
     <string name="lockscreen_clock_title">Clock style</string>
     <string name="lockscreen_clock_dialog_title">Select clock style</string>
-    <string name="lockscreen_clock_hide">Hide</string>
-    <string name="lockscreen_clock_default">Default</string>
-    <string name="lockscreen_clock_default_bold">Default (bold)</string>
+    <string name="lockscreen_clock_hidden">Hidden</string>
+    <string name="lockscreen_clock_digital">Default</string>
+    <string name="lockscreen_clock_digital_bold">Bold (digital)</string>
+    <string name="lockscreen_clock_digital_small">Small (digital)</string>
+    <string name="lockscreen_clock_digital_accent">Full accent (digital)</string>
+    <string name="lockscreen_clock_digital_accent_min">Accent minutes (digital)</string>
+    <string name="lockscreen_clock_digital_accent_hour">Accent hours (digital)</string>
     <string name="lockscreen_clock_sammy">Sammy</string>
     <string name="lockscreen_clock_sammy_bold">Sammy (bold)</string>
+    <string name="lockscreen_clock_sammy_accent">Sammy accent</string>
+    <string name="lockscreen_clock_sammy_accent_alt">Sammy accent(darker hour)</string>
 
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">In-call vibration options</string>

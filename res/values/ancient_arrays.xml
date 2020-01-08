@@ -564,11 +564,17 @@
 
     <!-- Lockscreen clock style -->
     <string-array name="lockscreen_clock_titles">
-        <item>@string/lockscreen_clock_hide</item>
-        <item>@string/lockscreen_clock_default</item>
-        <item>@string/lockscreen_clock_default_bold</item>
+        <item>@string/lockscreen_clock_hidden</item>
+        <item>@string/lockscreen_clock_digital</item>
+        <item>@string/lockscreen_clock_digital_bold</item>
+        <item>@string/lockscreen_clock_digital_small</item>
+        <item>@string/lockscreen_clock_digital_accent</item>
+        <item>@string/lockscreen_clock_digital_accent_hour</item>
+        <item>@string/lockscreen_clock_digital_accent_min</item>
         <item>@string/lockscreen_clock_sammy</item>
         <item>@string/lockscreen_clock_sammy_bold</item>
+        <item>@string/lockscreen_clock_sammy_accent</item>
+        <item>@string/lockscreen_clock_sammy_accent_alt</item>
     </string-array>
 
     <string-array name="lockscreen_clock_values">
@@ -577,6 +583,12 @@
         <item>3</item>
         <item>4</item>
         <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
     </string-array>
 
     <!-- Carrier Label -->
