@@ -831,4 +831,7 @@
     <string name="font_samsungone">SamsungOne</string>
     <string name="font_size_title">Font size</string>
 
+    <!-- Lockscreen clock font size -->
+    <string name="clock_font_size_title">Clock font size</string>
+
 </resources>

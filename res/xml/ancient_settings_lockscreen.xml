@@ -50,6 +50,14 @@
             android:defaultValue="4" 
             android:dialogTitle="@string/lock_clock_font_dialog_title" 
             android:entryValues="@array/lock_clock_fonts_values" />
+	    
+	<com.ancient.settings.preferences.SystemSettingSeekBarPreference
+            android:key="lock_clock_font_size"
+            android:title="@string/clock_font_size_title"
+            android:max="108"
+            settings:min="54"
+            settings:units="dp"
+            android:defaultValue="58" />
 
         <com.ancient.settings.preferences.SystemSettingListPreference
             android:key="lockscreen_date_selection"
