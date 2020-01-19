@@ -49,6 +49,10 @@
          android:fragment="com.ancient.settings.fragments.ThemeRoom" />
 
         <ListPreference
+            android:key="android.theme.customization.primary_color"
+            android:title="@string/theme_customization_primary_color_title"/>
+
+        <ListPreference
             android:key="android.theme.customization.font"
             android:title="@string/theme_customization_font_title"/>
 
