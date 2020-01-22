@@ -62,6 +62,18 @@
         </PreferenceCategory>
 
     <PreferenceCategory
+        android:key="qs_datausage_category"
+        android:title="@string/qs_datausage_title">
+
+        <com.ancient.settings.preferences.SystemSettingSwitchPreference
+           android:key="qs_datausage"
+           android:title="@string/qs_datausage_title"
+           android:summary="@string/qs_datausage_subtitle"
+           android:defaultValue="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="qs_system_info_category"
         android:title="@string/qs_system_info_title">
 
