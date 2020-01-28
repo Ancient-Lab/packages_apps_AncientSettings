@@ -33,6 +33,7 @@ import com.android.settings.R;
 import com.ancient.settings.preferences.ActionFragment;
 import com.ancient.settings.preferences.SystemSettingSeekBarPreference;
 import com.ancient.settings.preferences.SystemSettingSwitchPreference;
+import android.widget.Toast;
 
 public class Buttons extends ActionFragment implements Preference.OnPreferenceChangeListener {
 
@@ -49,6 +50,9 @@ public class Buttons extends ActionFragment implements Preference.OnPreferenceCh
     private static final String CATEGORY_BACK = "back_key";
     private static final String CATEGORY_ASSIST = "assist_key";
     private static final String CATEGORY_APPSWITCH = "app_switch_key";
+
+    // Button
+    private static final String TORCH_POWER_BUTTON_GESTURE = "torch_power_button_gesture";
 
     // Masks for checking presence of hardware keys.
     // Must match values in frameworks/base/core/res/res/values/config.xml
@@ -67,13 +71,16 @@ public class Buttons extends ActionFragment implements Preference.OnPreferenceCh
     private SystemSettingSwitchPreference mButtonBrightness_sw;
     private SystemSettingSwitchPreference mHwKeyDisable;
 
+    private ContentResolver mResolver;
+    private ListPreference mTorchPowerButton;
+
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
         addPreferencesFromResource(R.xml.ancient_settings_buttons);
 
         final Resources res = getResources();
-        final ContentResolver resolver = getActivity().getContentResolver();
+        mResolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
 
         final boolean needsNavbar = ActionUtils.hasNavbarByDefault(getActivity());
@@ -82,7 +89,7 @@ public class Buttons extends ActionFragment implements Preference.OnPreferenceCh
         int keysDisabled = 0;
         if (!needsNavbar) {
             mHwKeyDisable = (SystemSettingSwitchPreference) findPreference(HWKEY_DISABLE);
-            keysDisabled = Settings.Secure.getIntForUser(getContentResolver(),
+            keysDisabled = Settings.Secure.getIntForUser(mResolver,
                     Settings.Secure.HARDWARE_KEYS_DISABLE, 0,
                     UserHandle.USER_CURRENT);
             mHwKeyDisable.setChecked(keysDisabled != 0);
@@ -102,7 +109,7 @@ public class Buttons extends ActionFragment implements Preference.OnPreferenceCh
 
                 if (mBacklightTimeout != null) {
                     mBacklightTimeout.setOnPreferenceChangeListener(this);
-                    int BacklightTimeout = Settings.System.getInt(getContentResolver(),
+                    int BacklightTimeout = Settings.System.getInt(mResolver,
                             Settings.System.BUTTON_BACKLIGHT_TIMEOUT, 3000);
                     mBacklightTimeout.setValue(Integer.toString(BacklightTimeout));
                     mBacklightTimeout.setSummary(mBacklightTimeout.getEntry());
@@ -111,7 +118,7 @@ public class Buttons extends ActionFragment implements Preference.OnPreferenceCh
                 if (variableBrightness) {
                     hwkeyCat.removePreference(mButtonBrightness_sw);
                     if (mButtonBrightness != null) {
-                        int ButtonBrightness = Settings.System.getInt(getContentResolver(),
+                        int ButtonBrightness = Settings.System.getInt(mResolver,
                                 Settings.System.BUTTON_BRIGHTNESS, 255);
                         mButtonBrightness.setValue(ButtonBrightness / 1);
                         mButtonBrightness.setOnPreferenceChangeListener(this);
@@ -119,7 +126,7 @@ public class Buttons extends ActionFragment implements Preference.OnPreferenceCh
                 } else {
                     hwkeyCat.removePreference(mButtonBrightness);
                     if (mButtonBrightness_sw != null) {
-                        mButtonBrightness_sw.setChecked((Settings.System.getInt(getContentResolver(),
+                        mButtonBrightness_sw.setChecked((Settings.System.getInt(mResolver,
                                 Settings.System.BUTTON_BRIGHTNESS, 1) == 1));
                         mButtonBrightness_sw.setOnPreferenceChangeListener(this);
                     }
@@ -182,14 +189,23 @@ public class Buttons extends ActionFragment implements Preference.OnPreferenceCh
 
         // load preferences first
         setActionPreferencesEnabled(keysDisabled == 0);
+
+        // screen off torch
+        mTorchPowerButton = (ListPreference) findPreference(TORCH_POWER_BUTTON_GESTURE);
+        int mTorchPowerButtonValue = Settings.Secure.getInt(mResolver,
+                Settings.Secure.TORCH_POWER_BUTTON_GESTURE, 0);
+        mTorchPowerButton.setValue(Integer.toString(mTorchPowerButtonValue));
+        mTorchPowerButton.setSummary(mTorchPowerButton.getEntry());
+        mTorchPowerButton.setOnPreferenceChangeListener(this);
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-        ContentResolver resolver = getActivity().getContentResolver();
+        boolean DoubleTapPowerGesture = Settings.Secure.getInt(mResolver,
+                    Settings.Secure.CAMERA_DOUBLE_TAP_POWER_GESTURE_DISABLED, 1) == 0;
         if (preference == mBacklightTimeout) {
             String BacklightTimeout = (String) newValue;
             int BacklightTimeoutValue = Integer.parseInt(BacklightTimeout);
-            Settings.System.putInt(getActivity().getContentResolver(),
+            Settings.System.putInt(mResolver,
                     Settings.System.BUTTON_BACKLIGHT_TIMEOUT, BacklightTimeoutValue);
             int BacklightTimeoutIndex = mBacklightTimeout
                     .findIndexOfValue(BacklightTimeout);
@@ -198,21 +214,40 @@ public class Buttons extends ActionFragment implements Preference.OnPreferenceCh
             return true;
         } else if (preference == mButtonBrightness) {
             int value = (Integer) newValue;
-            Settings.System.putInt(getActivity().getContentResolver(),
+            Settings.System.putInt(mResolver,
                     Settings.System.BUTTON_BRIGHTNESS, value * 1);
             return true;
         } else if (preference == mButtonBrightness_sw) {
             boolean value = (Boolean) newValue;
-            Settings.System.putInt(getActivity().getContentResolver(),
+            Settings.System.putInt(mResolver,
                     Settings.System.BUTTON_BRIGHTNESS, value ? 1 : 0);
             return true;
         } else if (preference == mHwKeyDisable) {
             boolean value = (Boolean) newValue;
-            Settings.Secure.putInt(getContentResolver(), Settings.Secure.HARDWARE_KEYS_DISABLE,
+            Settings.Secure.putInt(mResolver, Settings.Secure.HARDWARE_KEYS_DISABLE,
                     value ? 1 : 0);
             setActionPreferencesEnabled(!value);
             return true;
         }
+
+        if (preference == mTorchPowerButton) {
+            int mTorchPowerButtonValue = Integer.valueOf((String) newValue);
+            int index = mTorchPowerButton.findIndexOfValue((String) newValue);
+            mTorchPowerButton.setSummary(
+                    mTorchPowerButton.getEntries()[index]);
+            Settings.Secure.putInt(mResolver, Settings.Secure.TORCH_POWER_BUTTON_GESTURE,
+                    mTorchPowerButtonValue);
+            if (mTorchPowerButtonValue == 1 && DoubleTapPowerGesture) {
+                //if doubletap for torch is enabled, switch off double tap for camera
+                Settings.Secure.putInt(mResolver, Settings.Secure.CAMERA_DOUBLE_TAP_POWER_GESTURE_DISABLED,
+                        1);
+                Toast.makeText(getActivity(),
+                    (R.string.torch_power_button_gesture_dt_toast),
+                    Toast.LENGTH_SHORT).show();
+            }
+            return true;
+        }
+
         return false;
     }
 
