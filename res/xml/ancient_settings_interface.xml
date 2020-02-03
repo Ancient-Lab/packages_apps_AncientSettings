@@ -42,6 +42,12 @@
         android:key="theme_customization_category"
         android:title="@string/theme_customization_category">
 
+     <Preference
+         android:key="theme_room"
+         android:title="@string/themeroom_title"
+         android:summary="@string/themeroom_summary"
+         android:fragment="com.ancient.settings.fragments.ThemeRoom" />
+
         <ListPreference
             android:key="android.theme.customization.font"
             android:title="@string/theme_customization_font_title"/>
