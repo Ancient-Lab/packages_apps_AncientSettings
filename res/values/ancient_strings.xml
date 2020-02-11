@@ -1036,5 +1036,7 @@ limitations under the License.
     <string name="fod_recog_animation_miui_rhythm">Rhythm</string>
     <string name="fod_recog_animation_op_cosmos">Cosmos</string>
     <string name="fod_recog_animation_op_mclaren">McLaren</string>
+    <string name="fod_recog_animation_pureview_future">Future</string>
+    <string name="fod_recog_animation_pureview_molecular">Molecular</string>
 
 </resources>
