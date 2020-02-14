@@ -832,6 +832,7 @@
     <string name="font_size_title">Font size</string>
 
     <!-- Lockscreen clock font size -->
+    <string name="lock_date_font_size_title">Date font size</string>
     <string name="clock_font_size_title">Clock font size</string>
 
 </resources>
