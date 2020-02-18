@@ -1,9 +1,32 @@
-<!-- drawable/triforce.xml -->
+<?xml version="1.0" encoding="utf-8"?>
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:height="24dp"
     android:width="24dp"
-    android:viewportWidth="24"
-    android:viewportHeight="24">
-    <path android:fillColor="?android:attr/colorAccent"
-          android:pathData="M1.5,21L12,3.5L22.5,21H1.5M12,21L17,12H7L12,21Z" />
+    android:height="24dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <path
+        android:strokeColor="?android:attr/colorAccent"
+        android:strokeWidth="10"
+        android:strokeMiterLimit="10"
+        android:strokeLineCap="round"
+        android:pathData="M56.5,47.1h20c8.8,0,16,7.2,16,16v0c0,8.8-7.2,16-16,16h-53c-8.8,0-16-7.2-16-16v0" />
+    <path
+        android:strokeColor="?android:attr/colorAccent"
+        android:strokeWidth="10"
+        android:strokeMiterLimit="10"
+        android:strokeLineCap="round"
+        android:pathData="M 66.2 56.9 L 56.5 47.1 L 66.2 37.3 " />
+    <path
+        android:strokeColor="?android:attr/colorAccent"
+        android:strokeWidth="10"
+        android:strokeMiterLimit="10"
+        android:strokeLineCap="round"
+        android:pathData="M43.5,52.9h-20c-8.8,0-16-7.2-16-16v0c0-8.8,7.2-16,16-16h53c8.8,0,16,7.2,16,16v0" />
+    <path
+        android:strokeColor="?android:attr/colorAccent"
+        android:strokeWidth="10"
+        android:strokeMiterLimit="10"
+        android:strokeLineCap="round"
+        android:pathData="M 35.8 43.1 L 45.6 52.9 L 35.8 62.7 " />
 </vector>

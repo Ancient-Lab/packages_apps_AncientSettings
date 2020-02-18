@@ -1,8 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:height="24dp"
     android:width="24dp"
-    android:viewportWidth="24"
-    android:viewportHeight="24">
-    <path android:fillColor="?android:attr/colorAccent"
-          android:pathData="M4,2H20A2,2 0 0,1 22,4V16A2,2 0 0,1 20,18H16L12,22L8,18H4A2,2 0 0,1 2,16V4A2,2 0 0,1 4,2M4,4V16H8.83L12,19.17L15.17,16H20V4H4M6,7H18V9H6V7M6,11H16V13H6V11Z" />
+    android:height="24dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <path
+        android:strokeColor="?android:attr/colorAccent"
+        android:strokeWidth="9.3454"
+        android:strokeMiterLimit="10"
+        android:strokeLineCap="round"
+        android:pathData="M7.3,28.3v-4.6c0-4.4,3.5-7.9,7.9-7.9h67.6c4.4,0,7.9,3.5,7.9,7.9v26v40.5c0,4.4-4.1-23-37.5-23h-38 c-4.4,0-7.9-3.5-7.9-7.9v-1" />
+    <path
+        android:strokeColor="?android:attr/colorAccent"
+        android:strokeWidth="9.3454"
+        android:strokeMiterLimit="10"
+        android:strokeLineCap="round"
+        android:pathData="M 7.3 45 L 7.3 42" />
+    <path
+        android:strokeColor="?android:attr/colorAccent"
+        android:strokeWidth="3"
+        android:strokeMiterLimit="10"
+        android:strokeLineCap="round"
+        android:pathData="M 23.2 32.3 L 71.8 32.3" />
+    <path
+        android:strokeColor="?android:attr/colorAccent"
+        android:strokeWidth="3"
+        android:strokeMiterLimit="10"
+        android:strokeLineCap="round"
+        android:pathData="M 23.2 38.8 L 71.8 38.8" />
+    <path
+        android:strokeColor="?android:attr/colorAccent"
+        android:strokeWidth="3"
+        android:strokeMiterLimit="10"
+        android:strokeLineCap="round"
+        android:pathData="M 23.2 45.3 L 71.8 45.3" />
+    <path
+        android:strokeColor="?android:attr/colorAccent"
+        android:strokeWidth="3"
+        android:strokeMiterLimit="10"
+        android:strokeLineCap="round"
+        android:pathData="M 23.2 51.7 L 71.8 51.7" />
 </vector>
