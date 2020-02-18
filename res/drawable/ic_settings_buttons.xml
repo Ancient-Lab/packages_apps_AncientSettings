@@ -1,26 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-     Copyright (C) 2019 The Devilian OS Project
-
-     Licensed under the Apache License, Version 2.0 (the "License");
-     you may not use this file except in compliance with the License.
-     You may obtain a copy of the License at
-
-         http://www.apache.org/licenses/LICENSE-2.0
-
-     Unless required by applicable law or agreed to in writing, software
-     distributed under the License is distributed on an "AS IS" BASIS,
-     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-     See the License for the specific language governing permissions and
-     limitations under the License.
--->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="24dp"
     android:height="24dp"
-    android:viewportWidth="24"
-    android:viewportHeight="24">
+    android:viewportWidth="100"
+    android:viewportHeight="100">
 
     <path
         android:fillColor="?android:attr/colorAccent"
-        android:pathData="M12,23L16,19H8M19,8H17V6H19M19,11H17V9H19M16,8H14V6H16M16,11H14V9H16M16,15H8V13H16M7,8H5V6H7M7,11H5V9H7M8,9H10V11H8M8,6H10V8H8M11,9H13V11H11M11,6H13V8H11M20,3H4C2.89,3 2,3.89 2,5V15A2,2 0 0,0 4,17H20A2,2 0 0,0 22,15V5C22,3.89 21.1,3 20,3Z" />
+        android:pathData="M17.7,80.9c0-0.7,0.1-2,0.1-3.1V64.9h2.8v6.5h0c0.7-1.1,1.9-1.8,3.5-1.8c2.7,0,4.6,2.2,4.6,5.6 c0,3.9-2.5,5.9-5,5.9c-1.4,0-2.7-0.5-3.5-1.9h0l-0.1,1.6H17.7z M20.6,76.3c0,0.2,0,0.5,0.1,0.7c0.3,1.1,1.3,1.9,2.5,1.9 c1.7,0,2.8-1.4,2.8-3.6c0-1.9-0.9-3.5-2.8-3.5c-1.1,0-2.1,0.8-2.5,2c0,0.2-0.1,0.5-0.1,0.7V76.3z" />
+    <path
+        android:fillColor="?android:attr/colorAccent"
+        android:pathData="M40.8,77.6c0,1.3,0,2.4,0.1,3.3h-2.4l-0.1-1.7h0c-0.5,0.8-1.6,1.9-3.5,1.9c-2,0-3.8-1.2-3.8-4.8v-6.4h2.8v6 c0,1.8,0.6,3,2.1,3c1.1,0,1.8-0.8,2.1-1.5c0.1-0.2,0.2-0.5,0.2-0.9v-6.6h2.8V77.6z" />
+    <path
+        android:fillColor="?android:attr/colorAccent"
+        android:pathData="M47,66.8v3.1h2.6V72H47v4.8c0,1.3,0.4,2,1.4,2c0.5,0,0.8-0.1,1.1-0.1l0,2.1c-0.4,0.2-1.1,0.3-2,0.3 c-1,0-1.9-0.3-2.4-0.9c-0.6-0.6-0.9-1.6-0.9-3.1V72h-1.6v-2.1h1.6v-2.5L47,66.8z" />
+    <path
+        android:fillColor="?android:attr/colorAccent"
+        android:pathData="M54.9,66.8v3.1h2.6V72h-2.6v4.8c0,1.3,0.4,2,1.4,2c0.5,0,0.8-0.1,1.1-0.1l0,2.1c-0.4,0.2-1.1,0.3-2,0.3 c-1,0-1.9-0.3-2.4-0.9c-0.6-0.6-0.9-1.6-0.9-3.1V72h-1.6v-2.1h1.6v-2.5L54.9,66.8z" />
+    <path
+        android:fillColor="?android:attr/colorAccent"
+        android:pathData="M70,75.3c0,4-2.8,5.8-5.6,5.8c-3.1,0-5.5-2.1-5.5-5.7c0-3.6,2.4-5.8,5.7-5.8C67.8,69.6,70,71.9,70,75.3z M61.7,75.4c0,2.1,1,3.7,2.7,3.7c1.6,0,2.7-1.6,2.7-3.8c0-1.7-0.8-3.7-2.7-3.7C62.5,71.7,61.7,73.6,61.7,75.4z" />
+    <path
+        android:fillColor="?android:attr/colorAccent"
+        android:pathData="M72.3,73.2c0-1.3,0-2.3-0.1-3.3h2.4l0.1,1.6h0.1c0.5-0.9,1.7-1.9,3.5-1.9c1.9,0,3.9,1.2,3.9,4.7v6.5h-2.8v-6.2 c0-1.6-0.6-2.8-2.1-2.8c-1.1,0-1.9,0.8-2.2,1.6c-0.1,0.2-0.1,0.6-0.1,0.9v6.5h-2.8V73.2z" />
+    <path
+        android:strokeColor="?android:attr/colorAccent"
+        android:strokeWidth="6"
+        android:strokeMiterLimit="10"
+        android:strokeLineCap="round"
+        android:pathData="M84.1,95H15.9C9.9,95,5,90.1,5,84.1V15.9C5,9.9,9.9,5,15.9,5h68.3C90.1,5,95,9.9,95,15.9v68.3 C95,90.1,90.1,95,84.1,95z" />
 </vector>
