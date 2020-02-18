@@ -34,6 +34,46 @@
     <string name="statusbar_title">Status Bar</string>
     <string name="battery_title">Battery</string>
     <string name="interface_title">Themes</string>
+
+    <!-- About -->
+    <string name="developers_category_title">Developers</string>
+    <string name="support_category_title">Support Team</string>
+    <string name="maintainers_category_title">Maintainers</string>
+    <string name="ancient_developers_beamguide" translatable="false">* Owner Ancient \n* Web Master</string>
+    <string name="ancient_developers_rezaadipangestu" translatable="false">* Lead Developer</string>
+    <string name="ancient_developers_guzram" translatable="false">* Lord Developer</string>
+    <string name="ancient_developers_septian126" translatable="false">* Developer</string>
+    <string name="ancient_developers_kubilhadinata" translatable="false">* Developer</string> 
+    <string name="ancient_developers_xyzuan" translatable="false">* Developer</string>
+    <string name="ancient_developers_axel" translatable="false">* Developer</string>
+    <string name="ancient_support_ominous" translatable="false">* Designer</string>
+    <string name="ancient_support_vern" translatable="false">* Theming 1</string>
+    <string name="ancient_support_idontcare" translatable="false">* Theming 2</string>
+    <string name="ancient_support_maxander" translatable="false">* Pencari Tytyd</string>
+    <string name="ancient_support_fadly" translatable="false">* Translator Patchid</string>
+    <string name="ancient_support_baloseribu" translatable="false">* Papa Genit 1</string>
+    <string name="ancient_support_johan" translatable="false">* Papa Genit 2</string>
+    <string name="ancient_support_coyote" translatable="false">* Kapten Kapal</string>
+    <string name="ancient_support_rohit" translatable="false">* Spy mc</string>
+    <string name="ancient_support_ichsan" translatable="false">* Ketua Kebugaran</string>
+    <string name="ancient_support_zeinudin" translatable="false">* Tester Team</string>
+    <string name="ancient_support_timothy" translatable="false">* PUBG Player</string>
+    <string name="ancient_support_taufiq" translatable="false">* SekJen Patchid</string>
+    <string name="ancient_support_rendra" translatable="false">* Si Ganteng Mojokerto</string>
+    <string name="ancient_support_eko" translatable="false">* Tester Team</string>
+    <string name="ancient_support_rudie" translatable="false">* Tester Team</string>
+    <string name="ancient_support_hen" translatable="false">* Tester Team</string>
+    <string name="device_maintainers_title">Official Devices</string>
+    <string name="device_maintainers_title_summary">List of official and maintainers</string>
+    <string name="ancient_links">Links</string>
+    <string name="ancient_announcements_title">Announcements</string>
+    <string name="ancient_announcements_summary">Official announcements</string>
+    <string name="ancient_telegram_title">Telegram</string>
+    <string name="ancient_telegram_summary">Channel Telegram</string>
+    <string name="ancient_source_title">Github</string>
+    <string name="ancient_source_summary">Ancient-OS source code</string>
+    <string name="downloads_title">Downloads</string>
+    <string name="downloads_title_summary">Download Ancient-OS for your device</string>
 	
     <!-- General strings -->
     <string name="ok">OK</string>

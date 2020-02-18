@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2019-2020 Ancient-OS
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/about_title" >
+
+    <PreferenceCategory
+        android:key="developer_category"
+        android:title="@string/developers_category_title">
+
+        <Preference
+            android:title="Beamguide"
+            android:summary="@string/ancient_developers_beamguide"
+            android:icon="@drawable/ancient_developer">
+        </Preference>
+
+        <Preference
+            android:title="Reza Adi Pangestu"
+            android:summary="@string/ancient_developers_rezaadipangestu"
+            android:icon="@drawable/ancient_developer">
+        </Preference>
+
+        <Preference
+            android:title="Guzram"
+            android:summary="@string/ancient_developers_guzram"
+            android:icon="@drawable/ancient_developer">
+        </Preference>
+
+        <Preference
+            android:title="Menteri Pertahanan"
+            android:summary="@string/ancient_developers_septian126"
+            android:icon="@drawable/ancient_developer">
+        </Preference>
+
+        <Preference
+            android:title="Kubil hadinata"
+            android:summary="@string/ancient_developers_kubilhadinata"
+            android:icon="@drawable/ancient_developer">
+        </Preference>
+
+        <Preference
+            android:title="Xyzuan"
+            android:summary="@string/ancient_developers_xyzuan"
+            android:icon="@drawable/ancient_developer">
+        </Preference>
+
+        <Preference
+            android:title="Axel SkylarkAurora"
+            android:summary="@string/ancient_developers_axel"
+            android:icon="@drawable/ancient_developer">
+        </Preference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="support_category"
+        android:title="@string/support_category_title"> 
+
+        <Preference
+            android:title="Ominous"
+            android:summary="@string/ancient_support_ominous"
+            android:icon="@drawable/ancient_support"/>
+
+        <Preference
+            android:title="Vern Kuato"
+            android:summary="@string/ancient_support_vern"
+            android:icon="@drawable/ancient_support"/>
+
+        <Preference
+            android:title="I_DONT_CARE - andasopan_sayasegan"
+            android:summary="@string/ancient_support_idontcare"
+            android:icon="@drawable/ancient_support"/>
+
+        <Preference
+            android:title="Maxander"
+            android:summary="@string/ancient_support_maxander"
+            android:icon="@drawable/ancient_support"/>
+
+        <Preference
+            android:title="Fadly"
+            android:summary="@string/ancient_support_fadly"
+            android:icon="@drawable/ancient_support"/>
+
+        <Preference
+            android:title="Baloseribu"
+            android:summary="@string/ancient_support_baloseribu"
+            android:icon="@drawable/ancient_support"/>
+
+        <Preference
+            android:title="Overbore"
+            android:summary="@string/ancient_support_johan"
+            android:icon="@drawable/ancient_support"/>
+
+        <Preference
+            android:title="Coyotesuck"
+            android:summary="@string/ancient_support_coyote"
+            android:icon="@drawable/ancient_support"/>
+
+        <Preference
+            android:title="Rohieth"
+            android:summary="@string/ancient_support_rohit"
+            android:icon="@drawable/ancient_support"/>
+
+        <Preference
+            android:title="Ichsan"
+            android:summary="@string/ancient_support_ichsan"
+            android:icon="@drawable/ancient_support"/>
+
+        <Preference
+            android:title="Zeinudin"
+            android:summary="@string/ancient_support_zeinudin"
+            android:icon="@drawable/ancient_support"/>
+
+        <Preference
+            android:title="Timothy A Setiawan"
+            android:summary="@string/ancient_support_timothy"
+            android:icon="@drawable/ancient_support"/>
+
+        <Preference
+            android:title="Taufiq Akmalunnuha Achmada"
+            android:summary="@string/ancient_support_taufiq"
+            android:icon="@drawable/ancient_support"/>
+
+        <Preference
+            android:title="Eko Susantho"
+            android:summary="@string/ancient_support_eko"
+            android:icon="@drawable/ancient_support"/>
+
+        <Preference
+            android:title="Rudie M"
+            android:summary="@string/ancient_support_rudie"
+            android:icon="@drawable/ancient_support"/>
+
+        <Preference
+            android:title="Mas Hen"
+            android:summary="@string/ancient_support_hen"
+            android:icon="@drawable/ancient_support"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="maintainer_category" 
+        android:title="@string/maintainers_category_title"> 
+
+        <Preference
+            android:key="maintainers"
+            android:fragment="com.ancient.settings.fragments.DeviceMaintainers"
+            android:summary="@string/device_maintainers_title_summary"
+            android:title="@string/device_maintainers_title"
+            android:icon="@drawable/ancient_maintainer" />
+    </PreferenceCategory>
+		
+    <PreferenceCategory
+        android:key="links"
+        android:title="@string/ancient_links">
+
+        <Preference
+            android:key="ancient_announcements"
+            android:title="@string/ancient_announcements_title"
+            android:summary="@string/ancient_announcements_summary"
+            android:icon="@drawable/ancient_announcements">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/ancientrom"/>
+        </Preference>
+
+        <Preference
+            android:key="ancient_telegram"
+            android:title="@string/ancient_telegram_title"
+            android:summary="@string/ancient_telegram_summary"
+            android:icon="@drawable/ancient_telegram">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/ancientrom"/>
+        </Preference>
+
+        <Preference
+            android:key="ancient_downloads"
+            android:title="@string/downloads_title"
+            android:summary="@string/downloads_title_summary"
+            android:icon="@drawable/ancient_downloads">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://sourceforge.net/projects/ancientrom/files/"/>
+        </Preference>
+
+        <Preference
+            android:key="ancient_source"
+            android:title="@string/ancient_source_title"
+            android:summary="@string/ancient_source_summary"
+            android:icon="@drawable/ancient_github">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/Ancient-Lab"/>
+        </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>

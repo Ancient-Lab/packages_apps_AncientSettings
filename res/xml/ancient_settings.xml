@@ -119,5 +119,12 @@
             android:fragment="com.ancient.settings.fragments.Misc"
             android:icon="@drawable/ic_settings_misc"/>
 
+	<!-- About -->
+        <Preference
+            android:key="about_category"
+            android:title="@string/about_title"
+            android:fragment="com.ancient.settings.fragments.About"
+            android:icon="@drawable/ic_settings_about_ancient"/>
+
     </PreferenceCategory>
 </PreferenceScreen>
