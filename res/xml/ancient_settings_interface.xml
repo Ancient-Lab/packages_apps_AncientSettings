@@ -43,10 +43,6 @@
         android:title="@string/theme_customization_category">
 
         <ListPreference
-            android:key="android.theme.customization.accent_color"
-            android:title="@string/theme_customization_accent_color_title"/>
-
-        <ListPreference
             android:key="android.theme.customization.font"
             android:title="@string/theme_customization_font_title"/>
 
@@ -101,4 +97,3 @@
     </PreferenceCategory>
 
 </PreferenceScreen>
-
