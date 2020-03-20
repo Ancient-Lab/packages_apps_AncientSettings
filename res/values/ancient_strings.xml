@@ -39,20 +39,19 @@
     <string name="developers_category_title">Developers</string>
     <string name="support_category_title">Support Team</string>
     <string name="maintainers_category_title">Maintainers</string>
-    <string name="ancient_developers_beamguide" translatable="false">* Owner Ancient \n* Web Master</string>
+    <string name="ancient_developers_baloseribu" translatable="false">* Owner Ancient</string>
+    <string name="ancient_developers_beamguide" translatable="false">* Web Master</string>
     <string name="ancient_developers_rezaadipangestu" translatable="false">* Lead Developer</string>
     <string name="ancient_developers_guzram" translatable="false">* Lord Developer</string>
     <string name="ancient_developers_septian126" translatable="false">* Developer</string>
     <string name="ancient_developers_kubilhadinata" translatable="false">* Developer</string> 
     <string name="ancient_developers_xyzuan" translatable="false">* Developer</string>
-    <string name="ancient_developers_axel" translatable="false">* Developer</string>
     <string name="ancient_support_ominous" translatable="false">* Designer</string>
     <string name="ancient_support_vern" translatable="false">* Theming 1</string>
     <string name="ancient_support_idontcare" translatable="false">* Theming 2</string>
     <string name="ancient_support_maxander" translatable="false">* Pencari Tytyd</string>
     <string name="ancient_support_fadly" translatable="false">* Translator Patchid</string>
-    <string name="ancient_support_baloseribu" translatable="false">* Papa Genit 1</string>
-    <string name="ancient_support_johan" translatable="false">* Papa Genit 2</string>
+    <string name="ancient_support_johan" translatable="false">* Papa Genit</string>
     <string name="ancient_support_coyote" translatable="false">* Kapten Kapal</string>
     <string name="ancient_support_rohit" translatable="false">* Spy mc</string>
     <string name="ancient_support_ichsan" translatable="false">* Ketua Kebugaran</string>
