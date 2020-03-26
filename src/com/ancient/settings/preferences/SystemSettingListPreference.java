@@ -17,63 +17,24 @@
 package com.ancient.settings.preferences;
 
 import android.content.Context;
-import android.content.res.TypedArray;
 import android.text.TextUtils;
 import android.util.AttributeSet;
-import com.android.settings.R;
 
 public class SystemSettingListPreference extends ListPreference {
-    private static final String SETTINGSNS = "http://schemas.android.com/apk/res/com.android.settings";
-    private String dependentValue = "";
 
     public SystemSettingListPreference(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
-         if (attrs != null) {
-            TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.SystemSettingListPreference);
-            dependentValue = getAttributeStringValue(attrs, SETTINGSNS, "dependentValue", "");
-            a.recycle();
-        }
         setPreferenceDataStore(new SystemSettingsStore(context.getContentResolver()));
     }
 
     public SystemSettingListPreference(Context context, AttributeSet attrs) {
         super(context, attrs);
-         if (attrs != null) {
-            TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.SystemSettingListPreference);
-            dependentValue = getAttributeStringValue(attrs, SETTINGSNS, "dependentValue", "");
-            a.recycle();
-        }
         setPreferenceDataStore(new SystemSettingsStore(context.getContentResolver()));
-    }
-
-    private String getAttributeStringValue(AttributeSet attrs, String namespace, String name,
-            String defaultValue) {
-        String value = attrs.getAttributeValue(namespace, name);
-        if (value == null)
-            value = defaultValue;
-
-        return value;
     }
 
     public SystemSettingListPreference(Context context) {
         super(context);
         setPreferenceDataStore(new SystemSettingsStore(context.getContentResolver()));
-    }
-
-    @Override
-    public void setValue(String value) {
-        String mOldValue = getValue();
-        super.setValue(value);
-        if (!value.equals(mOldValue)) {
-            notifyDependencyChange(shouldDisableDependents());
-       }
-    }
-
-    @Override
-    public boolean shouldDisableDependents() {
-        boolean shouldDisableDependents = super.shouldDisableDependents();
-        String value = getValue();
-        return shouldDisableDependents || value == null || !value.equals(dependentValue);
     }
 
     @Override
