@@ -249,15 +249,15 @@
     <string name="battery_percentage_percentage_estimate">Enabled (percent | estimate)</string>
 
     <!-- Status bar - Battery -->
-    <string name="battery_category_title">Battery Styles</string>
-    <string name="status_bar_battery_style_title">Battery Styles</string>
-    <string name="status_bar_battery_style_icon_portrait">Icon portrait</string>
-    <string name="status_bar_battery_style_circle">Circle</string>
-    <string name="status_bar_battery_style_dotted_circle">Circle (Dotted)</string>
-    <string name="status_bar_battery_style_filled_circle">Circle (Filled)</string>
-    <string name="status_bar_battery_style_hidden">Hidden</string>
-    <string name="status_bar_battery_text_charging_title">Battery percentage when charging</string>
-    <string name="status_bar_battery_text_charging_summary">Always display battery percentage when charging</string>
+    <string name="battery_category_title">Estilos de bateria</string>
+    <string name="status_bar_battery_style_title">Estilos de bateria</string>
+    <string name="status_bar_battery_style_icon_portrait">Ícone retrato</string>
+    <string name="status_bar_battery_style_circle">Círculo</string>
+    <string name="status_bar_battery_style_dotted_circle">Círculo (Pontilhado)</string>
+    <string name="status_bar_battery_style_filled_circle">Círculo (Preenchido)</string>
+    <string name="status_bar_battery_style_hidden">Escondido</string>
+    <string name="status_bar_battery_text_charging_title">Porcentagem da bateria ao carregar</string>
+    <string name="status_bar_battery_text_charging_summary">Sempre exiba a porcentagem da bateria ao carregar</string>
 
     <!-- Quick settings brightness slider -->
     <string name="qs_brightness_slider">Brightness slider</string>
@@ -300,11 +300,11 @@
     <string name="ambient_display_custom_title">Ambient Display</string>
 
     <!-- Status bar - Battery custom charging symbol -->
-    <string name="text_charging_symbol_title">Custom charging symbol for text style</string>
-    <string name="text_charging_symbol_dialog">Custom charging symbol near battery percentage text</string>
-    <string name="text_charging_symbol_default">Disabled</string>
-    <string name="text_charging_symbol_flash">Flash</string>
-    <string name="text_charging_symbol_tilde">Tilde</string>
+    <string name="text_charging_symbol_title">Símbolo de carregamento personalizado para o estilo do texto</string>
+    <string name="text_charging_symbol_dialog">Símbolo de carregamento personalizado próximo ao texto de porcentagem da bateria</string>
+    <string name="text_charging_symbol_default">Desativado</string>
+    <string name="text_charging_symbol_flash">Raio</string>
+    <string name="text_charging_symbol_tilde">Til</string>
 
     <!-- Network Traffic -->
     <string name="statusbar_trafficat">Network Traffic</string>
@@ -329,51 +329,51 @@
     <string name="network_traffic_refresh_interval_title">Refresh interval</string>
 
     <!-- Power Menu -->
-    <string name="powermenu_title">Power Menu</string>
-    <string name="powermenu_reboot_title">Reboot</string>
-    <string name="powermenu_reboot_summary">Enables reboot option in power menu</string>
-    <string name="powermenu_advanced_reboot_title">Advanced reboot</string>
-    <string name="powermenu_advanced_reboot_summary">Enables the advanced reboot menu for rebooting options</string>
-    <string name="powermenu_screenshot_title">Screenshot</string>
-    <string name="powermenu_screenshot_summary">Enables screenshot option in power menu</string>
-    <string name="powermenu_torch">Flashlight</string>
-    <string name="powermenu_torch_summary">Enables flashlight option in power menu</string>
-    <string name="powermenu_airplane_title">Airplane mode</string>
-    <string name="powermenu_airplane_summary">Enables Airplane mode option in power menu</string>
-    <string name="powermenu_emergency_title">Emergency</string>
-    <string name="powermenu_emergency_summary">Enables Emergency Affordance option</string>
-    <string name="powermenu_category_visibility">Lockscreen options</string>
-    <string name="powermenu_lockscreen_title">Visibility on the lockscreen</string>
-    <string name="powermenu_lockscreen_summary">Enable the ability to show and use the power menu dialog while on the lockscreen</string>
-    <string name="powermenu_ls_reboot_summary">Show the reboot option on the lockscreen</string>
-    <string name="powermenu_ls_advanced_reboot_summary">Show the advanced reboot option on the lockscreen</string>
-    <string name="powermenu_ls_screenshot_summary">Show the screenshot option on the lockscreen</string>
-    <string name="powermenu_ls_airplane_summary">Show the airplane mode option on the lockscreen</string>
+    <string name="powermenu_title">Menu liga/desliga</string>
+    <string name="powermenu_reboot_title">Reinício</string>
+    <string name="powermenu_reboot_summary">Ativa a opção de reinicialização no menu liga/desliga</string>
+    <string name="powermenu_advanced_reboot_title">Reinicialização avançada</string>
+    <string name="powermenu_advanced_reboot_summary">Ativa o menu de reinicialização avançada para opções de reinicialização</string>
+    <string name="powermenu_screenshot_title">Captura de tela</string>
+    <string name="powermenu_screenshot_summary">Ativa a opção de captura de tela no menu liga/desliga</string>
+    <string name="powermenu_torch">Lanterna</string>
+    <string name="powermenu_torch_summary">Ativa a opção de lanterna no menu liga/desliga</string>
+    <string name="powermenu_airplane_title">Modo avião</string>
+    <string name="powermenu_airplane_summary">Ativa a opção de modo avião no menu liga/desliga</string>
+    <string name="powermenu_emergency_title">Emergência</string>
+    <string name="powermenu_emergency_summary">Ativa a opção de Acessibilidade de Emergência</string>
+    <string name="powermenu_category_visibility">Opções de tela de bloqueio</string>
+    <string name="powermenu_lockscreen_title">Visibilidade na tela de bloqueio</string>
+    <string name="powermenu_lockscreen_summary">Ativar a capacidade de mostrar e usar diálogo do menu liga/desliga enquanto estiver na tela de bloqueio</string>
+    <string name="powermenu_ls_reboot_summary">Mostrar a opção de reinicialização na tela de bloqueio</string>
+    <string name="powermenu_ls_advanced_reboot_summary">Mostrar a opção de reinicialização avançada na tela de bloqueio</string>
+    <string name="powermenu_ls_screenshot_summary">Mostrar a opção de captura de tela na tela de bloqueio</string>
+    <string name="powermenu_ls_airplane_summary">Mostrar a opção de modo avião na tela de bloqueio</string>
 
     <!-- Battery fully charged -->
-    <string name="battery_fully_charged_notif_title">Battery fully charged</string>
-    <string name="battery_fully_charged_notif_summary">Show a notification when the battery is fully charged</string>
+    <string name="battery_fully_charged_notif_title">Bateria totalmente carregada</string>
+    <string name="battery_fully_charged_notif_summary">Mostrar uma notificação quando a bateria estiver totalmente carregada</string>
 
     <!-- Smart charging -->
-    <string name="smart_charging_title">Smart Charging</string>
-    <string name="smart_charging_summary">Set maximum charging level</string>
-    <string name="smart_charging_switch_title">Use Smart charging</string>
-    <string name="smart_charging_level_title">Trigger level</string>
-    <string name="smart_charging_footer">Smart Charging allows you to set maximum charging level to extend the lifespan of your battery</string>
+    <string name="smart_charging_title">Carregamento Inteligente</string>
+    <string name="smart_charging_summary">Definir nível máximo de carga</string>
+    <string name="smart_charging_switch_title">Usar Carregamento Inteligente</string>
+    <string name="smart_charging_level_title">Nível de ativação</string>
+    <string name="smart_charging_footer">O Carregamento Inteligente permite definir o nível máximo de carregamento para prolongar a vida útil da bateria</string>
 
     <!-- Toast app icon -->
-    <string name="toast_icon_title">Toast app icon</string>
-    <string name="toast_icon_summary">Display the app\'s icon corresponding with the toast</string>
+    <string name="toast_icon_title">Ícone do app no Toast</string>
+    <string name="toast_icon_summary">Exibir o ícone do app correspondente ao toast</string>
 
     <!-- Statusbar logo -->
-    <string name="status_bar_logo_category_title">Statusbar Logo</string>
-    <string name="status_bar_logo_category_summary">Enable to display logo in the status bar</string>
-    <string name="status_bar_logo_title">Ancient logo</string>
-    <string name="status_bar_logo_right">Right</string>
-    <string name="status_bar_logo_left">Left</string>
-    <string name="status_bar_logo_disabled">Disabled</string>
-    <string name="status_bar_logo_style_title">Ancient logo style</string>
-    <string name="status_bar_logo_color_title">Select color</string>
+    <string name="status_bar_logo_category_title">Logotipo da barra de status</string>
+    <string name="status_bar_logo_category_summary">Ative para exibir o logotipo na barra de status</string>
+    <string name="status_bar_logo_title">Logo Ancient</string>
+    <string name="status_bar_logo_right">Direita</string>
+    <string name="status_bar_logo_left">Esquerda</string>
+    <string name="status_bar_logo_disabled">Desativado</string>
+    <string name="status_bar_logo_style_title">Estilo do logotipo Ancient</string>
+    <string name="status_bar_logo_color_title">Selecionar logo</string>
 
     <!-- QS background opacity -->
     <string name="qs_theme_category">Estilo</string>
