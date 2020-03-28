@@ -218,35 +218,35 @@
     <string name="lock_clock_font_phantombold">PhantomBold</string>
 
     <!-- 4G icon -->
-    <string name="statusbar_items_category">Icons</string>
-    <string name="show_fourg_icon_title">4G icon</string>
-    <string name="show_fourg_icon_summary">Display 4G icon in signal icon instead LTE</string>
+    <string name="statusbar_items_category">Ícones</string>
+    <string name="show_fourg_icon_title">Ícone 4G</string>
+    <string name="show_fourg_icon_summary">Exibir o ícone 4G no ícone de sinal em vez do LTE</string>
 
     <!-- Dashboard conditions-->
-    <string name="dashboard_category">Dashboard options</string>
-    <string name="dashboard_conditions_title">Dashboard conditions</string>
-    <string name="summary_dashboard_conditions_enabled">Dashboard conditions are enabled</string>
-    <string name="summary_dashboard_conditions_disabled">Dashboard conditions are disabled</string>
-    <string name="dashboard_suggestions_title">Dashboard suggestions</string>
-    <string name="summary_dashboard_suggestions_enabled">Dashboard suggestions are enabled</string>
-    <string name="summary_dashboard_suggestions_disabled">Dashboard suggestions are disabled</string> 
+    <string name="dashboard_category">Opções do painel</string>
+    <string name="dashboard_conditions_title">Condições do painel</string>
+    <string name="summary_dashboard_conditions_enabled">As condições do painel estão ativadas</string>
+    <string name="summary_dashboard_conditions_disabled">As condições do painel estão desativadas</string>
+    <string name="dashboard_suggestions_title">Sugestões do painel</string>
+    <string name="summary_dashboard_suggestions_enabled">As sugestões do painel estão ativadas</string>
+    <string name="summary_dashboard_suggestions_disabled">As sugestões do painel estão desativadas</string>
 
     <!-- QS SystemInfo -->
-    <string name="qs_system_info_title">System Info</string>
-    <string name="qs_system_info_off">Off</string>
-    <string name="qs_system_info_cpu_temp">CPU temperature</string>
-    <string name="qs_system_info_gpu_busy">GPU utilization</string>
+    <string name="qs_system_info_title">Info. do Sistema</string>
+    <string name="qs_system_info_off">Desligado</string>
+    <string name="qs_system_info_cpu_temp">Temperatura da CPUe</string>
+    <string name="qs_system_info_gpu_busy">Utilização da GPU</string>
 
     <!-- Battery mode -->
-    <string name="battery_mode_title">Battery Styles</string>
-    <string name="battery_mode_summary">Config SB n QS Battery</string>
-    <string name="battery_percentage_title">Battery Percent</string>
-    <string name="qs_battery_percentage_title">QS Battery Style</string>
-    <string name="battery_percentage_off">Disabled</string>
-    <string name="battery_percentage_next">Enabled</string>
-    <string name="battery_percentage_inside">Enabled (inside icon)</string>
-    <string name="battery_percentage_estimate">Enabled (estimate)</string>
-    <string name="battery_percentage_percentage_estimate">Enabled (percent | estimate)</string>
+    <string name="battery_mode_title">Estilos de Bateria</string>
+    <string name="battery_mode_summary">Config. Bateria na SB e QS</string>
+    <string name="battery_percentage_title">Porcentagem da Bateria</string>
+    <string name="qs_battery_percentage_title">Estilo da bateria das QS</string>
+    <string name="battery_percentage_off">Desativado</string>
+    <string name="battery_percentage_next">Ativado</string>
+    <string name="battery_percentage_inside">Ativado (dentro do ícone)</string>
+    <string name="battery_percentage_estimate">Ativado (estimativa)</string>
+    <string name="battery_percentage_percentage_estimate">Ativado (porcentagem | estimativa)</string>
 
     <!-- Status bar - Battery -->
     <string name="battery_category_title">Estilos de bateria</string>
@@ -257,14 +257,14 @@
     <string name="status_bar_battery_style_filled_circle">Círculo (Preenchido)</string>
     <string name="status_bar_battery_style_hidden">Escondido</string>
     <string name="status_bar_battery_text_charging_title">Porcentagem da bateria ao carregar</string>
-    <string name="status_bar_battery_text_charging_summary">Sempre exiba a porcentagem da bateria ao carregar</string>
+    <string name="status_bar_battery_text_charging_summary">Sempre exibir a porcentagem da bateria ao carregar</string>
 
     <!-- Quick settings brightness slider -->
-    <string name="qs_brightness_slider">Brightness slider</string>
-    <string name="qs_brightness_slider_title">Brightness slider position</string>
-    <string name="qs_brightness_slider_hide">Hidden</string>
-    <string name="qs_brightness_slider_top">Top</string>
-    <string name="qs_brightness_slider_bottom">Bottom</string>
+    <string name="qs_brightness_slider">Controle do brilho</string>
+    <string name="qs_brightness_slider_title">Posição do controle deslizante de brilho</string>
+    <string name="qs_brightness_slider_hide">Escondido</string>
+    <string name="qs_brightness_slider_top">Topo</string>
+    <string name="qs_brightness_slider_bottom">Fundo</string>
 
     <!-- Quick settings brightness icon -->
     <string name="brightness_icon_title">Auto brightness icon</string>
