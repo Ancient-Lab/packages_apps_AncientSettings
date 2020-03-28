@@ -458,64 +458,64 @@
     <string name="statusbar_items_summary">Toggle the visibility of icons in statusbar</string>
 
     <!-- AOKP custom system animations -->
-    <string name="system_animation_title">System</string>
-    <string name="activity_open_title">Activity open animation</string>
-    <string name="activity_close_title">Activity close animation</string>
-    <string name="task_open_title">Task open animation</string>
-    <string name="task_open_behind_title">Task open behind animation</string>
-    <string name="task_close_title">Task close animation</string>
-    <string name="task_move_to_front_title">Move to front animation</string>
-    <string name="task_move_to_back_title">Move to back animation</string>
-    <string name="wallpaper_open_title">Wallpaper open animation</string>
-    <string name="wallpaper_close_title">Wallpaper close animation</string>
-    <string name="wallpaper_intra_open_title">Wallpaper intra open animation</string>
-    <string name="wallpaper_intra_close_title">Wallpaper intra close animation</string>
-    <string name="animation_duration_title">Animation duration</string>
-    <string name="title_animation_no_override">Prevent app overrides</string>
-    <string name="summary_animation_no_override">Prevent apps from overriding transitions</string>
-    <string name="animation_duration_default">Default</string>
+    <string name="system_animation_title">Sistema</string>
+    <string name="activity_open_title">Animação de abertura de atividade</string>
+    <string name="activity_close_title">Animação de fechamento de atividade</string>
+    <string name="task_open_title">Animação de tarefa aberta</string>
+    <string name="task_open_behind_title">Animação de tarefa aberta atrás</string>
+    <string name="task_close_title">Animação de fechamento de tarefa</string>
+    <string name="task_move_to_front_title">Animação ao mover para frente</string>
+    <string name="task_move_to_back_title">Animação ao mover para trás</string>
+    <string name="wallpaper_open_title">Animação de abertura do papel de parede</string>
+    <string name="wallpaper_close_title">Animação de fechamento do papel de parede</string>
+    <string name="wallpaper_intra_open_title">Animação de abertura intra do papel de parede</string>
+    <string name="wallpaper_intra_close_title">Animação de fechamento intra do papel de parede</string>
+    <string name="animation_duration_title">Duração da animação</string>
+    <string name="title_animation_no_override">Impedir substituições de aplicativos</string>
+    <string name="summary_animation_no_override">Impedir que aplicativos substituam transições</string>
+    <string name="animation_duration_default">Padrão</string>
 
     <!-- Screen Off animation -->
-    <string name="screen_off_animation_title">Screen off animation</string>
-    <string name="screen_off_animation_fade">Fade</string>
+    <string name="screen_off_animation_title">Animação ao desligar a tela</string>
+    <string name="screen_off_animation_fade">Sumir</string>
     <string name="screen_off_animation_crt">CRT</string>
-    <string name="screen_off_animation_scale">Scale</string>
+    <string name="screen_off_animation_scale">Aumentar</string>
 
     <!-- Show VoLTE icon on statusbar -->
-    <string name="volte_icon_title">VoLTE icon</string>
-    <string name="volte_icon_summary">Display VoLTE icon (Needs a SystemUI restart to take effect)</string>
+    <string name="volte_icon_title">Ícone VoLTE icon</string>
+    <string name="volte_icon_summary">Exibir o ícone de VoLTE (é necessário reiniciar a SystemUI para entrar em vigor)</string>
 
     <!-- VoLTE icon styles -->
-    <string name="volte_icon_style_title">Select VoLTE Icon</string>
-    <string name="volte_icon_vo">Default Icon</string>
-    <string name="volte_icon_volte">VoLTE Icon</string>
-    <string name="volte_icon_oos">VoLTE OOS Icon</string>
-    <string name="volte_icon_hd">HD Icon</string>
-    <string name="volte_icon_miui">VoLTE Miui Icon</string>
+    <string name="volte_icon_style_title">Selecione o Ícone VoLTE</string>
+    <string name="volte_icon_vo">Ícone Padrão</string>
+    <string name="volte_icon_volte">Ícone VoLTE</string>
+    <string name="volte_icon_oos">Ícone BoLTE OOS</string>
+    <string name="volte_icon_hd">Ícone HD</string>
+    <string name="volte_icon_miui">Ícone VoLTE da MiUI</string>
 
     <!-- ListView animation -->
-    <string name="listview_animation_title">ListView animation</string>
-    <string name="listview_off">Default</string>
-    <string name="listview_wave_left">Wave (left)</string>
-    <string name="listview_wave_right">Wave (right)</string>
+    <string name="listview_animation_title">Animação da ListView</string>
+    <string name="listview_off">Padrão</string>
+    <string name="listview_wave_left">Onda (esquerda)</string>
+    <string name="listview_wave_right">Onda (direita)</string>
     <string name="listview_alpha">Alpha</string>
-    <string name="listview_scale">Scale</string>
-    <string name="listview_stack_top">Stack (top)</string>
-    <string name="listview_stack_bottom">Stack (bottom)</string>
-    <string name="listview_unfold">Unfold</string>
-    <string name="listview_fold">Fold</string>
-    <string name="listview_translate_left">Translate (left)</string>
-    <string name="listview_translate_right">Translate (right)</string>
+    <string name="listview_scale">Aumentar</string>
+    <string name="listview_stack_top">empilhar (topo)</string>
+    <string name="listview_stack_bottom">Empilhar (fundo)</string>
+    <string name="listview_unfold">Desdobrar</string>
+    <string name="listview_fold">Dobrar</string>
+    <string name="listview_translate_left">Transferir (esquerda)</string>
+    <string name="listview_translate_right">Transferir (direita)</string>
 
     <!-- ListView interpolator -->
-    <string name="listview_interpolator_title">ListView interpolator</string>
-    <string name="listview_accelerate_interpolator">Accelerate</string>
-    <string name="listview_decelerate_interpolator">Decelerate</string>
-    <string name="listview_accelerate_decelerate_interpolator">Accelerate and decelerate</string>
-    <string name="listview_anticipate_interpolator">Anticipate</string>
-    <string name="listview_overshoot_interpolator">Overshoot</string>
-    <string name="listview_anticipate_overshoot_interpolator">Anticipate and overshoot</string>
-    <string name="listview_bounce_interpolator">Bounce</string>
+    <string name="listview_interpolator_title">Interpolador da ListView</string>
+    <string name="listview_accelerate_interpolator">Acelerar</string>
+    <string name="listview_decelerate_interpolator">Desacelerar</string>
+    <string name="listview_accelerate_decelerate_interpolator">Acelerar e desacelerar</string>
+    <string name="listview_anticipate_interpolator">Anticipaar</string>
+    <string name="listview_overshoot_interpolator">Ultrapassar</string>
+    <string name="listview_anticipate_overshoot_interpolator">Antecipar e ultrapassar</string>
+    <string name="listview_bounce_interpolator">Pular</string>
 
     <!-- Force disable transition animation -->
     <string name="disable_transition_animations_title">Desativar animações de transição</string>
