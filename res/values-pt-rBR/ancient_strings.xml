@@ -518,22 +518,22 @@
     <string name="listview_bounce_interpolator">Bounce</string>
 
     <!-- Force disable transition animation -->
-    <string name="disable_transition_animations_title">Disable transition animations</string>
-    <string name="disable_transition_animations_summary">Force disable all transition animations</string>
+    <string name="disable_transition_animations_title">Desativar animações de transição</string>
+    <string name="disable_transition_animations_summary">Forçar a desativação de todas as animações de transição</string>
 
     <!-- Setting OneUI -->
     <string name="enable_oneui">OneUI</string>
-    <string name="enable_oneui_summary">Show spacer above settings actionbar for easier use with one hand\nNOTE: restart settings app to see effect</string>
+    <string name="enable_oneui_summary">Mostrar um espaço acima da barra de ação das configurações para facilitar o uso com uma mão\nAVISO: reinicie o aplicativo de configurações para ver o efeito</string>
 
     <!-- QS Blur -->
-    <string name="blur_quicksettings">Blur behind quick settings (beta)</string>
-    <string name="blur_quicksettings_subtitle">blurs darkened background behind quick settings</string>
-    <string name="qs_blur_alpha_title">Blur alpha</string>
-    <string name="qs_blur_alpha_summary">Sets the blur transparency</string>
+    <string name="blur_quicksettings">Desfoque atrás configurações rápidas (beta)</string>
+    <string name="blur_quicksettings_subtitle">desfoca o fundo escurecido por trás das configurações rápidas</string>
+    <string name="qs_blur_alpha_title">Alfa do desfoque</string>
+    <string name="qs_blur_alpha_summary">Define a transparência do desfoque</string>
 
     <!-- Smart replies -->
-    <string name="hide_smart_replies_title">Hide smart replies</string>
-    <string name="hide_smart_replies_summary">Hide smart replies to save screen space with peeking notifications</string>
+    <string name="hide_smart_replies_title">Ocultar respostas inteligentes</string>
+    <string name="hide_smart_replies_summary">Ocultar a resposta inteligente para economizar espaço na tela com notificações</string>
 
     <!-- Ambient edge lighting -->
     <string name="ambient_light_settings_title">Luz ambiente</string>
