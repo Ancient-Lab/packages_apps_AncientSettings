@@ -376,45 +376,45 @@
     <string name="status_bar_logo_color_title">Select color</string>
 
     <!-- QS background opacity -->
-    <string name="qs_theme_category">Style</string>
-    <string name="qs_panel_alpha_title">Background opacity</string>
+    <string name="qs_theme_category">Estilo</string>
+    <string name="qs_panel_alpha_title">Opacidade de fundo</string>
 
     <!-- QS header image -->
-    <string name="status_bar_custom_header_title">Header image</string>
-    <string name="status_bar_custom_header_summary">Use a custom image for QS header</string>
+    <string name="status_bar_custom_header_title">Imagem de cabeçalho</string>
+    <string name="status_bar_custom_header_summary">Usar uma imagem personalizada para o cabeçalho das QS</string>
     <string name="daylight_header_provider" translatable="false">daylight</string>
     <string name="file_header_provider" translatable="false">file</string>
-    <string name="custom_header_provider_title">Image type</string>
-    <string name="daylight_header_provider_title">Automatic (Time based)</string>
-    <string name="file_header_provider_title">Static</string>
-    <string name="daylight_header_pack_title">Image collection</string>
-    <string name="header_provider_disabled">Disabled</string>
-    <string name="custom_header_pick_title">Pick image from collection</string>
-    <string name="custom_header_pick_summary">Select an image from pre-installed image collections</string>
-    <string name="file_header_select_title">Pick image from storage</string>
-    <string name="file_header_select_summary">Select an image from internal storage</string>
-    <string name="status_bar_custom_header_shadow_title">Darken image</string>
+    <string name="custom_header_provider_title">Tipo de imagem</string>
+    <string name="daylight_header_provider_title">Automático (com base no tempo)</string>
+    <string name="file_header_provider_title">Estático</string>
+    <string name="daylight_header_pack_title">Coleção de imagens</string>
+    <string name="header_provider_disabled">Desativado</string>
+    <string name="custom_header_pick_title">Escolher uma imagem da coleção</string>
+    <string name="custom_header_pick_summary">Selecionar uma imagem da coleção de imagens pré-instaladas</string>
+    <string name="file_header_select_title">Escolher imagem do armazenamento</string>
+    <string name="file_header_select_summary">Selecione uma imagem do armazenamento interno</string>
+    <string name="status_bar_custom_header_shadow_title">Escurecer imagem</string>
 
     <!-- Incall Home button behavior-->
-    <string name="allow_incall_home_title">Home button when ringing</string>
-    <string name="allow_incall_home_summary">Allow to use Home button when device is ringing</string> 
+    <string name="allow_incall_home_title">Botão Home em chamada</string>
+    <string name="allow_incall_home_summary">Permitir usar o botão Home quando o dispositivo estiver recebendo uma chamada</string>
 
     <!-- Buttons backlight timeout -->
-    <string name="backlight_timeout_title">Buttons backlight timeout</string>
-    <string name="backlight_timeout_on">Enabled always</string>
-    <string name="backlight_timeout_1s">1 sec</string>
-    <string name="backlight_timeout_3s">3 sec</string>
-    <string name="backlight_timeout_5s">5 sec</string>
-    <string name="backlight_timeout_10s">10 sec</string>
-    <string name="backlight_timeout_15s">15 sec</string>
-    <string name="backlight_timeout_20s">20 sec</string>
-    <string name="backlight_timeout_30s">30 sec</string>
+    <string name="backlight_timeout_title">Tempo limite da luz de fundo dos botões</string>
+    <string name="backlight_timeout_on">Sempre ativado</string>
+    <string name="backlight_timeout_1s">1 seg</string>
+    <string name="backlight_timeout_3s">3 seg</string>
+    <string name="backlight_timeout_5s">5 seg</string>
+    <string name="backlight_timeout_10s">10 seg</string>
+    <string name="backlight_timeout_15s">15 seg</string>
+    <string name="backlight_timeout_20s">20 seg</string>
+    <string name="backlight_timeout_30s">30 seg</string>
 
     <!-- Enable keys backlight-->
-    <string name="button_brightness_title">Backlight</string>
-    <string name="button_brightness_sw_title">Enable backlight</string>
-    <string name="button_backlight_on_touch_only_title">Button touch</string>
-    <string name="button_backlight_on_touch_only_summary">Enable backlight with timeout only on button touch</string>
+    <string name="button_brightness_title">Luz de fundo</string>
+    <string name="button_brightness_sw_title">Ativar luz de fundo</string>
+    <string name="button_backlight_on_touch_only_title">Toque de botão</string>
+    <string name="button_backlight_on_touch_only_summary">Ativar luz de fundo com tempo limite apenas ao tocar os botões</string>
 
      <!-- HW Keys customization -->
     <string name="action_value_default_action" translatable="false">default</string>
@@ -426,36 +426,36 @@
     <string name="action_value_recent_apps" translatable="false">task_recents</string>
     <string name="action_value_voice_search" translatable="false">task_voice_search</string>
     <string name="action_value_menu" translatable="false">task_menu</string>
-    <string name="picker_activities">Activities</string>
-    <string name="select_custom_app_title">Select custom app</string>
-    <string name="select_custom_activity_title">Select custom activity</string>
-    <string name="profile_applist_title">Applications</string>
-    <string name="choose_action_title">Choose action</string>
-    <string name="action_entry_default_action">Default settings</string>
-    <string name="action_entry_select_app">Select application</string>
-    <string name="action_entry_custom_action">Select custom action</string>
-    <string name="hardware_keys_home_key_title">Home Button</string>
-    <string name="hardware_keys_menu_key_title">Menu Button</string>
-    <string name="hardware_keys_assist_key_title">Search Button</string>
-    <string name="hardware_keys_appswitch_key_title">Overview Button</string>
-    <string name="hardware_keys_back_key_title">Back Button</string>
-    <string name="hardware_keys_double_tap_summary">Set double tap action</string>
-    <string name="hardware_keys_single_tap_summary">Set single tap action</string>
-    <string name="hardware_keys_long_press_summary">Set long press action</string>
-    <string name="hardware_keys_single_tap_title">Single tap action</string>
-    <string name="hardware_keys_long_press_title">Long press action</string>
-    <string name="hardware_keys_double_tap_title">Double tap action</string>
-    <string name="hardware_keys_category">Hardware Keys</string>
-    <string name="hardware_keys_disable_title">Disable keys</string>
-    <string name="hardware_keys_disable_summary">Disable the device hardware keys</string>
+    <string name="picker_activities">Atividades</string>
+    <string name="select_custom_app_title">Selecionar app personalizado</string>
+    <string name="select_custom_activity_title">Selecionar atividade personalizada</string>
+    <string name="profile_applist_title">Aplicativos</string>
+    <string name="choose_action_title">Escolher ação</string>
+    <string name="action_entry_default_action">Configurações padrão</string>
+    <string name="action_entry_select_app">Selecionar aplicativo</string>
+    <string name="action_entry_custom_action">Definir ação personalizada</string>
+    <string name="hardware_keys_home_key_title">Botão Home</string>
+    <string name="hardware_keys_menu_key_title">Botão de Menu</string>
+    <string name="hardware_keys_assist_key_title">Botão de Pesquisa</string>
+    <string name="hardware_keys_appswitch_key_title">Botão de Visão Geral</string>
+    <string name="hardware_keys_back_key_title">Botão de Voltar</string>
+    <string name="hardware_keys_double_tap_summary">Definir a ação de toque duplo</string>
+    <string name="hardware_keys_single_tap_summary">Definir a ação de toque único</string>
+    <string name="hardware_keys_long_press_summary">Definir a ação de toque longo</string>
+    <string name="hardware_keys_single_tap_title">Ação de toque único</string>
+    <string name="hardware_keys_long_press_title">Ação de toque longo</string>
+    <string name="hardware_keys_double_tap_title">Ação de toque duplo</string>
+    <string name="hardware_keys_category">Botões Físicos</string>
+    <string name="hardware_keys_disable_title">Desativar botões</string>
+    <string name="hardware_keys_disable_summary">Desativar os botões físicos do dispositivo</string>
 
     <!-- ANBI -->
-    <string name="anbi_title">Accidental touch</string>
-    <string name="anbi_summary">Prevent interaction with navigation buttons while the screen is being touched</string>
+    <string name="anbi_title">Toque acidental</string>
+    <string name="anbi_summary">Impedir a interação com os botões de navegação enquanto a tela está sendo tocada</string>
 
     <!-- Statusbar Tuner -->
-    <string name="statusbar_items_title">Statusbar icons</string>
-    <string name="statusbar_items_summary">Toggle the visibility of icons in statusbar</string>
+    <string name="statusbar_items_title">Ícones da barra de status</string>
+    <string name="statusbar_items_summary">Alternar a visibilidade dos ícones na barra de status</string>
 
     <!-- AOKP custom system animations -->
     <string name="system_animation_title">Sistema</string>
