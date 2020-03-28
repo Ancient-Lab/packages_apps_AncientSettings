@@ -22,23 +22,23 @@
 	
     <!-- Categories -->
     <string name="about_title">Sobre</string>
-    <string name="animations_title">Animations</string>
-    <string name="buttons_title">Buttons</string>
-    <string name="gestures_title">Gestures</string>
-    <string name="lockscreen_title">Lock Screen</string>
-    <string name="misc_title">Miscellaneous</string>
-    <string name="navigation_title">Navigation Bar</string>
-    <string name="notifications_title">Notifications</string>
-    <string name="panels_title">Panels</string>
-    <string name="quicksettings_title">Quick Settings</string>
-    <string name="statusbar_title">Status Bar</string>
-    <string name="battery_title">Battery</string>
-    <string name="interface_title">Themes</string>
+    <string name="animations_title">Animações</string>
+    <string name="buttons_title">Botões</string>
+    <string name="gestures_title">Gestos</string>
+    <string name="lockscreen_title">Tela de bloqueio</string>
+    <string name="misc_title">Diversos</string>
+    <string name="navigation_title">Barra de Navegação</string>
+    <string name="notifications_title">Notificações</string>
+    <string name="panels_title">Painéis</string>
+    <string name="quicksettings_title">Configurações Rápidas</string>
+    <string name="statusbar_title">Barra de Status</string>
+    <string name="battery_title">Bateria</string>
+    <string name="interface_title">Temas</string>
 
     <!-- About -->
-    <string name="developers_category_title">Developers</string>
-    <string name="support_category_title">Support Team</string>
-    <string name="maintainers_category_title">Maintainers</string>
+    <string name="developers_category_title">Desenvolvedores</string>
+    <string name="support_category_title">Equipe de suporte</string>
+    <string name="maintainers_category_title">Mantenedores</string>
     <string name="ancient_developers_beamguide" translatable="false">* Owner Ancient \n* Web Master</string>
     <string name="ancient_developers_rezaadipangestu" translatable="false">* Lead Developer</string>
     <string name="ancient_developers_guzram" translatable="false">* Lord Developer</string>
@@ -63,23 +63,23 @@
     <string name="ancient_support_eko" translatable="false">* Tester Team</string>
     <string name="ancient_support_rudie" translatable="false">* Tester Team</string>
     <string name="ancient_support_hen" translatable="false">* Tester Team</string>
-    <string name="device_maintainers_title">Official Devices</string>
-    <string name="device_maintainers_title_summary">List of official and maintainers</string>
+    <string name="device_maintainers_title">Dispositivos Oficiais</string>
+    <string name="device_maintainers_title_summary">Lista de mantenedores oficiais</string>
     <string name="ancient_links">Links</string>
-    <string name="ancient_announcements_title">Announcements</string>
-    <string name="ancient_announcements_summary">Official announcements</string>
+    <string name="ancient_announcements_title">Anúncios</string>
+    <string name="ancient_announcements_summary">Anúncios oficiais</string>
     <string name="ancient_telegram_title">Telegram</string>
-    <string name="ancient_telegram_summary">Channel Telegram</string>
-    <string name="ancient_source_title">Github</string>
-    <string name="ancient_source_summary">Ancient-OS source code</string>
+    <string name="ancient_telegram_summary">Canal no Telegram</string>
+    <string name="ancient_source_title">GitHub</string>
+    <string name="ancient_source_summary">Código-fonte da Ancient-OS</string>
     <string name="downloads_title">Downloads</string>
-    <string name="downloads_title_summary">Download Ancient-OS for your device</string>
+    <string name="downloads_title_summary">Faça o download da Ancient-OS para o seu dispositivo</string>
 	
     <!-- General strings -->
     <string name="ok">OK</string>
-    <string name="reset">Reset</string>
-    <string name="cancel">Cancel</string>
-    <string name="save">Save</string>
+    <string name="reset">Redefinir</string>
+    <string name="cancel">Cancelar</string>
+    <string name="save">Salvar</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Seletor de Cor</string>
