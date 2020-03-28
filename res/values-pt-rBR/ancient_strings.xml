@@ -272,32 +272,32 @@
 
     <!-- Volume Key -->
     <string name="volume_title">Volume Rockers</string>
-    <string name="volume_summary">Customize settings for volume buttons</string>
+    <string name="volume_summary">Personalizar configurações dos botões de volume</string>
 
     <!-- Volume rocker music control -->
-    <string name="volume_rocker_music_controls_title">Playback control</string>
-    <string name="volume_rocker_music_controls_summary">When the screen is off, long-pressing the volume keys will seek music tracks</string>
+    <string name="volume_rocker_music_controls_title">Controle de reprodução</string>
+    <string name="volume_rocker_music_controls_summary">Quando a tela estiver desligada, pressione e segure as teclas de volume para passar faixas de música</string>
 
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Wake device</string>
-    <string name="volume_rocker_wake_summary">Press volume keys to wake your device</string>
+    <string name="volume_rocker_wake_title">Acordar dispositivo</string>
+    <string name="volume_rocker_wake_summary">Pressione as teclas de volume para ativar seu dispositivo</string>
 
     <!-- Wake on charge -->
-    <string name="wakeup_when_plugged_unplugged_title">Wake up on charge</string>
-    <string name="wakeup_when_plugged_unplugged_summary">Wake up the device if charger is plugged/unplugged</string>
+    <string name="wakeup_when_plugged_unplugged_title">Acordar ao carregar</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Ative o dispositivo se o carregador estiver conectado / desconectado</string>
 
     <!-- Double Tap gestures -->
-    <string name="double_tap_sleep_lockscreen_title">Double tap to sleep</string>
-    <string name="double_tap_sleep_lockscreen_summary">Double tap anywhere on the lockscreen to put phone to sleep</string>
-    <string name="double_tap_sleep_gesture_title">Double tap to sleep</string>
-    <string name="double_tap_sleep_gesture_summary">Double tap on the status bar to put the device to sleep</string>
+    <string name="double_tap_sleep_lockscreen_title">Toque duplo para dormir</string>
+    <string name="double_tap_sleep_lockscreen_summary">Tocar duas vezes em qualquer lugar da tela de bloqueio para colocar o telefone em suspensão</string>
+    <string name="double_tap_sleep_gesture_title">Toque duplo para dormir</string>
+    <string name="double_tap_sleep_gesture_summary">Tocar duas vezes na barra de status para colocar o dispositivo em suspensão</string>
 
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="three_finger_gesture">Swipe to screenshot</string>
-    <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
+    <string name="three_finger_gesture">Deslize para a captura de tela</string>
+    <string name="three_finger_gesture_summary">Deslize para baixo com três dedos para tirar uma captura de tela</string>
 
     <!-- Custom Ambient Display Config -->
-    <string name="ambient_display_custom_title">Ambient Display</string>
+    <string name="ambient_display_custom_title">Display Ambiente</string>
 
     <!-- Status bar - Battery custom charging symbol -->
     <string name="text_charging_symbol_title">Símbolo de carregamento personalizado para o estilo do texto</string>
@@ -307,26 +307,26 @@
     <string name="text_charging_symbol_tilde">Til</string>
 
     <!-- Network Traffic -->
-    <string name="statusbar_trafficat">Network Traffic</string>
-    <string name="trafficat">Network Traffic Indicators</string>
-    <string name="trafficat_summary">Network speed indicator</string>
-    <string name="network_traffic_state_title">Location</string>
-    <string name="network_traffic_autohide_threshold_title">Auto-hide threshold</string>
-    <string name="network_traffic_hidearrow">Activity arrows</string>
-    <string name="network_traffic_hidearrow_summary">Show the network traffic indicator arrows</string>
-    <string name="network_traffic_type">Activity type</string>
-    <string name="network_traffic_layout">Activity layout</string>
+    <string name="statusbar_trafficat">Tráfico de Rede</string>
+    <string name="trafficat">Indicadores de Tráfego de Rede</string>
+    <string name="trafficat_summary">Indicador de velocidade da rede</string>
+    <string name="network_traffic_state_title">Local</string>
+    <string name="network_traffic_autohide_threshold_title">Limite de ocultação automática</string>
+    <string name="network_traffic_hidearrow">Setas de atividade</string>
+    <string name="network_traffic_hidearrow_summary">Mostrar as setas indicadoras de tráfego de rede</string>
+    <string name="network_traffic_type">Tipo de atividade</string>
+    <string name="network_traffic_layout">Layout de atividade</string>
     <string name="network_traffic_layout_h">Horizontal</string>
-    <string name="network_traffic_layout_v">Verticle</string>
-    <string name="show_network_traffic_combined">Combined (Upload + Download)</string>
-    <string name="show_network_traffic_dynamic">Dynamic</string>
+    <string name="network_traffic_layout_v">Vertical</string>
+    <string name="show_network_traffic_combined">Combinado (Upload + Download)</string>
+    <string name="show_network_traffic_dynamic">Dinâmico</string>
     <string name="show_network_traffic_up">Upload</string>
     <string name="show_network_traffic_down">Download</string>
-    <string name="show_network_traffic_all">Both</string>
-    <string name="traffic_disabled">Disabled</string>
-    <string name="traffic_statusbar">Statusbar</string>
-    <string name="traffic_expanded_statusbar">Expanded Statusbar</string>
-    <string name="network_traffic_refresh_interval_title">Refresh interval</string>
+    <string name="show_network_traffic_all">Ambos</string>
+    <string name="traffic_disabled">Desativado</string>
+    <string name="traffic_statusbar">Barra de status</string>
+    <string name="traffic_expanded_statusbar">Barra de status expandida</string>
+    <string name="network_traffic_refresh_interval_title">Intervalo de atualização</string>
 
     <!-- Power Menu -->
     <string name="powermenu_title">Menu liga/desliga</string>
@@ -471,7 +471,7 @@
     <string name="wallpaper_intra_open_title">Animação de abertura intra do papel de parede</string>
     <string name="wallpaper_intra_close_title">Animação de fechamento intra do papel de parede</string>
     <string name="animation_duration_title">Duração da animação</string>
-    <string name="title_animation_no_override">Impedir substituições de aplicativos</string>
+    <string name="title_animation_no_override">Impedir substituição pelos aplicativos</string>
     <string name="summary_animation_no_override">Impedir que aplicativos substituam transições</string>
     <string name="animation_duration_default">Padrão</string>
 
