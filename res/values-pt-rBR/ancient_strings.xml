@@ -82,50 +82,50 @@
     <string name="save">Save</string>
 
     <!-- Color Picker -->
-    <string name="dialog_color_picker">Color Picker</string>
-    <string name="press_color_to_apply">Press on color below to apply</string>
+    <string name="dialog_color_picker">Seletor de Cor</string>
+    <string name="press_color_to_apply">Pressione a cor abaixo para aplicar</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
     <string name="hex">Hex:</string>
     <string name="hex_hint">#ff000000</string>
-    <string name="set">Set</string>
-    <string name="color_default">Default</string>
+    <string name="set">Definir</string>
+    <string name="color_default">Padrão</string>
 
     <!-- Navbar tuner -->
-    <string name="navbar_tuner_title">Navbar buttons</string>
-    <string name="navbar_invert_layout_title">Invert layout</string>
-    <string name="navbar_invert_layout_summary">Use inverted layout for navbar buttons</string>
+    <string name="navbar_tuner_title">Botões da barra de navegação</string>
+    <string name="navbar_invert_layout_title">Inverter layout</string>
+    <string name="navbar_invert_layout_summary">Usar layout invertido para botões da barra de navegação</string>
 
     <!-- Battery Bar -->
-    <string name="battery_bar_title">Battery Bar</string>
-    <string name="battery_bar_summary">Decorate battery bar</string>
-    <string name="battery_bar_location">Battery bar location</string>
-    <string name="battery_bar_color">Battery bar color</string>
-    <string name="battery_bar_charging_color">Battery bar charging color</string>
-    <string name="battery_bar_battery_low_color">Battery bar low battery color</string>
-    <string name="battery_bar_style_title">Battery bar style</string>
-    <string name="battery_bar_thickness_title">Battery bar thickness</string>
-    <string name="battery_bar_animate_title">Charging animation</string>
-    <string name="battery_bar_animate_summary">The charging animation may result in a poor user experience. Enable at your own discretion.</string>
-    <string name="battery_bar_hide">Hide</string>
-    <string name="battery_bar_statusbar">Statusbar</string>
-    <string name="battery_bar_topnav">Top of navbar</string>
-    <string name="battery_bar_bottomnav">Bottom of navbar</string>
-    <string name="battery_bar_reg">Regular</string>
-    <string name="battery_bar_center">Center-mirrored</string>
-    <string name="battery_bar_reversed">Reversed</string>
-    <string name="battery_bar_use_gradient_color">Use gradient color</string>
-    <string name="battery_bar_gradient_color_summary">Use gradient color as a scale for the battery level</string>
-    <string name="battery_bar_high_color">High level color"</string>
-    <string name="battery_bar_low_color">Low level color"</string>
+    <string name="battery_bar_title">Barra de Bateria</string>
+    <string name="battery_bar_summary">Decorar a barra de bateria</string>
+    <string name="battery_bar_location">Posicionamento da barra de bateria</string>
+    <string name="battery_bar_color">Cor da barra de bateria</string>
+    <string name="battery_bar_charging_color">Cor da barra de bateria com carregamento</string>
+    <string name="battery_bar_battery_low_color">Cor barra de bateria com bateria fraca</string>
+    <string name="battery_bar_style_title">Estilo da barra de bateria</string>
+    <string name="battery_bar_thickness_title">Espessura da barra da bateria</string>
+    <string name="battery_bar_animate_title">Animação de carregamento</string>
+    <string name="battery_bar_animate_summary">A animação de carregamento pode resultar em uma experiência ruim. Ative a seu próprio critério.</string>
+    <string name="battery_bar_hide">Ocultar</string>
+    <string name="battery_bar_statusbar">Barra de status</string>
+    <string name="battery_bar_topnav">Topo da barra de navegação</string>
+    <string name="battery_bar_bottomnav">Fundo da barra de navegação</string>
+    <string name="battery_bar_reg">Normal</string>
+    <string name="battery_bar_center">Espelhado ao centro</string>
+    <string name="battery_bar_reversed">Revertido</string>
+    <string name="battery_bar_use_gradient_color">Usar cor degradê</string>
+    <string name="battery_bar_gradient_color_summary">Usar cores gradientes como uma escala para o nível da bateria</string>
+    <string name="battery_bar_high_color">Cor de nível alto"</string>
+    <string name="battery_bar_low_color">Cor de nível baixo"</string>
 
     <!-- Quick settings tiles columns and rows config -->
     <string name="qs_layout_category">Layout</string>
-    <string name="qs_columns_portrait_title">Columns (Portrait)</string>
-    <string name="qs_columns_landscape_title">Columns (Landscape)</string>
-    <string name="sysui_qqs_count_title">Columns (Quickbar)</string>
-    <string name="qs_tile_title_visibility_title">Tile title</string>
-    <string name="qs_tile_title_visibility_summary">Display title below each tile</string> 
+    <string name="qs_columns_portrait_title">Colunas (Paisagem)</string>
+    <string name="qs_columns_landscape_title">Colunas (Retrato)</string>
+    <string name="sysui_qqs_count_title">Colunas (Barra rápida)</string>
+    <string name="qs_tile_title_visibility_title">Título do bloco</string>
+    <string name="qs_tile_title_visibility_summary">Exibir título abaixo de cada bloco</string>
 
     <!-- Lock screen cover art -->
     <string name="lockscreen_media_category">Música</string>
