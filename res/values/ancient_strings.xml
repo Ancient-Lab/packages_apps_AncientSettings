@@ -39,20 +39,19 @@
     <string name="developers_category_title">Developers</string>
     <string name="support_category_title">Support Team</string>
     <string name="maintainers_category_title">Maintainers</string>
-    <string name="ancient_developers_beamguide" translatable="false">* Owner Ancient \n* Web Master</string>
+    <string name="ancient_developers_baloseribu" translatable="false">* Owner Ancient</string>
+    <string name="ancient_developers_beamguide" translatable="false">* Web Master</string>
     <string name="ancient_developers_rezaadipangestu" translatable="false">* Lead Developer</string>
     <string name="ancient_developers_guzram" translatable="false">* Lord Developer</string>
     <string name="ancient_developers_septian126" translatable="false">* Developer</string>
     <string name="ancient_developers_kubilhadinata" translatable="false">* Developer</string> 
     <string name="ancient_developers_xyzuan" translatable="false">* Developer</string>
-    <string name="ancient_developers_axel" translatable="false">* Developer</string>
     <string name="ancient_support_ominous" translatable="false">* Designer</string>
     <string name="ancient_support_vern" translatable="false">* Theming 1</string>
     <string name="ancient_support_idontcare" translatable="false">* Theming 2</string>
     <string name="ancient_support_maxander" translatable="false">* Pencari Tytyd</string>
     <string name="ancient_support_fadly" translatable="false">* Translator Patchid</string>
-    <string name="ancient_support_baloseribu" translatable="false">* Papa Genit 1</string>
-    <string name="ancient_support_johan" translatable="false">* Papa Genit 2</string>
+    <string name="ancient_support_johan" translatable="false">* Papa Genit</string>
     <string name="ancient_support_coyote" translatable="false">* Kapten Kapal</string>
     <string name="ancient_support_rohit" translatable="false">* Spy mc</string>
     <string name="ancient_support_ichsan" translatable="false">* Ketua Kebugaran</string>
@@ -119,11 +118,16 @@
     <string name="battery_bar_high_color">High level color"</string>
     <string name="battery_bar_low_color">Low level color"</string>
 
-    <!-- Quick settings tiles columns and rows config -->
-    <string name="qs_layout_category">Layout</string>
-    <string name="qs_columns_portrait_title">Columns (Portrait)</string>
-    <string name="qs_columns_landscape_title">Columns (Landscape)</string>
-    <string name="sysui_qqs_count_title">Columns (Quickbar)</string>
+    <!-- QS rows and columns -->
+    <string name="qs_column_rows_settings_title">QS panel settings</string>
+    <string name="qs_columns_rows_category_title">QS columns and rows</string>
+    <string name="qs_rows_columns_title">QS rows and columns</string>
+    <string name="qs_rows_portrait_title">Tiles rows on portrait</string>
+    <string name="qs_rows_landscape_title">Tiles rows on landscape</string>
+    <string name="qs_columns_portrait_title">Tiles columns on portrait</string>
+    <string name="qs_columns_landscape_title">Tiles columns on landscape</string>
+
+    <!-- QS tile visibility -->
     <string name="qs_tile_title_visibility_title">Tile title</string>
     <string name="qs_tile_title_visibility_summary">Display title below each tile</string> 
 
@@ -530,6 +534,8 @@
     <string name="blur_quicksettings_subtitle">blurs darkened background behind quick settings</string>
     <string name="qs_blur_alpha_title">Blur alpha</string>
     <string name="qs_blur_alpha_summary">Sets the blur transparency</string>
+    <string name="qs_blur_intensity_title">Blur intensity</string>
+    <string name="qs_blur_intensity_summary">Sets the blur intensity/radius</string>
 
     <!-- Smart replies -->
     <string name="hide_smart_replies_title">Hide smart replies</string>
@@ -556,5 +562,48 @@
     <string name="miscellaneous_category_title">Miscellaneous Options</string>
     <string name="allow_signature_fake">Allow signature spoofing</string>
     <string name="allow_signature_fake_summary">Allow apps to bypass security systems by pretending to be a different app.</string>
+
+    <!-- Theme Room -->
+    <string name="themeroom_title">Theme Room</string>
+    <string name="themeroom_summary">Accent-Gradient theming</string>
+    <string name="accent_color">Accent picker</string>
+    <string name="accent_summary">System wide accent maker</string>
+    <string name="gradient_color">Gradient picker</string>
+    <string name="gradient_summary">Gradient effect maker</string>
+
+    <!-- Option to enable/disable scrolling cache -->
+    <string name="pref_scrollingcache_title">Scrolling cache</string>
+    <string name="pref_scrollingcache_summary">Scrolling cache may improve scrolling performance at the cost of memory</string>
+    <string name="pref_scrollingcache_force_enable">Force enable</string>
+    <string name="pref_scrollingcache_default_enable">Default enable</string>
+    <string name="pref_scrollingcache_default_disable">Default disable</string>
+    <string name="pref_scrollingcache_force_disable">Force disable</string>
+
+    <!-- Heads up -->
+    <string name="notification_stat">Statusbar</string>
+    <string name="heads_up_notifications">Heads Up</string>
+    <string name="heads_up_notifications_summary">Pop up statusbar notifications</string>
+    <string name="add_heads_up_package">Add app</string>
+    <string name="heads_up_stoplist_title">Stoplist</string>
+    <string name="add_heads_up_stoplist_summary">Disable heads up in these applications</string>
+    <string name="heads_up_blacklist_title">Blacklist</string>
+    <string name="add_heads_up_blacklist_summary">Disable heads up for these applications</string>
+    <string name="profile_choose_app">Choose app</string>
+    <string name="dialog_delete_title">Delete</string>
+    <string name="dialog_delete_message">Remove selected item?</string>
+
+    <!-- Fingerprint unlock -->
+    <string name="ls_unlocking_title">Lockscreen Unlocking</string>
+    <string name="fp_unlock_keystore_title">Force FP authentication</string>
+    <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot or lockdown</string>
+
+    <!-- Disabling FC notifications -->
+    <string name="notification_messages">System</string>
+    <string name="enable_fc_notifications_title">Force close notifications</string>
+    <string name="enable_fc_notifications_summary">Show a dialog when an application crashes</string>
+
+    <!-- Fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
+    <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
 
 </resources>

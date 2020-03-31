@@ -42,9 +42,11 @@
         android:key="theme_customization_category"
         android:title="@string/theme_customization_category">
 
-        <ListPreference
-            android:key="android.theme.customization.accent_color"
-            android:title="@string/theme_customization_accent_color_title"/>
+     <Preference
+         android:key="theme_room"
+         android:title="@string/themeroom_title"
+         android:summary="@string/themeroom_summary"
+         android:fragment="com.ancient.settings.fragments.ThemeRoom" />
 
         <ListPreference
             android:key="android.theme.customization.font"
@@ -89,7 +91,15 @@
             android:defaultValue="100"
             android:dependency="qs_blur" />
 
+        <com.ancient.settings.preferences.SystemSettingSeekBarPreference
+            android:key="qs_blur_intensity"
+            android:title="@string/qs_blur_intensity_title"
+            android:summary="@string/qs_blur_intensity_summary"
+            android:max="100"
+            settings:min="1"
+            android:defaultValue="100"
+            android:dependency="qs_blur" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>
-

@@ -59,6 +59,14 @@
             android:summary="@string/disable_transition_animations_summary"
             android:defaultValue="false" />
 
+        <com.ancient.settings.preferences.SystemSettingListPreference
+            android:key="pref_scrollingcache"
+            android:dialogTitle="@string/pref_scrollingcache_title"
+            android:title="@string/pref_scrollingcache_title"
+            android:summary="@string/pref_scrollingcache_summary"
+            android:entries="@array/entries_scrollingcache"
+            android:entryValues="@array/values_scrollingcache" />
+
         <ListPreference
             android:key="activity_open"
             android:title="@string/activity_open_title" />

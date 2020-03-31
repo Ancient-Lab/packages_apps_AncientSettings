@@ -20,6 +20,12 @@
         android:title="@string/developers_category_title">
 
         <Preference
+            android:title="Baloseribu"
+            android:summary="@string/ancient_developers_baloseribu"
+            android:icon="@drawable/ancient_developer">
+        </Preference>
+
+        <Preference
             android:title="Beamguide"
             android:summary="@string/ancient_developers_beamguide"
             android:icon="@drawable/ancient_developer">
@@ -55,12 +61,6 @@
             android:icon="@drawable/ancient_developer">
         </Preference>
 
-        <Preference
-            android:title="Axel SkylarkAurora"
-            android:summary="@string/ancient_developers_axel"
-            android:icon="@drawable/ancient_developer">
-        </Preference>
-
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -90,11 +90,6 @@
         <Preference
             android:title="Fadly"
             android:summary="@string/ancient_support_fadly"
-            android:icon="@drawable/ancient_support"/>
-
-        <Preference
-            android:title="Baloseribu"
-            android:summary="@string/ancient_support_baloseribu"
             android:icon="@drawable/ancient_support"/>
 
         <Preference
