@@ -32,4 +32,7 @@
     <string name="device_platina" translatable="false">Xiaomi Mi 8 Lite</string>
     <string name="device_platina_summary" translatable="false">platina\nRique Barros </string>
 
+    <string name="device_mido" translatable="false">Xiaomi Redmi Note 4X</string>
+    <string name="device_mido_summary" translatable="false">mido\nSmokey (smokey_18)</string>
+
 </resources>
