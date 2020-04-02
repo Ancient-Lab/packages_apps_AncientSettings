@@ -29,4 +29,7 @@
     <string name="device_lavender" translatable="false">Xiaomi Redmi Note 7</string>
     <string name="device_lavender_summary" translatable="false">lavender\nJodyYuantoro (xyzuan)</string>
 
+    <string name="device_platina" translatable="false">Xiaomi Mi 8 Lite</string>
+    <string name="device_platina_summary" translatable="false">platina\nRique Barros </string>
+
 </resources>
