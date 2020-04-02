@@ -29,4 +29,7 @@
     <string name="device_lavender" translatable="false">Xiaomi Redmi Note 7</string>
     <string name="device_lavender_summary" translatable="false">lavender\nJodyYuantoro (xyzuan)</string>
 
+    <string name="device_mido" translatable="false">Xiaomi Redmi Note 4X</string>
+    <string name="device_mido_summary" translatable="false">mido\nSmokey (smokey_18)</string>
+
 </resources>

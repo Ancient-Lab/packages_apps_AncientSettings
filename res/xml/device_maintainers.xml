@@ -40,6 +40,16 @@
                 android:data="https://t.me/xyzuan" />
           </Preference>
 
+         <Preference
+            android:id="@+id/device_mido"
+            android:icon="@drawable/ancient_device"
+            android:summary="@string/device_mido_summary"
+            android:title="@string/device_mido" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/smokey_18" />
+          </Preference>
+
      </PreferenceCategory>
 
 </PreferenceScreen>
