@@ -35,4 +35,7 @@
     <string name="device_mido" translatable="false">Xiaomi Redmi Note 4X</string>
     <string name="device_mido_summary" translatable="false">mido\nSmokey (smokey_18)</string>
 
+    <string name="device_violet" translatable="false">Xiaomi Redmi Note 7 Pro</string> 
+    <string name="device_violet_summary" translatable="false">violet\nvishwas7 </string>
+
 </resources>
