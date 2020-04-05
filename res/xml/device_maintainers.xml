@@ -60,6 +60,16 @@
                 android:data="https://t.me/smokey_18" />
           </Preference>
 
+         <Preference 
+            android:id="@+id/device_violet" 
+            android:icon="@drawable/ancient_device" 
+            android:summary="@string/device_violet_summary" 
+            android:title="@string/device_violet" > 
+            <intent
+                 android:action="android.intent.action.VIEW" 
+                 android:data="https://t.me/mavji007" />
+         </Preference>
+
      </PreferenceCategory>
 
 </PreferenceScreen>
