@@ -47,4 +47,9 @@
 	
 	 <string name="device_ysl" translatable="false">Xiaomi Redmi S2/Y2</string> 
     <string name="device_ysl_summary" translatable="false">ysl\nHatsune -</string>
+<!--Manufacturer -->
+ <string name="device_category_OnePlus_title" translatable="false">OnePlus</string>
+<!-- Device -->
+ <string name="device_oneplus3" translatable="false">OnePlus3/3T</string>
+    <string name="device_whyred_summary" translatable="false">OnePlus 3/3T\nDeepak jr
 </resources>
