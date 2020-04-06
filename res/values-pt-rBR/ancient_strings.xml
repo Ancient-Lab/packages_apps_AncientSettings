@@ -18,7 +18,7 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="ancient_settings_title">Recursos Ancient</string>
-    <string name="ancient_dashboard_summary">Dedicados do Ancient</string>
+    <string name="ancient_dashboard_summary">Recursos dedicados da Ancient</string>
 	
     <!-- Categories -->
     <string name="about_title">Sobre</string>
@@ -39,30 +39,6 @@
     <string name="developers_category_title">Desenvolvedores</string>
     <string name="support_category_title">Equipe de suporte</string>
     <string name="maintainers_category_title">Mantenedores</string>
-    <string name="ancient_developers_beamguide" translatable="false">* Owner Ancient \n* Web Master</string>
-    <string name="ancient_developers_rezaadipangestu" translatable="false">* Lead Developer</string>
-    <string name="ancient_developers_guzram" translatable="false">* Lord Developer</string>
-    <string name="ancient_developers_septian126" translatable="false">* Developer</string>
-    <string name="ancient_developers_kubilhadinata" translatable="false">* Developer</string> 
-    <string name="ancient_developers_xyzuan" translatable="false">* Developer</string>
-    <string name="ancient_developers_axel" translatable="false">* Developer</string>
-    <string name="ancient_support_ominous" translatable="false">* Designer</string>
-    <string name="ancient_support_vern" translatable="false">* Theming 1</string>
-    <string name="ancient_support_idontcare" translatable="false">* Theming 2</string>
-    <string name="ancient_support_maxander" translatable="false">* Pencari Tytyd</string>
-    <string name="ancient_support_fadly" translatable="false">* Translator Patchid</string>
-    <string name="ancient_support_baloseribu" translatable="false">* Papa Genit 1</string>
-    <string name="ancient_support_johan" translatable="false">* Papa Genit 2</string>
-    <string name="ancient_support_coyote" translatable="false">* Kapten Kapal</string>
-    <string name="ancient_support_rohit" translatable="false">* Spy mc</string>
-    <string name="ancient_support_ichsan" translatable="false">* Ketua Kebugaran</string>
-    <string name="ancient_support_zeinudin" translatable="false">* Tester Team</string>
-    <string name="ancient_support_timothy" translatable="false">* PUBG Player</string>
-    <string name="ancient_support_taufiq" translatable="false">* SekJen Patchid</string>
-    <string name="ancient_support_rendra" translatable="false">* Si Ganteng Mojokerto</string>
-    <string name="ancient_support_eko" translatable="false">* Tester Team</string>
-    <string name="ancient_support_rudie" translatable="false">* Tester Team</string>
-    <string name="ancient_support_hen" translatable="false">* Tester Team</string>
     <string name="device_maintainers_title">Dispositivos Oficiais</string>
     <string name="device_maintainers_title_summary">Lista de mantenedores oficiais</string>
     <string name="ancient_links">Links</string>
@@ -234,7 +210,7 @@
     <!-- QS SystemInfo -->
     <string name="qs_system_info_title">Info. do Sistema</string>
     <string name="qs_system_info_off">Desligado</string>
-    <string name="qs_system_info_cpu_temp">Temperatura da CPUe</string>
+    <string name="qs_system_info_cpu_temp">Temperatura da CPU</string>
     <string name="qs_system_info_gpu_busy">Utilização da GPU</string>
 
     <!-- Battery mode -->
@@ -382,8 +358,6 @@
     <!-- QS header image -->
     <string name="status_bar_custom_header_title">Imagem de cabeçalho</string>
     <string name="status_bar_custom_header_summary">Usar uma imagem personalizada para o cabeçalho das QS</string>
-    <string name="daylight_header_provider" translatable="false">daylight</string>
-    <string name="file_header_provider" translatable="false">file</string>
     <string name="custom_header_provider_title">Tipo de imagem</string>
     <string name="daylight_header_provider_title">Automático (com base no tempo)</string>
     <string name="file_header_provider_title">Estático</string>
@@ -417,15 +391,6 @@
     <string name="button_backlight_on_touch_only_summary">Ativar luz de fundo com tempo limite apenas ao tocar os botões</string>
 
      <!-- HW Keys customization -->
-    <string name="action_value_default_action" translatable="false">default</string>
-    <string name="action_value_select_app" translatable="false">app</string>
-    <string name="action_value_custom_action" translatable="false">custom</string>
-    <string name="action_value_back" translatable="false">task_back</string>
-    <string name="action_value_home" translatable="false">task_home</string>
-    <string name="action_value_search_assist" translatable="false">task_assist</string>
-    <string name="action_value_recent_apps" translatable="false">task_recents</string>
-    <string name="action_value_voice_search" translatable="false">task_voice_search</string>
-    <string name="action_value_menu" translatable="false">task_menu</string>
     <string name="picker_activities">Atividades</string>
     <string name="select_custom_app_title">Selecionar app personalizado</string>
     <string name="select_custom_activity_title">Selecionar atividade personalizada</string>
@@ -556,5 +521,48 @@
     <string name="miscellaneous_category_title">Opções Diversas</string>
     <string name="allow_signature_fake">Permitir falsificação de assinatura</string>
     <string name="allow_signature_fake_summary">Permitir que os aplicativos ignorem os sistemas de segurança fingindo ser um aplicativo diferente.</string>
+
+    <!-- Theme Room -->
+    <string name="themeroom_title">Sala de Temas</string>
+    <string name="themeroom_summary">Estilo Destaque-Degradê</string>
+    <string name="accent_color">Escolher destaque</string>
+    <string name="accent_summary">Criar cor de destaque para todo o sistema</string>
+    <string name="gradient_color">Escolher degradê</string>
+    <string name="gradient_summary">Criar efeito degradê</string>
+
+    <!-- Option to enable/disable scrolling cache -->
+    <string name="pref_scrollingcache_title">Cache de rolagem</string>
+    <string name="pref_scrollingcache_summary">O cache de rolagem pode melhorar o desempenho da rolagem sob pena de gastar mais memória</string>
+    <string name="pref_scrollingcache_force_enable">Forçar ativação</string>
+    <string name="pref_scrollingcache_default_enable">Ativar por padrão</string>
+    <string name="pref_scrollingcache_default_disable">Desativar por padrão</string>
+    <string name="pref_scrollingcache_force_disable">Forçar desativação</string>
+
+    <!-- Heads up -->
+    <string name="notification_stat">Barra de status</string>
+    <string name="heads_up_notifications">Heads Up</string>
+    <string name="heads_up_notifications_summary">Disparar notificações da barra de status</string>
+    <string name="add_heads_up_package">Adicionar app</string>
+    <string name="heads_up_stoplist_title">Lista de parada</string>
+    <string name="add_heads_up_stoplist_summary">Desativar heads up nesses aplicativos</string>
+    <string name="heads_up_blacklist_title">Lista negra</string>
+    <string name="add_heads_up_blacklist_summary">Desativar heads up para esses aplicativos</string>
+    <string name="profile_choose_app">Escolher app</string>
+    <string name="dialog_delete_title">Remover</string>
+    <string name="dialog_delete_message">Remover o item selecionado?</string>
+
+    <!-- Fingerprint unlock -->
+    <string name="ls_unlocking_title">Desbloqueio de tela</string>
+    <string name="fp_unlock_keystore_title">Forçar autenticação pelo sensor biométrico</string>
+    <string name="fp_unlock_keystore_summary">Desbloquear o dispositivo com impressão digital após reinicialização ou bloqueio</string>
+
+    <!-- Disabling FC notifications -->
+    <string name="notification_messages">Sistema</string>
+    <string name="enable_fc_notifications_title">Notificação de Parada Forçada</string>
+    <string name="enable_fc_notifications_summary">Mostrar uma caixa de diálogo quando um aplicativo falha</string>
+
+    <!-- Fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">Vibração de autenticação de impressão digital</string>
+    <string name="fprint_sucess_vib_summary">Vibrar com autenticação de impressão digital bem-sucedida</string>
 
 </resources>
