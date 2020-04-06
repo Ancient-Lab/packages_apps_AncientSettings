@@ -79,6 +79,25 @@
                  android:action="android.intent.action.VIEW" 
                  android:data="https://t.me/Niteshkumar15" />
          </Preference>
+         
+     </PreferenceCategory>
+
+    
+     <PreferenceCategory
+        android:id="@+id/device_category_asus"
+        android:title="@string/device_category_asus_title" >   
+         
+
+          <Preference
+            android:id="@+id/device_X01BD"
+            android:icon="@drawable/ancient_device"
+            android:summary="@string/device_X01BD_summary"
+            android:title="@string/device_X01BD" >
+            <intent
+                 android:action="android.intent.action.VIEW"
+                 android:data="https://t.me/OrdinaR_FarhaN" />
+         </Preference>
+
 
      </PreferenceCategory>
 
