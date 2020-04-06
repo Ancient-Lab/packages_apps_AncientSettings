@@ -21,6 +21,7 @@
 
     <!-- Product -->
     <string name="device_category_xiaomi_title" translatable="false">xiaomi</string>
+    <string name="device_category_asus_title" translatable="false">asus</string>
 
     <!-- Device -->
     <string name="device_whyred" translatable="false">Xiaomi Redmi Note 5 Pro</string>
@@ -40,4 +41,7 @@
 
     <string name="device_tulip" translatable="false">Xiaomi Redmi Note 6 Pro</string> 
     <string name="device_tulip_summary" translatable="false">tulip\nNiteshkumar</string>
+ 
+    <string name="device_X01BD" translatable="false">Asus Zenfone Max Pro M2</string>
+    <string name="device_X01BD_summary" translatable="false">X01BD\nFarhan Patel (OrdinaR_FarhaN)</string>
 </resources>
