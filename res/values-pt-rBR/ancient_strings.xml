@@ -556,4 +556,13 @@
     <string name="fp_unlock_keystore_title">Forçar autenticação pelo sensor biométrico</string>
     <string name="fp_unlock_keystore_summary">Desbloquear o dispositivo com impressão digital após reinicialização ou bloqueio</string>
 
+    <!-- Disabling FC notifications -->
+    <string name="notification_messages">Sistema</string>
+    <string name="enable_fc_notifications_title">Notificação de Parada Forçada</string>
+    <string name="enable_fc_notifications_summary">Mostrar uma caixa de diálogo quando um aplicativo falha</string>
+
+    <!-- Fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">Vibração de autenticação de impressão digital</string>
+    <string name="fprint_sucess_vib_summary">Vibrar com autenticação de impressão digital bem-sucedida</string>
+
 </resources>
