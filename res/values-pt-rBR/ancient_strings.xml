@@ -522,4 +522,20 @@
     <string name="allow_signature_fake">Permitir falsificação de assinatura</string>
     <string name="allow_signature_fake_summary">Permitir que os aplicativos ignorem os sistemas de segurança fingindo ser um aplicativo diferente.</string>
 
+    <!-- Theme Room -->
+    <string name="themeroom_title">Sala de Temas</string>
+    <string name="themeroom_summary">Estilo Destaque-Degradê</string>
+    <string name="accent_color">Escolher destaque</string>
+    <string name="accent_summary">Criar cor de destaque para todo o sistema</string>
+    <string name="gradient_color">Escolher degradê</string>
+    <string name="gradient_summary">Criar efeito degradê</string>
+
+    <!-- Option to enable/disable scrolling cache -->
+    <string name="pref_scrollingcache_title">Cache de rolagem</string>
+    <string name="pref_scrollingcache_summary">O cache de rolagem pode melhorar o desempenho da rolagem sob pena de gastar mais memória</string>
+    <string name="pref_scrollingcache_force_enable">Forçar ativação</string>
+    <string name="pref_scrollingcache_default_enable">Ativar por padrão</string>
+    <string name="pref_scrollingcache_default_disable">Desativar por padrão</string>
+    <string name="pref_scrollingcache_force_disable">Forçar desativação</string>
+
 </resources>
