@@ -39,30 +39,6 @@
     <string name="developers_category_title">Desenvolvedores</string>
     <string name="support_category_title">Equipe de suporte</string>
     <string name="maintainers_category_title">Mantenedores</string>
-    <string name="ancient_developers_beamguide" translatable="false">* Owner Ancient \n* Web Master</string>
-    <string name="ancient_developers_rezaadipangestu" translatable="false">* Lead Developer</string>
-    <string name="ancient_developers_guzram" translatable="false">* Lord Developer</string>
-    <string name="ancient_developers_septian126" translatable="false">* Developer</string>
-    <string name="ancient_developers_kubilhadinata" translatable="false">* Developer</string> 
-    <string name="ancient_developers_xyzuan" translatable="false">* Developer</string>
-    <string name="ancient_developers_axel" translatable="false">* Developer</string>
-    <string name="ancient_support_ominous" translatable="false">* Designer</string>
-    <string name="ancient_support_vern" translatable="false">* Theming 1</string>
-    <string name="ancient_support_idontcare" translatable="false">* Theming 2</string>
-    <string name="ancient_support_maxander" translatable="false">* Pencari Tytyd</string>
-    <string name="ancient_support_fadly" translatable="false">* Translator Patchid</string>
-    <string name="ancient_support_baloseribu" translatable="false">* Papa Genit 1</string>
-    <string name="ancient_support_johan" translatable="false">* Papa Genit 2</string>
-    <string name="ancient_support_coyote" translatable="false">* Kapten Kapal</string>
-    <string name="ancient_support_rohit" translatable="false">* Spy mc</string>
-    <string name="ancient_support_ichsan" translatable="false">* Ketua Kebugaran</string>
-    <string name="ancient_support_zeinudin" translatable="false">* Tester Team</string>
-    <string name="ancient_support_timothy" translatable="false">* PUBG Player</string>
-    <string name="ancient_support_taufiq" translatable="false">* SekJen Patchid</string>
-    <string name="ancient_support_rendra" translatable="false">* Si Ganteng Mojokerto</string>
-    <string name="ancient_support_eko" translatable="false">* Tester Team</string>
-    <string name="ancient_support_rudie" translatable="false">* Tester Team</string>
-    <string name="ancient_support_hen" translatable="false">* Tester Team</string>
     <string name="device_maintainers_title">Dispositivos Oficiais</string>
     <string name="device_maintainers_title_summary">Lista de mantenedores oficiais</string>
     <string name="ancient_links">Links</string>
@@ -234,7 +210,7 @@
     <!-- QS SystemInfo -->
     <string name="qs_system_info_title">Info. do Sistema</string>
     <string name="qs_system_info_off">Desligado</string>
-    <string name="qs_system_info_cpu_temp">Temperatura da CPUe</string>
+    <string name="qs_system_info_cpu_temp">Temperatura da CPU</string>
     <string name="qs_system_info_gpu_busy">Utilização da GPU</string>
 
     <!-- Battery mode -->
@@ -382,8 +358,6 @@
     <!-- QS header image -->
     <string name="status_bar_custom_header_title">Imagem de cabeçalho</string>
     <string name="status_bar_custom_header_summary">Usar uma imagem personalizada para o cabeçalho das QS</string>
-    <string name="daylight_header_provider" translatable="false">daylight</string>
-    <string name="file_header_provider" translatable="false">file</string>
     <string name="custom_header_provider_title">Tipo de imagem</string>
     <string name="daylight_header_provider_title">Automático (com base no tempo)</string>
     <string name="file_header_provider_title">Estático</string>
@@ -417,15 +391,6 @@
     <string name="button_backlight_on_touch_only_summary">Ativar luz de fundo com tempo limite apenas ao tocar os botões</string>
 
      <!-- HW Keys customization -->
-    <string name="action_value_default_action" translatable="false">default</string>
-    <string name="action_value_select_app" translatable="false">app</string>
-    <string name="action_value_custom_action" translatable="false">custom</string>
-    <string name="action_value_back" translatable="false">task_back</string>
-    <string name="action_value_home" translatable="false">task_home</string>
-    <string name="action_value_search_assist" translatable="false">task_assist</string>
-    <string name="action_value_recent_apps" translatable="false">task_recents</string>
-    <string name="action_value_voice_search" translatable="false">task_voice_search</string>
-    <string name="action_value_menu" translatable="false">task_menu</string>
     <string name="picker_activities">Atividades</string>
     <string name="select_custom_app_title">Selecionar app personalizado</string>
     <string name="select_custom_activity_title">Selecionar atividade personalizada</string>
