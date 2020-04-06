@@ -44,4 +44,8 @@
  
     <string name="device_X01BD" translatable="false">Asus Zenfone Max Pro M2</string>
     <string name="device_X01BD_summary" translatable="false">X01BD\nFarhan Patel (OrdinaR_FarhaN)</string>
+	
+    <string name="device_ysl" translatable="false">Xiaomi Redmi S2/Y2</string> 
+    <string name="device_ysl_summary" translatable="false">ysl\nHatsune -</string>
+
 </resources>
