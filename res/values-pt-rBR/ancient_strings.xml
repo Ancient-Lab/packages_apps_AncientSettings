@@ -18,7 +18,7 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="ancient_settings_title">Recursos Ancient</string>
-    <string name="ancient_dashboard_summary">Dedicados do Ancient</string>
+    <string name="ancient_dashboard_summary">Recursos dedicados da Ancient</string>
 	
     <!-- Categories -->
     <string name="about_title">Sobre</string>
@@ -537,5 +537,23 @@
     <string name="pref_scrollingcache_default_enable">Ativar por padrão</string>
     <string name="pref_scrollingcache_default_disable">Desativar por padrão</string>
     <string name="pref_scrollingcache_force_disable">Forçar desativação</string>
+
+    <!-- Heads up -->
+    <string name="notification_stat">Barra de status</string>
+    <string name="heads_up_notifications">Heads Up</string>
+    <string name="heads_up_notifications_summary">Disparar notificações da barra de status</string>
+    <string name="add_heads_up_package">Adicionar app</string>
+    <string name="heads_up_stoplist_title">Lista de parada</string>
+    <string name="add_heads_up_stoplist_summary">Desativar heads up nesses aplicativos</string>
+    <string name="heads_up_blacklist_title">Lista negra</string>
+    <string name="add_heads_up_blacklist_summary">Desativar heads up para esses aplicativos</string>
+    <string name="profile_choose_app">Escolher app</string>
+    <string name="dialog_delete_title">Remover</string>
+    <string name="dialog_delete_message">Remover o item selecionado?</string>
+
+    <!-- Fingerprint unlock -->
+    <string name="ls_unlocking_title">Desbloqueio de tela</string>
+    <string name="fp_unlock_keystore_title">Forçar autenticação pelo sensor biométrico</string>
+    <string name="fp_unlock_keystore_summary">Desbloquear o dispositivo com impressão digital após reinicialização ou bloqueio</string>
 
 </resources>
