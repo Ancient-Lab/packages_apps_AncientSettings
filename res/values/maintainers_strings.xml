@@ -31,5 +31,8 @@
 
     <string name="device_platina" translatable="false">Xiaomi Mi 8 Lite</string>
     <string name="device_platina_summary" translatable="false">platina\nRique Barros </string>
+    
+    <string name="device_ginkgo" translatable="false">Xiaomi Redmi Note 8</string>
+    <string name="device_ginkgo_summary" translatable="false">ginkgo\nSrinivas </string>
 
 </resources>
