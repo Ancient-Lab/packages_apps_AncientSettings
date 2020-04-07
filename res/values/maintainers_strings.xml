@@ -48,4 +48,7 @@
     <string name="device_ysl" translatable="false">Xiaomi Redmi S2/Y2</string> 
     <string name="device_ysl_summary" translatable="false">ysl\nHatsune -</string>
 
+    <string name="device_ginkgo" translatable="false">Xiaomi Redmi Note 8</string>
+    <string name="device_ginkgo_summary" translatable="false">ginkgo\nSrinivas </string>
+
 </resources>
