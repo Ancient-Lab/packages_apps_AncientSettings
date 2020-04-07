@@ -110,5 +110,21 @@
 
 
      </PreferenceCategory>
+	
+    <PreferenceCategory
+        android:id="@+id/device_category_oneplus"
+        android:title="@string/device_category_oneplus_title">
+
+        <Preference
+            android:id="@+id/device_fajita"
+            android:icon="@drawable/ancient_device"
+            android:summary="@string/device_fajita_summary"
+            android:title="@string/device_fajita">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/AshutoshSundresh" />
+        </Preference>
+	    
+     </PreferenceCategory>
 
 </PreferenceScreen>
