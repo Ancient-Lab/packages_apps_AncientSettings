@@ -22,6 +22,7 @@
     <!-- Product -->
     <string name="device_category_xiaomi_title" translatable="false">xiaomi</string>
     <string name="device_category_asus_title" translatable="false">asus</string>
+    <string name="device_category_oneplus_title" translatable="false">oneplus</string>
 
     <!-- Device -->
     <string name="device_whyred" translatable="false">Xiaomi Redmi Note 5 Pro</string>
@@ -50,5 +51,8 @@
 
     <string name="device_ginkgo" translatable="false">Xiaomi Redmi Note 8</string>
     <string name="device_ginkgo_summary" translatable="false">ginkgo\nSrinivas </string>
+
+    <string name="device_fajita" translatable="false">OnePlus 6T</string> 
+    <string name="device_fajita_summary" translatable="false">fajita\nAshutoshSundresh -</string>
 
 </resources>
