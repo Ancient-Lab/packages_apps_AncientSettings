@@ -40,6 +40,75 @@
                 android:data="https://t.me/xyzuan" />
           </Preference>
 
+        <Preference
+            android:id="@+id/device_platina"
+            android:icon="@drawable/ancient_device"
+            android:summary="@string/device_platina_summary"
+            android:title="@string/device_platina" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/riquebarros17" />
+          </Preference>          
+
+         <Preference
+            android:id="@+id/device_mido"
+            android:icon="@drawable/ancient_device"
+            android:summary="@string/device_mido_summary"
+            android:title="@string/device_mido" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/smokey_18" />
+          </Preference>
+
+         <Preference 
+            android:id="@+id/device_violet" 
+            android:icon="@drawable/ancient_device" 
+            android:summary="@string/device_violet_summary" 
+            android:title="@string/device_violet" > 
+            <intent
+                 android:action="android.intent.action.VIEW" 
+                 android:data="https://t.me/mavji007" />
+         </Preference>
+
+         <Preference 
+            android:id="@+id/device_tulip" 
+            android:icon="@drawable/ancient_device" 
+            android:summary="@string/device_tulip_summary" 
+            android:title="@string/device_tulip" > 
+            <intent
+                 android:action="android.intent.action.VIEW" 
+                 android:data="https://t.me/Niteshkumar15" />
+         </Preference>
+		 
+		 <Preference 
+            android:id="@+id/device_ysl" 
+            android:icon="@drawable/ancient_device" 
+            android:summary="@string/device_ysl_summary" 
+            android:title="@string/device_ysl" > 
+            <intent
+                 android:action="android.intent.action.VIEW" 
+                 android:data="https://t.me/hats721" />
+         </Preference>
+         
+     </PreferenceCategory>
+
+    
+     <PreferenceCategory
+        android:id="@+id/device_category_asus"
+        android:title="@string/device_category_asus_title" >   
+         
+
+          <Preference
+            android:id="@+id/device_X01BD"
+            android:icon="@drawable/ancient_device"
+            android:summary="@string/device_X01BD_summary"
+            android:title="@string/device_X01BD" >
+            <intent
+                 android:action="android.intent.action.VIEW"
+                 android:data="https://t.me/OrdinaR_FarhaN" />
+         </Preference>
+
+
      </PreferenceCategory>
 
 </PreferenceScreen>

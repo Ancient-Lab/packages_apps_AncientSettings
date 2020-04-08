@@ -21,6 +21,7 @@
 
     <!-- Product -->
     <string name="device_category_xiaomi_title" translatable="false">xiaomi</string>
+    <string name="device_category_asus_title" translatable="false">asus</string>
 
     <!-- Device -->
     <string name="device_whyred" translatable="false">Xiaomi Redmi Note 5 Pro</string>
@@ -29,4 +30,21 @@
     <string name="device_lavender" translatable="false">Xiaomi Redmi Note 7</string>
     <string name="device_lavender_summary" translatable="false">lavender\nJodyYuantoro (xyzuan)</string>
 
+    <string name="device_platina" translatable="false">Xiaomi Mi 8 Lite</string>
+    <string name="device_platina_summary" translatable="false">platina\nRique Barros </string>
+
+    <string name="device_mido" translatable="false">Xiaomi Redmi Note 4X</string>
+    <string name="device_mido_summary" translatable="false">mido\nSmokey (smokey_18)</string>
+
+    <string name="device_violet" translatable="false">Xiaomi Redmi Note 7 Pro</string> 
+    <string name="device_violet_summary" translatable="false">violet\nvishwas7 </string>
+
+    <string name="device_tulip" translatable="false">Xiaomi Redmi Note 6 Pro</string> 
+    <string name="device_tulip_summary" translatable="false">tulip\nNiteshkumar</string>
+ 
+    <string name="device_X01BD" translatable="false">Asus Zenfone Max Pro M2</string>
+    <string name="device_X01BD_summary" translatable="false">X01BD\nFarhan Patel (OrdinaR_FarhaN)</string>
+	
+	 <string name="device_ysl" translatable="false">Xiaomi Redmi S2/Y2</string> 
+    <string name="device_ysl_summary" translatable="false">ysl\nHatsune -</string>
 </resources>
