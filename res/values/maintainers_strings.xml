@@ -22,6 +22,7 @@
     <!-- Product -->
     <string name="device_category_xiaomi_title" translatable="false">xiaomi</string>
     <string name="device_category_asus_title" translatable="false">asus</string>
+    <string name="device_category_OnePlus_title" translatable="false">OnePlus</string>
 
     <!-- Device -->
     <string name="device_whyred" translatable="false">Xiaomi Redmi Note 5 Pro</string>
@@ -45,11 +46,9 @@
     <string name="device_X01BD" translatable="false">Asus Zenfone Max Pro M2</string>
     <string name="device_X01BD_summary" translatable="false">X01BD\nFarhan Patel (OrdinaR_FarhaN)</string>
 	
-	 <string name="device_ysl" translatable="false">Xiaomi Redmi S2/Y2</string> 
+    <string name="device_ysl" translatable="false">Xiaomi Redmi S2/Y2</string> 
     <string name="device_ysl_summary" translatable="false">ysl\nHatsune -</string>
-<!--Manufacturer -->
- <string name="device_category_OnePlus_title" translatable="false">OnePlus</string>
-<!-- Device -->
- <string name="device_oneplus3" translatable="false">OnePlus3/3T</string>
-    <string name="device_whyred_summary" translatable="false">OnePlus 3/3T\nDeepak jr
+
+    <string name="device_oneplus3" translatable="false">OnePlus 3/3T</string> 
+    <string name="device_oneplus3_summary" translatable="false">oneplus3\nDeepak jr. -</string>
 </resources>

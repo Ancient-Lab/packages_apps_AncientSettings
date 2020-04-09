@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2019-2020 Ancient-OS
@@ -110,18 +111,24 @@
 
 
      </PreferenceCategory>
- <PreferenceCategory
-        android:id="@+id/device_category_Oneplus"
-        android:title="@string/device_category_Oneplus_title" >
 
-        <Preference
+    <PreferenceCategory
+        android:id="@+id/device_category_OnePlus"
+        android:title="@string/device_category_OnePlus_title" >   
+         
+
+          <Preference
             android:id="@+id/device_oneplus3"
             android:icon="@drawable/ancient_device"
             android:summary="@string/device_oneplus3_summary"
-            android:title="@string/device_oneplus3" >
+            android:title="@string/device_oneplus3z" >
             <intent
-                android:action="android.intent.action.VIEW"
-                android:data="https://t.me/The_real_Deepakjr" />
-          </Preference>
-</PreferenceCategory>
+                 android:action="android.intent.action.VIEW"
+                 android:data="https://t.me/OrdinaR_FarhaN" />
+         </Preference>
+
+
+     </PreferenceCategory>
+
+
 </PreferenceScreen>
