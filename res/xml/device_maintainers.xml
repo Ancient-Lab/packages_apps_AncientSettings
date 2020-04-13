@@ -60,6 +60,16 @@
                 android:data="https://t.me/cnucnucnu" />
           </Preference>
          
+                 <Preference
+            android:id="@+id/device_willow"
+            android:icon="@drawable/ancient_device"
+            android:summary="@string/device_willow_summary"
+            android:title="@string/device_willow" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/cnucnucnu" />
+          </Preference>
+         
      </PreferenceCategory>
 
 </PreferenceScreen>
