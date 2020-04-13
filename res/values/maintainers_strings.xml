@@ -34,5 +34,8 @@
     
     <string name="device_ginkgo" translatable="false">Xiaomi Redmi Note 8</string>
     <string name="device_ginkgo_summary" translatable="false">ginkgo\nSrinivas </string>
+    
+    <string name="device _willow" translatable="false">Xiaomi Redmi Note 8I</string>
+    <string name="device_willow_summary" translatable="false">willow\nSrinivas </string>
 
 </resources>
