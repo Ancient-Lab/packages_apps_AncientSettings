@@ -91,10 +91,10 @@
          </Preference>
 
          <Preference
-            android:id="@+id/device_ginkgo"
+            android:id="@+id/device_ginkgowillow"
             android:icon="@drawable/ancient_device"
-            android:summary="@string/device_ginkgo_summary"
-            android:title="@string/device_ginkgo" >
+            android:summary="@string/device_ginkgowillow_summary"
+            android:title="@string/device_ginkgowillow" >
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="https://t.me/cnucnucnu" />
