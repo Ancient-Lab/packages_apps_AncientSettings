@@ -55,4 +55,7 @@
     <string name="device_fajita" translatable="false">OnePlus 6T</string> 
     <string name="device_fajita_summary" translatable="false">fajita\nAshutoshSundresh -</string>
 
+    <string name="device_oneplus3" translatable="false">OnePlus 3/3T</string>
+    <string name="device_oneplus3_summary" translatable="false">oneplus3\nDeepak jr (Aquarius)</string>
+
 </resources>
