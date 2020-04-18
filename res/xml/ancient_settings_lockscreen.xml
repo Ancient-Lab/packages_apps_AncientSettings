@@ -45,10 +45,12 @@
 
         <com.ancient.settings.preferences.SystemSettingListPreference
             android:key="lock_clock_font_style"
-            android:title="@string/clock_font_style_title"
-            android:entries="@array/font_style_entries"
-            android:entryValues="@array/font_style_values"
-            android:defaultValue="4" />
+            android:title="@string/lock_clock_font_title"
+            android:dialogTitle="@string/lock_clock_font_dialog_title"
+            android:entries="@array/lock_clock_fonts_entries"
+            android:entryValues="@array/lock_clock_fonts_values"
+            android:summary="@string/lock_clock_font_summary"
+            android:persistent="false" />
 
         <com.ancient.settings.preferences.SystemSettingListPreference
             android:key="lockscreen_date_selection"
