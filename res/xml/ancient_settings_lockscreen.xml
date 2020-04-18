@@ -54,11 +54,13 @@
             android:defaultValue="0" />
 
         <com.ancient.settings.preferences.SystemSettingListPreference
-            android:key="lock_date_font_style"
-            android:title="@string/date_font_style_title"
-            android:entries="@array/font_style_entries"
-            android:entryValues="@array/font_style_values"
-            android:defaultValue="14" />
+            android:key="lock_date_fonts"
+            android:title="@string/lock_date_font_title"
+            android:dialogTitle="@string/lock_date_font_dialog_title"
+            android:entries="@array/lock_date_fonts_entries"
+            android:entryValues="@array/lock_date_fonts_values"
+            android:summary="@string/lock_date_font_summary"
+            android:persistent="false" />
 
     </PreferenceCategory>
 
