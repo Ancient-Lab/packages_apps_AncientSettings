@@ -56,7 +56,7 @@
         android:summary="@string/hide_smart_replies_summary"
         android:defaultValue="false"/>
 
-    <com.ancient.settings.preferences.GlobalSettingMasterSwitchPreference
+    <Preference
         android:key="heads_up_notifications_enabled"
         android:fragment="com.ancient.settings.fragments.HeadsUp"
         android:title="@string/heads_up_notifications"
