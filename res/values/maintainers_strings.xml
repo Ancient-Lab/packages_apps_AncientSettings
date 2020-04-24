@@ -23,7 +23,8 @@
     <string name="device_category_xiaomi_title" translatable="false">xiaomi</string>
     <string name="device_category_asus_title" translatable="false">asus</string>
     <string name="device_category_oneplus_title" translatable="false">oneplus</string>
-
+    <string name="device_category_realme_title" translatable="false">realme</string>
+	
     <!-- Device -->
     <string name="device_whyred" translatable="false">Xiaomi Redmi Note 5 Pro</string>
     <string name="device_whyred_summary" translatable="false">whyred\nReza Adi Pangestu (rezaadi0105)</string>
@@ -57,5 +58,8 @@
 
     <string name="device_oneplus3" translatable="false">OnePlus 3/3T</string>
     <string name="device_oneplus3_summary" translatable="false">oneplus3\nDeepak jr (Aquarius)</string>
-
+	
+    <string name="device_RMX1901" translatable="false">Xiaomi Realme X </string>
+    <string name="device_RMX1901_summary" translatable="false">RMX1901\nSatham Hussain (Sathamspot) </string>
+	
 </resources>
