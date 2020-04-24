@@ -144,6 +144,21 @@
                 android:data="https://t.me/The_real_Deepakjr" />
           </Preference>
 
+	    
      </PreferenceCategory>
 
+	<PreferenceCategory
+        android:id="@+id/device_category_realme"
+        android:title="@string/device_category_realme_title">
+
+        <Preference
+            android:id="@+id/device_RMX1901"
+            android:icon="@drawable/ancient_device"
+            android:summary="@string/device_RMX1901_summary"
+            android:title="@string/device_RMX1901">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/Sathamspot" />
+        </Preference>
+		
 </PreferenceScreen>
