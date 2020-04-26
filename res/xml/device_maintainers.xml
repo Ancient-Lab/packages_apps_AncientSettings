@@ -109,10 +109,19 @@
                 android:action="android.intent.action.VIEW"
                 android:data="https://t.me/aarunalr" />
           </Preference>
+
+          <Preference
+            android:id="@+id/device_tissot"
+            android:icon="@drawable/ancient_device"
+            android:summary="@string/device_tissot_summary"
+            android:title="@string/device_tissot" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://t.me/VictorVanDoom" />
+          </Preference>
          
      </PreferenceCategory>
 
-    
      <PreferenceCategory
         android:id="@+id/device_category_asus"
         android:title="@string/device_category_asus_title" >   
