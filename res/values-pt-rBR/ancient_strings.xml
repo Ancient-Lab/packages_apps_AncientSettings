@@ -172,8 +172,8 @@
     <string name="lock_clock_font_condensed_light_italic">Condensado Leve Itálico</string>
     <string name="lock_clock_font_medium_normal">Médio</string>
     <string name="lock_clock_font_medium_italic">Médio Itálico</string>
-    <string name="lock_clock_font_black">Preto</string>
-    <string name="lock_clock_font_black_italic">Black Itálico</string>
+    <string name="lock_clock_font_black">Negro</string>
+    <string name="lock_clock_font_black_italic">Negro Itálico</string>
     <string name="lock_clock_font_dancingscript">DancingScript</string>
     <string name="lock_clock_font_dancingscript_bold">DancingScript Negrito</string>
     <string name="lock_clock_font_comingsoon">ComingSoon</string>
@@ -590,7 +590,6 @@
     <string name="lockscreen_clock_sammy_accent">Sammy destaque</string>
     <string name="lockscreen_clock_sammy_accent_alt">Sammy destaque (hora mais escura)</string>
 
-
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">Opções de vibração em chamada</string>
     <string name="incall_vibrate_connect_title">Vibrar ao conectar</string>
@@ -608,5 +607,49 @@
     <string name="show_carrier_keyguard">Tela de bloqueio</string>
     <string name="show_carrier_statusbar">Barra de status</string>
     <string name="show_carrier_enabled">Ambos</string>
+
+    <!-- lockscreen clock and date font style -->
+    <string name="lockscreen_clockdate_category">Relógio &amp; data</string>
+    <string name="clock_font_style_title">Estilo da fonte do relógio</string>
+    <string name="date_font_style_title">Estilo da fonte da data</string>
+    <string name="font_style_title">Estilo da fonte</string>
+    <string name="font_normal">Normal</string>
+    <string name="font_italic">Itálico</string>
+    <string name="font_bold">Negrito</string>
+    <string name="font_bold_italic">Negrito Itálico</string>
+    <string name="font_light">Leve</string>
+    <string name="font_light_italic">Leve Itálico</string>
+    <string name="font_thin">Fino</string>
+    <string name="font_thin_italic">Fino Itálico</string>
+    <string name="font_condensed">Condensado</string>
+    <string name="font_condensed_italic">Condensado Itálico</string>
+    <string name="font_condensed_light">Condensado Leve</string>
+    <string name="font_condensed_light_italic">Condensado Leve Itálico</string>
+    <string name="font_condensed_bold">Condensado Negrito</string>
+    <string name="font_condensed_bold_italic">Condensado Negrito Itálico</string>
+    <string name="font_medium">Médio</string>
+    <string name="font_medium_italic">Médio Itálico</string>
+    <string name="font_black">Negro</string>
+    <string name="font_black_italic">Negro Itálico</string>
+    <string name="font_dancingscript">DancingScript</string>
+    <string name="font_dancingscript_bold">DancingScript Negrito</string>
+    <string name="font_comingsoon">ComingSoon</string>
+    <string name="font_notoserif">NotoSerif Normal</string>
+    <string name="font_notoserif_italic">NotoSerif Itálico</string>
+    <string name="font_notoserif_bold">NotoSerif Negrito</string>
+    <string name="font_notoserif_bold_italic">NotoSerif Negrito Itálico</string>
+    <string name="font_size_title">Tamanho da fonte</string>
+
+    <!-- QS category -->
+    <string name="qs_category">Configurações rápidas</string>
+    <string name="enable_clear_all_button">Substituir o botão limpar tudo por um botão legal</string>
+    <string name="enable_clear_all_button_summary">Mostrar botão de limpar todas as notificações nas configurações rápidas, em vez do texto padrão</string>
+
+    <!-- Lockscreen Date styles -->
+    <string name="lockscreen_date_selection_title">Estilo da data</string>
+    <string name="lockscreen_date_dialog_title">Selecione o estilo da data</string>
+    <string name="lockscreen_date_selection_default">Padrão</string>
+    <string name="lockscreen_date_selection_str_box">Caixa semi-transparente</string>
+    <string name="lockscreen_date_selection_str_round">Caixa semi-transparente (arredondada)</string>
 
 </resources>
