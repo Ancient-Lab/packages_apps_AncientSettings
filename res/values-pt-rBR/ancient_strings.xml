@@ -565,4 +565,29 @@
     <string name="fprint_sucess_vib_title">Vibração de autenticação de impressão digital</string>
     <string name="fprint_sucess_vib_summary">Vibrar com autenticação de impressão digital bem-sucedida</string>
 
+    <!-- Themes -->
+    <string name="theming_title">Estilos &amp; Papéis de parede</string>
+    <string name="theme_select_title">Temas</string>
+    <string name="theme_select_summary">Veja e selecione os temas instalados</string>
+
+    <!-- Old mobile type icons -->
+    <string name="use_old_mobiletype_title">Ícone do tipo de rede pequeno</string>
+    <string name="use_old_mobiletype_summary">Mostrar ícone de tipo de rede celular na parte superior do indicador de sinal</string>
+
+    <!-- Lockscreen clock style -->
+    <string name="lockscreen_style_title">Estilo de Tela de bloqueio</string>
+    <string name="lockscreen_clock_title">Estilo do Relógio</string>
+    <string name="lockscreen_clock_dialog_title">Selecione o estilo do relógio</string>
+    <string name="lockscreen_clock_hidden">Oculto</string>
+    <string name="lockscreen_clock_digital">Padrão</string>
+    <string name="lockscreen_clock_digital_bold">Negrito (digital)</string>
+    <string name="lockscreen_clock_digital_small">Pequeno (digital)</string>
+    <string name="lockscreen_clock_digital_accent">Destaque completo (digital)</string>
+    <string name="lockscreen_clock_digital_accent_min">Destacar minutos (digital)</string>
+    <string name="lockscreen_clock_digital_accent_hour">Destacar horas (digital)</string>
+    <string name="lockscreen_clock_sammy">Sammy</string>
+    <string name="lockscreen_clock_sammy_bold">Sammy (negrito)</string>
+    <string name="lockscreen_clock_sammy_accent">Sammy destaque</string>
+    <string name="lockscreen_clock_sammy_accent_alt">Sammy destaque (hora mais escura)</string>
+
 </resources>
