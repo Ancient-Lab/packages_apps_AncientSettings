@@ -30,6 +30,19 @@
 
     </PreferenceCategory>
 
+    <!-- Quick settings -->
+    <PreferenceCategory
+        android:key="qs_category"
+        android:title="@string/qs_category">
+
+        <com.ancient.settings.preferences.SystemSettingSwitchPreference
+            android:key="dismiss_all_button"
+            android:title="@string/enable_clear_all_button"
+            android:summary="@string/enable_clear_all_button_summary"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
+
     <!-- Battery full charged notification -->
     <com.ancient.settings.preferences.SystemSettingSwitchPreference
         android:key="battery_fully_charged_notif"
@@ -43,7 +56,7 @@
         android:summary="@string/hide_smart_replies_summary"
         android:defaultValue="false"/>
 
-    <com.ancient.settings.preferences.GlobalSettingMasterSwitchPreference
+    <Preference
         android:key="heads_up_notifications_enabled"
         android:fragment="com.ancient.settings.fragments.HeadsUp"
         android:title="@string/heads_up_notifications"
@@ -55,5 +68,25 @@
         android:title="@string/ambient_light_settings_title"
         android:summary="@string/pulse_ambient_light_summary"
         android:fragment="com.ancient.settings.fragments.AmbientLight" />
+
+    <PreferenceCategory
+        android:key="incall_vib_options"
+        android:title="@string/incall_vibration_category" >
+
+        <com.ancient.settings.preferences.SystemSettingSwitchPreference
+            android:key="vibrate_on_connect"
+            android:title="@string/incall_vibrate_connect_title"
+            android:defaultValue="false" />
+
+        <com.ancient.settings.preferences.SystemSettingSwitchPreference
+            android:key="vibrate_on_callwaiting"
+            android:title="@string/incall_vibrate_call_wait_title"
+            android:defaultValue="false" />
+
+        <com.ancient.settings.preferences.SystemSettingSwitchPreference
+            android:key="vibrate_on_disconnect"
+            android:title="@string/incall_vibrate_disconnect_title"
+            android:defaultValue="false" />
+    </PreferenceCategory>
 
 </PreferenceScreen>

@@ -19,6 +19,48 @@
     android:title="@string/lockscreen_title" >
 
     <PreferenceCategory
+        android:key="lockscreen_style_title"
+        android:title="@string/lockscreen_style_title" >
+
+        <com.ancient.settings.preferences.SecureSettingListPreference
+           android:key="lockscreen_clock_selection"
+           android:title="@string/lockscreen_clock_title"
+           android:dialogTitle="@string/lockscreen_clock_dialog_title"
+           android:entries="@array/lockscreen_clock_titles"
+           android:entryValues="@array/lockscreen_clock_values"
+           android:defaultValue="2" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="lockscreen_clock_category"
+        android:title="@string/lockscreen_clockdate_category">
+
+        <com.ancient.settings.preferences.SystemSettingListPreference
+            android:key="lock_clock_font_style"
+            android:title="@string/clock_font_style_title"
+            android:entries="@array/font_style_entries"
+            android:entryValues="@array/font_style_values"
+            android:defaultValue="4" />
+
+        <com.ancient.settings.preferences.SystemSettingListPreference
+            android:key="lockscreen_date_selection"
+            android:title="@string/lockscreen_date_selection_title"
+            android:dialogTitle="@string/lockscreen_date_dialog_title"
+            android:entries="@array/lockscreen_date_selection_entries"
+            android:entryValues="@array/lockscreen_date_selection_values"
+            android:defaultValue="0" />
+
+        <com.ancient.settings.preferences.SystemSettingListPreference
+            android:key="lock_date_font_style"
+            android:title="@string/date_font_style_title"
+            android:entries="@array/font_style_entries"
+            android:entryValues="@array/font_style_values"
+            android:defaultValue="14" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="ls_unlocking_title"
         android:title="@string/ls_unlocking_title" >
 

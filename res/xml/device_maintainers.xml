@@ -80,7 +80,7 @@
                  android:data="https://t.me/Niteshkumar15" />
          </Preference>
 		 
-		 <Preference 
+	 <Preference 
             android:id="@+id/device_ysl" 
             android:icon="@drawable/ancient_device" 
             android:summary="@string/device_ysl_summary" 
@@ -89,15 +89,43 @@
                  android:action="android.intent.action.VIEW" 
                  android:data="https://t.me/hats721" />
          </Preference>
+
+         <Preference
+            android:id="@+id/device_ginkgowillow"
+            android:icon="@drawable/ancient_device"
+            android:summary="@string/device_ginkgowillow_summary"
+            android:title="@string/device_ginkgowillow" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/cnucnucnu" />
+          </Preference>
+
+          <Preference
+            android:id="@+id/device_beryllium"
+            android:icon="@drawable/ancient_device"
+            android:summary="@string/device_beryllium_summary"
+            android:title="@string/device_beryllium" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/aarunalr" />
+          </Preference>
+
+          <Preference
+            android:id="@+id/device_tissot"
+            android:icon="@drawable/ancient_device"
+            android:summary="@string/device_tissot_summary"
+            android:title="@string/device_tissot" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://t.me/VictorVanDoom" />
+          </Preference>
          
      </PreferenceCategory>
 
-    
      <PreferenceCategory
         android:id="@+id/device_category_asus"
         android:title="@string/device_category_asus_title" >   
          
-
           <Preference
             android:id="@+id/device_X01BD"
             android:icon="@drawable/ancient_device"
@@ -108,6 +136,57 @@
                  android:data="https://t.me/OrdinaR_FarhaN" />
          </Preference>
 
+     </PreferenceCategory>
+
+    <PreferenceCategory
+        android:id="@+id/device_category_oneplus"
+        android:title="@string/device_category_oneplus_title">
+
+        <Preference
+            android:id="@+id/device_fajita"
+            android:icon="@drawable/ancient_device"
+            android:summary="@string/device_fajita_summary"
+            android:title="@string/device_fajita">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/AshutoshSundresh" />
+        </Preference>
+
+        <Preference
+            android:id="@+id/device_oneplus3"
+            android:icon="@drawable/ancient_device"
+            android:summary="@string/device_oneplus3_summary"
+            android:title="@string/device_oneplus3" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/The_real_Deepakjr" />
+          </Preference>
+
+     </PreferenceCategory>
+
+     <PreferenceCategory
+        android:id="@+id/device_category_realme"
+        android:title="@string/device_category_realme_title">
+
+        <Preference
+            android:id="@+id/device_RMX1901"
+            android:icon="@drawable/ancient_device"
+            android:summary="@string/device_RMX1901_summary"
+            android:title="@string/device_RMX1901">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/Sathamspot" />
+        </Preference>
+
+        <Preference
+            android:id="@+id/device_RMX1921"
+            android:icon="@drawable/ancient_device"
+            android:summary="@string/device_RMX1921_summary"
+            android:title="@string/device_RMX1921" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/Bava7325" />
+        </Preference>
 
      </PreferenceCategory>
 

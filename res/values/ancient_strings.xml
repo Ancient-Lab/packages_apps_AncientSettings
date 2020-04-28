@@ -606,4 +606,91 @@
     <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
     <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
 
+    <!-- Themes -->
+    <string name="theming_title">Styles &amp; Wallpapers</string>
+    <string name="theme_select_title">Themes</string>
+    <string name="theme_select_summary">Browse and select installed themes</string>
+
+    <!-- Old mobile type icons -->
+    <string name="use_old_mobiletype_title">Small mobile type icon</string>
+    <string name="use_old_mobiletype_summary">Show mobile type icon on top of the signal indicator</string>
+
+    <!-- Lockscreen clock style -->
+    <string name="lockscreen_style_title">Lockscreen Style</string>
+    <string name="lockscreen_clock_title">Clock style</string>
+    <string name="lockscreen_clock_dialog_title">Select clock style</string>
+    <string name="lockscreen_clock_hidden">Hidden</string>
+    <string name="lockscreen_clock_digital">Default</string>
+    <string name="lockscreen_clock_digital_bold">Bold (digital)</string>
+    <string name="lockscreen_clock_digital_small">Small (digital)</string>
+    <string name="lockscreen_clock_digital_accent">Full accent (digital)</string>
+    <string name="lockscreen_clock_digital_accent_min">Accent minutes (digital)</string>
+    <string name="lockscreen_clock_digital_accent_hour">Accent hours (digital)</string>
+    <string name="lockscreen_clock_sammy">Sammy</string>
+    <string name="lockscreen_clock_sammy_bold">Sammy (bold)</string>
+    <string name="lockscreen_clock_sammy_accent">Sammy accent</string>
+    <string name="lockscreen_clock_sammy_accent_alt">Sammy accent(darker hour)</string>
+
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">In-call vibration options</string>
+    <string name="incall_vibrate_connect_title">Vibrate on connect</string>
+    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
+    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
+
+    <!-- Custom carrier label and position -->
+    <string name="carrier_label_settings_title">Carrier label</string>
+    <string name="carrier_label_settings_summary">Customize the carrier label</string>
+    <string name="custom_carrier_label_title">Custom carrier label</string>
+    <string name="custom_carrier_label_explain">Enter a custom label. Leave blank to use your network name</string>
+    <string name="custom_carrier_label_notset">Custom label currently not set</string>
+    <string name="show_carrier_title">Carrier label location</string>
+    <string name="show_carrier_disabled">Disabled</string>
+    <string name="show_carrier_keyguard">Lockscreen</string>
+    <string name="show_carrier_statusbar">Statusbar</string>
+    <string name="show_carrier_enabled">Both</string>
+
+    <!-- lockscreen clock and date font style -->
+    <string name="lockscreen_clockdate_category">Clock &amp; date</string>
+    <string name="clock_font_style_title">Clock font style</string>
+    <string name="date_font_style_title">Date font style</string>
+    <string name="font_style_title">Font style</string>
+    <string name="font_normal">Normal</string>
+    <string name="font_italic">Italic</string>
+    <string name="font_bold">Bold</string>
+    <string name="font_bold_italic">Bold Italic</string>
+    <string name="font_light">Light</string>
+    <string name="font_light_italic">Light Italic</string>
+    <string name="font_thin">Thin</string>
+    <string name="font_thin_italic">Thin Italic</string>
+    <string name="font_condensed">Condensed</string>
+    <string name="font_condensed_italic">Condensed Italic</string>
+    <string name="font_condensed_light">Condensed Light</string>
+    <string name="font_condensed_light_italic">Condensed Light Italic</string>
+    <string name="font_condensed_bold">Condensed Bold</string>
+    <string name="font_condensed_bold_italic">Condensed Bold Italic</string>
+    <string name="font_medium">Medium</string>
+    <string name="font_medium_italic">Medium Italic</string>
+    <string name="font_black">Black</string>
+    <string name="font_black_italic">Black Italic</string>
+    <string name="font_dancingscript">DancingScript</string>
+    <string name="font_dancingscript_bold">DancingScript Bold</string>
+    <string name="font_comingsoon">ComingSoon</string>
+    <string name="font_notoserif">NotoSerif Normal</string>
+    <string name="font_notoserif_italic">NotoSerif Italic</string>
+    <string name="font_notoserif_bold">NotoSerif Bold</string>
+    <string name="font_notoserif_bold_italic">NotoSerif Bold Italic</string>
+    <string name="font_size_title">Font size</string>
+
+    <!-- QS category -->
+    <string name="qs_category">Quick settings</string>
+    <string name="enable_clear_all_button">Replace clear all text with nice button</string>
+    <string name="enable_clear_all_button_summary">Show clear all notifications button in quick settings instead of default text one</string>
+
+    <!-- Lockscreen Date styles -->
+    <string name="lockscreen_date_selection_title">Date style</string>
+    <string name="lockscreen_date_dialog_title">Select date style</string>
+    <string name="lockscreen_date_selection_default">Default</string>
+    <string name="lockscreen_date_selection_str_box">Semi-transparent box</string>
+    <string name="lockscreen_date_selection_str_round">Semi-transparent box (round)</string>
+
 </resources>
