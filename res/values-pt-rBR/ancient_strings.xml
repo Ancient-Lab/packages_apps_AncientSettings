@@ -590,4 +590,23 @@
     <string name="lockscreen_clock_sammy_accent">Sammy destaque</string>
     <string name="lockscreen_clock_sammy_accent_alt">Sammy destaque (hora mais escura)</string>
 
+
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Opções de vibração em chamada</string>
+    <string name="incall_vibrate_connect_title">Vibrar ao conectar</string>
+    <string name="incall_vibrate_call_wait_title">Vibrar na chamada em espera</string>
+    <string name="incall_vibrate_disconnect_title">Vibrar ao desconectar</string>
+
+    <!-- Custom carrier label and position -->
+    <string name="carrier_label_settings_title">Rótulo da operadora</string>
+    <string name="carrier_label_settings_summary">Personalizar a rótulo da operadora</string>
+    <string name="custom_carrier_label_title">Rótulo da operadora personalizado</string>
+    <string name="custom_carrier_label_explain">Digite um rótulo personalizado. Deixe em branco para usar o nome da sua rede</string>
+    <string name="custom_carrier_label_notset">Rótulo personalizado atualmente não definida</string>
+    <string name="show_carrier_title">Posicionamento do rótulo da operadora</string>
+    <string name="show_carrier_disabled">Desativado</string>
+    <string name="show_carrier_keyguard">Tela de bloqueio</string>
+    <string name="show_carrier_statusbar">Barra de status</string>
+    <string name="show_carrier_enabled">Ambos</string>
+
 </resources>
