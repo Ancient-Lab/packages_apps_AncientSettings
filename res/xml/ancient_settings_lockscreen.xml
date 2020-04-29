@@ -83,6 +83,13 @@
         android:title="@string/lockscreen_media_category" >
 
         <com.ancient.settings.preferences.SystemSettingSwitchPreference
+            android:key="lockscreen_status_bar"
+            android:icon="@drawable/ic_shapes"
+            android:title="@string/lockscreen_status_bar_title"
+            android:summary="@string/lockscreen_status_bar_summary"
+            android:defaultValue="true" />
+
+        <com.ancient.settings.preferences.SystemSettingSwitchPreference
             android:key="lockscreen_media_metadata"
             android:title="@string/media_art_title"
             android:summary="@string/media_art_summary"

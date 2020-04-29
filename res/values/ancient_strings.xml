@@ -379,6 +379,10 @@
     <string name="status_bar_logo_style_title">Ancient logo style</string>
     <string name="status_bar_logo_color_title">Select color</string>
 
+    <!-- Data disabled icon -->
+    <string name="data_disabled_icon_title">Show data disabled icon</string>
+    <string name="data_disabled_icon_summary">Display the cross sign next to signal bar when data is disabled</string>
+
     <!-- QS background opacity -->
     <string name="qs_theme_category">Style</string>
     <string name="qs_panel_alpha_title">Background opacity</string>
@@ -692,5 +696,9 @@
     <string name="lockscreen_date_selection_default">Default</string>
     <string name="lockscreen_date_selection_str_box">Semi-transparent box</string>
     <string name="lockscreen_date_selection_str_round">Semi-transparent box (round)</string>
+
+    <!-- Show Statusbar on Lockscreen -->
+    <string name="lockscreen_status_bar_title">Status bar</string>
+    <string name="lockscreen_status_bar_summary">Display status bar on the lockscreen</string>
 
 </resources>
