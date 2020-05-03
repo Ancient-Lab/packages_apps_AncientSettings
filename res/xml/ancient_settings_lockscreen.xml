@@ -30,6 +30,13 @@
            android:entryValues="@array/lockscreen_clock_values"
            android:defaultValue="2" />
 
+        <com.ancient.settings.preferences.SystemSettingSwitchPreference
+            android:key="lockscreen_status_bar"
+            android:icon="@drawable/ic_shapes"
+            android:title="@string/lockscreen_status_bar_title"
+            android:summary="@string/lockscreen_status_bar_summary"
+            android:defaultValue="true" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -81,13 +88,6 @@
     <PreferenceCategory
         android:key="lockscreen_media_category"
         android:title="@string/lockscreen_media_category" >
-
-        <com.ancient.settings.preferences.SystemSettingSwitchPreference
-            android:key="lockscreen_status_bar"
-            android:icon="@drawable/ic_shapes"
-            android:title="@string/lockscreen_status_bar_title"
-            android:summary="@string/lockscreen_status_bar_summary"
-            android:defaultValue="true" />
 
         <Preference
             android:key="lockscreen_visualizer_enabled"
