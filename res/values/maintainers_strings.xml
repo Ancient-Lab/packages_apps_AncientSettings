@@ -71,4 +71,7 @@
     <string name="device_RMX1921" translatable="false">Realme XT</string>
     <string name="device_RMX1921_summary" translatable="false">RMX1921\nKader Bava (kaderbava)</string>
 
+    <string name="device_RMX1801" translatable="false">Realme 2 Pro</string>
+    <string name="device_RMX1801_summary" translatable="false">RMX1801\nIrawans (dodyirawan85)</string>
+
 </resources>
