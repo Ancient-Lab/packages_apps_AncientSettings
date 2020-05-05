@@ -24,6 +24,7 @@
     <string name="device_category_asus_title" translatable="false">asus</string>
     <string name="device_category_oneplus_title" translatable="false">oneplus</string>
     <string name="device_category_realme_title" translatable="false">realme</string>
+    <string name="device_category_Nokia_title" translatable="false">Nokia</string>
 
     <!-- Device -->
     <string name="device_whyred" translatable="false">Xiaomi Redmi Note 5 Pro</string>
@@ -70,5 +71,8 @@
 
     <string name="device_RMX1921" translatable="false">Realme XT</string>
     <string name="device_RMX1921_summary" translatable="false">RMX1921\nKader Bava (kaderbava)</string>
+	
+    <string name="device_Plate2" translatable="false">Nokia 6.1 (2018)</string>
+    <string name="device_Plate2_summary" translatable="false">Plate2\nAnkit Kene (ankitkene)</string>
 
 </resources>
