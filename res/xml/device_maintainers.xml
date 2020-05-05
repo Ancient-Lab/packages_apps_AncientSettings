@@ -200,4 +200,20 @@
 
      </PreferenceCategory>
 
+     <PreferenceCategory
+        android:id="@+id/device_category_nokia"
+        android:title="@string/device_category_nokia_title">
+
+        <Preference
+            android:id="@+id/device_Plate2"
+            android:icon="@drawable/ancient_device"
+            android:summary="@string/device_Plate2_summary"
+            android:title="@string/device_Plate2">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/ankitkene" />
+        </Preference>
+
+     </PreferenceCategory>
+
 </PreferenceScreen>
