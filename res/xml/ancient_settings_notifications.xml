@@ -68,12 +68,24 @@
         android:summary="@string/hide_smart_replies_summary"
         android:defaultValue="false"/>
 
-    <Preference
-        android:key="heads_up_notifications_enabled"
-        android:fragment="com.ancient.settings.fragments.HeadsUp"
-        android:title="@string/heads_up_notifications"
-        android:summary="@string/heads_up_notifications_summary"
-        android:defaultValue="true" />
+    <PreferenceCategory 
+        android:title="@string/configure_notification_settings" 
+        android:key="notifs_headsup">
+
+        <com.ancient.settings.preferences.GlobalSettingSwitchPreference 
+          android:title="@string/heads_up_notifications" 
+          android:key="heads_up_notifications_enabled" 
+          android:defaultValue="true"
+          android:summaryOn="@string/accessibility_feature_state_on" 
+          android:summaryOff="@string/accessibility_feature_state_off" />
+
+          <Preference 
+            android:title="@string/heads_up_notifications" 
+            android:key="heads_up_settings" 
+            android:summary="@string/heads_up_notifications_summary" 
+            android:dependency="heads_up_notifications_enabled" 
+            android:fragment="com.ancient.settings.fragments.HeadsUp" />
+    </PreferenceCategory>
 
     <Preference
         android:key="ambient_light_settings"
