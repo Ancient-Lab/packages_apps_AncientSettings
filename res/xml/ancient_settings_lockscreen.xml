@@ -28,6 +28,12 @@
         android:summary="@string/omnijaws_settings_summary"
         android:fragment="com.ancient.settings.fragments.OmniJawsSettings" />
 
+    <Preference
+        android:key="lock_screen_weather"
+        android:title="@string/lock_screen_weather_title"
+        android:summary="@string/lock_screen_weather_summaryOn"
+        android:fragment="com.ancient.settings.fragments.LockScreenWeather" />
+
     </PreferenceCategory>
        
     <PreferenceCategory
