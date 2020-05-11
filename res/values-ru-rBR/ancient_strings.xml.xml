@@ -15,10 +15,10 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="ancient_settings_title">Древние Настройки</string>
-    <string name="ancient_dashboard_summary">Ancient dedicated</string>
+    <string name="ancient_dashboard_summary">Посвящение в древность</string>
 	
     <!-- Categories -->
-    <string name="about_title">О Прошивке</string>
+    <string name="about_title">О нас</string>
     <string name="animations_title">Анимации</string>
     <string name="buttons_title">Кнопки</string>
     <string name="gestures_title">Жесты</string>
@@ -85,7 +85,7 @@
     <string name="hex">Hex:</string>
     <string name="hex_hint">#ff000000</string>
     <string name="set">Установить</string>
-    <string name="color_default">По-умолчанию</string>
+    <string name="color_default">По умолчанию</string>
 
     <!-- Navbar tuner -->
     <string name="navbar_tuner_title">Кнопки панели навигации</string>
@@ -93,14 +93,14 @@
     <string name="navbar_invert_layout_summary">Использовать инверсию для кнопок навигации</string>
 
     <!-- Battery Bar -->
-    <string name="battery_bar_title">Battery Bar</string>
-    <string name="battery_bar_summary">Отредактировать battery bar</string>
-    <string name="battery_bar_location">Местоположение Battery bar</string>
-    <string name="battery_bar_color">Цвет Battery bar</string>
-    <string name="battery_bar_charging_color">Цвет Battery bar во время зарядки</string>
-    <string name="battery_bar_battery_low_color">Цвет Battery bar при низком зарядеr</string>
-    <string name="battery_bar_style_title">Стиль Battery bar</string>
-    <string name="battery_bar_thickness_title">Толщина Battery bar</string>
+    <string name="battery_bar_title">Строка батареи</string>
+    <string name="battery_bar_summary">Отредактировать строку батареи</string>
+    <string name="battery_bar_location">Местоположение строки батареи</string>
+    <string name="battery_bar_color">Цвет строки батареи</string>
+    <string name="battery_bar_charging_color">Цвет строки батареи во время зарядки</string>
+    <string name="battery_bar_battery_low_color">Цвет строки батареи при низком заряде</string>
+    <string name="battery_bar_style_title">Стиль строки батареи</string>
+    <string name="battery_bar_thickness_title">Толщина строки батареи</string>
     <string name="battery_bar_animate_title">Анимация зарядки</string>
     <string name="battery_bar_animate_summary">Анимация зарядки может привести к ухудшению работы пользователя. Включить по своему усмотрению.</string>
     <string name="battery_bar_hide">Спрятать</string>
@@ -153,7 +153,7 @@
     <string name="status_bar_am_pm_info">Отображать время в 24 стиле</string>
     <string name="status_bar_am_pm_normal">Нормальная</string>
     <string name="status_bar_am_pm_small">Маленькая</string>
-    <string name="status_bar_am_pm_hidden">Спрятать (по-умолчанию)</string>
+    <string name="status_bar_am_pm_hidden">Спрятать (по умолчанию)</string>
     <string name="clock_seconds_display">Спрятать секунды</string>
     <string name="clock_date_display">Дата</string>
     <string name="clock_date_display_summary">Отображать кастомную дату перед часами</string>
@@ -181,7 +181,7 @@
     <string name="lock_clock_font_title">Варианты шрифта часов</string>
     <string name="lock_clock_font_summary">Изменить шрифт по умолчанию для виджета часов блокировки экрана</string>
     <string name="lock_clock_font_dialog_title">Выбрать шрифт часов на экране блокировки</string>
-    <string name="lock_clock_font_stock">Нормальный (по-умолчанию)</string>
+    <string name="lock_clock_font_stock">Нормальный (по умолчанию)</string>
     <string name="lock_clock_font_bold">Жирный</string>
     <string name="lock_clock_font_italic">Курсивный</string>
     <string name="lock_clock_font_bold_italic">Полужирный курсив</string>
@@ -471,21 +471,21 @@
 
     <!-- AOKP custom system animations -->
     <string name="system_animation_title">Система</string>
-    <string name="activity_open_title">Activity open animation</string>
-    <string name="activity_close_title">Activity close animation</string>
+    <string name="activity_open_title">Анимация открытия</string>
+    <string name="activity_close_title">Анимация закрытия</string>
     <string name="task_open_title">Task open animation</string>
     <string name="task_open_behind_title">Task open behind animation</string>
     <string name="task_close_title">Task close animation</string>
-    <string name="task_move_to_front_title">Move to front animation</string>
-    <string name="task_move_to_back_title">Move to back animation</string>
-    <string name="wallpaper_open_title">Wallpaper open animation</string>
-    <string name="wallpaper_close_title">Wallpaper close animation</string>
+    <string name="task_move_to_front_title">Переместить в переднюю анимацию</string>
+    <string name="task_move_to_back_title">Переместить предыдущую анимацию</string>
+    <string name="wallpaper_open_title">Анимация открытия обоев</string>
+    <string name="wallpaper_close_title">Анимация закрытия обоев</string>
     <string name="wallpaper_intra_open_title">Wallpaper intra open animation</string>
     <string name="wallpaper_intra_close_title">Wallpaper intra close animation</string>
-    <string name="animation_duration_title">Animation duration</string>
-    <string name="title_animation_no_override">Prevent app overrides</string>
-    <string name="summary_animation_no_override">Prevent apps from overriding transitions</string>
-    <string name="animation_duration_default">По-умолчанию</string>
+    <string name="animation_duration_title">Продолжительность анимации</string>
+    <string name="title_animation_no_override">Предотвратить переопределение приложением</string>
+    <string name="summary_animation_no_override">Запретить приложениям отменять переходы</string>
+    <string name="animation_duration_default">По умолчанию</string>
 
     <!-- Screen Off animation -->
     <string name="screen_off_animation_title">Анимация отключения экрана</string>
@@ -499,15 +499,15 @@
 
     <!-- VoLTE icon styles -->
     <string name="volte_icon_style_title">Выбрать значок VoLTE</string>
-    <string name="volte_icon_vo">По-умолчанию</string>
+    <string name="volte_icon_vo">По умолчанию</string>
     <string name="volte_icon_volte">VoLTE значок</string>
     <string name="volte_icon_oos">VoLTE OOS значок</string>
     <string name="volte_icon_hd">HD значок</string>
     <string name="volte_icon_miui">VoLTE Miui значок</string>
 
     <!-- ListView animation -->
-    <string name="listview_animation_title">ListView animation</string>
-    <string name="listview_off">По-умолчанию</string>
+    <string name="listview_animation_title">Анимации ListView</string>
+    <string name="listview_off">По умолчанию</string>
     <string name="listview_wave_left">Волна (Слева)</string>
     <string name="listview_wave_right">Слева (Справа)</string>
     <string name="listview_alpha">Альфа</string>
@@ -516,8 +516,8 @@
     <string name="listview_stack_bottom">Стек (Снизу)</string>
     <string name="listview_unfold">Раскрываться</string>
     <string name="listview_fold">Складывать</string>
-    <string name="listview_translate_left">Translate (Слева)</string>
-    <string name="listview_translate_right">Translate (Справа)</string>
+    <string name="listview_translate_left">Перевести (Слева)</string>
+    <string name="listview_translate_right">Перевести (Справа)</string>
 
     <!-- ListView interpolator -->
     <string name="listview_interpolator_title">Интерполятор ListView</string>
@@ -527,7 +527,7 @@
     <string name="listview_anticipate_interpolator">Anticipate</string>
     <string name="listview_overshoot_interpolator">Overshoot</string>
     <string name="listview_anticipate_overshoot_interpolator">Anticipate and overshoot</string>
-    <string name="listview_bounce_interpolator">Bounce</string>
+    <string name="listview_bounce_interpolator">Подпрыгивать</string>
 
     <!-- Force disable transition animation -->
     <string name="disable_transition_animations_title">Отключить анимацию перехода</string>
@@ -546,8 +546,8 @@
     <string name="qs_blur_intensity_summary">Установить интенсивность блюра/радиус</string>
 
     <!-- Smart replies -->
-    <string name="hide_smart_replies_title">Hide smart replies</string>
-    <string name="hide_smart_replies_summary">Hide smart replies to save screen space with peeking notifications</string>
+    <string name="hide_smart_replies_title">Спрятать smart replies</string>
+    <string name="hide_smart_replies_summary">Спрятать smart replies чтобы сэкономить место на экране для уведомлений</string>
 
     <!-- Ambient edge lighting -->
     <string name="ambient_light_settings_title">Ambient light</string>
@@ -573,7 +573,7 @@
 
     <!-- Theme Room -->
     <string name="themeroom_title">Темы</string>
-    <string name="themeroom_summary">Акцент-градиентная тематика</string>
+    <string name="themeroom_summary">Акцент-градиентная тема</string>
     <string name="accent_color">Выбрать акцент</string>
     <string name="accent_summary">System wide accent maker</string>
     <string name="gradient_color">Выбрать акцент</string>
@@ -583,8 +583,8 @@
     <string name="pref_scrollingcache_title">Кеш прокрутки</string>
     <string name="pref_scrollingcache_summary">Кеш прокрутки может улучшить производительность за счет памяти</string>
     <string name="pref_scrollingcache_force_enable">Принудительно включить</string>
-    <string name="pref_scrollingcache_default_enable">Включить по-умолчанию</string>
-    <string name="pref_scrollingcache_default_disable">Отключить по-умолчанию</string>
+    <string name="pref_scrollingcache_default_enable">Включить по умолчанию</string>
+    <string name="pref_scrollingcache_default_disable">Отключить по умолчанию</string>
     <string name="pref_scrollingcache_force_disable">Принудительно отключить</string>
 
     <!-- Heads up -->
@@ -628,7 +628,7 @@
     <string name="lockscreen_clock_title">Стиль часов</string>
     <string name="lockscreen_clock_dialog_title">Выбрать стиль часов</string>
     <string name="lockscreen_clock_hidden">Спрятать</string>
-    <string name="lockscreen_clock_digital">По-умолчанию</string>
+    <string name="lockscreen_clock_digital">По умолчанию</string>
     <string name="lockscreen_clock_digital_bold">Жирный (цифровой)</string>
     <string name="lockscreen_clock_digital_small">Маленький (цифровой)</string>
     <string name="lockscreen_clock_digital_accent">Акцент на всем (цифровой)</string>
@@ -646,12 +646,12 @@
     <string name="incall_vibrate_disconnect_title">Вибрация при отключении</string>
 
     <!-- Custom carrier label and position -->
-    <string name="carrier_label_settings_title">Carrier label</string>
-    <string name="carrier_label_settings_summary">Customize the carrier label</string>
-    <string name="custom_carrier_label_title">Custom carrier label</string>
-    <string name="custom_carrier_label_explain">Enter a custom label. Leave blank to use your network name</string>
-    <string name="custom_carrier_label_notset">Custom label currently not set</string>
-    <string name="show_carrier_title">Carrier label location</string>
+    <string name="carrier_label_settings_title">Текст в строке состояния</string>
+    <string name="carrier_label_settings_summary">Настроить лого</string>
+    <string name="custom_carrier_label_title">Пользовательское лого</string>
+    <string name="custom_carrier_label_explain">Введите текст. Оставьте пустым, чтобы использовать имя вашей сети</string>
+    <string name="custom_carrier_label_notset">Пользовательский текст в настоящее время не установлен</string>
+    <string name="show_carrier_title">Местоположение текста</string>
     <string name="show_carrier_disabled">Отключить</string>
     <string name="show_carrier_keyguard">Экран блокировки</string>
     <string name="show_carrier_statusbar">Строка состояния</string>
@@ -691,13 +691,13 @@
 
     <!-- QS category -->
     <string name="qs_category">Быстрые настройки</string>
-    <string name="enable_clear_all_button">Replace clear all text with nice button</string>
+    <string name="enable_clear_all_button">Заменить текст очистки всех уведомлений на кнопку</string>
     <string name="enable_clear_all_button_summary">Показывать кнопку очистки всех уведомлений в быстрых настройках вместо текста по умолчанию</string>
 
     <!-- Lockscreen Date styles -->
     <string name="lockscreen_date_selection_title">Стиль даты</string>
     <string name="lockscreen_date_dialog_title">Выбрать стиль даты</string>
-    <string name="lockscreen_date_selection_default">По-умолчанию</string>
+    <string name="lockscreen_date_selection_default">По умолчанию</string>
     <string name="lockscreen_date_selection_str_box">Полупрозрачная коробка</string>
     <string name="lockscreen_date_selection_str_round">Полупрозрачная коробка(круг)</string>
 
@@ -706,37 +706,37 @@
     <string name="lockscreen_status_bar_summary">Отображать строку состояния на экране блокировки</string>
 
     <!-- Lock screen visualizer -->
-    <string name="lockscreenholder_title">LockScreen Holder</string>
+    <string name="lockscreenholder_title">Владелец</string>
     <string name="lockscreen_visualizer_title">LockScreen Visualizer</string>
     <string name="lockscreen_visualizer_enable">Music Visualizer</string>
-    <string name="lockscreen_visualizer_enable_summary">Show visualizer bars while playing music</string>
-    <string name="lockscreen_visualizer_summary">Display music visualizer when available</string>
-    <string name="lockscreen_autocolor_title">Automatic color</string>
-    <string name="lockscreen_autocolor_summary">Sync color with background</string>
-    <string name="lockscreen_autocolor_lavalamp">Requires lava lamp disabled</string>
-    <string name="lockscreen_lavalamp_title">Lava lamp</string>
-    <string name="lockscreen_lavalamp_summary">Animate smooth lava lamp style color blend</string>
-    <string name="lockscreen_lavalamp_speed_title">Lava lamp color blend interval</string>
-    <string name="lockscreen_solid_units_count_title">Solid lines count</string>
+    <string name="lockscreen_visualizer_enable_summary">Показывать визуализацию во время воспроизведения музыки</string>
+    <string name="lockscreen_visualizer_summary">Отображение музыкального визуализатора когда включен</string>
+    <string name="lockscreen_autocolor_title">Автоматический цвет</string>
+    <string name="lockscreen_autocolor_summary">Синхронизировать цвет с обоями</string>
+    <string name="lockscreen_autocolor_lavalamp">Требуется отключение лампы лавы</string>
+    <string name="lockscreen_lavalamp_title">Лавовая лампа</string>
+    <string name="lockscreen_lavalamp_summary">Анимированная гладкая смесь цветов в стиле лавы</string>
+    <string name="lockscreen_lavalamp_speed_title">Интервал смешения цветов лавовых ламп</string>
+    <string name="lockscreen_solid_units_count_title">Количество сплошных линий</string>
     <string name="lockscreen_solid_fudge_factor_title">Sanity level</string>
-    <string name="lockscreen_solid_units_opacity_title">Solid lines opacity</string>
+    <string name="lockscreen_solid_units_opacity_title">Непрозрачность сплошных линий</string>
     <string name="unit_milliseconds">ms</string>
 
     <!-- Audio Panel view  -->
-    <string name="audio_panel_view">Audio panel</string>
-    <string name="audio_panel_view_media_title">Media</string>
-    <string name="audio_panel_view_ringer_title">Ring</string>
-    <string name="audio_panel_view_notification_title">Notification</string>
-    <string name="audio_panel_view_alarm_title">Alarm</string>
-    <string name="audio_panel_view_voice_title">Voice</string>
+    <string name="audio_panel_view">Панель аудио</string>
+    <string name="audio_panel_view_media_title">Медиа</string>
+    <string name="audio_panel_view_ringer_title">Мелодия</string>
+    <string name="audio_panel_view_notification_title">Уведомление</string>
+    <string name="audio_panel_view_alarm_title">Тревога</string>
+    <string name="audio_panel_view_voice_title">Голос</string>
     <string name="audio_panel_view_bt_sco_title">Bluetooth</string>
 
     <!-- Enable navbar -->
     <string name="enable_navbar_title">Включить</string>
-    <string name="enable_navbar_summary">Controls whether the navigation bar is displayed</string>
+    <string name="enable_navbar_summary">Управляет отображением панели навигации</string>
 
     <!-- Notification guts kill app button -->
     <string name="notification_guts_kill_app_button_title">Убрать все</string>
-    <string name="notification_guts_kill_app_button_summary">Show a kill app button in the notification\'s longpress menu</string>
+    <string name="notification_guts_kill_app_button_summary">Показывать кнопку "Скрыть все уведомления" в меню длинного нажатия</string>
   
 </resources> 
