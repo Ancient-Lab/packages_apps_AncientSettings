@@ -105,8 +105,8 @@
     <string name="battery_bar_animate_summary">Анимация зарядки может привести к ухудшению работы пользователя. Включить по своему усмотрению.</string>
     <string name="battery_bar_hide">Спрятать</string>
     <string name="battery_bar_statusbar">Строка состояния</string>
-    <string name="battery_bar_topnav">Верху навбара</string>
-    <string name="battery_bar_bottomnav">Снизу навбара</string>
+    <string name="battery_bar_topnav">Верху панели навигации</string>
+    <string name="battery_bar_bottomnav">Снизу панели навигации</string>
     <string name="battery_bar_reg">Стандартно</string>
     <string name="battery_bar_center">Центр</string>
     <string name="battery_bar_reversed">Перевернутый</string>
@@ -129,7 +129,7 @@
     <string name="qs_tile_title_visibility_summary">Отображать заголовок под каждой плиткой</string> 
 
     <!-- Lock screen cover art -->
-    <string name="lockscreen_media_category">Музыка</string>
+    <string name="lockscreen_media_category">Music</string>
     <string name="media_art_title">Media artwork</string>
     <string name="media_art_summary">Показывать обложку мультимедии в качестве фона экрана блокировки</string>
 
@@ -142,7 +142,7 @@
 
     <!-- Statusbar Clock -->
     <string name="clock_style_category_title">Настройки часов</string>
-    <string name="clock_style_category_summary">Statusbar Clock Tuner</string>
+    <string name="clock_style_category_summary">Строка состояния Clock Tuner</string>
     <string name="status_bar_clock_title">Настройка часов</string>
     <string name="status_bar_clock_show">Показывать часы и дату</string>
     <string name="status_bar_clock_style_title">Стиль часов</string>
@@ -240,7 +240,7 @@
 
     <!-- Battery mode -->
     <string name="battery_mode_title">Стиль батареи</string>
-    <string name="battery_mode_summary">Config SB n QS Battery</string>
+    <string name="battery_mode_summary">Настроить SB в QS Батареи</string>
     <string name="battery_percentage_title">Процент батареи</string>
     <string name="qs_battery_percentage_title">QS стиль батареи</string>
     <string name="battery_percentage_off">Отключить</string>
@@ -261,14 +261,14 @@
     <string name="status_bar_battery_text_charging_summary">Всегда отображать процент заряда батареи при зарядке</string>
 
     <!-- Quick settings brightness slider -->
-    <string name="qs_brightness_slider">Слайдер Яркости</string>
+    <string name="qs_brightness_slider">Ползунок Яркости</string>
     <string name="qs_brightness_slider_title">Местоположение слайдера</string>
     <string name="qs_brightness_slider_hide">Спрятать</string>
     <string name="qs_brightness_slider_top">Верху</string>
     <string name="qs_brightness_slider_bottom">Снизу</string>
 
     <!-- Quick settings brightness icon -->
-    <string name="brightness_icon_title">Иконка автояркости</string>
+    <string name="brightness_icon_title">Значок автояркости</string>
     <string name="brightness_icon_summary">Показать переключатель для адаптивной яркости рядом с ползунком</string>
 
     <!-- Volume Key -->
@@ -371,7 +371,7 @@
 
     <!-- Toast app icon -->
     <string name="toast_icon_title">Toast app icon</string>
-    <string name="toast_icon_summary">Display the app\'s icon corresponding with the toast</string>
+    <string name="toast_icon_summary">Показать значок приложения, соответствующий Toast</string>
 
     <!-- Statusbar logo -->
     <string name="status_bar_logo_category_title">Лого в строке состояния</string>
@@ -380,11 +380,11 @@
     <string name="status_bar_logo_right">Справа</string>
     <string name="status_bar_logo_left">Слева</string>
     <string name="status_bar_logo_disabled">Отключить</string>
-    <string name="status_bar_logo_style_title">Стиль Ancient лого</string>
+    <string name="status_bar_logo_style_title">Стиль Ancient</string>
     <string name="status_bar_logo_color_title">Выбрать цвет</string>
 
     <!-- Data disabled icon -->
-    <string name="data_disabled_icon_title">Показывать иконку отключеннных данных</string>
+    <string name="data_disabled_icon_title">Показывать значок отключеннных данных</string>
     <string name="data_disabled_icon_summary">Отображать крестик, когда данные отключены</string>
 
     <!-- QS background opacity -->
@@ -392,8 +392,8 @@
     <string name="qs_panel_alpha_title">Непрозрачность фона</string>
 
     <!-- QS header image -->
-    <string name="status_bar_custom_header_title">Заглавное изображение</string>
-    <string name="status_bar_custom_header_summary">Использовать сторонную изображение для QS header</string>
+    <string name="status_bar_custom_header_title">Изображение в Быстрых настройках</string>
+    <string name="status_bar_custom_header_summary">Использовать сторонную изображение для Быстрых настройках</string>
     <string name="daylight_header_provider" translatable="false">daylight</string>
     <string name="file_header_provider" translatable="false">file</string>
     <string name="custom_header_provider_title">Тип изображения</string>
@@ -426,7 +426,7 @@
     <string name="button_brightness_title">Фонарик</string>
     <string name="button_brightness_sw_title">Включить фонарик</string>
     <string name="button_backlight_on_touch_only_title">По касанию кнопки</string>
-    <string name="button_backlight_on_touch_only_summary">Включить подсветку с таймаутом только при нажатии кнопки</string>
+    <string name="button_backlight_on_touch_only_summary">Включить подсветку с тайм-аутом только при нажатии кнопки</string>
 
      <!-- HW Keys customization -->
     <string name="action_value_default_action" translatable="false">default</string>
