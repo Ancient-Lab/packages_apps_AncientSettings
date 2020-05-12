@@ -60,7 +60,7 @@
     <string name="ancient_support_rudie" translatable="false">* Tester Team</string>
     <string name="ancient_support_hen" translatable="false">* Tester Team</string>
     <string name="device_maintainers_title">Оффициальные устройства</string>
-    <string name="device_maintainers_title_summary">Список устройств и их сопровождающих</string>
+    <string name="device_maintainers_title_summary">Список устройств и их сопровождающие</string>
     <string name="ancient_links">Ссылки</string>
     <string name="ancient_announcements_title">Объявления</string>
     <string name="ancient_announcements_summary">Оффициальные объявления</string>
@@ -423,8 +423,8 @@
     <string name="backlight_timeout_30s">30 сек</string>
 
     <!-- Enable keys backlight-->
-    <string name="button_brightness_title">Фонарик</string>
-    <string name="button_brightness_sw_title">Включить фонарик</string>
+    <string name="button_brightness_title">Подсветка</string>
+    <string name="button_brightness_sw_title">Включить подсветку</string>
     <string name="button_backlight_on_touch_only_title">По касанию кнопки</string>
     <string name="button_backlight_on_touch_only_summary">Включить подсветку с тайм-аутом только при нажатии кнопки</string>
 
