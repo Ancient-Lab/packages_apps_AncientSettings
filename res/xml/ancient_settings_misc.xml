@@ -110,6 +110,7 @@
         android:title="@string/selinux_category">
 
         <Preference
+            android:key="selinux_explanation"
             android:summary="@string/selinux_explanation_summary"
             android:selectable="false"/>
 
