@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright © 2018-19 The rebellion OS Project
-    Copyright © 2019 Ancient OS Project
+Copyright © 2018-19 The rebellion OS Project
+Copyright © 2019 Ancient OS Project
 
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
 
-    http://www.apache.org/licenses/LICENSE-2.0
+http://www.apache.org/licenses/LICENSE-2.0
 
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
 -->
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="ancient_settings_title">Ancient Features</string>
-    <string name="ancient_dashboard_summary">Ancient dedicated</string>
-	
+    <string name="ancient_settings_title">Ancient OS ARK™</string>
+    <string name="ancient_dashboard_summary">AncientOS feature center</string>
+
     <!-- Categories -->
     <string name="about_title">About</string>
     <string name="animations_title">Animations</string>
@@ -31,9 +31,9 @@
     <string name="notifications_title">Notifications</string>
     <string name="panels_title">Panels</string>
     <string name="quicksettings_title">Quick Settings</string>
-    <string name="statusbar_title">Status Bar</string>
+    <string name="statusbar_title">Statusbar</string>
     <string name="battery_title">Battery</string>
-    <string name="interface_title">Themes</string>
+    <string name="interface_title">User Interface</string>
 
     <!-- About -->
     <string name="developers_category_title">Developers</string>
@@ -46,9 +46,9 @@
     <string name="ancient_developers_septian126" translatable="false">* Developer</string>
     <string name="ancient_developers_kubilhadinata" translatable="false">* Developer</string> 
     <string name="ancient_developers_xyzuan" translatable="false">* Developer</string>
-    <string name="ancient_support_ominous" translatable="false">* Designer</string>
-    <string name="ancient_support_vern" translatable="false">* Theming 1</string>
-    <string name="ancient_support_idontcare" translatable="false">* Theming 2</string>
+    <string name="ancient_support_ominous" translatable="false">* Lead AncientOS Designer</string>
+    <string name="ancient_support_vern" translatable="false">* Designer</string>
+    <string name="ancient_support_idontcare" translatable="false">* Designer</string>
     <string name="ancient_support_maxander" translatable="false">* Pencari Tytyd</string>
     <string name="ancient_support_fadly" translatable="false">* Translator Patchid</string>
     <string name="ancient_support_johan" translatable="false">* Papa Genit</string>
@@ -70,10 +70,10 @@
     <string name="ancient_telegram_title">Telegram</string>
     <string name="ancient_telegram_summary">Channel Telegram</string>
     <string name="ancient_source_title">Github</string>
-    <string name="ancient_source_summary">Ancient-OS source code</string>
+    <string name="ancient_source_summary">AncientOS™ source code</string>
     <string name="downloads_title">Downloads</string>
-    <string name="downloads_title_summary">Download Ancient-OS for your device</string>
-	
+    <string name="downloads_title_summary">Download AncientOS™ for your device</string>
+
     <!-- General strings -->
     <string name="ok">OK</string>
     <string name="reset">Reset</string>
@@ -236,7 +236,7 @@
     <string name="summary_dashboard_suggestions_disabled">Dashboard suggestions are disabled</string> 
 
     <!-- QS SystemInfo -->
-    <string name="qs_system_info_title">System Info</string>
+    <string name="qs_system_info_title">System Indicator</string>
     <string name="qs_system_info_off">Off</string>
     <string name="qs_system_info_cpu_temp">CPU temperature</string>
     <string name="qs_system_info_gpu_busy">GPU utilization</string>
@@ -299,7 +299,8 @@
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Swipe to screenshot</string>
     <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
-    <string name="aosp_gesture_title">AOSP Gestures</string>
+    <string name="aosp_gesture_title">System Gestures</string>
+    <string name="aosp_gesture_title_summary">Default android system gesture and control</string>
 
     <!-- Custom Ambient Display Config -->
     <string name="ambient_display_custom_title">Ambient Display</string>
@@ -395,7 +396,7 @@
     <string name="qs_panel_alpha_title">Background opacity</string>
 
     <!-- QS header image -->
-    <string name="status_bar_custom_header_title">Header image</string>
+    <string name="status_bar_custom_header_title">Ancient Header Image</string>
     <string name="status_bar_custom_header_summary">Use a custom image for QS header</string>
     <string name="daylight_header_provider" translatable="false">daylight</string>
     <string name="file_header_provider" translatable="false">file</string>
@@ -431,7 +432,7 @@
     <string name="button_backlight_on_touch_only_title">Button touch</string>
     <string name="button_backlight_on_touch_only_summary">Enable backlight with timeout only on button touch</string>
 
-     <!-- HW Keys customization -->
+    <!-- HW Keys customization -->
     <string name="action_value_default_action" translatable="false">default</string>
     <string name="action_value_select_app" translatable="false">app</string>
     <string name="action_value_custom_action" translatable="false">custom</string>
@@ -537,7 +538,7 @@
     <string name="disable_transition_animations_summary">Force disable all transition animations</string>
 
     <!-- Setting OneUI -->
-    <string name="enable_oneui">OneUI</string>
+    <string name="enable_oneui">Easy Reach Mode</string>
     <string name="enable_oneui_summary">Show spacer above settings actionbar for easier use with one hand\nNOTE: restart settings app to see effect</string>
 
     <!-- QS Blur -->
@@ -575,7 +576,7 @@
     <string name="allow_signature_fake_summary">Allow apps to bypass security systems by pretending to be a different app.</string>
 
     <!-- Theme Room -->
-    <string name="themeroom_title">Theme Room</string>
+    <string name="themeroom_title">Accent Color Picker</string>
     <string name="themeroom_summary">Accent-Gradient theming</string>
     <string name="accent_color">Accent picker</string>
     <string name="accent_summary">System wide accent maker</string>
@@ -619,8 +620,8 @@
 
     <!-- Themes -->
     <string name="theming_title">Styles &amp; Wallpapers</string>
-    <string name="theme_select_title">Themes</string>
-    <string name="theme_select_summary">Browse and select installed themes</string>
+    <string name="theme_select_title">AncientOS™ Style Theme</string>
+    <string name="theme_select_summary">Browse and select themes</string>
 
     <!-- Old mobile type icons -->
     <string name="use_old_mobiletype_title">Small mobile type icon</string>
