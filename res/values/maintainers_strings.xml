@@ -25,6 +25,7 @@
     <string name="device_category_oneplus_title" translatable="false">oneplus</string>
     <string name="device_category_realme_title" translatable="false">realme</string>
     <string name="device_category_nokia_title" translatable="false">nokia</string>
+    <string name="device_category_motorola_title" translatable="false">motorola</string>
 
     <!-- Device -->
     <string name="device_whyred" translatable="false">Xiaomi Redmi Note 5 Pro</string>
@@ -77,5 +78,8 @@
 
     <string name="device_Plate2" translatable="false">Nokia 6.1 2018</string>
     <string name="device_Plate2_summary" translatable="false">Plate2\nAnkit Kene (ankitkene)</string>
+
+    <string name="device_sanders" translatable="false">Motorola Moto G5S Plus</string>
+    <string name="device_sanders_summary" translatable="false">sanders\nJorge Lucas</string>
 
 </resources>
