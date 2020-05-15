@@ -157,12 +157,6 @@
         android:summary="@string/lockscreen_battery_info_summary"
 	android:defaultValue="true" />
 
-    <com.ancient.settings.preferences.SystemSettingSwitchPreference
-        android:key="lockscreen_enable_qs"
-        android:title="@string/lockscreen_enable_qs_title"
-        android:summary="@string/lockscreen_enable_qs_summary"
-        android:defaultValue="true" />
-
     <PreferenceCategory
         android:key="ls_gestures"
         android:title="@string/gestures_title">
