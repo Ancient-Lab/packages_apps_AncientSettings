@@ -216,4 +216,20 @@
 
      </PreferenceCategory>
 
+    <PreferenceCategory
+        android:id="@+id/device_category_motorola"
+        android:title="@string/device_category_motorola_title">
+
+        <Preference
+            android:id="@+id/device_sanders"
+            android:icon="@drawable/ancient_device"
+            android:summary="@string/device_sanders_summary"
+            android:title="@string/device_sanders">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/JorgeLucas" />
+        </Preference>
+
+     </PreferenceCategory>
+
 </PreferenceScreen>
