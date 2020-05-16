@@ -16,6 +16,8 @@ See the License for the specific language governing permissions and
 limitations under the License.
 -->
 
+<!-- Обращаться по поводу русского перевода к @CakesTwix -->
+
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="ancient_settings_title">Древние Настройки</string>
     <string name="ancient_dashboard_summary">Посвящение в древность</string>
