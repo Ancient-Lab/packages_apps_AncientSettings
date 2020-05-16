@@ -1,22 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright © 2018-19 The rebellion OS Project
-    Copyright © 2019 Ancient OS Project
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-    http://www.apache.org/licenses/LICENSE-2.0
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
+Copyright © 2018-19 The rebellion OS Project
+Copyright © 2019 Ancient OS Project
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
 -->
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="ancient_settings_title">Древние Настройки</string>
     <string name="ancient_dashboard_summary">Посвящение в древность</string>
-	
+
     <!-- Categories -->
     <string name="about_title">О нас</string>
     <string name="animations_title">Анимации</string>
@@ -30,7 +33,7 @@
     <string name="quicksettings_title">Быстрые настройки</string>
     <string name="statusbar_title">Строка состояния</string>
     <string name="battery_title">Батарея</string>
-    <string name="interface_title">Темы</string>
+    <string name="interface_title">Пользовательский интерфейс</string>
 
     <!-- About -->
     <string name="developers_category_title">Разработчики</string>
@@ -43,9 +46,9 @@
     <string name="ancient_developers_septian126" translatable="false">* Developer</string>
     <string name="ancient_developers_kubilhadinata" translatable="false">* Developer</string> 
     <string name="ancient_developers_xyzuan" translatable="false">* Developer</string>
-    <string name="ancient_support_ominous" translatable="false">* Designer</string>
-    <string name="ancient_support_vern" translatable="false">* Theming 1</string>
-    <string name="ancient_support_idontcare" translatable="false">* Theming 2</string>
+    <string name="ancient_support_ominous" translatable="false">* Lead AncientOS Designer</string>
+    <string name="ancient_support_vern" translatable="false">* Designer</string>
+    <string name="ancient_support_idontcare" translatable="false">* Designer</string>
     <string name="ancient_support_maxander" translatable="false">* Pencari Tytyd</string>
     <string name="ancient_support_fadly" translatable="false">* Translator Patchid</string>
     <string name="ancient_support_johan" translatable="false">* Papa Genit</string>
@@ -59,18 +62,18 @@
     <string name="ancient_support_eko" translatable="false">* Tester Team</string>
     <string name="ancient_support_rudie" translatable="false">* Tester Team</string>
     <string name="ancient_support_hen" translatable="false">* Tester Team</string>
-    <string name="device_maintainers_title">Оффициальные устройства</string>
-    <string name="device_maintainers_title_summary">Список устройств и их сопровождающие</string>
+    <string name="device_maintainers_title">Официальные устройства</string>
+    <string name="device_maintainers_title_summary">Списко официальных устройств и их сопровождающие</string>
     <string name="ancient_links">Ссылки</string>
     <string name="ancient_announcements_title">Объявления</string>
-    <string name="ancient_announcements_summary">Оффициальные объявления</string>
-    <string name="ancient_telegram_title">Telegram</string>
-    <string name="ancient_telegram_summary">Канал Telegram</string>
+    <string name="ancient_announcements_summary">Официальные объявления</string>
+    <string name="ancient_telegram_title">Телеграм</string>
+    <string name="ancient_telegram_summary">Канал Телеграм</string>
     <string name="ancient_source_title">Github</string>
-    <string name="ancient_source_summary">Исходники Ancient-OS</string>
+    <string name="ancient_source_summary">Исходний код AncientOS™</string>
     <string name="downloads_title">Скачать</string>
-    <string name="downloads_title_summary">Скачать Ancient-OS для твоего устройства</string>
-	
+    <string name="downloads_title_summary">Скачайте AncientOS™ для своего устройства</string>
+
     <!-- General strings -->
     <string name="ok">Oк</string>
     <string name="reset">Перезагрузить</string>
@@ -88,11 +91,11 @@
     <string name="color_default">По умолчанию</string>
 
     <!-- Navbar tuner -->
-    <string name="navbar_tuner_title">Кнопки панели навигации</string>
+    <string name="navbar_tuner_title">Навигационные кнопки</string>
     <string name="navbar_invert_layout_title">Инвентировать кнопки</string>
-    <string name="navbar_invert_layout_summary">Использовать инверсию для кнопок навигации</string>
+    <string name="navbar_invert_layout_summary">Использовать инверсию для навигационных кнопок</string>
 
-    <!-- Battery Bar -->
+        <!-- Battery Bar -->
     <string name="battery_bar_title">Строка батареи</string>
     <string name="battery_bar_summary">Отредактировать строку батареи</string>
     <string name="battery_bar_location">Местоположение строки батареи</string>
@@ -112,9 +115,9 @@
     <string name="battery_bar_reversed">Перевернутый</string>
     <string name="battery_bar_use_gradient_color">Использовать градиентный цвет</string>
     <string name="battery_bar_gradient_color_summary">Градиент цвета в качестве шкалы уровня заряда батареи</string>
-    <string name="battery_bar_high_color">High level color"</string>
-    <string name="battery_bar_low_color">Low level color"</string>
-
+    <string name="battery_bar_high_color">Цвет при высоком заряде"</string>
+    <string name="battery_bar_low_color">Цвет при низком заряде"</string>
+    
     <!-- QS rows and columns -->
     <string name="qs_column_rows_settings_title">QS панель настроек</string>
     <string name="qs_columns_rows_category_title">QS столбцы и ряд</string>
@@ -129,16 +132,16 @@
     <string name="qs_tile_title_visibility_summary">Отображать заголовок под каждой плиткой</string> 
 
     <!-- Lock screen cover art -->
-    <string name="lockscreen_media_category">Music</string>
-    <string name="media_art_title">Media artwork</string>
+    <string name="lockscreen_media_category">Музыка</string>
+    <string name="media_art_title">Mедиа обложка</string>
     <string name="media_art_summary">Показывать обложку мультимедии в качестве фона экрана блокировки</string>
 
     <!-- Lock screen media blur -->
-    <string name="lockscreen_media_blur_title">Уровень блюра в Media artwork</string>
+    <string name="lockscreen_media_blur_title">Уровень блюра в Медиа обложки</string>
 
     <!-- Lockscreen battery info indicator -->
     <string name="lockscreen_battery_info_title">Информация о зарядке при заблокированном экране</string>
-    <string name="lockscreen_battery_info_summary">Отображение максимального тока и напряжения зарядного устройства и температуры аккумулятора на экране блокировки во время зарядки</string>
+    <string name="lockscreen_battery_info_summary">Отображение максимального тока и напряжения зарядного устройства и температуры аккумулятора на экране блокировки во время зарядки</string
 
     <!-- Statusbar Clock -->
     <string name="clock_style_category_title">Настройки часов</string>
@@ -196,7 +199,7 @@
     <string name="lock_clock_font_condensed_light">Легкий уплотненный</string>
     <string name="lock_clock_font_condensed_light_italic">Легкий уплотненный курсив</string>
     <string name="lock_clock_font_medium_normal">Средний</string>
-    <string name="lock_clock_font_medium_italic">Средний Italic</string>
+    <string name="lock_clock_font_medium_italic">Средний курсив</string>
     <string name="lock_clock_font_black">Черный</string>
     <string name="lock_clock_font_black_italic">Черный курсив</string>
     <string name="lock_clock_font_dancingscript">DancingScript</string>
@@ -230,14 +233,14 @@
     <string name="summary_dashboard_conditions_disabled">Dashboard conditions are disabled</string>
     <string name="dashboard_suggestions_title">Dashboard suggestions</string>
     <string name="summary_dashboard_suggestions_enabled">Dashboard suggestions are enabled</string>
-    <string name="summary_dashboard_suggestions_disabled">Dashboard suggestions are disabled</string> 
+    <string name="summary_dashboard_suggestions_disabled">Dashboard suggestions are disabled</string>  
 
     <!-- QS SystemInfo -->
     <string name="qs_system_info_title">Информация о системе</string>
     <string name="qs_system_info_off">Не показывать</string>
     <string name="qs_system_info_cpu_temp">Температура процессора</string>
     <string name="qs_system_info_gpu_busy">Нагрузка на видеоядро</string>
-
+    
     <!-- Battery mode -->
     <string name="battery_mode_title">Стиль батареи</string>
     <string name="battery_mode_summary">Настроить SB в QS Батареи</string>
@@ -255,15 +258,15 @@
     <string name="status_bar_battery_style_icon_portrait">Портретная иконка</string>
     <string name="status_bar_battery_style_circle">Круг</string>
     <string name="status_bar_battery_style_dotted_circle">Круг (Пунктирный)</string>
-    <string name="status_bar_battery_style_filled_circle">Circle (Заполненный)</string>
-    <string name="status_bar_battery_style_hidden">Спрятать</string>
+    <string name="status_bar_battery_style_filled_circle">Круг (Заполненный)</string>
+    <string name="status_bar_battery_style_hidden">Скрыть</string>
     <string name="status_bar_battery_text_charging_title">Процент батареи при зарядке</string>
-    <string name="status_bar_battery_text_charging_summary">Всегда отображать процент заряда батареи при зарядке</string>
+    <string name="status_bar_battery_text_charging_summary">Всегда отображать процент заряда батареи при зарядке</string
 
     <!-- Quick settings brightness slider -->
     <string name="qs_brightness_slider">Ползунок Яркости</string>
     <string name="qs_brightness_slider_title">Местоположение слайдера</string>
-    <string name="qs_brightness_slider_hide">Спрятать</string>
+    <string name="qs_brightness_slider_hide">Скрыть</string>
     <string name="qs_brightness_slider_top">Верху</string>
     <string name="qs_brightness_slider_bottom">Снизу</string>
 
@@ -272,12 +275,12 @@
     <string name="brightness_icon_summary">Показать переключатель для адаптивной яркости рядом с ползунком</string>
 
     <!-- Volume Key -->
-    <string name="volume_title">Громкость</string>
-    <string name="volume_summary">Настройка параметров для кнопок громкости</string>
+    <string name="volume_title">Volume Rockers</string>
+    <string name="volume_summary">Customize settings for volume buttons</string>
 
-    <!-- Volume rocker music control -->
-    <string name="volume_rocker_music_controls_title">Управление воспроизведением</string>
-    <string name="volume_rocker_music_controls_summary">Когда экран выключен, длительное нажатие клавиш регулировки громкости будет переключать музыкальные треки</string>
+    <!-- Volume Key -->
+    <string name="volume_title">Громкость</string>
+    <string name="volume_summary">Настройка параметров для кнопок громкости</string
 
     <!-- Volume rocker wake -->
     <string name="volume_rocker_wake_title">Пробудить устройство</string>
@@ -296,7 +299,8 @@
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Свайп для скриншота</string>
     <string name="three_finger_gesture_summary">Свайп вниз тремя пальцами, чтобы сделать скриншот</string>
-    <string name="aosp_gesture_title">AOSP Жесты</string>
+    <string name="aosp_gesture_title">Системные жесты</string>
+    <string name="aosp_gesture_title_summary">Системные жесты и управление по умолчанию</string>
 
     <!-- Custom Ambient Display Config -->
     <string name="ambient_display_custom_title">Ambient Display</string>
@@ -322,8 +326,8 @@
     <string name="network_traffic_autohide_threshold_title">Порог автоскрытия индикатора</string>
     <string name="network_traffic_hidearrow">Стрелки активности</string>
     <string name="network_traffic_hidearrow_summary">Показать стрелки индикатора сетевого трафика</string>
-    <string name="network_traffic_type">Activity type</string>
-    <string name="network_traffic_layout">Activity layout</string>
+    <string name="network_traffic_type">Тип активности</string>
+    <string name="network_traffic_layout">Расположение</string>
     <string name="network_traffic_layout_h">Горизонтальный</string>
     <string name="network_traffic_layout_v">Вертикальный</string>
     <string name="show_network_traffic_combined">Комбинированный (Upload + Download)</string>
@@ -362,7 +366,7 @@
     <string name="battery_fully_charged_notif_title">Батарея полностью заряжена</string>
     <string name="battery_fully_charged_notif_summary">Показать уведомление, когда батарея полностью заряжена</string>
 
-    <!-- Smart charging -->
+ <!-- Smart charging -->
     <string name="smart_charging_title">Умная зарядка</string>
     <string name="smart_charging_summary">Установить порог зарядки</string>
     <string name="smart_charging_switch_title">Включить умную зарядку</string>
@@ -409,7 +413,7 @@
 
     <!-- Incall Home button behavior-->
     <string name="allow_incall_home_title">Кнопка Домой при звонке</string>
-    <string name="allow_incall_home_summary">Разрешить использовать кнопку Домой, когда устройство звонит</string> 
+    <string name="allow_incall_home_summary">Разрешить использовать кнопку Домой, когда устройство звонит</string>
 
     <!-- Buttons backlight timeout -->
     <string name="backlight_timeout_title">Длительность подсветки кнопок</string>
@@ -423,8 +427,8 @@
     <string name="backlight_timeout_30s">30 сек</string>
 
     <!-- Enable keys backlight-->
-    <string name="button_brightness_title">Подсветка</string>
-    <string name="button_brightness_sw_title">Включить подсветку</string>
+    <string name="button_brightness_title">Подсветка клавиш</string>
+    <string name="button_brightness_sw_title">Включить подсветку клавиш</string>
     <string name="button_backlight_on_touch_only_title">По касанию кнопки</string>
     <string name="button_backlight_on_touch_only_summary">Включить подсветку с тайм-аутом только при нажатии кнопки</string>
 
@@ -460,7 +464,7 @@
     <string name="hardware_keys_category">Аппаратные кнопки</string>
     <string name="hardware_keys_disable_title">Отключить кнопки</string>
     <string name="hardware_keys_disable_summary">Отключить аппаратные кнопки устройства</string>
-
+    
     <!-- ANBI -->
     <string name="anbi_title">Случайные нажатия</string>
     <string name="anbi_summary">Предовратить взаимодействие с кнопками навигации во время касания экрана</string>
@@ -739,4 +743,85 @@
     <string name="notification_guts_kill_app_button_title">Убрать все</string>
     <string name="notification_guts_kill_app_button_summary">Показывать кнопку "Скрыть все уведомления" в меню длинного нажатия</string>
   
+    <!-- Fonts Carrier -->
+    <string name="default_string">По умолчанию</string>
+    <string name="font_style_title">Шрифт</string>
+    <string name="font_normal">Нормальный</string>
+    <string name="font_italic">Курсив</string>
+    <string name="font_bold">Жирный</string>
+    <string name="font_bold_italic">Жирный курсив</string>
+    <string name="font_light">Легкий</string>
+    <string name="font_light_italic">Легкий курсив</string>
+    <string name="font_thin">Тонкий</string>
+    <string name="font_thin_italic">Тонкий курсив</string>
+    <string name="font_condensed">Уплотненный</string>
+    <string name="font_condensed_italic">Уплотненный курсив</string>
+    <string name="font_condensed_light">Уплотненный легкий</string>
+    <string name="font_condensed_light_italic">Уплотненный легкий курсив</string>
+    <string name="font_condensed_bold">Уплотненный жирный</string>
+    <string name="font_condensed_bold_italic">Уплотненный жирный курсив</string>
+    <string name="font_medium">Средний</string>
+    <string name="font_medium_italic">Средний курсив</string>
+    <string name="font_black">Черный</string>
+    <string name="font_black_italic">Черный курсив</string>
+    <string name="font_dancingscript">DancingScript</string>
+    <string name="font_dancingscript_bold">DancingScript (жирный)</string>
+    <string name="font_comingsoon">ComingSoon</string>
+    <string name="font_notoserif">NotoSerif</string>
+    <string name="font_notoserif_italic">NotoSerif (курсив)</string>
+    <string name="font_notoserif_bold">NotoSerif (жирный)</string>
+    <string name="font_notoserif_bold_italic">NotoSerif (жирный курсив)</string>
+    <string name="font_aclonica">Aclonica</string>
+    <string name="font_amarante">Amarante</string>
+    <string name="font_bariol">Bariol</string>
+    <string name="font_cagliostro">Cagliostro</string>
+    <string name="font_coolstory">CoolStory</string>
+    <string name="font_lgsmartgothic">LGSmartGothic</string>
+    <string name="font_rosemary">Rosemary</string>
+    <string name="font_sonysketch">SonySketch</string>
+    <string name="font_surfer">Surfer</string>
+    <string name="font_comicsans">ComicSans</string>
+    <string name="font_googlesans">GoogleSans</string>
+    <string name="font_oneplusslate">OneplusSlate</string>
+    <string name="font_samsungone">SamsungOne</string>
+    <string name="font_size_title">Размер шрифта</string>
+
+    <!-- Lockscreen clock font size -->
+    <string name="lock_date_font_size_title">Размер шрифта даты</string>
+    <string name="clock_font_size_title">Размер шрифта часов</string>
+
+    <!-- LS OwnerInfo Font & Size -->
+    <string name="owner_info_category">О владельце</string>
+    <string name="lock_ownerinfo_font_title">Шрифт</string>
+    <string name="lockowner_font_size_title">Размер шрифта</string>
+
+    <!-- R Notification headers -->
+    <string name="notification_headers_title">Показать заголовки уведомлений</string>
+    <string name="notification_headers_summary">Отображать ли заголовки уведомлений в стиле R (требуется перезапуск SystemUI)</string>
+
+    <!-- Quick settings on secure lockscreen -->
+    <string name="lockscreen_enable_qs_title">Быстрые настройки</string>
+    <string name="lockscreen_enable_qs_summary">Разрешить доступ к быстрым настройкам на безопасном экране блокировки</string>	
+
+    <!-- QS data usage -->
+    <string name="qs_datausage_title">Показать использование данных в заголовке QS</string>
+    <string name="qs_datausage_subtitle">Показать использование данных в заголовке быстрых настроек сим-карты, используемый для данных</string>
+
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Вибрация вызова</string>
+    <string name="incall_vibrate_connect_title">Вибрировать при принятия вызова</string>
+    <string name="incall_vibrate_connect_summary">Включить вибрирование после соединения вызова</string>
+    <string name="incall_vibrate_call_wait_title">Вибрировать при ожидании вызова</string>
+    <string name="incall_vibrate_call_wait_summary">Включить вибрацию при ожидании вызова</string>
+    <string name="incall_vibrate_disconnect_title">Вибрация при отключении</string>
+    <string name="incall_vibrate_disconnect_summary">Включить вибрацию после отключения вызова</string>
+
+    <!-- Smart Pixels -->
+    <string name="smart_pixels_title">Умные пиксели</string>
+    <string name="smart_pixels_summary">Экономьте заряд батареи, отключив дополнительные пиксели</string>
+    <string name="smart_pixels_on_power_save_title">Автоматическое включение экономии заряда батареи</string>
+    <string name="smart_pixels_on_power_save_summary">Включите экономию заряда батареи, чтобы увеличить энергосбережение</string>
+    <string name="smart_pixels_percent">Процент отключенных пикселей</string>
+    <string name="smart_pixels_shift">Интервал защиты от выгорания</string>
+    
 </resources> 
