@@ -1,28 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-Copyright © 2018-19 The rebellion OS Project
-Copyright © 2019 Ancient OS Project
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+    Copyright © 2018-19 The rebellion OS Project
+    Copyright © 2019 Ancient OS Project
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+    http://www.apache.org/licenses/LICENSE-2.0
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
 -->
-
-<!-- Обращаться по поводу русского перевода к @CakesTwix -->
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="ancient_settings_title">Древние Настройки</string>
     <string name="ancient_dashboard_summary">Посвящение в древность</string>
-
-
 
     <!-- Categories -->
     <string name="about_title">О нас</string>
@@ -78,6 +71,7 @@ limitations under the License.
     <string name="ancient_source_summary">Исходний код AncientOS™</string>
     <string name="downloads_title">Скачать</string>
     <string name="downloads_title_summary">Скачайте AncientOS™ для своего устройства</string>
+    
     <!-- General strings -->
     <string name="ok">Oк</string>
     <string name="reset">Перезагрузить</string>
@@ -279,14 +273,12 @@ limitations under the License.
     <string name="brightness_icon_summary">Показать переключатель для адаптивной яркости рядом с ползунком</string>
 
     <!-- Volume Key -->
-
     <string name="volume_title">Громкость</string>
     <string name="volume_summary">Настройка параметров для кнопок громкости</string>
-
-    <!-- Volume rocker music control -->
+        
+        <!-- Volume rocker music control -->
     <string name="volume_rocker_music_controls_title">Управление воспроизведением</string>
     <string name="volume_rocker_music_controls_summary">Когда экран выключен, длительное нажатие клавиш регулировки громкости будет переключать музыкальные треки</string>
-
 
     <!-- Volume rocker wake -->
     <string name="volume_rocker_wake_title">Пробудить устройство</string>
