@@ -87,13 +87,7 @@
             android:summary="@string/status_bar_logo_category_summary"
             android:fragment="com.ancient.settings.fragments.StatusBarLogo" />
 
-    <Preference
-            android:key="status_bar_custom_header"
-            android:fragment="com.ancient.settings.fragments.QsHeader"
-            android:title="@string/status_bar_custom_header_title"
-            android:summary="@string/status_bar_custom_header_summary"
-            android:defaultValue="false" />
-
+   
     </PreferenceCategory>
 
     <PreferenceCategory

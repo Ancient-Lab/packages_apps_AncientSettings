@@ -18,26 +18,6 @@
     android:title="@string/interface_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-     <PreferenceCategory
-                android:key="dashboard_category"
-                android:title="@string/dashboard_category">
-
-        <com.ancient.settings.preferences.SystemSettingSwitchPreference
-                android:key="enable_conditions"
-                android:title="@string/dashboard_conditions_title"
-                android:summaryOn="@string/summary_dashboard_conditions_enabled"
-                android:summaryOff="@string/summary_dashboard_conditions_disabled"
-                android:defaultValue="true" />
-
-         <com.ancient.settings.preferences.SystemSettingSwitchPreference
-                android:key="enable_suggestions"
-                android:title="@string/dashboard_suggestions_title"
-                android:summaryOn="@string/summary_dashboard_suggestions_enabled"
-                android:summaryOff="@string/summary_dashboard_suggestions_disabled"
-                android:defaultValue="true" />
-
-      </PreferenceCategory>
-
     <PreferenceCategory
         android:key="category_theming"
         android:title="@string/theming_title">
@@ -58,6 +38,13 @@
         android:key="theme_customization_category"
         android:title="@string/theme_customization_category">
 
+        <Preference
+            android:key="status_bar_custom_header"
+            android:fragment="com.ancient.settings.fragments.QsHeader"
+            android:title="@string/status_bar_custom_header_title"
+            android:summary="@string/status_bar_custom_header_summary"
+            android:defaultValue="false" />
+        
      <Preference
          android:key="theme_room"
          android:title="@string/themeroom_title"

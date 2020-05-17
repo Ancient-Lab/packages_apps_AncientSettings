@@ -22,6 +22,8 @@ limitations under the License.
     <string name="ancient_settings_title">Древние Настройки</string>
     <string name="ancient_dashboard_summary">Посвящение в древность</string>
 
+
+
     <!-- Categories -->
     <string name="about_title">О нас</string>
     <string name="animations_title">Анимации</string>
@@ -36,6 +38,7 @@ limitations under the License.
     <string name="statusbar_title">Строка состояния</string>
     <string name="battery_title">Батарея</string>
     <string name="interface_title">Пользовательский интерфейс</string>
+
 
     <!-- About -->
     <string name="developers_category_title">Разработчики</string>
@@ -75,7 +78,6 @@ limitations under the License.
     <string name="ancient_source_summary">Исходний код AncientOS™</string>
     <string name="downloads_title">Скачать</string>
     <string name="downloads_title_summary">Скачайте AncientOS™ для своего устройства</string>
-
     <!-- General strings -->
     <string name="ok">Oк</string>
     <string name="reset">Перезагрузить</string>
@@ -93,11 +95,11 @@ limitations under the License.
     <string name="color_default">По умолчанию</string>
 
     <!-- Navbar tuner -->
-    <string name="navbar_tuner_title">Навигационные кнопки</string>
+    <string name="navbar_tuner_title">Кнопки панели навигации</string>
     <string name="navbar_invert_layout_title">Инвентировать кнопки</string>
-    <string name="navbar_invert_layout_summary">Использовать инверсию для навигационных кнопок</string>
+    <string name="navbar_invert_layout_summary">Использовать инверсию для кнопок навигации</string>
 
-        <!-- Battery Bar -->
+    <!-- Battery Bar -->
     <string name="battery_bar_title">Строка батареи</string>
     <string name="battery_bar_summary">Отредактировать строку батареи</string>
     <string name="battery_bar_location">Местоположение строки батареи</string>
@@ -242,7 +244,7 @@ limitations under the License.
     <string name="qs_system_info_off">Не показывать</string>
     <string name="qs_system_info_cpu_temp">Температура процессора</string>
     <string name="qs_system_info_gpu_busy">Нагрузка на видеоядро</string>
-    
+
     <!-- Battery mode -->
     <string name="battery_mode_title">Стиль батареи</string>
     <string name="battery_mode_summary">Настроить SB в QS Батареи</string>
@@ -277,12 +279,14 @@ limitations under the License.
     <string name="brightness_icon_summary">Показать переключатель для адаптивной яркости рядом с ползунком</string>
 
     <!-- Volume Key -->
-    <string name="volume_title">Volume Rockers</string>
-    <string name="volume_summary">Customize settings for volume buttons</string>
 
-    <!-- Volume Key -->
     <string name="volume_title">Громкость</string>
-    <string name="volume_summary">Настройка параметров для кнопок громкости</string
+    <string name="volume_summary">Настройка параметров для кнопок громкости</string>
+
+    <!-- Volume rocker music control -->
+    <string name="volume_rocker_music_controls_title">Управление воспроизведением</string>
+    <string name="volume_rocker_music_controls_summary">Когда экран выключен, длительное нажатие клавиш регулировки громкости будет переключать музыкальные треки</string>
+
 
     <!-- Volume rocker wake -->
     <string name="volume_rocker_wake_title">Пробудить устройство</string>
@@ -368,7 +372,8 @@ limitations under the License.
     <string name="battery_fully_charged_notif_title">Батарея полностью заряжена</string>
     <string name="battery_fully_charged_notif_summary">Показать уведомление, когда батарея полностью заряжена</string>
 
- <!-- Smart charging -->
+
+    <!-- Smart charging -->
     <string name="smart_charging_title">Умная зарядка</string>
     <string name="smart_charging_summary">Установить порог зарядки</string>
     <string name="smart_charging_switch_title">Включить умную зарядку</string>
@@ -466,7 +471,7 @@ limitations under the License.
     <string name="hardware_keys_category">Аппаратные кнопки</string>
     <string name="hardware_keys_disable_title">Отключить кнопки</string>
     <string name="hardware_keys_disable_summary">Отключить аппаратные кнопки устройства</string>
-    
+
     <!-- ANBI -->
     <string name="anbi_title">Случайные нажатия</string>
     <string name="anbi_summary">Предовратить взаимодействие с кнопками навигации во время касания экрана</string>
@@ -826,4 +831,5 @@ limitations under the License.
     <string name="smart_pixels_percent">Процент отключенных пикселей</string>
     <string name="smart_pixels_shift">Интервал защиты от выгорания</string>
     
+
 </resources> 

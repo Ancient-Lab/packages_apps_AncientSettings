@@ -30,13 +30,6 @@
            android:entryValues="@array/lockscreen_clock_values"
            android:defaultValue="2" />
 
-        <com.ancient.settings.preferences.SystemSettingSwitchPreference
-            android:key="lockscreen_status_bar"
-            android:icon="@drawable/ic_shapes"
-            android:title="@string/lockscreen_status_bar_title"
-            android:summary="@string/lockscreen_status_bar_summary"
-            android:defaultValue="true" />
-
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -44,11 +37,28 @@
         android:title="@string/lockscreen_clockdate_category">
 
         <com.ancient.settings.preferences.SystemSettingListPreference
-            android:key="lock_clock_font_style"
-            android:title="@string/clock_font_style_title"
-            android:entries="@array/font_style_entries"
-            android:entryValues="@array/font_style_values"
-            android:defaultValue="4" />
+            android:entries="@array/lock_clock_fonts_entries" 
+            android:title="@string/lock_clock_font_title" 
+            android:key="lock_clock_font_style" 
+            android:defaultValue="4" 
+            android:dialogTitle="@string/lock_clock_font_dialog_title" 
+            android:entryValues="@array/lock_clock_fonts_values" />
+
+        <com.ancient.settings.preferences.SystemSettingSeekBarPreference
+            android:key="lock_date_font_size"
+            android:title="@string/lock_date_font_size_title"
+            android:max="25"
+            settings:min="10"
+            settings:units="dp"
+            android:defaultValue="18" />
+	    
+	<com.ancient.settings.preferences.SystemSettingSeekBarPreference
+            android:key="lock_clock_font_size"
+            android:title="@string/clock_font_size_title"
+            android:max="108"
+            settings:min="54"
+            settings:units="dp"
+            android:defaultValue="58" />
 
         <com.ancient.settings.preferences.SystemSettingListPreference
             android:key="lockscreen_date_selection"
@@ -59,13 +69,35 @@
             android:defaultValue="0" />
 
         <com.ancient.settings.preferences.SystemSettingListPreference
-            android:key="lock_date_font_style"
-            android:title="@string/date_font_style_title"
-            android:entries="@array/font_style_entries"
-            android:entryValues="@array/font_style_values"
-            android:defaultValue="14" />
+            android:entries="@array/lock_date_fonts_entries"
+            android:title="@string/lock_date_font_title" 
+            android:key="lock_date_fonts" 
+            android:defaultValue="4" 
+            android:dialogTitle="@string/lock_date_font_dialog_title" 
+            android:entryValues="@array/lock_date_fonts_values" /> 
 
     </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="owner_info_category"
+        android:title="@string/owner_info_category">
+
+        <com.ancient.settings.preferences.SystemSettingListPreference
+            android:key="lock_ownerinfo_fonts"
+            android:title="@string/lock_ownerinfo_font_title"
+            android:entries="@array/lock_clock_fonts_entries"
+            android:entryValues="@array/lock_clock_fonts_values"
+            android:defaultValue="4" />
+
+        <com.ancient.settings.preferences.SystemSettingSeekBarPreference
+            android:key="lockowner_font_size"
+            android:title="@string/lockowner_font_size_title"
+            android:max="25"
+            settings:min="10"
+            settings:units="dp"
+            android:defaultValue="18" />
+
+    </PreferenceCategory>	
 
     <PreferenceCategory
         android:key="ls_unlocking_title"
@@ -112,6 +144,12 @@
             android:dependency="lockscreen_media_metadata" />
 
     </PreferenceCategory>
+
+    <com.ancient.settings.preferences.SystemSettingSwitchPreference
+        android:key="lockscreen_status_bar"
+        android:title="@string/lockscreen_status_bar_title"
+        android:summary="@string/lockscreen_status_bar_summary"
+        android:defaultValue="true" />
 
     <com.ancient.settings.preferences.SystemSettingSwitchPreference
         android:key="lockscreen_battery_info"
