@@ -139,7 +139,7 @@
 
     <!-- Lockscreen battery info indicator -->
     <string name="lockscreen_battery_info_title">Информация о зарядке при заблокированном экране</string>
-    <string name="lockscreen_battery_info_summary">Отображение максимального тока и напряжения зарядного устройства и температуры аккумулятора на экране блокировки во время зарядки</string
+    <string name="lockscreen_battery_info_summary">Отображение максимального тока и напряжения зарядного устройства и температуры аккумулятора на экране блокировки во время зарядки</string>
 
     <!-- Statusbar Clock -->
     <string name="clock_style_category_title">Настройки часов</string>
