@@ -230,6 +230,16 @@
                 android:data="https://t.me/JorgeLucas" />
         </Preference>
 
+        <Preference
+            android:id="@+id/device_potter"
+            android:icon="@drawable/ancient_device"
+            android:summary="@string/device_potter_summary"
+            android:title="@string/device_potter">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/ZJRDroid" />
+        </Preference>
+
      </PreferenceCategory>
 
 </PreferenceScreen>

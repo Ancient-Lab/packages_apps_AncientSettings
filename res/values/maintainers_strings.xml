@@ -82,4 +82,6 @@
     <string name="device_sanders" translatable="false">Motorola Moto G5S Plus</string>
     <string name="device_sanders_summary" translatable="false">sanders\nJorge Lucas</string>
 
+    <string name="device_potter" translatable="false">Motorola Moto G5 Plus</string>
+    <string name="device_potter_summary" translatable="false">potter\nZilberto Junior</string>
 </resources>
