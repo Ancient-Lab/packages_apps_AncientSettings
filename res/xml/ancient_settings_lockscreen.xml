@@ -48,6 +48,7 @@
             android:key="lock_date_font_size"
             android:title="@string/lock_date_font_size_title"
             android:max="25"
+            android:min="10"
             settings:min="10"
             settings:units="dp"
             android:defaultValue="18" />
@@ -56,6 +57,7 @@
             android:key="lock_clock_font_size"
             android:title="@string/clock_font_size_title"
             android:max="108"
+            android:min="54"
             settings:min="54"
             settings:units="dp"
             android:defaultValue="58" />
@@ -93,6 +95,7 @@
             android:key="lockowner_font_size"
             android:title="@string/lockowner_font_size_title"
             android:max="25"
+            android:min="10"
             settings:min="10"
             settings:units="dp"
             android:defaultValue="18" />
@@ -137,7 +140,8 @@
             android:key="lockscreen_media_blur"
             android:title="@string/lockscreen_media_blur_title"
             android:max="100"
-            settings:min="5"
+            android:min="1"
+            settings:min="1"
             settings:units="%"
             settings:interval="5"
             android:defaultValue="100"
