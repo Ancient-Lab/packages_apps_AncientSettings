@@ -20,7 +20,7 @@
         android:key="lockscreen_visualizer"
         android:title="@string/lockscreen_visualizer_title"
         android:summary="@string/lockscreen_visualizer_summary"
-        android:defaultValue="true" />
+        android:defaultValue="false" />
 
     <com.ancient.settings.preferences.SecureSettingSwitchPreference
        android:key="lockscreen_visualizer_autocolor"
@@ -33,7 +33,7 @@
         android:key="lockscreen_lavalamp_enabled"
         android:title="@string/lockscreen_lavalamp_title"
         android:summary="@string/lockscreen_lavalamp_summary"
-        android:defaultValue="true"
+        android:defaultValue="false"
         android:dependency="lockscreen_visualizer"/>
 
     <com.ancient.settings.preferences.CustomSecureSeekBarPreference
