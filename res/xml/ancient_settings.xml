@@ -119,14 +119,7 @@
             android:fragment="com.ancient.settings.fragments.Misc"
             android:icon="@drawable/ic_settings_misc"/>
 
-        <!-- Game Mode -->
-        <Preference
-            android:key="gaming_mode_enabled"
-            android:title="@string/gaming_mode_title"
-            android:fragment="com.ancient.settings.fragments.GamingMode"
-            android:icon="@drawable/ic_game_mode" />
-
-        <!-- About -->
+	<!-- About -->
         <Preference
             android:key="about_category"
             android:title="@string/about_title"
