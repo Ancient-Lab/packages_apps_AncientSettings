@@ -240,6 +240,16 @@
                 android:data="https://t.me/ZJRDroid" />
         </Preference>
 
+        <Preference
+            android:id="@+id/device_river"
+            android:icon="@drawable/ancient_device"
+            android:summary="@string/device_river_summary"
+            android:title="@string/device_river">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/TailanCunha" />
+        </Preference>
+
      </PreferenceCategory>
 
 </PreferenceScreen>
