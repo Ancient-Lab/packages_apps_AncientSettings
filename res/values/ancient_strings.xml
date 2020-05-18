@@ -755,23 +755,6 @@ limitations under the License.
     <string name="lockscreen_status_bar_title">Status bar</string>
     <string name="lockscreen_status_bar_summary">Display status bar on the lockscreen</string>
 
-    <!-- Lock screen visualizer -->
-    <string name="lockscreenholder_title">LockScreen Holder</string>
-    <string name="lockscreen_visualizer_title">LockScreen Visualizer</string>
-    <string name="lockscreen_visualizer_enable">Music Visualizer</string>
-    <string name="lockscreen_visualizer_enable_summary">Show visualizer bars while playing music</string>
-    <string name="lockscreen_visualizer_summary">Display music visualizer when available</string>
-    <string name="lockscreen_autocolor_title">Automatic color</string>
-    <string name="lockscreen_autocolor_summary">Sync color with background</string>
-    <string name="lockscreen_autocolor_lavalamp">Requires lava lamp disabled</string>
-    <string name="lockscreen_lavalamp_title">Lava lamp</string>
-    <string name="lockscreen_lavalamp_summary">Animate smooth lava lamp style color blend</string>
-    <string name="lockscreen_lavalamp_speed_title">Lava lamp color blend interval</string>
-    <string name="lockscreen_solid_units_count_title">Solid lines count</string>
-    <string name="lockscreen_solid_fudge_factor_title">Sanity level</string>
-    <string name="lockscreen_solid_units_opacity_title">Solid lines opacity</string>
-    <string name="unit_milliseconds">ms</string>
-
     <!-- Audio Panel view  -->
     <string name="audio_panel_view">Audio panel</string>
     <string name="audio_panel_view_media_title">Media</string>
