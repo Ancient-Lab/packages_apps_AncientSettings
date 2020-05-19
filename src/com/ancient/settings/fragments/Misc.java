@@ -39,10 +39,8 @@ public class Misc extends SettingsPreferenceFragment
     public static final String TAG = "Misc";
 
     private static final String SMART_PIXELS_ENABLED = "smart_pixels_enable";
-    private static final String GAMING_MODE_ENABLED = "gaming_mode_enabled";
 
     private SystemSettingMasterSwitchPreference mSmartPixelsEnabled;
-    private SystemSettingMasterSwitchPreference mGamingMode;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -54,11 +52,6 @@ public class Misc extends SettingsPreferenceFragment
         int smartPixelsEnabled = Settings.System.getInt(getContentResolver(),
                 SMART_PIXELS_ENABLED, 0);
         mSmartPixelsEnabled.setChecked(smartPixelsEnabled != 0);
-
-        mGamingMode = (SystemSettingMasterSwitchPreference) findPreference(GAMING_MODE_ENABLED);
-        mGamingMode.setChecked((Settings.System.getInt(getActivity().getContentResolver(),
-                Settings.System.GAMING_MODE_ENABLED, 0) == 1));
-        mGamingMode.setOnPreferenceChangeListener(this);
 
         if (!getResources().getBoolean(com.android.internal.R.bool.config_enableSmartPixels)) {
             getPreferenceScreen().removePreference(mSmartPixelsEnabled);
@@ -74,11 +67,6 @@ public class Misc extends SettingsPreferenceFragment
             boolean value = (Boolean) newValue;
             Settings.System.putInt(getContentResolver(),
 		            SMART_PIXELS_ENABLED, value ? 1 : 0);
-            return true;
-        } else if (preference == mGamingMode) {
-            boolean value = (Boolean) newValue;
-            Settings.System.putInt(getActivity().getContentResolver(),
-                    Settings.System.GAMING_MODE_ENABLED, value ? 1 : 0);
             return true;
         }
         return false;
