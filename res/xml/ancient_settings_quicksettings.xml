@@ -124,6 +124,12 @@
             android:summary="%s"
             android:defaultValue="1" />
 
+        <com.ancient.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_new_bg_enabled"
+            android:title="@string/qs_new_bg_title"
+            android:summary="@string/qs_new_bg_summary"
+            android:defaultValue="false" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
