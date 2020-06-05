@@ -275,11 +275,7 @@ limitations under the License.
     <string name="brightness_icon_summary">Показать переключатель для адаптивной яркости рядом с ползунком</string>
 
     <!-- Volume Key -->
-    <string name="volume_title">Volume Rockers</string>
-    <string name="volume_summary">Customize settings for volume buttons</string>
-
-    <!-- Volume Key -->
-    <string name="volume_title">Громкость</string>
+    <string name="volume_title">Кнопки громкости</string>
     <string name="volume_summary">Настройка параметров для кнопок громкости</string
 
     <!-- Volume rocker wake -->
