@@ -40,11 +40,11 @@
             android:summary="@string/alarm_blocker_summary"
             android:fragment="com.ancient.settings.fragments.AlarmBlocker" />
 
-        <com.ancient.settings.preferences.SystemSettingSwitchPreference
-            android:key="sensor_block"
+       <PreferenceScreen
+            android:key="sensor_block_settings"
             android:title="@string/sensor_block_title"
             android:summary="@string/sensor_block_summary"
-            android:defaultValue="false" />
+            android:fragment="com.ancient.settings.fragments.SensorBlock" />
 
     </PreferenceCategory>
 
