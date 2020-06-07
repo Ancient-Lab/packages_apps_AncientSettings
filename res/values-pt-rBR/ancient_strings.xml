@@ -17,9 +17,9 @@
 -->
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="ancient_settings_title">Recursos Ancient</string>
-    <string name="ancient_dashboard_summary">Recursos dedicados da Ancient</string>
-	
+    <string name="ancient_settings_title">Ancient OS ARK™</string>
+    <string name="ancient_dashboard_summary">Centro de recursos do AncientOS</string>
+
     <!-- Categories -->
     <string name="about_title">Sobre</string>
     <string name="animations_title">Animações</string>
@@ -33,7 +33,7 @@
     <string name="quicksettings_title">Configurações Rápidas</string>
     <string name="statusbar_title">Barra de Status</string>
     <string name="battery_title">Bateria</string>
-    <string name="interface_title">Temas</string>
+    <string name="interface_title">Interface do Usuário</string>
 
     <!-- About -->
     <string name="developers_category_title">Desenvolvedores</string>
@@ -50,7 +50,7 @@
     <string name="ancient_source_summary">Código-fonte da Ancient-OS</string>
     <string name="downloads_title">Downloads</string>
     <string name="downloads_title_summary">Faça o download da Ancient-OS para o seu dispositivo</string>
-	
+
     <!-- General strings -->
     <string name="ok">OK</string>
     <string name="reset">Redefinir</string>
@@ -96,10 +96,8 @@
     <string name="battery_bar_low_color">Cor de nível baixo"</string>
 
     <!-- Quick settings tiles columns and rows config -->
-    <string name="qs_layout_category">Layout</string>
     <string name="qs_columns_portrait_title">Colunas (Paisagem)</string>
     <string name="qs_columns_landscape_title">Colunas (Retrato)</string>
-    <string name="sysui_qqs_count_title">Colunas (Barra rápida)</string>
     <string name="qs_tile_title_visibility_title">Título do bloco</string>
     <string name="qs_tile_title_visibility_summary">Exibir título abaixo de cada bloco</string>
 
@@ -156,42 +154,11 @@
     <string name="lock_clock_font_title">Opções de fonte do relógio</string>
     <string name="lock_clock_font_summary">Alterar a fonte padrão do widget de relógio da tela de bloqueio</string>
     <string name="lock_clock_font_dialog_title">Selecionar fonte do relógio de bloqueio</string>
-    <string name="lock_clock_font_stock">Normal (padrão)</string>
-    <string name="lock_clock_font_bold">Negrito</string>
-    <string name="lock_clock_font_italic">Itálico</string>
-    <string name="lock_clock_font_bold_italic">Negrito Itálico</string>
-    <string name="lock_clock_font_light_italic">Leve Itálico</string>
-    <string name="lock_clock_font_thin_italic">Fino Itálico</string>
-    <string name="lock_clock_font_light">Leve</string>
-    <string name="lock_clock_font_thin">Fino</string>
-    <string name="lock_clock_font_condensed_normal">Condensado</string>
-    <string name="lock_clock_font_condensed_italic">Condensado Itálico</string>
-    <string name="lock_clock_font_condensed_bold">Condensado Negrito</string>
-    <string name="lock_clock_font_condensed_bold_italic">Condensado Negrito Itálico</string>
-    <string name="lock_clock_font_condensed_light">Condensado Leve</string>
-    <string name="lock_clock_font_condensed_light_italic">Condensado Leve Itálico</string>
-    <string name="lock_clock_font_medium_normal">Médio</string>
-    <string name="lock_clock_font_medium_italic">Médio Itálico</string>
-    <string name="lock_clock_font_black">Preto</string>
-    <string name="lock_clock_font_black_italic">Black Itálico</string>
-    <string name="lock_clock_font_dancingscript">DancingScript</string>
-    <string name="lock_clock_font_dancingscript_bold">DancingScript Negrito</string>
-    <string name="lock_clock_font_comingsoon">ComingSoon</string>
-    <string name="lock_clock_font_notoserif">NotoSerif Normal</string>
-    <string name="lock_clock_font_notoserif_italic">NotoSerif Itálico</string>
-    <string name="lock_clock_font_notoserif_bold">NotoSerif Negrito</string>
-    <string name="lock_clock_font_notoserif_bold_italic">NotoSerif Negrito Itálico</string>
     <string name="lock_clock_font_gobold">GoBold Leve</string>
     <string name="lock_clock_font_roadrage">Road Rage</string>
     <string name="lock_clock_font_snowstorm">Snowstorm</string>
     <string name="lock_clock_font_googlesans">Google Sans</string>
-    <string name="lock_clock_font_neoneon">Neoneon</string>
     <string name="lock_clock_font_themeable">Temável (ou VCR OSD Mono)</string>
-    <string name="lock_clock_font_samsung">Shamshung</string>
-    <string name="lock_clock_font_mexcellent">Mexcellent</string>
-    <string name="lock_clock_font_burnstown">Burnstown</string>
-    <string name="lock_clock_font_dumbledor">Dumbledor</string>
-    <string name="lock_clock_font_phantombold">PhantomBold</string>
 
     <!-- 4G icon -->
     <string name="statusbar_items_category">Ícones</string>
@@ -390,7 +357,7 @@
     <string name="button_backlight_on_touch_only_title">Toque de botão</string>
     <string name="button_backlight_on_touch_only_summary">Ativar luz de fundo com tempo limite apenas ao tocar os botões</string>
 
-     <!-- HW Keys customization -->
+    <!-- HW Keys customization -->
     <string name="picker_activities">Atividades</string>
     <string name="select_custom_app_title">Selecionar app personalizado</string>
     <string name="select_custom_activity_title">Selecionar atividade personalizada</string>
@@ -564,5 +531,210 @@
     <!-- Fingerprint authentication vibration -->
     <string name="fprint_sucess_vib_title">Vibração de autenticação de impressão digital</string>
     <string name="fprint_sucess_vib_summary">Vibrar com autenticação de impressão digital bem-sucedida</string>
+
+    <string name="qs_column_rows_settings_title">Configurações do painel QS</string>
+    <string name="qs_columns_rows_category_title">Colunas e linhas das QS</string>
+    <string name="qs_rows_columns_title">Linhas e colunas das QS</string>
+    <string name="qs_rows_portrait_title">Linhas de título modo em retrato</string>
+    <string name="qs_rows_landscape_title">Linhas de título em paisagem</string>
+    <string name="sb_clock_font_title">Opções da fonte do relógio</string>
+    <string name="sb_clock_font_summary">Alterar a fonte padrão do widget de relógio da tela de bloqueio</string>
+    <string name="sb_clock_font_dialog_title">Selecionar a fonte do relógio de bloqueio</string>
+    <string name="sb_clock_font_stock">Normal (padrão)</string>
+    <string name="sb_clock_font_bold">Negrito</string>
+    <string name="sb_clock_font_italic">Itálico</string>
+    <string name="sb_clock_font_bold_italic">Negrito Itálico</string>
+    <string name="sb_clock_font_light_italic">Itálico Leve</string>
+    <string name="sb_clock_font_thin_italic">Itálico Fino</string>
+    <string name="sb_clock_font_light">Leve</string>
+    <string name="sb_clock_font_thin">Fino</string>
+    <string name="sb_clock_font_condensed_normal">Condensado</string>
+    <string name="sb_clock_font_condensed_italic">Itálico Condensado</string>
+    <string name="sb_clock_font_condensed_bold">Negrito Condensado</string>
+    <string name="sb_clock_font_condensed_bold_italic">Negrito Itálico Condensado</string>
+    <string name="sb_clock_font_condensed_light">Condensado Leve</string>
+    <string name="sb_clock_font_condensed_light_italic">Condensado Itálico Leve</string>
+    <string name="sb_clock_font_medium_normal">Médio</string>
+    <string name="sb_clock_font_medium_italic">Médio Itálico</string>
+    <string name="sb_clock_font_black">Preto</string>
+    <string name="sb_clock_font_black_italic">Preto Itálico</string>
+    <string name="sb_clock_font_dancingscript">DancingScript</string>
+    <string name="sb_clock_font_dancingscript_bold">DancingScript Negrito</string>
+    <string name="sb_clock_font_comingsoon">ComingSoon</string>
+    <string name="sb_clock_font_notoserif">NotoSerif Normal</string>
+    <string name="sb_clock_font_notoserif_italic">NotoSerif Itálico</string>
+    <string name="sb_clock_font_notoserif_bold">NotoSerif Negrito</string>
+    <string name="sb_clock_font_notoserif_bold_italic">NotoSerif Negrito Itálico</string>
+    <string name="sb_clock_font_gobold">GoBold Leve</string>
+    <string name="sb_clock_font_roadrage">Road Rage</string>
+    <string name="sb_clock_font_snowstorm">Snowstorm</string>
+    <string name="sb_clock_font_googlesans">Google Sans</string>
+    <string name="sb_clock_font_neoneon">Neoneon</string>
+    <string name="sb_clock_font_themeable">Temável (ou VCR OSD Mono)</string>
+    <string name="sb_clock_font_samsung">Shamshung</string>
+    <string name="sb_clock_font_mexcellent">Mexcellent</string>
+    <string name="sb_clock_font_burnstown">Burnstown</string>
+    <string name="sb_clock_font_dumbledor">Dumbledor</string>
+    <string name="sb_clock_font_phantombold">PhantomBold</string>
+    <string name="aosp_gesture_title">Gestos do Sistema</string>
+    <string name="aosp_gesture_title_summary">Controle de gestos padrão do sistema android</string>
+    <string name="text_charging_symbol_plus">Mais</string>
+    <string name="text_charging_symbol_star">Estrela</string>
+    <string name="text_charging_symbol_rupee">Rúpia</string>
+    <string name="text_charging_symbol_dollar">Dólar</string>
+    <string name="text_charging_symbol_euro">Euro</string>
+    <string name="text_charging_symbol_cent">Centavo</string>
+    <string name="data_disabled_icon_title">Mostrar ícone de dados desativados</string>
+    <string name="data_disabled_icon_summary">Mostra ícone de cruz próximo à barra de sinal quando os dados estiverem desativados</string>
+    <string name="qs_blur_intensity_title">Intensidade do desfoque</string>
+    <string name="qs_blur_intensity_summary">Definir a intensidade / raio do desfoque</string>
+    <string name="theming_title">Estilos &amp; Papéis de parede</string>
+    <string name="theme_select_title">Tema Estilo do AncientOS™</string>
+    <string name="theme_select_summary">Navegar e selecionar temas</string>
+    <string name="use_old_mobiletype_title">Ícone do tipo móvel pequeno</string>
+    <string name="use_old_mobiletype_summary">Mostrar ícone de tipo de celular na parte superior do indicador de sinal</string>
+    <string name="lockscreen_style_title">Estilo de Tela de Bloqueio</string>
+    <string name="lockscreen_clock_title">Estilo de relógio</string>
+    <string name="lockscreen_clock_dialog_title">Selecione o estilo do relógio</string>
+    <string name="lockscreen_clock_hidden">Oculto</string>
+    <string name="lockscreen_clock_digital">Padrão</string>
+    <string name="lockscreen_clock_digital_bold">Negrito (digital)</string>
+    <string name="lockscreen_clock_digital_small">Pequeno (digital)</string>
+    <string name="lockscreen_clock_digital_accent">Destaque completo (digital)</string>
+    <string name="lockscreen_clock_digital_accent_min">Destacar minutos (digital)</string>
+    <string name="lockscreen_clock_digital_accent_hour">Destacar horas (digital)</string>
+    <string name="lockscreen_clock_sammy">Sammy</string>
+    <string name="lockscreen_clock_sammy_bold">Sammy (negrito)</string>
+    <string name="lockscreen_clock_sammy_accent">Sammy destaque</string>
+    <string name="lockscreen_clock_sammy_accent_alt">Sammy accent (hora mais escura)</string>
+    <string name="carrier_label_settings_title">Rótulo da operadora</string>
+    <string name="carrier_label_settings_summary">Personalizar o rótulo da operadora</string>
+    <string name="custom_carrier_label_title">Rótulo da operadora personalizado</string>
+    <string name="custom_carrier_label_explain">Digite um rótulo personalizado. Deixe em branco para usar o nome da sua rede</string>
+    <string name="custom_carrier_label_notset">Rótulo personalizado atualmente não definido</string>
+    <string name="status_bar_carrier_color">Cor do rótulo da operadora</string>
+    <string name="status_bar_carrier_font_style_title">Fonte do rótulo da operadora</string>
+    <string name="status_bar_carrier_size">Tamanho do rótulo da operadora</string>
+    <string name="show_carrier_title">Local do rótulo da operadora</string>
+    <string name="show_carrier_disabled">Desativado</string>
+    <string name="show_carrier_keyguard">Tela de bloqueio</string>
+    <string name="show_carrier_statusbar">Barra de status</string>
+    <string name="show_carrier_enabled">Ambos</string>
+    <string name="lockscreen_clockdate_category">Relógio &amp; data</string>
+    <string name="lock_dateown_font_themeable">Temável (ou Raposa e Gato)</string>
+    <string name="lock_fonts_system_headline">Cabeçalho do sistema (padrão)</string>
+    <string name="lock_fonts_system_body">Corpo do sistema</string>
+    <string name="lock_fonts_stock">Normal</string>
+    <string name="lock_fonts_bold">Negrito</string>
+    <string name="lock_fonts_italic">Itálico</string>
+    <string name="lock_fonts_bold_italic">Negrito Itálico</string>
+    <string name="lock_fonts_light_italic">Itálico Leve</string>
+    <string name="lock_fonts_light">Leve</string>
+    <string name="lock_fonts_condensed_normal">Condensado</string>
+    <string name="lock_fonts_condensed_italic">Condensado Itálico</string>
+    <string name="lock_fonts_condensed_bold">Negrito Condensado</string>
+    <string name="lock_fonts_condensed_bold_italic">Negrito Itálico Condensado</string>
+    <string name="lock_fonts_medium_normal">Médio</string>
+    <string name="lock_fonts_medium_italic">Médio Itálico</string>
+    <string name="lock_date_font_title">Opções da fonte da data</string>
+    <string name="lock_date_font_summary">Alterar a fonte padrão do widget de data da tela de bloqueio</string>
+    <string name="lock_date_font_dialog_title">Selecionar fonte da data de bloqueio</string>
+    <string name="qs_category">Configurações rápidas</string>
+    <string name="enable_clear_all_button">Substituir o texto limpar tudo  com um botão legal</string>
+    <string name="enable_clear_all_button_summary">Mostrar botão limpar todas as notificações nas configurações rápidas, em vez do texto padrão</string>
+    <string name="lockscreen_date_selection_title">Estilo da Data</string>
+    <string name="lockscreen_date_dialog_title">Selecione o estilo da data</string>
+    <string name="lockscreen_date_selection_default">Padrão</string>
+    <string name="lockscreen_date_selection_str_box">Caixa semi-transparente</string>
+    <string name="lockscreen_date_selection_str_round">Caixa semi-transparente (redonda)</string>
+    <string name="lockscreen_date_selection_qbeta_style">Pílula do Q Beta</string>
+    <string name="lockscreen_date_selection_str_accent">Arredondado, simples e com destaque</string>
+    <string name="lockscreen_date_selection_str_accent_transparent">Arredondado, transparente e com destaque</string>
+    <string name="lockscreen_date_selection_str_gradient">Degradê</string>
+    <string name="lockscreen_date_selection_str_border_accent">Escuro com bordas acentuadas</string>
+    <string name="lockscreen_date_selection_str_border_gradient">Escuro com bordas gradientes</string>
+    <string name="lockscreen_status_bar_title">Barra de status</string>
+    <string name="lockscreen_status_bar_summary">Exibir barra de status na tela de bloqueio</string>
+    <string name="audio_panel_view">Painel de áudio</string>
+    <string name="audio_panel_view_media_title">Mídia</string>
+    <string name="audio_panel_view_ringer_title">Toque</string>
+    <string name="audio_panel_view_notification_title">Notificação</string>
+    <string name="audio_panel_view_alarm_title">Alarme</string>
+    <string name="audio_panel_view_voice_title">Voz</string>
+    <string name="audio_panel_view_bt_sco_title">Bluetooth</string>
+    <string name="enable_navbar_title">Ativar</string>
+    <string name="enable_navbar_summary">Controla se a barra de navegação é exibida</string>
+    <string name="notification_guts_kill_app_button_title">Botão encerrar todos</string>
+    <string name="notification_guts_kill_app_button_summary">Mostrar um botão de encerrar todos no menu de pressionamento longo da notificação</string>
+    <string name="default_string">Padrão</string>
+    <string name="font_style_title">Estilo da fonte</string>
+    <string name="font_normal">Normal</string>
+    <string name="font_italic">Itálico</string>
+    <string name="font_bold">Negrito</string>
+    <string name="font_bold_italic">Negrito Itálico</string>
+    <string name="font_light">Leve</string>
+    <string name="font_light_italic">Itálico Leve</string>
+    <string name="font_thin">Fino</string>
+    <string name="font_thin_italic">Fino Itálico</string>
+    <string name="font_condensed">Condensado</string>
+    <string name="font_condensed_italic">Condensado Itálico</string>
+    <string name="font_condensed_light">Condensado Leve</string>
+    <string name="font_condensed_light_italic">Condensado Leve Itálico</string>
+    <string name="font_condensed_bold">Negrito Condensado</string>
+    <string name="font_condensed_bold_italic">Negrito Itálico Condensado</string>
+    <string name="font_medium">Médio</string>
+    <string name="font_medium_italic">Médio Itálico</string>
+    <string name="font_black">Preto</string>
+    <string name="font_black_italic">Preto Itálico</string>
+    <string name="font_dancingscript">DancingScript</string>
+    <string name="font_dancingscript_bold">DancingScript Negrito</string>
+    <string name="font_comingsoon">ComingSoon</string>
+    <string name="font_notoserif">NotoSerif Normal</string>
+    <string name="font_notoserif_italic">NotoSerif Itálico</string>
+    <string name="font_notoserif_bold">NotoSerif Negrito</string>
+    <string name="font_notoserif_bold_italic">NotoSerif Negrito Itálico</string>
+    <string name="font_aclonica">Aclonica</string>
+    <string name="font_amarante">Amarante</string>
+    <string name="font_bariol">Bariol</string>
+    <string name="font_cagliostro">Cagliostro</string>
+    <string name="font_coolstory">CoolStory</string>
+    <string name="font_lgsmartgothic">LGSmartGothic</string>
+    <string name="font_rosemary">Rosemary</string>
+    <string name="font_sonysketch">SonySketch</string>
+    <string name="font_surfer">Surfer</string>
+    <string name="font_comicsans">ComicSans</string>
+    <string name="font_googlesans">GoogleSans</string>
+    <string name="font_oneplusslate">OneplusSlate</string>
+    <string name="font_samsungone">SamsungOne</string>
+    <string name="font_size_title">Tamanho da fonte</string>
+    <string name="lock_date_font_size_title">Tamanho da fonte da data</string>
+    <string name="clock_font_size_title">Tamanho da fonte do relógio</string>
+    <string name="owner_info_category">Opções de Informações do Proprietário</string>
+    <string name="lock_ownerinfo_font_title">Opções da fonte das Informações do Proprietário</string>
+    <string name="lockowner_font_size_title">Tamanho da fonte das informações do proprietário</string>
+    <string name="notification_headers_title">Mostrar cabeçalhos de notificação</string>
+    <string name="notification_headers_summary">Mostrar ou não os cabeçalhos de notificação no estilo R (requer reinicialização da SystemUI)</string>
+    <string name="lockscreen_enable_qs_title">Configurações rápidas</string>
+    <string name="lockscreen_enable_qs_summary">Permitir acessar as configurações rápidas na tela de bloqueio segura</string>
+    <string name="qs_datausage_title">Mostrar uso de dados no cabeçalho QS</string>
+    <string name="qs_datausage_subtitle">Mostra o uso de dados no cabeçalho de configurações rápidas do SIM usado para dados</string>
+    <string name="incall_vibration_category">Vibração em chamada</string>
+    <string name="incall_vibrate_connect_title">Vibrar ao conectar</string>
+    <string name="incall_vibrate_connect_summary">Ativar vibrar após a ligação da chamada</string>
+    <string name="incall_vibrate_call_wait_title">Vibrar na chamada em espera</string>
+    <string name="incall_vibrate_call_wait_summary">Ative para vibrar enquanto a chamada está em espera</string>
+    <string name="incall_vibrate_disconnect_title">Vibrar ao desconectar</string>
+    <string name="incall_vibrate_disconnect_summary">Ative para vibrar após a desconexão da chamada</string>
+    <string name="smart_pixels_title">Smart Pixels</string>
+    <string name="smart_pixels_summary">Economize bateria desligando pixels extras</string>
+    <string name="smart_pixels_on_power_save_title">Ativar automaticamente no economizador de bateria</string>
+    <string name="smart_pixels_on_power_save_summary">Ativar junto com a economia de bateria para melhorar o resultado</string>
+    <string name="smart_pixels_percent">Porcentagem de pixels para desativar</string>
+    <string name="smart_pixels_shift">Intervalo de proteção contra burn-in</string>
+    <string name="lockscreen_visualizer_enable">Visualizador de Música</string>
+    <string name="lockscreen_visualizer_enable_summary">Mostrar barras do visualizador enquanto reproduz música</string>
+    <string name="pocket_judge_title">Detecção de bolso</string>
+    <string name="pocket_judge_summary">Bloquear entradas de tela e botões quando o dispositivo estiver no bolso</string>
+
 
 </resources>
