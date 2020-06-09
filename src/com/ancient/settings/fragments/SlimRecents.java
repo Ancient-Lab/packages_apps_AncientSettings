@@ -25,6 +25,7 @@ import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.content.res.Resources;
 import androidx.preference.Preference;
+import androidx.preference.PreferenceScreen;
 import androidx.preference.SwitchPreference;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
@@ -39,14 +40,19 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.RadioButton;
+import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.internal.logging.nano.MetricsProto;
+import com.android.settings.widget.SwitchBar;
+import com.android.settings.SettingsActivity;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.R;
 
 import net.margaritov.preference.colorpicker.ColorPickerPreference;
+import com.ancient.settings.preferences.SystemSettingListPreference;
+import com.ancient.settings.preferences.SystemSettingSeekBarPreference;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -55,7 +61,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class SlimRecents extends SettingsPreferenceFragment
-        implements Preference.OnPreferenceChangeListener, DialogInterface.OnDismissListener {
+        implements Preference.OnPreferenceChangeListener, DialogInterface.OnDismissListener,
+                SwitchBar.OnSwitchChangeListener {
 
     private static final String RECENT_PANEL_LEFTY_MODE = "recent_panel_lefty_mode";
     private static final String RECENT_ICON_PACK = "slim_icon_pack";
@@ -70,6 +77,39 @@ public class SlimRecents extends SettingsPreferenceFragment
     private ColorPickerPreference mRecentCardBgColor;
     private ColorPickerPreference mMemBarColor;
     private ColorPickerPreference mMemTextColor;
+
+    private SystemSettingSeekBarPreference mRecentPanelScale;
+    private SystemSettingSeekBarPreference mRecentMaxApps;
+    private SystemSettingListPreference mSlimRecentEnterExitAnimation;
+    private SystemSettingSeekBarPreference mSlimRecentsCornerRadius;
+    private SystemSettingListPreference mRecentPanelExpandedMode;
+    private PreferenceScreen mBlackListFragment;
+    private SwitchPreference mUseRecentAppSideBar;
+    private SwitchPreference mSlimRecentMemoryDisplay;
+
+    private SwitchBar mSwitchBar;
+
+    @Override
+    public void onActivityCreated(Bundle icicle) {
+        super.onActivityCreated(icicle);
+
+        final boolean isChecked = Settings.System.getInt(getActivity().getContentResolver(),
+                Settings.System.USE_SLIM_RECENTS, 0) == 1;
+        mSwitchBar = ((SettingsActivity) getActivity()).getSwitchBar();
+        mSwitchBar.addOnSwitchChangeListener(this);
+        mSwitchBar.setChecked(isChecked);
+        mSwitchBar.show();
+    }
+
+    @Override
+    public void onSwitchChanged(Switch switchView, boolean isChecked) {
+        if (switchView != mSwitchBar.getSwitch()) {
+            return;
+        }
+        Settings.System.putInt(getActivity().getContentResolver(),
+                Settings.System.USE_SLIM_RECENTS, isChecked ? 1 : 0);
+        updatePreferences();
+    }
 
     // Icon pack
     private final static String[] sSupportedActions = new String[] {
@@ -93,6 +133,14 @@ public class SlimRecents extends SettingsPreferenceFragment
         mRecentPanelLeftyMode = (SwitchPreference) findPreference(RECENT_PANEL_LEFTY_MODE);
         mRecentPanelLeftyMode.setOnPreferenceChangeListener(this);
         mIconPack = findPreference(RECENT_ICON_PACK);
+        mRecentPanelScale = (SystemSettingSeekBarPreference) findPreference("recent_panel_scale_factor");
+        mRecentMaxApps = (SystemSettingSeekBarPreference) findPreference("recents_max_apps");
+        mSlimRecentEnterExitAnimation = (SystemSettingListPreference) findPreference("slim_recent_enter_exit_animation");
+        mSlimRecentsCornerRadius = (SystemSettingSeekBarPreference) findPreference("slim_recents_corner_radius");
+        mRecentPanelExpandedMode = (SystemSettingListPreference) findPreference("recent_panel_expanded_mode");
+        mBlackListFragment = (PreferenceScreen) findPreference("blacklist_fragment");
+        mUseRecentAppSideBar = (SwitchPreference) findPreference("use_recent_app_sidebar");
+        mSlimRecentMemoryDisplay = (SwitchPreference) findPreference("slim_recents_mem_display");
 
         // Recent panel background color
         mRecentPanelBgColor = (ColorPickerPreference) findPreference(RECENT_PANEL_BG_COLOR);
@@ -143,6 +191,33 @@ public class SlimRecents extends SettingsPreferenceFragment
             mMemTextColor.setSummary(hexTextColor);
         }
         mMemTextColor.setNewPreviewColor(intTextColor);
+
+        updatePreferences();
+    }
+
+    private void updatePreferences() {
+        final boolean enabled = Settings.System.getInt(getActivity().getContentResolver(),
+                Settings.System.USE_SLIM_RECENTS, 0) == 1;
+
+        mRecentPanelScale.setEnabled(enabled);
+        mRecentPanelBgColor.setEnabled(enabled);
+        mRecentCardBgColor.setEnabled(enabled);
+        mRecentMaxApps.setEnabled(enabled);
+        mRecentPanelLeftyMode.setEnabled(enabled);
+        mSlimRecentEnterExitAnimation.setEnabled(enabled);
+        mSlimRecentsCornerRadius.setEnabled(enabled);
+        mRecentPanelExpandedMode.setEnabled(enabled);
+        mIconPack.setEnabled(enabled);
+        mBlackListFragment.setEnabled(enabled);
+        mUseRecentAppSideBar.setEnabled(enabled);
+        mSlimRecentMemoryDisplay.setEnabled(enabled);
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+
+        updatePreferences();
     }
 
     @Override
@@ -152,6 +227,8 @@ public class SlimRecents extends SettingsPreferenceFragment
         boolean recentLeftyMode = Settings.System.getInt(getContext().getContentResolver(),
                 Settings.System.RECENT_PANEL_GRAVITY, Gravity.END) == Gravity.START;
         mRecentPanelLeftyMode.setChecked(recentLeftyMode);
+
+        updatePreferences();
     }
 
     @Override
