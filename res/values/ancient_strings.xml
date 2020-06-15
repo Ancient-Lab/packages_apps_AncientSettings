@@ -927,6 +927,11 @@ limitations under the License.
     <string name="lockscreen_charging_animation_drop">Drop</string>
     <string name="lockscreen_charging_animation_explosion">Explosion</string>
     <string name="lockscreen_charging_animation_water">Water</string>
+    <string name="lockscreen_charging_animation_split">Split Loading</string>
+    <string name="lockscreen_charging_animation_yellow">Yellow Animation</string>
+    <string name="lockscreen_charging_animation_covid">Covid19</string>
+    <string name="lockscreen_charging_animation_wash">Wash Your Hand</string>
+    <string name="lockscreen_charging_animation_wear">Wear Your Mask</string>
 
     <!-- Gaming mode -->
     <string name="gaming_mode_title">Gaming Mode</string>
