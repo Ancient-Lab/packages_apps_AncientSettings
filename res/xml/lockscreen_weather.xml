@@ -22,8 +22,10 @@
     <com.ancient.settings.preferences.SystemSettingSwitchPreference
         android:key="lockscreen_weather_enabled"
         android:title="@string/lock_screen_weather_title"
-        android:summary="@string/lock_screen_weather_summaryOn" />
-
+        android:defaultValue="false" 
+        android:summaryOn="@string/accessibility_feature_state_on" 
+        android:summaryOff="@string/accessibility_feature_state_off" />
+        
     <com.ancient.settings.preferences.SystemSettingSwitchPreference
         android:key="lockscreen_weather_style"
         android:title="@string/lock_screen_weather_style_title"
