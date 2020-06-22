@@ -36,6 +36,7 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
+import android.widget.Switch;
 
 import androidx.preference.SwitchPreference;
 import androidx.preference.ListPreference;
@@ -45,7 +46,9 @@ import androidx.preference.PreferenceGroup;
 import androidx.preference.PreferenceScreen;
 
 import com.android.internal.logging.nano.MetricsProto;
+import com.android.settings.SettingsActivity;
 import com.android.settings.SettingsPreferenceFragment;
+import com.android.settings.widget.SwitchBar;
 
 import com.android.settings.R;
 import com.ancient.settings.preferences.PackageListAdapter;
@@ -57,7 +60,7 @@ import java.util.List;
 import java.util.Map;
 
 public class SensorBlock extends SettingsPreferenceFragment
-        implements Preference.OnPreferenceClickListener {
+        implements Preference.OnPreferenceClickListener, SwitchBar.OnSwitchChangeListener {
 
     private static final int DIALOG_BLOCKED_APPS = 1;
     private static final String SENSOR_BLOCK = "sensor_block";
@@ -70,6 +73,30 @@ public class SensorBlock extends SettingsPreferenceFragment
     private String mBlockedPackageList;
     private Map<String, Package> mBlockedPackages;
     private Context mContext;
+
+    private SwitchBar mSwitchBar;
+
+    @Override
+    public void onActivityCreated(Bundle icicle) {
+        super.onActivityCreated(icicle);
+
+        final boolean isChecked = Settings.System.getInt(getActivity().getContentResolver(),
+                Settings.System.SENSOR_BLOCK, 0) == 1;
+        mSwitchBar = ((SettingsActivity) getActivity()).getSwitchBar();
+        mSwitchBar.addOnSwitchChangeListener(this);
+        mSwitchBar.setChecked(isChecked);
+        mSwitchBar.show();
+    }
+
+    @Override
+    public void onSwitchChanged(Switch switchView, boolean isChecked) {
+        if (switchView != mSwitchBar.getSwitch()) {
+            return;
+        }
+        Settings.System.putInt(getActivity().getContentResolver(),
+                Settings.System.SENSOR_BLOCK, isChecked ? 1 : 0);
+        updatePreferences();
+    }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -96,10 +123,25 @@ public class SensorBlock extends SettingsPreferenceFragment
         mContext = getActivity().getApplicationContext();
     }
 
+    private void updatePreferences() {
+        final boolean enabled = Settings.System.getInt(getActivity().getContentResolver(),
+                Settings.System.SENSOR_BLOCK, 0) == 1;
+
+        mSensorBlockPrefList.setEnabled(enabled);
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+        refreshCustomApplicationPrefs();
+        updatePreferences();
+    }
+
     @Override
     public void onResume() {
         super.onResume();
         refreshCustomApplicationPrefs();
+        updatePreferences();
     }
 
     @Override

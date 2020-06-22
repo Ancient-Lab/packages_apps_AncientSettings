@@ -20,16 +20,15 @@
     android:title="@string/sensor_block_title">
 
     <!-- Master switch -->
-    <com.ancient.settings.preferences.SystemSettingSwitchPreference
+    <!--<com.ancient.settings.preferences.SystemSettingSwitchPreference
         android:key="sensor_block"
         android:title="@string/sensor_block_title"
         android:summary="@string/sensor_block_summary"
-        android:defaultValue="false" />
+        android:defaultValue="false" />-->
 
     <!-- App picker activity for sensor block -->
     <PreferenceCategory
         android:title="@string/sensor_block_app_picker_title"
-        android:dependency="sensor_block"
         android:key="sensor_block_applications">
         <Preference
             android:key="add_sensor_block_packages"
