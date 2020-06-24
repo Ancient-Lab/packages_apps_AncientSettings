@@ -1,13 +1,10 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!--
 Copyright © 2019 Ancient OS Project
-
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
-
 http://www.apache.org/licenses/LICENSE-2.0
-
 Unless required by applicable law or agreed to in writing, software
 distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -382,7 +379,7 @@ limitations under the License.
     <string name="status_bar_logo_title">Ancient logo</string>
     <string name="status_bar_logo_right">Kanan</string>
     <string name="status_bar_logo_left">Kiri</string>
-    <string name="status_bar_logo_disabled">Mpmaktif</string>
+    <string name="status_bar_logo_disabled">Nonaktif</string>
     <string name="status_bar_logo_style_title">Gaya logo ancient</string>
     <string name="status_bar_logo_color_title">Pilih warna</string>
 
@@ -754,23 +751,6 @@ limitations under the License.
     <string name="lockscreen_status_bar_title">Status bar</string>
     <string name="lockscreen_status_bar_summary">Tampilkan statusbar pada layar kunci</string>
 
-    <!-- Lock screen visualizer -->
-    <string name="lockscreenholder_title">LockScreen Holder</string>
-    <string name="lockscreen_visualizer_title">LockScreen Visualizer</string>
-    <string name="lockscreen_visualizer_enable">Music Visualizer</string>
-    <string name="lockscreen_visualizer_enable_summary">Tampilkan visualizer bars selama bermain musik</string>
-    <string name="lockscreen_visualizer_summary">Tampilkan musik visualizer ketika tersedia</string>
-    <string name="lockscreen_autocolor_title">Warna otomatis</string>
-    <string name="lockscreen_autocolor_summary">Sinkron warna dengan latar belakang</string>
-    <string name="lockscreen_autocolor_lavalamp">Lava lamp harus nonaktif</string>
-    <string name="lockscreen_lavalamp_title">Lava lamp</string>
-    <string name="lockscreen_lavalamp_summary">Animasikan oencampuran warna lava lamp yang lembut</string>
-    <string name="lockscreen_lavalamp_speed_title">Selang waktu pencampuran warna pada lava lamp</string>
-    <string name="lockscreen_solid_units_count_title">Jumlah garis solid</string>
-    <string name="lockscreen_solid_fudge_factor_title">Tingkat kegilaan</string>
-    <string name="lockscreen_solid_units_opacity_title">Kegelapan garis solid</string>
-    <string name="unit_milliseconds">ms</string>
-
     <!-- Audio Panel view  -->
     <string name="audio_panel_view">Audio panel</string>
     <string name="audio_panel_view_media_title">Media</string>
@@ -868,5 +848,193 @@ limitations under the License.
     <string name="smart_pixels_on_power_save_summary">Aktifkan dengan hemat baterai agar meningkatkan penghematan</string>
     <string name="smart_pixels_percent">Persentase pixel yang dinonaktifkan</string>
     <string name="smart_pixels_shift">Selang proteksi burn in</string>
+
+    <!-- Lock screen visualizer -->
+    <string name="lockscreen_visualizer_enable">Musik Visualizer</string>
+    <string name="lockscreen_visualizer_enable_summary">Tampilkan balok visualizer ketika musik diputar</string>
+
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">Deteksi saku</string>
+    <string name="pocket_judge_summary">Blokir layar dan tombol ketika perangkat di dalam saku</string>
+    <string name="pocket_judge_fp_title">Izinkan sidik jari dalam saku</string>
+    <string name="pocket_judge_fp_summary">Gunakan sidik jari ketika deteksi saku aktif</string>
+
+    <!-- Sensor block per-package -->
+    <string name="blocker_title">Pemblokir</string>
+    <string name="sensor_block_title">Blokir sensor per-aplikasi</string>
+    <string name="sensor_block_summary">Blokir skses ke beberapa sensor diaplikasi untuk menghemat baterai</string>
+
+    <!-- Wakelock blocker -->
+    <string name="wakelock_blocker_title">Blokir Wakelock</string>
+    <string name="wakelock_blocker_summary">Blokir sistem wakelocks</string>
+    <string name="wakelock_blocker_save">Simpan</string>
+    <string name="wakelock_list_header">Wakelock tersedia</string>
+    <string name="wakelock_blocker_reload">Muat ulang</string>
+    <string name="wakelock_blocker_warning_title">Lanjutkan dengan seksama</string>
+    <string name="wakelock_blocker_warning">Memblokir wakelock dapat menyebabkan potensi ketidakstabilan, crash atau kehilangan data.</string>
+
+    <!-- Alarm blocker -->
+    <string name="alarm_blocker_title">Blokir alarm</string>
+    <string name="alarm_blocker_summary">Blokir alarm ketika layar mati</string>
+    <string name="alarm_blocker_save">Simpan</string>
+    <string name="alarm_list_header">Alarm yang tersedia</string>
+    <string name="alarm_blocker_reload">Muat ulang</string>
+    <string name="alarm_blocker_warning_title">Lanjutkan dengan seksama</string>
+    <string name="alarm_blocker_warning">Memblokir alarm dapat menyebabkan potensi ketidakstabilan, crash atau kehilangan data.</string>
+
+    <!-- Heads up timeout -->
+    <string name="heads_up_time_out_title">Waktu habis</string>
+    <string name="heads_up_time_out_summary">Notifikasi kecil akan ditunjukkan untuk <xliff:g id="number">%d</xliff:g> detik</string>
+    <string name="heads_up_time_out_2sec">2 detik</string>
+    <string name="heads_up_time_out_4sec">4 detik</string>
+    <string name="heads_up_time_out_5sec">5 detik</string>
+    <string name="heads_up_time_out_6sec">6 detik</string>
+    <string name="heads_up_time_out_8sec">8 detik</string>
+    <string name="heads_up_time_out_10sec">10 detik</string>
+
+    <!-- Heads up snooze -->
+    <string name="heads_up_snooze_title">Waktu menunda</string>
+    <string name="heads_up_snooze_summary_one_minute">Menggeser keatas notifikasi kecil akan menunda heads up untuk aplikasi tersebut untuk 1 menit</string>
+    <string name="heads_up_snooze_summary">Menggeser keatas notifikasi kecil akan menunda heads up untuk aplikasi tersebut untuk <xliff:g id="number">%d</xliff:g> menit</string>
+    <string name="heads_up_snooze_disabled_summary">Waktu menunda dinonaktifkan</string>
+    <string name="heads_up_snooze_1min">1 menit</string>
+    <string name="heads_up_snooze_5min">5 menit</string>
+    <string name="heads_up_snooze_10min">10 menit</string>
+    <string name="heads_up_snooze_15min">15 menit</string>
+    <string name="heads_up_snooze_20min">20 menit</string>
+
+    <!-- Heads up options -->
+    <string name="less_boring_heads_up_title">Heads up yang gak boring</string>
+    <string name="less_boring_heads_up_summary">Tampilkan heads up hanya untuk pemanggil, pesan dan alarm</string>
+
+    <!-- Force expanded notifications -->
+    <string name="force_expanded_notifications_title">Paksa notifikasi diperluar</string>
+    <string name="force_expanded_notifications_summary">Paksa aplikasi yang mendukung notifikasi diperluas</string>
+
+    <!-- Charging animation -->
+    <string name="lockscreen_charging_title">Layar kunci pengisian</string>
+    <string name="lockscreen_charging_animation_title">Animasi pengisian layar kunci</string>
+    <string name="lockscreen_charging_animation_summary">Tampilkan animasi yang unyu ketika perangkat diisi</string>
+    <string name="lockscreen_charging_animation_off">Mati</string>
+    <string name="lockscreen_charging_animation_flash">Flash</string>
+    <string name="lockscreen_charging_animation_battery">Baterai</string>
+    <string name="lockscreen_charging_animation_drop">Drop</string>
+    <string name="lockscreen_charging_animation_explosion">Meleduk</string>
+    <string name="lockscreen_charging_animation_water">Air</string>
+    <string name="lockscreen_charging_animation_split">Loading terbelah</string>
+    <string name="lockscreen_charging_animation_yellow">Animasi Kuning</string>
+    <string name="lockscreen_charging_animation_covid">Covid19</string>
+    <string name="lockscreen_charging_animation_wash">Cuci tangan kau</string>
+    <string name="lockscreen_charging_animation_wear">Pakai masker kau</string>
+
+    <!-- Gaming mode -->
+    <string name="gaming_mode_title">Mode Game</string>
+    <string name="gaming_mode_summary">Preferensi Kustomisasi Mode Game</string>
+    <string name="gaming_mode_app_picker_title">Nyalakan otomatis pada aplikasi berikut</string>
+    <string name="add_gaming_mode_package_title">Tambahkan aplikasi untuk mode game</string>
+    <string name="add_gaming_mode_package_summary">Mode game akan nyala otomatis ketika aplikasi tersebut dibuka dan mati ketika ditutup</string>
+    <string name="gaming_mode_headsup_title">Blok Notifikasi</string>
+    <string name="gaming_mode_headsup_summary">Blok semua notifikasi heads up kecuali telepon</string>
+    <string name="gaming_mode_hardware_keys_title">Kunci tombol</string>
+    <string name="gaming_mode_hardware_keys_summary">Matikan tombol perangkat ketika mode game diaktifkan</string>
+    <string name="gaming_mode_brightness_title">Nonaktifkan kecerahan otomatis</string>
+    <string name="gaming_mode_brightness_summary">Kunci kecerahan ketika mode game diaktifkan</string>
+    <string name="gaming_mode_ringer_title">Dering dalam mode game</string>
+    <string name="gaming_mode_ringer_off_title">Jangan diubah</string>
+    <string name="gaming_mode_ringer_vibrate_title">Bergetar</string>
+    <string name="gaming_mode_ringer_dnd_title">Jangan diganggu</string>
+    <string name="gaming_mode_ringer_silent_title">Senyap</string>
+    <string name="gaming_mode_notifications_title">Indikator mode game</string>
+    <string name="gaming_mode_notifications_off_title">Nonaktif</string>
+    <string name="gaming_mode_notifications_notif_title">Tampilkan notifikasi</string>
+    <string name="gaming_mode_notifications_toast_title">Tampilkan toast</string>
+    <string name="gaming_mode_notifications_all_title">Tampilkan toast dan notifikasi</string>
+    <string name="gaming_mode_dynamic_title">Mode dinamik</string>
+    <string name="gaming_mode_dynamic_summary">Mencoba mendeteksi dan menambahkan aplikasi game otomatis</string>
+
+    <!-- Selinux Switch -->
+    <string name="selinux_category">SELinux</string>
+    <string name="selinux_explanation_summary">SELinux adalah aturan modifikasi kernel dan alat ruang pengguna. mengganti mode dapat menimbulkan efek yang tak terduga. gunakan dengan bijaksana.</string>
+    <string name="selinux_mode_title">Mode SELinuxinux</string>
+    <string name="selinux_permissive_summary">Permissive</string>
+    <string name="selinux_enforcing_summary">Enforcing</string>
+    <string name="selinux_persistence_title">Tetap setelah reboot</string>
+    <string name="selinux_persistence_summary">Kembalikan pengaturan mode sepolicy diatas disetap boot</string>
+    <string name="selinux_permissive_toast_title">Atur Selinux ke permissive!</string>
+    <string name="selinux_enforcing_toast_title">Atur Selinux ke enforcing!</string>
+    <string name="selinux_unrooted_summary">Tidak mendeteksi root. Perangkat anda harus ter-root untuk mengaktifkan fitur ini!</string>
+    <string name="cannot_get_su">Aksi gagal karena kehilangan akses superuser</string>
+
+    <!-- OmniJaws -->
+    <string name="omnijaws_settings_title">OmniJaws</string>
+    <string name="omnijaws_settings_summary">Kustomisasi weather tile</string>
+    <string name="weather_config_title">Pengaturan layanan</string>
+    <string name="weather_config_summary">Konfigurasikan layanan untuk mengaktifkan detail cuaca</string>
+    <string name="weather_icon_pack_title">Ikon pack cuaca</string>
+    <string name="find_icon_pack_title">Cari ikon pack</string>
+    <string name="find_icon_pack_summary">Cari dan pasang ikon pack baru dari PlayStore</string>
+    <string name="weather_icon_pack_note">Note\u003a anda bisa memasang ikon pack baru dari playstore dengan mencari \"Chronus icons\"</string>
+
+    <!-- Lockscreen Weather -->
+    <string name="lock_screen_weather_title">Cuaca</string>
+    <string name="lock_screen_weather_summary">Tampilkan info cuaca di samping tanggal</string>
+    <string name="lock_screen_weather_summaryOn">Tampilkan cuaca dilayar kunci</string>
+    <string name="lock_screen_location_title">Lokasi</string>
+    <string name="lock_screen_location_summary">Tampilkan lokasi dilayar kunci</string>
+    <string name="lock_screen_weather_condition_icon_title">Gambar kondisi</string>
+    <string name="lock_screen_weather_condition_icon_summary">Tampilkan gambar kondisi dilayar kunci</string>
+    <string name="lock_screen_ambient_weather_title">Cuaca Ambient</string>
+    <string name="lock_screen_ambient_weather_summary">Tampilkan cuaca dilayar ambient</string>
+    <string name="lock_screen_weather_style_title">Gaya pixel</string>
+    <string name="lock_screen_weather_style_summary">Tampilkan cuaca di samping tanggal dibandingkan widget besar</string>
+
+    <!-- StatusBar weather settings -->
+    <string name="sb_weather_title">Cuaca Statusbar</string>
+    <string name="sb_weather_summary">Konfig statusbar dan qs cuaca</string>
+    <string name="status_bar_weather_location_title">Penempatan cuaca</string>
+    <string name="statusbar_weather_title">Cuaca status bar</string>
+    <string name="statusbar_weather_summary">Konfigurasi dari pengaturan QS/Cuaca</string>
+    <string name="statusbar_weather_dialog_title">Gaya statusbar cuaca</string>
+    <string name="status_bar_weather_hidden">Sembunyikan cuaca</string>
+    <string name="status_bar_temperature_image_show_scale">Tampikan temperatur dengan skala dan gambar</string>
+    <string name="status_bar_temperature_image_hide_scale">Tampilkan temperature dan gambar tanpa skala</string>
+    <string name="status_bar_temperature_show_scale_hide_image">Tampilkan temperatur dengan skala</string>
+    <string name="status_bar_temperature_hide_scale_hide_image">Tampilkan Temperatur tanpa skala</string>
+    <string name="status_bar_show_image">Tampilkan gambar</string>
+    <string name="sb_weather_statusbar">Status bar</string>
+    <string name="sb_weather_header">Header diperluas</string>
+
+    <!-- QS Footer Text -->
+    <string name="qs_footer_title">QS kaki</string>
+    <string name="qs_footer_text_title">Teks pada footer QS</string>
+    <string name="qs_footer_text_summary">Tampilkan teks pada bagian bawah QS panel</string>
+    <string name="qs_footer_text_string_title">Kustomisasi Teks footer</string>
+    <string name="qs_footer_text_string_summary">Set ke kosong untuk default CraftWithHeart</string> 
+
+    <!-- FOD icon picker -->
+    <string name="fod_icon_picker_category_title">Pengaturan kustomisasi FOD</string>
+    <string name="fod_icon_picker_title">Kustomisasi ikon</string>
+    <string name="fod_icon_picker_summary">Pilih ikon sidik jari favorit anda</string>
+    <string name="fod_icon_picker_footer">Untuk menggunakan ikon anda sendiri, pilih ikon atas kiri dan gunakan OnePlus 6T FP app kustomisasi untuk memilih ikon yang anda inginkan.</string>
+
+    <!-- FOD animations -->
+    <string name="fod_recog_animation">Animasi mengenali</string>
+    <string name="fod_recog_animation_summary">Tampilkan animasi ketika jarimu di skan</string>
+    <string name="fod_recog_animation_picker_title">Penyesuaian animasi mengenali</string>
+    <string name="fod_recog_animation_miui_normal">defaut Miui</string>
+    <string name="fod_recog_animation_miui_aod">AOD</string>
+    <string name="fod_recog_animation_miui_light">Light</string>
+    <string name="fod_recog_animation_miui_pop">Pop</string>
+    <string name="fod_recog_animation_miui_pulse">Pulse</string>
+    <string name="fod_recog_animation_miui_pulse_white">Pulse (White)</string>
+    <string name="fod_recog_animation_miui_rhythm">Rhythm</string>
+    <string name="fod_recog_animation_op_cosmos">Cosmos</string>
+    <string name="fod_recog_animation_op_mclaren">McLaren</string>
+    <string name="fod_recog_animation_pureview_future">Future</string>
+    <string name="fod_recog_animation_pureview_molecular">Molecular</string>
+
+    <!-- Statusbar dual row -->
+    <string name="statusbar_dual_row_title">Dua Baris Untuk Poni</string>
+    <string name="statusbar_dual_row_summary">Aktifkan statusbar dua baris untuk notifikasi\nNOTE: restart SystemUI untuk melihat efek</string>
 
 </resources>
