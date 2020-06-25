@@ -213,7 +213,24 @@
                 android:action="android.intent.action.VIEW"
                 android:data="https://t.me/ankitkene" />
         </Preference>
-
+        <Preference
+            android:id="@+id/device_Dragon"
+            android:icon="@drawable/ancient_device"
+            android:summary="@string/device_Dragon_summary"
+            android:title="@string/device_Dragon">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/ankitkene" />
+        </Preference>
+	<Preference
+            android:id="@+id/device_Onyx"
+            android:icon="@drawable/ancient_device"
+            android:summary="@string/device_Onyx_summary"
+            android:title="@string/device_Onyx">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/ankitkene" />
+        </Preference>
      </PreferenceCategory>
 
     <PreferenceCategory
