@@ -30,7 +30,7 @@
         android:title="@string/volume_rocker_wake_title"
         android:defaultValue="false" />
 
-    <!--<PreferenceCategory
+   <PreferenceCategory
         android:title="@string/audio_panel_view">
 
     <com.ancient.settings.preferences.SystemSettingSwitchPreference
@@ -62,6 +62,6 @@
             android:key="audio_panel_view_bt_sco"
             android:title="@string/audio_panel_view_bt_sco_title"
             android:defaultValue="true"/>
-    </PreferenceCategory> -->
+    </PreferenceCategory>
 
 </PreferenceScreen>
