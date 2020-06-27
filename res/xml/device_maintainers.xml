@@ -198,6 +198,16 @@
                 android:data="https://t.me/dodyirawan85" />
         </Preference>
 
+        <Preference
+            android:id="@+id/device_x2"
+            android:icon="@drawable/ancient_device"
+            android:summary="@string/device_x2_summary"
+            android:title="@string/device_x2" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/hellohoneybunny" />
+        </Preference>
+
      </PreferenceCategory>
 
      <PreferenceCategory
