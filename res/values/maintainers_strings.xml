@@ -76,6 +76,9 @@
     <string name="device_RMX1801" translatable="false">Realme 2 Pro</string>
     <string name="device_RMX1801_summary" translatable="false">RMX1801\nIrawans (dodyirawan85)</string>
 
+    <string name="device_x2" translatable="false">Realme X2</string>
+    <string name="device_x2_summary" translatable="false">x2\nShubham Pawar (skpawar1305)</string>
+
     <string name="device_Plate2" translatable="false">Nokia 6.1 2018</string>
     <string name="device_Plate2_summary" translatable="false">Plate2\nAnkit Kene (ankitkene)</string>
 
