@@ -119,6 +119,16 @@
                 android:action="android.intent.action.VIEW"
                 android:data="http://t.me/VictorVanDoom" />
           </Preference>
+
+          <Preference
+            android:id="@+id/device_ugglite"
+            android:icon="@drawable/ancient_device"
+            android:summary="@string/device_ugglite_summary"
+            android:title="@string/device_ugglite" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/adislice" />
+          </Preference>
          
      </PreferenceCategory>
 
