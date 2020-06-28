@@ -97,4 +97,6 @@
     <string name="device_river" translatable="false">Motorola Moto G7</string>
     <string name="device_river_summary" translatable="false">river\nTailan Cunha</string>
 
+    <string name="device_ugglite" translatable="false">Xiaomi Redmi Note 5A/Y1 Lite</string>
+    <string name="device_ugglite_summary" translatable="false">ugglite\nAdi Permana</string>
 </resources>
