@@ -15,29 +15,20 @@
  */
 package com.ancient.settings.fragments;
 
-import android.content.Context;
-import android.content.SharedPreferences;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.SELinux;
 import android.os.SystemProperties;
 import android.os.UserHandle;
 import android.provider.SearchIndexableResource;
 import android.content.ContentResolver;
 import android.content.res.Resources;
 import android.provider.Settings;
-import android.text.TextUtils;
-import androidx.preference.ListPreference;
 import androidx.preference.*;
-import android.util.Log;
 
-import com.android.internal.logging.nano.MetricsProto; 
+import com.android.internal.logging.nano.MetricsProto;
 import com.ancient.settings.preferences.SystemSettingMasterSwitchPreference;
-import com.ancient.settings.Utils;
-import com.ancient.settings.utils.SuShell;
-import com.ancient.settings.utils.SuTask;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
@@ -48,14 +39,8 @@ public class Misc extends SettingsPreferenceFragment
     public static final String TAG = "Misc";
 
     private static final String SMART_PIXELS_ENABLED = "smart_pixels_enable";
-    private static final String SELINUX_CATEGORY = "selinux";
-    private static final String SELINUX_EXPLANATION = "selinux_explanation";
-    private static final String PREF_SELINUX_MODE = "selinux_mode";
-    private static final String PREF_SELINUX_PERSISTENCE = "selinux_persistence";
 
     private SystemSettingMasterSwitchPreference mSmartPixelsEnabled;
-    private SwitchPreference mSelinuxMode;
-    private SwitchPreference mSelinuxPersistence;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -71,30 +56,6 @@ public class Misc extends SettingsPreferenceFragment
         if (!getResources().getBoolean(com.android.internal.R.bool.config_enableSmartPixels)) {
             getPreferenceScreen().removePreference(mSmartPixelsEnabled);
         }
-        // SELinux
-        Preference selinuxCategory = findPreference(SELINUX_CATEGORY);
-        Preference selinuxExp = findPreference(SELINUX_EXPLANATION);
-        mSelinuxMode = (SwitchPreference) findPreference(PREF_SELINUX_MODE);
-        mSelinuxMode.setChecked(SELinux.isSELinuxEnforced());
-
-        mSelinuxPersistence =
-            (SwitchPreference) findPreference(PREF_SELINUX_PERSISTENCE);
-        mSelinuxPersistence.setChecked(getContext()
-            .getSharedPreferences("selinux_pref", Context.MODE_PRIVATE)
-            .contains(PREF_SELINUX_MODE));
-
-        // Disabling root required switches if unrooted and letting the user know
-        if (!Utils.isRooted(getContext())) {
-        Log.e(TAG, "Root not found");
-        mSelinuxMode.setEnabled(false);
-        mSelinuxPersistence.setEnabled(false);
-        mSelinuxPersistence.setChecked(false);
-        selinuxExp.setSummary(selinuxExp.getSummary() + "\n" +
-            getResources().getString(R.string.selinux_unrooted_summary));
-        } else {
-        mSelinuxPersistence.setOnPreferenceChangeListener(this);
-        mSelinuxMode.setOnPreferenceChangeListener(this);
-        }
     }
 
     @Override
@@ -107,14 +68,6 @@ public class Misc extends SettingsPreferenceFragment
             Settings.System.putInt(getContentResolver(),
 		            SMART_PIXELS_ENABLED, value ? 1 : 0);
             return true;
-        } else if (preference == mSelinuxMode) {
-            boolean enabled = (Boolean) newValue;
-            new SwitchSelinuxTask(getActivity()).execute(enabled);
-            setSelinuxEnabled(enabled, mSelinuxPersistence.isChecked());
-            return true;
-        } else if (preference == mSelinuxPersistence) {
-            setSelinuxEnabled(mSelinuxMode.isChecked(), (Boolean) newValue);
-            return true;
         }
         return false;
     }
@@ -122,45 +75,5 @@ public class Misc extends SettingsPreferenceFragment
     @Override
     public int getMetricsCategory() {
         return MetricsProto.MetricsEvent.ANCIENT_SETTINGS;
-    }
-
-    private void setSelinuxEnabled(boolean status, boolean persistent) {
-      SharedPreferences.Editor editor = getContext()
-          .getSharedPreferences("selinux_pref", Context.MODE_PRIVATE).edit();
-      if (persistent) {
-        editor.putBoolean(PREF_SELINUX_MODE, status);
-      } else {
-        editor.remove(PREF_SELINUX_MODE);
-      }
-      editor.apply();
-      mSelinuxMode.setChecked(status);
-    }
-
-    private class SwitchSelinuxTask extends SuTask<Boolean> {
-      public SwitchSelinuxTask(Context context) {
-        super(context);
-      }
-
-      @Override
-      protected void sudoInBackground(Boolean... params) throws SuShell.SuDeniedException {
-        if (params.length != 1) {
-          Log.e(TAG, "SwitchSelinuxTask: invalid params count");
-          return;
-        }
-        if (params[0]) {
-          SuShell.runWithSuCheck("setenforce 1");
-        } else {
-          SuShell.runWithSuCheck("setenforce 0");
-        }
-      }
-
-      @Override
-      protected void onPostExecute(Boolean result) {
-        super.onPostExecute(result);
-        if (!result) {
-          // Did not work, so restore actual value
-          setSelinuxEnabled(SELinux.isSELinuxEnforced(), mSelinuxPersistence.isChecked());
-        }
-      }
     }
 }
