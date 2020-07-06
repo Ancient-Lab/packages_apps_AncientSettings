@@ -72,12 +72,12 @@
             android:defaultValue="true"
             android:disableDependentsState="true" />
 
-        <com.ancient.settings.preferences.SystemSettingSwitchPreference
+        <!--<com.ancient.settings.preferences.SystemSettingSwitchPreference
             android:key="qs_panel_bg_use_wall"
             android:title="@string/qs_bg_wall_title"
             android:summary="@string/qs_bg_wall_summary"
             android:defaultValue="false"
-            android:dependency="qs_panel_bg_use_fw" />
+            android:dependency="qs_panel_bg_use_fw" /-->
 
         <net.margaritov.preference.colorpicker.ColorPickerPreference
             android:key="qs_panel_color"
