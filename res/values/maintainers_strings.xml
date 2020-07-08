@@ -99,4 +99,7 @@
 
     <string name="device_ugglite" translatable="false">Xiaomi Redmi Note 5A/Y1 Lite</string>
     <string name="device_ugglite_summary" translatable="false">ugglite\nAdi Permana</string>
+
+    <string name="device_riva" translatable="false">Xiaomi Redmi 5A</string>
+    <string name="device_riva_summary" translatable="false">riva\Erwin Abu Bakar Sidik</string>
 </resources>
