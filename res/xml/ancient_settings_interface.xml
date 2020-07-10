@@ -98,6 +98,19 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:key="qs_clock_theming"
+        android:title="@string/qs_clock_style_title">
+
+        <ListPreference
+            android:key="qs_clock_style"
+            android:title="@string/qs_clock_style_title"
+            android:persistent="false"
+            android:entries="@array/qs_clock_selector_entries"
+            android:entryValues="@array/qs_clock_selector_values" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="qs_theme_category"
         android:title="@string/qs_theme_category">
 
