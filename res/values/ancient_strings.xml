@@ -1174,4 +1174,28 @@ limitations under the License.
     <string name="slim_recents_enter_exit_animation_translate">Translate</string>
     <string name="slim_recents_enter_exit_animation_fade">Fade</string>
 
+    <!-- QS clock styles -->
+    <string name="qs_clock_style_title">QS clock style</string>
+    <string name="qsclock_default">Default</string>
+    <string name="qsclock_left">left</string>
+    <string name="qsclock_right">right</string>
+    <string name="qsclock_anci">anci</string>
+    <string name="qsclock_anci0">anci 0</string>
+    <string name="qsclock_anci1">anci 1</string>
+    <string name="qsclock_anci2">anci 2</string>
+    <string name="qsclock_anci3">anci 3</string>
+    <string name="qsclock_anci4">anci 4</string>
+    <string name="qsclock_anci5">anci 5</string>
+    <string name="qsclock_anci6">anci 6</string>
+    <string name="qsclock_anci7">anci 7</string>
+    <string name="qsclock_anci8">anci 8</string>
+    <string name="qsclock_anci9">anci 9</string>
+    <string name="qsclock_anci10">anci 10</string>
+    <string name="qsclock_anci11">anci 11</string>
+    <string name="qsclock_anci12">anci 12</string>
+    <string name="qsclock_anci13">anci 13</string>
+    <string name="qsclock_anci14">anci 14</string>
+    <string name="qsclock_anci15">anci 15</string>
+    <string name="qsclock_anci16">anci 16</string>
+
 </resources>
