@@ -201,6 +201,12 @@
         android:title="@string/lockscreen_status_bar_title"
         android:summary="@string/lockscreen_status_bar_summary"
         android:defaultValue="true" />
+	
+    <com.ancient.settings.preferences.SystemSettingSwitchPreference
+        android:key="lockscreen_lock_icon"
+        android:title="@string/lockscreen_lock_icon_title"
+        android:summary="@string/lockscreen_lock_icon_summary"
+        android:defaultValue="true" />
 
     <PreferenceCategory
         android:key="lockscreen_charging"
