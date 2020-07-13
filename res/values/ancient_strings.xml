@@ -1222,5 +1222,19 @@ limitations under the License.
     <string name="settings_anci14">anci 14</string>
     <string name="settings_anci15">anci 15</string>
     <string name="settings_anci16">anci 16</string>
+    
+    <!-- Analog styles -->
+    <string name="analog_style_title">Analog Clock style</string>
+    <string name="analog_default">Default</string>
+    <string name="analog_anci1">anci 1</string>
+    <string name="analog_anci2">anci 2</string>
+    <string name="analog_anci3">anci 3</string>
+    <string name="analog_anci4">anci 4</string>
+    <string name="analog_anci5">anci 5</string>
+    <string name="analog_anci6">anci 6</string>
+    <string name="analog_anci7">anci 7</string>
+    <string name="analog_anci8">anci 8</string>
+    <string name="analog_anci9">anci 9</string>
+    <string name="analog_anci10">anci 10</string>
 
 </resources>
