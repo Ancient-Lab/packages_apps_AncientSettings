@@ -110,7 +110,20 @@
 
     </PreferenceCategory>
      
-     <PreferenceCategory
+    <PreferenceCategory
+        android:key="analog_theming"
+        android:title="@string/analog_style_title">
+
+        <ListPreference
+            android:key="analog_style"
+            android:title="@string/analog_style_title"
+            android:persistent="false"
+            android:entries="@array/analog_selector_entries"
+            android:entryValues="@array/analog_selector_values" />
+
+    </PreferenceCategory> 
+     
+    <PreferenceCategory
         android:key="settings_theming"
         android:title="@string/settings_style_title">
 
