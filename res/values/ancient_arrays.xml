@@ -1290,5 +1290,54 @@
         <item>19</item>
         <item>20</item>
     </string-array>
+     
+    <!-- Settings styles -->
+    <string-array name="settings_selector_entries" translatable="false">
+        <item>@string/settings_default</item>
+        <item>@string/settings_left</item>
+        <item>@string/settings_right</item>
+        <item>@string/settings_anci</item>
+        <item>@string/settings_anci0</item>
+        <item>@string/settings_anci1</item>
+        <item>@string/settings_anci2</item>
+        <item>@string/settings_anci3</item>
+        <item>@string/settings_anci4</item>
+        <item>@string/settings_anci5</item>
+        <item>@string/settings_anci6</item>
+        <item>@string/settings_anci7</item>
+        <item>@string/settings_anci8</item>
+        <item>@string/settings_anci9</item>
+        <item>@string/settings_anci10</item>
+        <item>@string/settings_anci11</item>
+        <item>@string/settings_anci12</item>
+        <item>@string/settings_anci13</item>
+        <item>@string/settings_anci14</item>
+        <item>@string/settings_anci15</item>
+        <item>@string/settings_anci16</item>
+    </string-array>
+
+    <string-array name="qs_clock_selector_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+    </string-array> 
 
 </resources>
