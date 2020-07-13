@@ -1339,5 +1339,34 @@
         <item>19</item>
         <item>20</item>
     </string-array> 
+     
+    <!-- Analog styles -->
+    <string-array name="analog_selector_entries" translatable="false">
+        <item>@string/analog_default</item>
+        <item>@string/analog_anci1</item>
+        <item>@string/analog_anci2</item>
+        <item>@string/analog_anci3</item>
+        <item>@string/analog_anci4</item>
+        <item>@string/analog_anci5</item>
+        <item>@string/analog_anci6</item>
+        <item>@string/analog_anci7</item>
+        <item>@string/analog_anci8</item>
+        <item>@string/analog_anci9</item>
+        <item>@string/analog_anci10</item>
+    </string-array>
+
+    <string-array name="analog_selector_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array> 
 
 </resources>
