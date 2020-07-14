@@ -410,6 +410,7 @@ limitations under the License.
     <string name="file_header_select_title">Pick image from storage</string>
     <string name="file_header_select_summary">Select an image from internal storage</string>
     <string name="status_bar_custom_header_shadow_title">Darken image</string>
+    <string name="status_bar_custom_header_height_title">Image height offset</string>
 
     <!-- Incall Home button behavior-->
     <string name="allow_incall_home_title">Home button when ringing</string>
@@ -869,6 +870,9 @@ limitations under the License.
     <string name="blocker_title">Blocker</string>
     <string name="sensor_block_title">Sensor block per-package</string>
     <string name="sensor_block_summary">Block access to certain sensors for some apps to save battery</string>
+    <string name="sensor_block_app_picker_title">Block sensors for these apps</string>
+    <string name="add_sensor_block_package_title">Add apps for Sensor block</string>
+    <string name="add_sensor_block_package_summary">Significant motion, accelerometer, linear acceleration sensors will be blocked for these apps</string>
 
     <!-- Wakelock blocker -->
     <string name="wakelock_blocker_title">Wakelock blocker</string>
@@ -1039,5 +1043,220 @@ limitations under the License.
 
     <!-- Power Button -->
     <string name="power_button">Power Button</string>
+
+    <!-- Switch styles -->
+    <string name="switch_style_title">Switch Styles</string>
+    <string name="switch_default">Default</string>
+    <string name="switch_oneplus">OnePlus</string>
+    <string name="switch_narrow">Narrow</string>
+    <string name="switch_contained">Contained</string>
+    <string name="switch_telegram">Telegram</string>
+
+    <!-- QS tile styles -->
+    <string name="qs_tile_style_title">QS tile style</string>
+    <string name="qstile_default">Default</string>
+    <string name="qstile_circle_trim">Circle with trim</string>
+    <string name="qstile_dual_tone_circle">Dual-toned circle</string>
+    <string name="qstile_squircle_trim">Squircle with trim</string>
+    <string name="qstile_wavey">Wavey</string>
+    <string name="qstile_pokesign">Pokesign</string>
+    <string name="qstile_ninja">Ninja</string>
+    <string name="qstile_dottedcircle">Dotted Circle</string>
+    <string name="qstile_attemptmountain">An attempt of a mountain</string>
+    <string name="qstile_squaremedo">The Squaremedo</string>
+    <string name="qstile_inkdrop">Ink</string>
+    <string name="qstile_cookie">Cookie</string>
+    <string name="qstile_circleoutline">Circle Outline</string>
+    <string name="qstile_neonlike">Neonlike</string>
+    <string name="qstile_oos">OOS</string>
+    <string name="qstile_triangles">Triangles</string>
+    <string name="qstile_divided">Divided circle</string>
+    <string name="qstile_cosmos">Cosmos</string>
+    <string name="qstile_squircle">Squircle</string>
+    <string name="qstile_teardrop">Teardrop</string>
+
+    <!-- QS themes -->
+    <string name="qs_themes_category_title">QS Themes</string>
+    <string name="qs_panel_color_title">QS Panel color</string>
+    <string name="qs_bg_wall_title">Use Wallpaper colors</string>
+    <string name="qs_bg_wall_summary">Set QS background color from Wallpaper</string>
+    <string name="qs_bg_use_fw">Use default colors</string>
+    <string name="qs_bg_use_fw_summary">Disable custom QS styles for external theme engines</string>
+    <string name="qs_bg_use_new_tint">New tint style</string>
+    <string name="qs_bg_use_new_tint_summary">Enable the new QS tint style</string>
+
+    <!-- QS Label Tint -->
+    <string name="qs_label_use_new_tint">QS Label Tint</string>
+    <string name="qs_label_tint_off">Default</string>
+    <string name="qs_label_tint_accent">Accent Color Tint</string>
+    <string name="qs_label_tint_gradient">Gradient Color Tint</string>
+
+    <!-- Quick Settings -->
+    <string name="lockscreen_qs_disabled_title">Disable quick settings when locked</string>
+    <string name="lockscreen_qs_disabled_summary">Disable expanding quick settings on secure lock screens</string>
+
+    <!-- Quick pull down-->
+    <string name="quick_pulldown_title">Quick pulldown</string>
+    <string name="quick_pulldown_summary">%1$s edge of the status bar pulls down Quick Settings</string>
+    <string name="quick_pulldown_summary_always">Always show Quick Settings on status bar pulldown</string>
+    <string name="quick_pulldown_off">Off</string>
+    <string name="quick_pulldown_left">Left</string>
+    <string name="quick_pulldown_right">Right</string>
+    <string name="quick_pulldown_always">Always</string>
+
+    <!-- Smart pulldown-->
+    <string name="smart_pulldown_title">Smart pulldown</string>
+    <string name="smart_pulldown_summary">Open quick settings when there are %1$s notifications</string>
+    <string name="smart_pulldown_none_summary">Open quick settings when there are no notifications</string>
+    <string name="smart_pulldown_off">Off</string>
+    <string name="smart_pulldown_none">no notifications</string>
+    <string name="smart_pulldown_dismissable">no dismissable</string>
+    <string name="smart_pulldown_ongoing">no ongoing</string>
+
+    <!-- Slim recents -->
+    <!--string name="ok">OK</string-->
+    <string name="alternative_recents_category">Alternative recents</string>
+    <string name="alternative_recents_swipe_up_enabled_warning_summary">When using swipe up home navigation to open recents, only stock recents are supported</string>
+    <string name="slim_recents_title">Slim Recents</string>
+    <string name="slim_recents_summary">Enable to use an alternative recents screen</string>
+    <string name="slim_recents_fragment_title">Slim recents settings</string>
+    <string name="slim_recents_fragment_summary">Customize the additional settings for slim recents</string>
+    <string name="recents_max_apps_title">Max allowed apps</string>
+    <string name="recent_panel_scale_title">Size</string>
+    <string name="recent_panel_expanded_mode_title">Expanded mode</string>
+    <string name="recent_panel_expanded_mode_summary">Recent tasks expanded preview mode</string>
+    <string name="recent_panel_expanded_mode_auto">Auto (Default)</string>
+    <string name="recent_panel_expanded_mode_always">Always</string>
+    <string name="recent_panel_expanded_mode_never">Never</string>
+    <string name="recent_panel_expanded_mode_disabled">Disabled</string>
+    <string name="recent_panel_bg_color_title">Panel background color</string>
+    <string name="recent_card_bg_color_title">Card background color</string>
+    <string name="slim_recents_mem_display_long_click_clear_title">Memory bar longpress gesture</string>
+    <string name="slim_recents_mem_display_long_click_clear_summary">Clear recents by long-pressing the memory bar</string>
+    <string name="slim_icon_pack_title">Icon Pack</string>
+    <string name="slim_icon_pack_summary">Apply a custom icon pack for apps in the panel</string>
+    <string name="no_iconpacks_summary">No icon packs installed</string>
+    <string name="dialog_pick_iconpack_title">Pick icon pack</string>
+    <string name="default_iconpack_title">Default icons</string>
+    <string name="slim_recents_corner_radius_title">Card corner radius</string>
+    <!-- ATTENTION: RTL languages need to replace left with right -->
+    <string name="recent_panel_lefty_mode_title">Show on the left edge</string>
+    <string name="recent_panel_lefty_mode_summary">Show recent apps panel on the left edge of the screen</string>
+    <string name="slim_blacklist_apps_cat_title">Blacklist</string>
+    <string name="slim_blacklist_apps_title">Apps blacklist</string>
+    <string name="slim_blacklist_apps_summary">Apps to not show in the panel</string>
+    <string name="slim_blacklist_add_apps_title">Add app</string>
+    <string name="slim_blacklist_add_apps_summary">Tap here to add, tap on added app to remove it</string>
+    <string name="choose_app">Choose app</string>
+
+    <!-- Slim Recent App Sidebar -->
+    <string name="recent_app_sidebar_cat_title">App Sidebar</string>
+    <string name="recent_app_sidebar_title">Recents app sidebar</string>
+    <string name="recent_app_sidebar_summary">Show app shortcuts on the other edge</string>
+    <string name="recent_app_sidebar_picker_title">Sidebar shortcuts</string>
+    <string name="recent_app_sidebar_picker_summary">Choose apps to show in the sidebar</string>
+    <string name="recent_app_sidebar_style_title">Sidebar style</string>
+    <string name="recent_app_sidebar_style_summary">Change the look of the sidebar</string>
+    <string name="recent_app_sidebar_hide_labels_title">Hide icon labels</string>
+    <string name="recent_app_sidebar_label_color_title">Label color</string>
+    <string name="recent_app_sidebar_bg_color_title">Background color</string>
+    <string name="recent_app_sidebar_scale_title">Size</string>
+    <string name="recent_app_sidebar_open_simultaneously_title">Open simultaneously with recents</string>
+    <string name="recent_app_sidebar_open_simultaneously_summary">Reduce recents opening lag by disabling this</string>
+    <string name="default_auto_string">Default (App based)</string>
+
+    <!-- Slim recents membar -->
+    <string name="slim_recents_mem_display_category_title">Memory Bar</string>
+    <string name="slim_recents_mem_display_title">Memory bar</string>
+    <string name="slim_recents_mem_display_summary">Show a progress bar displaying RAM</string>
+    <string name="slim_recents_mem_display_color">Memory bar color</string>
+    <string name="slim_recents_mem_display_text_color">Memory bar text color</string>
+    <string name="slim_recents_enter_exit_animation_title">Animation</string>
+    <string name="slim_recents_enter_exit_animation_translate">Translate</string>
+    <string name="slim_recents_enter_exit_animation_fade">Fade</string>
+
+    <!-- QS clock styles -->
+    <string name="qs_clock_style_title">QS clock style</string>
+    <string name="qsclock_default">Default</string>
+    <string name="qsclock_left">left</string>
+    <string name="qsclock_right">right</string>
+    <string name="qsclock_anci">anci</string>
+    <string name="qsclock_anci0">anci 0</string>
+    <string name="qsclock_anci1">anci 1</string>
+    <string name="qsclock_anci2">anci 2</string>
+    <string name="qsclock_anci3">anci 3</string>
+    <string name="qsclock_anci4">anci 4</string>
+    <string name="qsclock_anci5">anci 5</string>
+    <string name="qsclock_anci6">anci 6</string>
+    <string name="qsclock_anci7">anci 7</string>
+    <string name="qsclock_anci8">anci 8</string>
+    <string name="qsclock_anci9">anci 9</string>
+    <string name="qsclock_anci10">anci 10</string>
+    <string name="qsclock_anci11">anci 11</string>
+    <string name="qsclock_anci12">anci 12</string>
+    <string name="qsclock_anci13">anci 13</string>
+    <string name="qsclock_anci14">anci 14</string>
+    <string name="qsclock_anci15">anci 15</string>
+    <string name="qsclock_anci16">anci 16</string>
+    
+    <!-- Settings styles -->
+    <string name="settings_style_title">Settings style</string>
+    <string name="settings_default">Default</string>
+    <string name="settings_left">left</string>
+    <string name="settings_right">right</string>
+    <string name="settings_anci">anci</string>
+    <string name="settings_anci0">anci 0</string>
+    <string name="settings_anci1">anci 1</string>
+    <string name="settings_anci2">anci 2</string>
+    <string name="settings_anci3">anci 3</string>
+    <string name="settings_anci4">anci 4</string>
+    <string name="settings_anci5">anci 5</string>
+    <string name="settings_anci6">anci 6</string>
+    <string name="settings_anci7">anci 7</string>
+    <string name="settings_anci8">anci 8</string>
+    <string name="settings_anci9">anci 9</string>
+    <string name="settings_anci10">anci 10</string>
+    <string name="settings_anci11">anci 11</string>
+    <string name="settings_anci12">anci 12</string>
+    <string name="settings_anci13">anci 13</string>
+    <string name="settings_anci14">anci 14</string>
+    <string name="settings_anci15">anci 15</string>
+    <string name="settings_anci16">anci 16</string>
+    
+    <!-- Analog styles -->
+    <string name="analog_style_title">Analog Clock style</string>
+    <string name="analog_default">Default</string>
+    <string name="analog_anci1">anci 1</string>
+    <string name="analog_anci2">anci 2</string>
+    <string name="analog_anci3">anci 3</string>
+    <string name="analog_anci4">anci 4</string>
+    <string name="analog_anci5">anci 5</string>
+    <string name="analog_anci6">anci 6</string>
+    <string name="analog_anci7">anci 7</string>
+    <string name="analog_anci8">anci 8</string>
+    <string name="analog_anci9">anci 9</string>
+    <string name="analog_anci10">anci 10</string>
+    
+    <!-- Status Bar Ticker -->
+    <string name="ticker_screen_title">Ticker</string>
+    <string name="ticker_screen_summary">Show notifications ticker-style in status bar</string>
+    <string name="ticker_title">Status bar ticker</string>
+    <string name="ticker_summary">Enable the status bar ticker</string>
+    <string name="ticker_restore_defaults_title">Restore defaults</string>
+    <string name="text_title">Text</string>
+    <string name="icon_title">Icon</string>
+    <string name="colors_title">Colors</string>
+    <string name="values_restored_title">Values restored</string>
+    <string name="ticker_disabled">No ticker</string>
+    <string name="ticker_enabled">Notification ticker</string>
+    <string name="ticker_media_enabled">Notifications and music ticker</string>
+    <string name="ticker_animation_mode_title">Ticker animation style</string>
+    <string name="ticker_animation_mode_alpha_fade">Fade</string>
+    <string name="ticker_animation_mode_scroll">Scroll</string>
+    <string name="ticker_tick_duration_title">Ticker duration</string>
+    
+    <!-- Lockscreen lock icon -->
+    <string name="lockscreen_lock_icon_title">Lock icon</string>
+    <string name="lockscreen_lock_icon_summary">Display lock icon on the lockscreen</string>
 
 </resources>

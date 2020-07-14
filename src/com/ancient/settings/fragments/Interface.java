@@ -26,6 +26,10 @@ import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.display.OverlayCategoryPreferenceController;
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.lifecycle.Lifecycle;
+import com.ancient.settings.fragments.QsTileStylePreferenceController;
+import com.ancient.settings.fragments.QsClockStylePreferenceController;
+import com.ancient.settings.fragments.SettingsStylePreferenceController;
+import com.ancient.settings.fragments.AnalogStylePreferenceController;
 
 import com.android.settings.R;
 
@@ -66,6 +70,10 @@ public class Interface extends DashboardFragment {
                 "android.theme.customization.adaptive_icon_shape"));
         controllers.add(new OverlayCategoryPreferenceController(context,
                 "android.theme.customization.icon_pack.android"));
+        controllers.add(new QsTileStylePreferenceController(context));
+        controllers.add(new QsClockStylePreferenceController(context));
+        controllers.add(new SettingsStylePreferenceController(context));
+        controllers.add(new AnalogStylePreferenceController(context));
         return controllers;
     }
 }

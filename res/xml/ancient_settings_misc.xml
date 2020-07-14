@@ -105,4 +105,22 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:key="alternative_recents_category"
+        android:title="@string/alternative_recents_category">
+
+        <Preference
+            android:key="swipe_up_enabled_warning"
+            android:selectable="false"
+            android:summary="@string/alternative_recents_swipe_up_enabled_warning_summary" />
+
+        <com.ancient.settings.preferences.SystemSettingMasterSwitchPreference
+            android:key="use_slim_recents"
+            android:fragment="com.ancient.settings.fragments.SlimRecents"
+            android:title="@string/slim_recents_fragment_title"
+            android:summary="@string/slim_recents_fragment_summary"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
+
 </PreferenceScreen>

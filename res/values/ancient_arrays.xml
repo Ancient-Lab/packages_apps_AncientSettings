@@ -1110,4 +1110,285 @@
         <item>2</item>
     </string-array>
 
+    <!-- Switch styles -->
+    <string-array name="switch_style_entries" translatable="false">
+        <item>@string/switch_default</item>
+        <item>@string/switch_oneplus</item>
+        <item>@string/switch_narrow</item>
+        <item>@string/switch_contained</item>
+        <item>@string/switch_telegram</item>
+    </string-array>
+
+    <string-array name="switch_style_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <!-- QS tile styles -->
+    <string-array name="qs_selector_entries" translatable="false">
+        <item>@string/qstile_default</item>
+        <item>@string/qstile_circle_trim</item>
+        <item>@string/qstile_dual_tone_circle</item>
+        <item>@string/qstile_squircle_trim</item>
+        <item>@string/qstile_wavey</item>
+        <item>@string/qstile_pokesign</item>
+        <item>@string/qstile_ninja</item>
+        <item>@string/qstile_dottedcircle</item>
+        <item>@string/qstile_attemptmountain</item>
+        <item>@string/qstile_squaremedo</item>
+        <item>@string/qstile_inkdrop</item>
+        <item>@string/qstile_cookie</item>
+        <item>@string/qstile_circleoutline</item>
+        <item>@string/qstile_neonlike</item>
+        <item>@string/qstile_oos</item>
+        <item>@string/qstile_triangles</item>
+        <item>@string/qstile_divided</item>
+        <item>@string/qstile_cosmos</item>
+        <item>@string/qstile_squircle</item>
+        <item>@string/qstile_teardrop</item>
+    </string-array>
+
+    <string-array name="qs_selector_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+    </string-array>
+
+    <!-- QS Label Tint -->
+    <string-array name="qs__label_tint_entries" translatable="false">
+        <item>@string/qs_label_tint_off</item>
+        <item>@string/qs_label_tint_accent</item>
+        <item>@string/qs_label_tint_gradient</item>
+    </string-array>
+
+    <string-array name="qs_label_tint_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <!-- Quick Pulldown -->
+    <string-array name="quick_pulldown_entries" translatable="false">
+        <item>@string/quick_pulldown_off</item>
+        <item>@string/quick_pulldown_right</item>
+        <item>@string/quick_pulldown_left</item>
+        <item>@string/quick_pulldown_always</item>
+    </string-array>
+
+    <string-array name="quick_pulldown_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <!-- Smart pulldown -->
+    <string-array name="smart_pulldown_entries" translatable="false">
+        <item>@string/smart_pulldown_off</item>
+        <item>@string/smart_pulldown_dismissable</item>
+        <item>@string/smart_pulldown_ongoing</item>
+        <item>@string/smart_pulldown_none</item>
+    </string-array>
+
+    <string-array name="smart_pulldown_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <!-- Slim recents -->
+    <string-array name="recent_panel_expanded_mode_entries">
+        <item>@string/recent_panel_expanded_mode_auto</item>
+        <item>@string/recent_panel_expanded_mode_always</item>
+        <item>@string/recent_panel_expanded_mode_never</item>
+        <item>@string/recent_panel_expanded_mode_disabled</item>
+    </string-array>
+
+    <string-array name="recent_panel_expanded_mode_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="slim_recents_enter_exit_animation_entries" translatable="false">
+        <item>@string/slim_recents_enter_exit_animation_translate</item>
+        <item>@string/slim_recents_enter_exit_animation_fade</item>
+    </string-array>
+
+    <string-array name="slim_recents_enter_exit_animation_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <!-- QS clock styles -->
+    <string-array name="qs_clock_selector_entries" translatable="false">
+        <item>@string/qsclock_default</item>
+        <item>@string/qsclock_left</item>
+        <item>@string/qsclock_right</item>
+        <item>@string/qsclock_anci</item>
+        <item>@string/qsclock_anci0</item>
+        <item>@string/qsclock_anci1</item>
+        <item>@string/qsclock_anci2</item>
+        <item>@string/qsclock_anci3</item>
+        <item>@string/qsclock_anci4</item>
+        <item>@string/qsclock_anci5</item>
+        <item>@string/qsclock_anci6</item>
+        <item>@string/qsclock_anci7</item>
+        <item>@string/qsclock_anci8</item>
+        <item>@string/qsclock_anci9</item>
+        <item>@string/qsclock_anci10</item>
+        <item>@string/qsclock_anci11</item>
+        <item>@string/qsclock_anci12</item>
+        <item>@string/qsclock_anci13</item>
+        <item>@string/qsclock_anci14</item>
+        <item>@string/qsclock_anci15</item>
+        <item>@string/qsclock_anci16</item>
+    </string-array>
+
+    <string-array name="qs_clock_selector_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+    </string-array>
+     
+    <!-- Settings styles -->
+    <string-array name="settings_selector_entries" translatable="false">
+        <item>@string/settings_default</item>
+        <item>@string/settings_left</item>
+        <item>@string/settings_right</item>
+        <item>@string/settings_anci</item>
+        <item>@string/settings_anci0</item>
+        <item>@string/settings_anci1</item>
+        <item>@string/settings_anci2</item>
+        <item>@string/settings_anci3</item>
+        <item>@string/settings_anci4</item>
+        <item>@string/settings_anci5</item>
+        <item>@string/settings_anci6</item>
+        <item>@string/settings_anci7</item>
+        <item>@string/settings_anci8</item>
+        <item>@string/settings_anci9</item>
+        <item>@string/settings_anci10</item>
+        <item>@string/settings_anci11</item>
+        <item>@string/settings_anci12</item>
+        <item>@string/settings_anci13</item>
+        <item>@string/settings_anci14</item>
+        <item>@string/settings_anci15</item>
+        <item>@string/settings_anci16</item>
+    </string-array>
+
+    <string-array name="qs_clock_selector_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+    </string-array> 
+     
+    <!-- Analog styles -->
+    <string-array name="analog_selector_entries" translatable="false">
+        <item>@string/analog_default</item>
+        <item>@string/analog_anci1</item>
+        <item>@string/analog_anci2</item>
+        <item>@string/analog_anci3</item>
+        <item>@string/analog_anci4</item>
+        <item>@string/analog_anci5</item>
+        <item>@string/analog_anci6</item>
+        <item>@string/analog_anci7</item>
+        <item>@string/analog_anci8</item>
+        <item>@string/analog_anci9</item>
+        <item>@string/analog_anci10</item>
+    </string-array>
+
+    <string-array name="analog_selector_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array> 
+     
+    <!-- Ticker mode -->
+    <string-array name="ticker_mode_entries">
+        <item>@string/ticker_disabled</item>
+        <item>@string/ticker_enabled</item>
+    </string-array>
+
+    <string-array name="ticker_mode_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <!-- Ticker animation mode -->
+    <string-array name="ticker_animation_mode_entries" translatable="false">
+        <item>@string/ticker_animation_mode_alpha_fade</item>
+        <item>@string/ticker_animation_mode_scroll</item>
+    </string-array>
+
+    <string-array name="ticker_animation_mode_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
 </resources>
