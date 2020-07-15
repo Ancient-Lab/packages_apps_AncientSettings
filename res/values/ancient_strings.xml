@@ -1254,6 +1254,10 @@ limitations under the License.
     <string name="ticker_animation_mode_alpha_fade">Fade</string>
     <string name="ticker_animation_mode_scroll">Scroll</string>
     <string name="ticker_tick_duration_title">Ticker duration</string>
+
+    <!-- Units -->
+    <string name="unit_seconds">seconds</string>
+    <string name="unit_milliseconds">milliseconds</string>
     
     <!-- Lockscreen lock icon -->
     <string name="lockscreen_lock_icon_title">Lock icon</string>

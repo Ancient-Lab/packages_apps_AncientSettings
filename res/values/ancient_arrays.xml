@@ -1316,7 +1316,7 @@
         <item>@string/settings_anci16</item>
     </string-array>
 
-    <string-array name="qs_clock_selector_values" translatable="false">
+    <string-array name="settings_selector_values" translatable="false">
         <item>0</item>
         <item>1</item>
         <item>2</item>
