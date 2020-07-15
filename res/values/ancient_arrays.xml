@@ -1390,5 +1390,83 @@
         <item>0</item>
         <item>1</item>
     </string-array>
+     
+   <!-- QS clock styles -->
+    <string-array name="qs_analog_selector_entries" translatable="false">
+        <item>@string/qsanalog_default</item>
+        <item>@string/qsanalog_anci</item>
+        <item>@string/qsanalog_anci0</item>
+        <item>@string/qsanalog_anci1</item>
+        <item>@string/qsanalog_anci2</item>
+        <item>@string/qsanalog_anci3</item>
+        <item>@string/qsanalog_anci4</item>
+        <item>@string/qsanalog_anci5</item>
+        <item>@string/qsanalog_anci6</item>
+        <item>@string/qsanalog_anci7</item>
+        <item>@string/qsanalog_anci8</item>
+    </string-array>
+
+    <string-array name="qs_clock_selector_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+  
+    <!-- QS setting styles -->
+    <string-array name="qs_setting_selector_entries" translatable="false">
+        <item>@string/qssetting_default</item>
+        <item>@string/qssetting_left</item>
+        <item>@string/qssetting_right</item>
+        <item>@string/qssetting_anci</item>
+        <item>@string/qssetting_anci0</item>
+        <item>@string/qssetting_anci1</item>
+        <item>@string/qssetting_anci2</item>
+        <item>@string/qssetting_anci3</item>
+        <item>@string/qssetting_anci4</item>
+        <item>@string/qssetting_anci5</item>
+        <item>@string/qssetting_anci6</item>
+        <item>@string/qssetting_anci7</item>
+        <item>@string/qssetting_anci8</item>
+        <item>@string/qssetting_anci9</item>
+        <item>@string/qssetting_anci10</item>
+        <item>@string/qssetting_anci11</item>
+        <item>@string/qsclock_anci12</item>
+        <item>@string/qssetting_anci13</item>
+        <item>@string/qssetting_anci14</item>
+        <item>@string/qssetting_anci15</item>
+        <item>@string/qssetting_anci16</item>
+    </string-array>
+
+    <string-array name="qs_clock_selector_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+    </string-array>
 
 </resources>
