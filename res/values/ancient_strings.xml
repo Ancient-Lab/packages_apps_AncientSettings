@@ -1222,4 +1222,19 @@ limitations under the License.
     <string name="lockscreen_lock_icon_title">Lock icon</string>
     <string name="lockscreen_lock_icon_summary">Display lock icon on the lockscreen</string>
 
+    <!-- QS analog styles -->
+    <string name="qs_analog_style_title">QS analog style</string>
+    <string name="qsanalog_default">Default</string>
+    <string name="qsanalog_anci">anci</string>
+    <string name="qsanalog_anci0">anci 0</string>
+    <string name="qsanalog_anci1">anci 1</string>
+    <string name="qsanalog_anci2">anci 2</string>
+    <string name="qsanalog_anci3">anci 3</string>
+    <string name="qsanalog_anci4">anci 4</string>
+    <string name="qsanalog_anci5">anci 5</string>
+    <string name="qsanalog_anci6">anci 6</string>
+    <string name="qsanalog_anci7">anci 7</string>
+    <string name="qsanalog_anci8">anci 8</string>
+    <string name="qsanalog_anci9">anci 9</string>
+
 </resources>
