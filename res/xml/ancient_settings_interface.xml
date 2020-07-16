@@ -111,6 +111,19 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:key="qs_setting_theming"
+        android:title="@string/qs_setting_style_title">
+
+        <ListPreference
+            android:key="qs_setting_style"
+            android:title="@string/qs_setting_style_title"
+            android:persistent="false"
+            android:entries="@array/qs_setting_selector_entries"
+            android:entryValues="@array/qs_setting_selector_values" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="qs_analog_theming"
         android:title="@string/qs_analog_style_title">
 
