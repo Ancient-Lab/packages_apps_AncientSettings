@@ -1263,4 +1263,43 @@ limitations under the License.
     <string name="lockscreen_lock_icon_title">Lock icon</string>
     <string name="lockscreen_lock_icon_summary">Display lock icon on the lockscreen</string>
 
+    <!-- QS analog styles -->
+    <string name="qs_analog_style_title">QS analog style</string>
+    <string name="qsanalog_default">Default</string>
+    <string name="qsanalog_anci">anci</string>
+    <string name="qsanalog_anci0">anci 0</string>
+    <string name="qsanalog_anci1">anci 1</string>
+    <string name="qsanalog_anci2">anci 2</string>
+    <string name="qsanalog_anci3">anci 3</string>
+    <string name="qsanalog_anci4">anci 4</string>
+    <string name="qsanalog_anci5">anci 5</string>
+    <string name="qsanalog_anci6">anci 6</string>
+    <string name="qsanalog_anci7">anci 7</string>
+    <string name="qsanalog_anci8">anci 8</string>
+    <string name="qsanalog_anci9">anci 9</string>
+     
+   <!-- QS setting styles -->
+    <string name="qs_settings_style_title">QS setting style</string>
+    <string name="qssetting_default">Default</string>
+    <string name="qssetting_left">left</string>
+    <string name="qssetting_right">right</string>
+    <string name="qssetting_anci">anci</string>
+    <string name="qssetting_anci0">anci 0</string>
+    <string name="qssetting_anci1">anci 1</string>
+    <string name="qssetting_anci2">anci 2</string>
+    <string name="qssetting_anci3">anci 3</string>
+    <string name="qssetting_anci4">anci 4</string>
+    <string name="qssetting_anci5">anci 5</string>
+    <string name="qssetting_anci6">anci 6</string>
+    <string name="qssetting_anci7">anci 7</string>
+    <string name="qssetting_anci8">anci 8</string>
+    <string name="qssetting_anci9">anci 9</string>
+    <string name="qssetting_anci10">anci 10</string>
+    <string name="qssetting_anci11">anci 11</string>
+    <string name="qssetting_anci12">anci 12</string>
+    <string name="qssetting_anci13">anci 13</string>
+    <string name="qssetting_anci14">anci 14</string>
+    <string name="qssetting_anci15">anci 15</string>
+    <string name="qssetting_anci16">anci 16</string>
+
 </resources>

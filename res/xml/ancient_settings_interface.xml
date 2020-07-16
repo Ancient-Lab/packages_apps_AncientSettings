@@ -151,14 +151,14 @@
      
     <PreferenceCategory
         android:key="qs_setting_theming"
-        android:title="@string/qs_setting_style_title">
+        android:title="@string/qs_settings_style_title">
 
         <ListPreference
             android:key="qs_setting_style"
-            android:title="@string/qs_setting_style_title"
+            android:title="@string/qs_settings_style_title"
             android:persistent="false"
-            android:entries="@array/qs_setting_selector_entries"
-            android:entryValues="@array/qs_setting_selector_values" />
+            android:entries="@array/qs_settings_selector_entries"
+            android:entryValues="@array/qs_settings_selector_values" />
 
     </PreferenceCategory>
 
