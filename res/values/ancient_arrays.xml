@@ -1149,6 +1149,17 @@
         <item>@string/qstile_cosmos</item>
         <item>@string/qstile_squircle</item>
         <item>@string/qstile_teardrop</item>
+        <item>@string/qstile_anci1</item>
+        <item>@string/qstile_anci2</item>
+        <item>@string/qstile_anci3</item>
+        <item>@string/qstile_anci4</item>
+        <item>@string/qstile_anci5</item>
+        <item>@string/qstile_anci6</item>
+        <item>@string/qstile_anci7</item>
+        <item>@string/qstile_anci8</item>
+        <item>@string/qstile_anci9</item>
+        <item>@string/qstile_anci10</item> 
+        <item>@string/qstile_anci11</item>  
     </string-array>
 
     <string-array name="qs_selector_values" translatable="false">
@@ -1172,6 +1183,17 @@
         <item>17</item>
         <item>18</item>
         <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item> 
+        <item>30</item> 
     </string-array>
 
     <!-- QS Label Tint -->

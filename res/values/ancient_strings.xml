@@ -1073,6 +1073,17 @@ limitations under the License.
     <string name="qstile_cosmos">Cosmos</string>
     <string name="qstile_squircle">Squircle</string>
     <string name="qstile_teardrop">Teardrop</string>
+    <string name="qstile_anci1">Anci 1</string>
+    <string name="qstile_anci2">Anci 2</string>
+    <string name="qstile_anci3">Anci 3</string>
+    <string name="qstile_anci4">Anci 4</string>
+    <string name="qstile_anci5">Anci 5</string>
+    <string name="qstile_anci6">Anci 6</string>
+    <string name="qstile_anci7">Anci 7</string>
+    <string name="qstile_anci8">Anci 8</string>
+    <string name="qstile_anci9">Anci 9</string>
+    <string name="qstile_anci10">Anci 10</string>
+    <string name="qstile_anci11">Anci 11</string>
 
     <!-- QS themes -->
     <string name="qs_themes_category_title">QS Themes</string>
