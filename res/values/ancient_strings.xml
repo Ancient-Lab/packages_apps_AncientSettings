@@ -1283,4 +1283,8 @@ limitations under the License.
     <string name="qssetting_anci15">anci 15</string>
     <string name="qssetting_anci16">anci 16</string>
 
+    <!-- Notification Vibration -->
+    <string name="vibrate_on_notifications_title">Notification vibration</string>
+    <string name="vibrate_on_notifications_summary">Vibrate on notifications</string>
+
 </resources>

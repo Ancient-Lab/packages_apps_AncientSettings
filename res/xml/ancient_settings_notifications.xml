@@ -46,6 +46,12 @@
             android:summary="@string/force_expanded_notifications_summary"
             android:defaultValue="false" />
 
+    <com.ancient.settings.preferences.SystemSettingSwitchPreference
+        android:key="vibrate_on_notifications"
+        android:title="@string/vibrate_on_notifications_title"
+        android:summary="@string/vibrate_on_notifications_summary"
+        android:defaultValue="true" />
+
     </PreferenceCategory>
 
     <!-- Quick settings -->
