@@ -85,8 +85,8 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:key="qs_tile_theming"
-        android:title="@string/qs_tile_style_title">
+        android:key="qs_style"
+        android:title="@string/qs_style_title">
 
         <ListPreference
             android:key="qs_tile_style"
@@ -95,18 +95,19 @@
             android:entries="@array/qs_selector_entries"
             android:entryValues="@array/qs_selector_values" />
 
-    </PreferenceCategory>
-
-    <PreferenceCategory
-        android:key="qs_clock_theming"
-        android:title="@string/qs_clock_style_title">
-
         <ListPreference
             android:key="qs_clock_style"
             android:title="@string/qs_clock_style_title"
             android:persistent="false"
             android:entries="@array/qs_clock_selector_entries"
             android:entryValues="@array/qs_clock_selector_values" />
+
+        <ListPreference
+            android:key="qs_analog_style"
+            android:title="@string/qs_analog_style_title"
+            android:persistent="false"
+            android:entries="@array/qs_analog_selector_entries"
+            android:entryValues="@array/qs_analog_selector_values" />
 
     </PreferenceCategory>
 
@@ -120,19 +121,6 @@
             android:persistent="false"
             android:entries="@array/qs_setting_selector_entries"
             android:entryValues="@array/qs_setting_selector_values" />
-
-    </PreferenceCategory>
-
-    <PreferenceCategory
-        android:key="qs_analog_theming"
-        android:title="@string/qs_analog_style_title">
-
-        <ListPreference
-            android:key="qs_analog_style"
-            android:title="@string/qs_analog_style_title"
-            android:persistent="false"
-            android:entries="@array/qs_analog_selector_entries"
-            android:entryValues="@array/qs_analog_selector_values" />
 
     </PreferenceCategory>
 
