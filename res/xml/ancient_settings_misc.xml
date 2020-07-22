@@ -36,6 +36,13 @@
             android:summaryOff="@string/summary_dashboard_suggestions_disabled"
             android:defaultValue="true" />
 
+	<com.ancient.settings.preferences.SystemSettingListPreference
+            android:key="theming_settings_dashboard_icons"
+            android:title="@string/theming_settings_dashboard_icons_title"
+            android:entries="@array/theming_settings_dashboard_icons_entries"
+            android:entryValues="@array/theming_settings_dashboard_icons_values"
+            android:defaultValue="0" />  
+
     </PreferenceCategory>
     
     <!-- Rounded Corners -->
