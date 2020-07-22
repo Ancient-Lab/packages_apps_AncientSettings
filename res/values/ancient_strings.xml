@@ -1325,4 +1325,10 @@ limitations under the License.
     <string name="volume_panel_oreo_val">co.potatoproject.plugin.volume.oreo</string>
     <string name="volume_panel_tiled_val">co.potatoproject.plugin.volume.tiled</string>
 
+    <!-- Barheight styles -->
+    <string name="qs_barheight_style_title">Statusbar Height</string>
+    <string name="qsbarheight_default">Default</string>
+    <string name="qsbarheight_one">40dp</string>
+    <string name="qsbarheight_two">50dp</string>
+
 </resources>

@@ -134,6 +134,13 @@
             android:summary="@string/statusbar_dual_row_summary"
             android:defaultValue="false" />
 
+        <ListPreference
+            android:key="qs_barheight_style"
+            android:title="@string/qs_barheight_style_title"
+            android:persistent="false"
+            android:entries="@array/qs_barheight_selector_entries"
+            android:entryValues="@array/qs_barheight_selector_values" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
