@@ -183,6 +183,15 @@
         android:key="brightness_slider"
         android:title="@string/qs_brightness_slider">
 
+        <com.ancient.settings.preferences.SystemSettingListPreference
+            android:key="qs_show_brightness_slider"
+            android:title="@string/status_bar_brightness_slider_title"
+            android:summary="%s"
+            android:dialogTitle="@string/status_bar_brightness_slider_title"
+            android:entries="@array/status_bar_brightness_slider_entries"
+            android:entryValues="@array/status_bar_brightness_slider_values"
+            android:defaultValue="1" />
+
         <com.ancient.settings.preferences.SecureSettingListPreference
             android:key="qs_show_brightness_slider"
             android:title="@string/qs_brightness_slider_title"
