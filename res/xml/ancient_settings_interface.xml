@@ -125,6 +125,18 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:key="statusbar_dual_row"
+        android:title="@string/statusbar_dual_row_title">
+
+        <com.ancient.settings.preferences.SystemSettingSwitchPreference
+            android:key="statusbar_dual_row"
+            android:title="@string/statusbar_dual_row_title"
+            android:summary="@string/statusbar_dual_row_summary"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="qs_theme_category"
         android:title="@string/qs_theme_category">
 
