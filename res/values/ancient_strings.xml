@@ -1036,6 +1036,7 @@ limitations under the License.
     <string name="fod_pressed_state_vivo_cyan_shadow_et713">Vivo Cyan (Shadow alt)</string>
     <string name="fod_pressed_state_vivo_green">Vivo Green</string>
     <string name="fod_pressed_state_vivo_yellow_shadow">Vivo Yellow (Shadow)</string>
+    <string name="fod_pressed_state_realme_white_light">Realme White</string>
 
     <!-- Statusbar dual row -->
     <string name="statusbar_dual_row_title">Dual Row For Notch</string>
