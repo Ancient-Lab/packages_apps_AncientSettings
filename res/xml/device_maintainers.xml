@@ -117,7 +117,7 @@
             android:title="@string/device_tissot" >
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="http://t.me/VictorVanDoom" />
+                android:data="http://t.me" />
           </Preference>
 
           <Preference
@@ -143,7 +143,7 @@
             android:title="@string/device_X01BD" >
             <intent
                  android:action="android.intent.action.VIEW"
-                 android:data="https://t.me/OrdinaR_FarhaN" />
+                 android:data="https://t.me" />
          </Preference>
 
      </PreferenceCategory>
@@ -159,7 +159,7 @@
             android:title="@string/device_fajita">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://t.me/AshutoshSundresh" />
+                android:data="https://t.me" />
         </Preference>
 
         <Preference
@@ -169,7 +169,7 @@
             android:title="@string/device_oneplus3" >
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://t.me/The_real_Deepakjr" />
+                android:data="https://t.me" />
           </Preference>
 
      </PreferenceCategory>
@@ -247,7 +247,7 @@
             android:title="@string/device_sanders">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://t.me/JorgeLucas" />
+                android:data="https://t.me" />
         </Preference>
 
         <Preference
