@@ -140,6 +140,16 @@
                  android:data="https://t.me/erwinabs" />
            </Preference>
 
+	  <Preference
+            android:id="@+id/device_vince"
+            android:icon="@drawable/ancient_device"
+            android:summary="@string/device_vince_summary"
+            android:title="@string/device_vince">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/srinandek" />
+          </Preference>
+
      </PreferenceCategory>
 
      <PreferenceCategory
