@@ -26,7 +26,7 @@
     <string name="device_category_realme_title" translatable="false">realme</string>
     <string name="device_category_nokia_title" translatable="false">nokia</string>
     <string name="device_category_motorola_title" translatable="false">motorola</string>
-
+    <string name="device_category_samsung_title" translatable="false">samsung</string>
     <!-- Device -->
     <string name="device_whyred" translatable="false">Xiaomi Redmi Note 5 Pro</string>
     <string name="device_whyred_summary" translatable="false">whyred\nReza Adi Pangestu (rezaadi0105)</string>
@@ -105,4 +105,10 @@
 	
     <string name="device_vince" translatable="false">Redmi 5 Plus/Note 5</string>
     <string name="device_vince_summary" translatable="false">vince\nSrinand.E.K</string>
+
+    <string name="device_greatlte" translatable="false">Samsung Galaxy Note 8</string> 
+    <string name="device_greatlte_summary" translatable="false">greatlte\nHaSSaN -</string>
+
+
+
 </resources>

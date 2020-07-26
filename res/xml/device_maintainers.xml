@@ -292,4 +292,22 @@
 
      </PreferenceCategory>
 
+
+    <PreferenceCategory
+        android:id="@+id/device_category_samsung"
+        android:title="@string/device_category_samsung_title">
+
+        <Preference
+            android:id="@+id/device_greatlte"
+            android:icon="@drawable/ancient_device"
+            android:summary="@string/device_greatlte_summary"
+            android:title="@string/device_greatlte">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/HaSSaN_MoHl" />
+        </Preference>
+
+     </PreferenceCategory>
+
+
 </PreferenceScreen>
