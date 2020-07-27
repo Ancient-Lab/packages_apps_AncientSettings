@@ -163,7 +163,7 @@
             android:title="@string/device_X01BD" >
             <intent
                  android:action="android.intent.action.VIEW"
-                 android:data="https://t.me/Ahmedsk786 />
+                 android:data="https://t.me/Ahmedsk786" />
          </Preference>
 
      </PreferenceCategory>
