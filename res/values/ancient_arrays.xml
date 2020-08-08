@@ -1561,4 +1561,42 @@
         <item>2</item>
     </string-array>
 
+    <!-- QS merge styles -->
+    <string-array name="qs_mergebg_selector_entries" translatable="false">
+        <item>@string/qsmergebg_default</item>
+        <item>@string/qsmergebg_anci1</item>
+        <item>@string/qsmergebg_anci2</item>
+        <item>@string/qsmergebg_anci3</item>
+        <item>@string/qsmergebg_anci4</item>
+	<item>@string/qsmergebg_anci5</item>
+    </string-array>
+
+    <string-array name="qs_mergebg_selector_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+	
+    <!-- navbar styles -->
+    <string-array name="qs_navbar_selector_entries" translatable="false">
+        <item>@string/qsnavbar_default</item>
+        <item>@string/qsnavbar_anci1</item>
+        <item>@string/qsnavbar_anci2</item>
+        <item>@string/qsnavbar_anci3</item>
+        <item>@string/qsnavbar_anci4</item>
+	<item>@string/qsnavbar_anci5</item>
+    </string-array>
+
+    <string-array name="qs_navbar_selector_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
 </resources>
