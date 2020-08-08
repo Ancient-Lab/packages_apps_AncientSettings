@@ -1373,4 +1373,23 @@ limitations under the License.
     <!-- Audio panel location -->
     <string name="audio_panel_location_title">Switch audio panel location</string>
     <string name="audio_panel_location_summary">Shift audio panel to the left side (Needs a SystemUI restart to take effect)</string>
+
+    <!-- QS merge styles -->
+    <string name="qs_mergebg_style_title">QS merge background style</string>
+    <string name="qsmergebg_default">Default</string>
+    <string name="qsmergebg_anci1">anci 1</string>
+    <string name="qsmergebg_anci2">anci 2</string>
+    <string name="qsmergebg_anci3">anci 3</string>
+    <string name="qsmergebg_anci4">anci 4</string>
+    <string name="qsmergebg_anci5">anci 5</string>
+
+    <!-- navbar styles -->
+    <string name="qs_navbar_style_title">Navbar Icon style</string>
+    <string name="qsnavbar_default">Default</string>
+    <string name="qsnavbar_anci1">anci 1</string>
+    <string name="qsnavbar_anci2">anci 2</string>
+    <string name="qsnavbar_anci3">anci 3</string>
+    <string name="qsnavbar_anci4">anci 4</string>
+    <string name="qsnavbar_anci5">anci 5</string>
+
 </resources>

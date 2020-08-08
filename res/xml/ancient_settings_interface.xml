@@ -67,6 +67,13 @@
             android:key="android.theme.customization.icon_pack.android"
             android:title="@string/theme_customization_sysui_icon_title"/>
 
+        <ListPreference
+            android:key="qs_navbar_style"
+            android:title="@string/qs_navbar_style_title"
+            android:persistent="false"
+            android:entries="@array/qs_navbar_selector_entries"
+            android:entryValues="@array/qs_navbar_selector_values" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -108,6 +115,13 @@
             android:persistent="false"
             android:entries="@array/qs_analog_selector_entries"
             android:entryValues="@array/qs_analog_selector_values" />
+
+        <ListPreference
+            android:key="qs_mergebg_style"
+            android:title="@string/qs_mergebg_style_title"
+            android:persistent="false"
+            android:entries="@array/qs_mergebg_selector_entries"
+            android:entryValues="@array/qs_mergebg_selector_values" />
 
     </PreferenceCategory>
 

@@ -31,6 +31,8 @@ import com.ancient.settings.fragments.QsClockStylePreferenceController;
 import com.ancient.settings.fragments.QsAnalogStylePreferenceController;
 import com.ancient.settings.fragments.QsSettingStylePreferenceController;
 import com.ancient.settings.fragments.QsBarheightStylePreferenceController;
+import com.ancient.settings.fragments.QsMergebgStylePreferenceController;
+import com.ancient.settings.fragments.QsNavbarStylePreferenceController;
 
 import com.android.settings.R;
 
@@ -76,6 +78,8 @@ public class Interface extends DashboardFragment {
         controllers.add(new QsAnalogStylePreferenceController(context));
         controllers.add(new QsSettingStylePreferenceController(context));
         controllers.add(new QsBarheightStylePreferenceController(context));
+        controllers.add(new QsMergebgStylePreferenceController(context));
+        controllers.add(new QsNavbarStylePreferenceController(context));
         return controllers;
     }
 }
