@@ -1392,4 +1392,7 @@ limitations under the License.
     <string name="qsnavbar_anci4">anci 4</string>
     <string name="qsnavbar_anci5">anci 5</string>
 
+    <!-- Clipboard toast toggle -->
+    <string name="show_clipboard_toast">Show clipboard access toast</string>
+
 </resources>
