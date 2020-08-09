@@ -112,8 +112,16 @@
             android:dialogTitle="@string/qs_bg_use_new_tint"
             android:entries="@array/qs_tint_entries"
             android:entryValues="@array/qs_tint_values"
+            android:disableDependentsState="true"
             android:summary="%s"
             android:defaultValue="1" />
+
+        <com.ancient.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_tile_icon_primary"
+            android:title="@string/qs_icon_primary_title"
+            android:summary="@string/qs_icon_primary_summary"
+            android:defaultValue="false"
+            android:dependency="qs_panel_bg_use_new_tint" />
 
         <com.ancient.settings.preferences.SystemSettingListPreference
             android:key="qs_label_use_new_tint"
