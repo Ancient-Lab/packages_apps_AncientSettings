@@ -1330,8 +1330,9 @@ limitations under the License.
     <!-- Barheight styles -->
     <string name="qs_barheight_style_title">Statusbar Height</string>
     <string name="qsbarheight_default">Default</string>
-    <string name="qsbarheight_one">86px</string>
-    <string name="qsbarheight_two">50dp</string>
+    <string name="qsbarheight_one">35px</string>
+    <string name="qsbarheight_two">86px</string>
+    <string name="qsbarheight_three">50dp</string>
 
     <!-- Settings dashboard icon style -->
     <string name="theming_settings_dashboard_icons_title">Settings dashboard icons</string>
