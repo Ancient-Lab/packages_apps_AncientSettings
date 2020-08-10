@@ -27,6 +27,7 @@
     <string name="device_category_nokia_title" translatable="false">nokia</string>
     <string name="device_category_motorola_title" translatable="false">motorola</string>
     <string name="device_category_samsung_title" translatable="false">samsung</string>
+    <string name="device_category_UMIDIGI_title" translatable="false">UMIDIGI</string>
 
     <!-- Device -->
     <string name="device_whyred" translatable="false">Xiaomi Redmi Note 5 Pro</string>
@@ -115,5 +116,8 @@
 
     <string name="device_dream2lte" translatable="false">Samsung Galaxy S8+</string>
     <string name="device_dream2lte_summary" translatable="false">greatlte\nHaSSaN</string>
+
+    <string name="device_breeze" translatable="false">UMIDIGI A5 Pro</string>
+    <string name="device_breeze_summary" translatable="false">greatlte\nFlashKiller</string>
 
 </resources>
