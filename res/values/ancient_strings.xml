@@ -1388,5 +1388,9 @@ limitations under the License.
     <!-- Qs Tile Icon Bright-Dark -->
     <string name="qs_icon_primary_title">Qs Tile Icon Bright|Dark</string>
     <string name="qs_icon_primary_summary">Make Qs Icon Bright-Dark if gradient tint enabled</string>
+    
+    <!-- Notification count -->
+    <string name="status_bar_notif_count_title">Notification count</string>
+    <string name="status_bar_notif_count_summary">Display the number of pending notifications</string>
 
 </resources>
