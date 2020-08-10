@@ -108,6 +108,12 @@
     <string name="device_vince_summary" translatable="false">vince\nSrinand.E.K</string>
 
     <string name="device_greatlte" translatable="false">Samsung Galaxy Note 8</string> 
-    <string name="device_greatlte_summary" translatable="false">greatlte\nHaSSaN -</string>
+    <string name="device_greatlte_summary" translatable="false">greatlte\nHaSSaN</string>
+
+    <string name="device_dreamlte" translatable="false">Samsung Galaxy S8</string> 
+    <string name="device_dreamlte_summary" translatable="false">greatlte\nHaSSaN</string>
+
+    <string name="device_dream2lte" translatable="false">Samsung Galaxy S8+</string>
+    <string name="device_dream2lte_summary" translatable="false">greatlte\nHaSSaN</string>
 
 </resources>
