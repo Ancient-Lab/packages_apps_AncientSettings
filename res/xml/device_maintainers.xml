@@ -297,7 +297,28 @@
         android:id="@+id/device_category_samsung"
         android:title="@string/device_category_samsung_title">
 
+       <Preference
+            android:id="@+id/device_dreamlte"
+            android:icon="@drawable/ancient_device"
+            android:summary="@string/device_dreamlte_summary"
+            android:title="@string/device_dreamlte">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/HaSSaN_MoHl" />
+        </Preference>
+
+
         <Preference
+            android:id="@+id/device_dream2lte"
+            android:icon="@drawable/ancient_device"
+            android:summary="@string/device_dream2lte_summary"
+            android:title="@string/device_dream2lte">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/HaSSaN_MoHl" />
+        </Preference>
+
+       <Preference
             android:id="@+id/device_greatlte"
             android:icon="@drawable/ancient_device"
             android:summary="@string/device_greatlte_summary"
@@ -306,6 +327,7 @@
                 android:action="android.intent.action.VIEW"
                 android:data="https://t.me/HaSSaN_MoHl" />
         </Preference>
+
 
      </PreferenceCategory>
 
