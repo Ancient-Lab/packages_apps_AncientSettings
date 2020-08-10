@@ -326,6 +326,16 @@
                 android:data="https://t.me/HaSSaN_MoHl" />
         </Preference>
 
+        <Preference
+            android:id="@+id/device_breeze"
+            android:icon="@drawable/ancient_device"
+            android:summary="@string/device_breeze_summary"
+            android:title="@string/device_breeze">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/FlashKillerV2" />
+        </Preference>
+
      </PreferenceCategory>
 
 </PreferenceScreen>
