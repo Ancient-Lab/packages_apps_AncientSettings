@@ -46,6 +46,9 @@
 
     <string name="device_tulip" translatable="false">Xiaomi Redmi Note 6 Pro</string> 
     <string name="device_tulip_summary" translatable="false">tulip\nNiteshkumar</string>
+
+    <string name="device_Z01R" translatable="false">Asus Zenfone 5Z</string>
+    <string name="device_Z01R_summary" translatable="false">Z01R\nAyan Mukherjee (ayanm09)</string>
  
     <string name="device_X01BD" translatable="false">Asus Zenfone Max Pro M2</string>
     <string name="device_X01BD_summary" translatable="false">X01BD\nAhmed Shaikh</string>
