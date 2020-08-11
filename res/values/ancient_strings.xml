@@ -1053,6 +1053,7 @@ limitations under the License.
     <string name="switch_narrow">Narrow</string>
     <string name="switch_contained">Contained</string>
     <string name="switch_telegram">Telegram</string>
+    <string name="switch_square">Square</string>
 
     <!-- QS tile styles -->
     <string name="qs_style_title">QS style</string>
