@@ -1139,6 +1139,7 @@
         <item>@string/switch_narrow</item>
         <item>@string/switch_contained</item>
         <item>@string/switch_telegram</item>
+	<item>@string/switch_square</item>   
     </string-array>
 
     <string-array name="switch_style_values" translatable="false">
@@ -1147,6 +1148,7 @@
         <item>2</item>
         <item>3</item>
         <item>4</item>
+	<item>4</item>
     </string-array>
 
     <!-- QS tile styles -->
