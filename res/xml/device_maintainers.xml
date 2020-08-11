@@ -166,6 +166,16 @@
                  android:data="https://t.me/Ahmedsk786" />
          </Preference>
 
+         <Preference
+            android:id="@+id/device_Z01R"
+            android:icon="@drawable/ancient_device"
+            android:summary="@string/device_Z01R_summary"
+            android:title="@string/device_Z01R" >
+            <intent
+                 android:action="android.intent.action.VIEW"
+                 android:data="https://t.me/ayanm09" />
+         </Preference>
+
      </PreferenceCategory>
 
     <PreferenceCategory
