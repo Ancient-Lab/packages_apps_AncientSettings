@@ -120,6 +120,12 @@
           android:max="10000"
           android:defaultValue="3000"
           settings:units="@string/unit_milliseconds" />
+
+       <com.ancient.settings.preferences.SystemSettingSwitchPreference  
+          android:key="status_bar_notif_count"
+          android:title="@string/status_bar_notif_count_title"
+          android:summary="@string/status_bar_notif_count_summary"
+          android:defaultValue="false" />
     </PreferenceCategory>
 
     <PreferenceCategory
