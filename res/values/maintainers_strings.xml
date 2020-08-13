@@ -123,4 +123,7 @@
     <string name="device_breeze" translatable="false">UMIDIGI A5 Pro</string>
     <string name="device_breeze_summary" translatable="false">breeze\nFlashKiller</string>
 
+    <string name="device_raphael" translatable="false">Redmi K20 Pro</string>
+    <string name="device_raphael_summary" translatable="false">raphael\nIronGFly</string>
+
 </resources>
