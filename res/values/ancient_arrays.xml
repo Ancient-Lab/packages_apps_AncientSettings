@@ -1188,6 +1188,11 @@
         <item>@string/qstile_anci9</item>
         <item>@string/qstile_anci10</item> 
         <item>@string/qstile_anci11</item>  
+        <item>@string/qstile_anci12</item>
+        <item>@string/qstile_anci13</item>
+        <item>@string/qstile_anci14</item>
+        <item>@string/qstile_anci15</item> 
+        <item>@string/qstile_anci16</item>  
     </string-array>
 
     <string-array name="qs_selector_values" translatable="false">
@@ -1222,6 +1227,11 @@
         <item>28</item>
         <item>29</item> 
         <item>30</item> 
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item> 
+        <item>35</item> 
     </string-array>
 
     <!-- QS Label Tint -->
@@ -1315,6 +1325,11 @@
         <item>@string/qsclock_anci14</item>
         <item>@string/qsclock_anci15</item>
         <item>@string/qsclock_anci16</item>
+        <item>@string/qsclock_anci17</item>
+        <item>@string/qsclock_anci18</item>
+        <item>@string/qsclock_anci19</item>
+        <item>@string/qsclock_anci20</item>
+        <item>@string/qsclock_anci21</item>
     </string-array>
 
     <string-array name="qs_clock_selector_values" translatable="false">
@@ -1339,6 +1354,11 @@
         <item>18</item>
         <item>19</item>
         <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
     </string-array>
 
     <!-- Ticker mode -->
@@ -1376,6 +1396,11 @@
         <item>@string/qsanalog_anci6</item>
         <item>@string/qsanalog_anci7</item>
         <item>@string/qsanalog_anci8</item>
+        <item>@string/qsanalog_anci9</item>
+        <item>@string/qsanalog_anci10</item>
+        <item>@string/qsanalog_anci11</item>
+        <item>@string/qsanalog_anci12</item>
+        <item>@string/qsanalog_anci13</item>
     </string-array>
 
     <string-array name="qs_analog_selector_values" translatable="false">
@@ -1390,6 +1415,11 @@
         <item>8</item>
         <item>9</item>
         <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
     </string-array>
 
     <!-- QS setting styles -->
@@ -1415,6 +1445,11 @@
         <item>@string/qssetting_anci14</item>
         <item>@string/qssetting_anci15</item>
         <item>@string/qssetting_anci16</item>
+        <item>@string/qssetting_anci17</item>
+        <item>@string/qssetting_anci18</item>
+        <item>@string/qssetting_anci19</item>
+        <item>@string/qssetting_anci20</item>
+        <item>@string/qssetting_anci21</item>
     </string-array>
 
     <string-array name="qs_setting_selector_values" translatable="false">
@@ -1439,6 +1474,11 @@
         <item>18</item>
         <item>19</item>
         <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
     </string-array>
 
     <!-- QS Tile Tint -->
@@ -1579,6 +1619,11 @@
         <item>@string/qsmergebg_anci3</item>
         <item>@string/qsmergebg_anci4</item>
 	<item>@string/qsmergebg_anci5</item>
+        <item>@string/qsmergebg_anci6</item>
+        <item>@string/qsmergebg_anci7</item>
+        <item>@string/qsmergebg_anci8</item>
+        <item>@string/qsmergebg_anci9</item>
+	<item>@string/qsmergebg_anci10</item>
     </string-array>
 
     <string-array name="qs_mergebg_selector_values" translatable="false">
@@ -1588,6 +1633,11 @@
         <item>3</item>
         <item>4</item>
         <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
     </string-array>
 	
     <!-- navbar styles -->

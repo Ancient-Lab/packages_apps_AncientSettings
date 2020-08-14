@@ -1091,6 +1091,11 @@ limitations under the License.
     <string name="qstile_anci9">Anci 9</string>
     <string name="qstile_anci10">Anci 10</string>
     <string name="qstile_anci11">Anci 11</string>
+    <string name="qstile_anci12">Anci 12</string>
+    <string name="qstile_anci13">Anci 13</string>
+    <string name="qstile_anci14">Anci 14</string>
+    <string name="qstile_anci15">Anci 15</string>
+    <string name="qstile_anci16">Anci 16</string>
 
     <!-- QS themes -->
     <string name="qs_themes_category_title">QS Themes</string>
@@ -1219,6 +1224,11 @@ limitations under the License.
     <string name="qsclock_anci14">anci 14</string>
     <string name="qsclock_anci15">anci 15</string>
     <string name="qsclock_anci16">anci 16</string>
+    <string name="qsclock_anci17">anci 17</string>
+    <string name="qsclock_anci18">anci 18</string>
+    <string name="qsclock_anci19">anci 19</string>
+    <string name="qsclock_anci20">anci 20</string>
+    <string name="qsclock_anci21">anci 21</string>
 
     <!-- Status Bar Ticker -->
     <string name="ticker_screen_title">Ticker</string>
@@ -1258,6 +1268,11 @@ limitations under the License.
     <string name="qsanalog_anci7">anci 7</string>
     <string name="qsanalog_anci8">anci 8</string>
     <string name="qsanalog_anci9">anci 9</string>
+    <string name="qsanalog_anci10">anci 10</string>
+    <string name="qsanalog_anci11">anci 11</string>
+    <string name="qsanalog_anci12">anci 12</string>
+    <string name="qsanalog_anci13">anci 13</string>
+    <string name="qsanalog_anci14">anci 14</string>
 
     <!-- QS setting styles -->
     <string name="qs_setting_style_title">Setting style</string>
@@ -1282,6 +1297,11 @@ limitations under the License.
     <string name="qssetting_anci14">anci 14</string>
     <string name="qssetting_anci15">anci 15</string>
     <string name="qssetting_anci16">anci 16</string>
+    <string name="qssetting_anci17">anci 17</string>
+    <string name="qssetting_anci18">anci 18</string>
+    <string name="qssetting_anci19">anci 19</string>
+    <string name="qssetting_anci20">anci 20</string>
+    <string name="qssetting_anci21">anci 21</string>
 
     <!-- Notification Vibration -->
     <string name="vibrate_on_notifications_title">Notification vibration</string>
@@ -1384,6 +1404,11 @@ limitations under the License.
     <string name="qsmergebg_anci3">anci 3</string>
     <string name="qsmergebg_anci4">anci 4</string>
     <string name="qsmergebg_anci5">anci 5</string>
+    <string name="qsmergebg_anci6">anci 6</string>
+    <string name="qsmergebg_anci7">anci 7</string>
+    <string name="qsmergebg_anci8">anci 8</string>
+    <string name="qsmergebg_anci9">anci 9</string>
+    <string name="qsmergebg_anci10">anci 10</string>
 
     <!-- navbar styles -->
     <string name="qs_navbar_style_title">Navbar Icon style</string>
