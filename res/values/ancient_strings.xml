@@ -1031,6 +1031,8 @@ limitations under the License.
     <string name="fod_recog_animation_pureview_molecular">Molecular</string>
     <string name="fod_recog_animation_coloros7_1">ColorOS7 1</string>
     <string name="fod_recog_animation_coloros7_2">ColorOS7 2</string>
+    <string name="fod_recog_animation_realmecloud">Realme Cloud</string>
+    <string name="fod_recog_animation_realmeripple">Realme Ripple</string>
 
     <!-- Statusbar dual row -->
     <string name="statusbar_dual_row_title">Dual Row For Notch</string>
