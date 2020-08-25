@@ -1369,4 +1369,7 @@ limitations under the License.
     <string name="fod_gesture_title">Screen off fingerprint</string>
     <string name="fod_gesture_summary">Allows unlocking the device without having to wake up the screen first</string>
 
+    <!-- Audio panel location -->
+    <string name="audio_panel_location_title">Switch audio panel location</string>
+    <string name="audio_panel_location_summary">Shift audio panel to the left side (Needs a SystemUI restart to take effect)</string>
 </resources>
