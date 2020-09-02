@@ -33,6 +33,8 @@ import com.ancient.settings.fragments.QsSettingStylePreferenceController;
 import com.ancient.settings.fragments.QsBarheightStylePreferenceController;
 import com.ancient.settings.fragments.QsMergebgStylePreferenceController;
 import com.ancient.settings.fragments.QsNavbarStylePreferenceController;
+import com.ancient.settings.fragments.LottieuiHiderPreferenceController;
+import com.ancient.settings.fragments.LottiesetHiderPreferenceController;
 
 import com.android.settings.R;
 
@@ -80,6 +82,8 @@ public class Interface extends DashboardFragment {
         controllers.add(new QsBarheightStylePreferenceController(context));
         controllers.add(new QsMergebgStylePreferenceController(context));
         controllers.add(new QsNavbarStylePreferenceController(context));
+        controllers.add(new LottieuiHiderPreferenceController(context));
+        controllers.add(new LottiesetHiderPreferenceController(context));
         return controllers;
     }
 }
