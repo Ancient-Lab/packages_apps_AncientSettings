@@ -1430,4 +1430,18 @@ limitations under the License.
     <string name="status_bar_notif_count_title">Notification count</string>
     <string name="status_bar_notif_count_summary">Display the number of pending notifications</string>
 
+    <!-- lottie ui hider -->
+    <string name="lottieui_hider_title">Lottie Animation on UI Style</string>
+    <string name="lottieui_default">Default</string>
+    <string name="lottieui_anci1">Hide All</string>
+    <string name="lottieui_anci2">Opacy 50</string>
+    <string name="lottieui_anci3">Opacy 70</string>
+
+    <!-- lottie setting hider -->
+    <string name="lottieset_hider_title">Lottie Animation on Settings Style</string>
+    <string name="lottieset_default">Default</string>
+    <string name="lottieset_anci1">Hide All</string>
+    <string name="lottieset_anci2">Style type 1</string>
+    <string name="lottieset_anci3">Style type 2</string>
+
 </resources>

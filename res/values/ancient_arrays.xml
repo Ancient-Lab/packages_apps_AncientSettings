@@ -1659,4 +1659,34 @@
         <item>5</item>
     </string-array>
 
+    <!-- lottie ui hider -->
+    <string-array name="lottieui_hider_selector_entries" translatable="false">
+        <item>@string/lottieui_default</item>
+        <item>@string/lottieui_anci1</item>
+        <item>@string/lottieui_anci2</item>
+        <item>@string/lottieui_anci3</item>
+    </string-array>
+
+    <string-array name="lottieui_hider_selector_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <!-- lottie setting hider -->
+    <string-array name="lottieset_hider_selector_entries" translatable="false">
+        <item>@string/lottieset_default</item>
+        <item>@string/lottieset_anci1</item>
+        <item>@string/lottieset_anci2</item>
+        <item>@string/lottieset_anci3</item>
+    </string-array>
+
+    <string-array name="lottieset_hider_selector_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
 </resources>
