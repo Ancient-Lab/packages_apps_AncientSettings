@@ -74,6 +74,20 @@
             android:entries="@array/qs_navbar_selector_entries"
             android:entryValues="@array/qs_navbar_selector_values" />
 
+        <ListPreference
+            android:key="lottieui_hider"
+            android:title="@string/lottieui_hider_title"
+            android:persistent="false"
+            android:entries="@array/lottieui_hider_selector_entries"
+            android:entryValues="@array/lottieui_hider_selector_values" />
+
+         <ListPreference
+            android:key="lottieset_hider"
+            android:title="@string/lottieset_hider_title"
+            android:persistent="false"
+            android:entries="@array/lottieset_hider_selector_entries"
+            android:entryValues="@array/lottieset_hider_selector_values" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
