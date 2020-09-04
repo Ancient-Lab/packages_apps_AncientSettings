@@ -40,7 +40,7 @@ public class LottiesetHiderPreferenceController extends AbstractPreferenceContro
 
     private ListPreference mLottiesetHider;
 
-    public setLottiesetHiderPreferenceController(Context context) {
+    public LottiesetHiderPreferenceController(Context context) {
         super(context);
     }
 
