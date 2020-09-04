@@ -40,7 +40,7 @@ public class LottieuiHiderPreferenceController extends AbstractPreferenceControl
 
     private ListPreference mLottieuiHider;
 
-    public uiLottieuiHiderPreferenceController(Context context) {
+    public LottieuiHiderPreferenceController(Context context) {
         super(context);
     }
 
