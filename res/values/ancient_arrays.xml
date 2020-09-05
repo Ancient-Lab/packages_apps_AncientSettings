@@ -1539,6 +1539,7 @@
         <item>@string/fod_pressed_state_vivo_green</item>
         <item>@string/fod_pressed_state_vivo_yellow_shadow</item>
         <item>@string/fod_pressed_state_realme_white_light</item>
+        <item>@string/fod_pressed_state_realme_green</item>
     </string-array>
 
     <string-array name="fod_pressed_state_values" translatable="false">
@@ -1550,6 +1551,7 @@
         <item>5</item>
         <item>6</item>
         <item>7</item>
+        <item>8</item>
     </string-array>
 
     <!-- Statusbar brightness -->
