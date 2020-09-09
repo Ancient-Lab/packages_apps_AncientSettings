@@ -18,6 +18,8 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
 	android:title="@string/misc_title" >
 
+    <Preference android:layout="@layout/misc_animation" android:key="misc_animation" />
+
     <PreferenceCategory
         android:key="dashboard_category"
         android:title="@string/dashboard_category">

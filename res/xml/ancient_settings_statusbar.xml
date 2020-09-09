@@ -18,6 +18,8 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/statusbar_title" >
 
+    <Preference android:layout="@layout/statusbar_animation" android:key="statusbar_animation" />
+
     <PreferenceCategory
         android:key="statusbar_tuner"
         android:title="@string/statusbar_items_category">

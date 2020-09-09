@@ -19,6 +19,8 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/ancient_settings_title" >
 
+    <Preference android:layout="@layout/feature_animation" android:key="feature_animation" />
+
     <PreferenceCategory
             android:key="features"
             android:title="Ancient Features" >

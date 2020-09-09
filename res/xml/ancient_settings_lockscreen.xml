@@ -18,6 +18,8 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/lockscreen_title" >
 
+    <Preference android:layout="@layout/ls_animation" android:key="ls_animation" />
+
     <PreferenceCategory
         android:key="omnijaws_settings"
         android:title="@string/omnijaws_settings_title" >

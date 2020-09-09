@@ -18,6 +18,8 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/buttons_title" >
 
+    <Preference android:layout="@layout/buttonset_animation" android:key="buttonset_animation" />
+
     <PreferenceCategory
         android:key="hardware_keys"
         android:title="@string/hardware_keys_category" >

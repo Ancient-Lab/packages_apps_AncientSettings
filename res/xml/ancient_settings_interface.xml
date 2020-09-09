@@ -18,6 +18,8 @@
     android:title="@string/interface_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <Preference android:layout="@layout/interface_animation" android:key="interface_animation" />
+
     <PreferenceCategory
         android:key="category_theming"
         android:title="@string/theming_title">

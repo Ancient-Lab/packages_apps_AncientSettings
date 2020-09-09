@@ -18,6 +18,8 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/quicksettings_title" >
 
+    <Preference android:layout="@layout/qsset_animation" android:key="qsset_animation" />
+
     <com.ancient.settings.preferences.SystemSettingSwitchPreference 
         android:key="qs_tile_title_visibility" 
         android:title="@string/qs_tile_title_visibility_title" 

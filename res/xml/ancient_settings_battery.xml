@@ -18,6 +18,8 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/battery_title" >
 
+    <Preference android:layout="@layout/batset_animation" android:key="batset_animation" />
+
     <Preference
         android:fragment="com.ancient.settings.fragments.SmartChargingSettings"
         android:key="smart_charging_key"

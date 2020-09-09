@@ -18,6 +18,8 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/animations_title" >
 
+    <Preference android:layout="@layout/anim_animation" android:key="anim_animation" />
+
     <ListPreference
         android:key="listview_animation"
         android:dialogTitle="@string/listview_animation_title"

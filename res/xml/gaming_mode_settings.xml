@@ -19,6 +19,8 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/gaming_mode_title">
 
+    <Preference android:layout="@layout/gaming_animation" android:key="gaming_animation" />
+
     <PreferenceCategory
         android:key="gamingmode_category">
 
