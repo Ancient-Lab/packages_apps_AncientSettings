@@ -60,6 +60,9 @@
     <string name="device_ginkgo" translatable="false">Xiaomi Redmi Note 8</string>
     <string name="device_ginkgo_summary" translatable="false">ginkgo\nIntrodructor </string>
 
+    <string name="device_miatoll" translatable="false">Xiaomi Redmi Note 9 Pro</string> 
+    <string name="device_miatoll_summary" translatable="false">miatoll\nHaSSaN (@HaSSaN_MOHl)</string>
+	
     <string name="device_tissot" translatable="false">Xiaomi Mi A1</string>
     <string name="device_tissot_summary" translatable="false">tissot\nAprianto WPJ (ThisIsTag)</string>
 
