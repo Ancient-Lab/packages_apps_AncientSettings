@@ -362,6 +362,16 @@
                 android:data="https://t.me/FlashKillerV2" />
         </Preference>
 
+         <Preference
+            android:id="@+id/device_sakura"
+            android:icon="@drawable/ancient_device"
+            android:summary="@string/device_sakura_summary"
+            android:title="@string/device_sakura" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/Soumyajitpaul007" />
+	    </Preference>
+	    
      </PreferenceCategory>
 
 </PreferenceScreen>
