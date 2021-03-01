@@ -43,7 +43,7 @@
     <string name="device_mido_summary" translatable="false">mido\nSmokey (smokey_18)</string>
 
     <string name="device_violet" translatable="false">Xiaomi Redmi Note 7 Pro</string> 
-    <string name="device_violet_summary" translatable="false">violet\nvishwas7 </string>
+    <string name="device_violet_summary" translatable="false">violet\nBrucetech </string>
 
     <string name="device_tulip" translatable="false">Xiaomi Redmi Note 6 Pro</string> 
     <string name="device_tulip_summary" translatable="false">tulip\nNiteshkumar</string>
