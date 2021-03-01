@@ -258,6 +258,16 @@
                 android:data="https://t.me/hellohoneybunny" />
         </Preference>
 
+        <Preference
+            android:id="@+id/device_RMX1971"
+            android:icon="@drawable/ancient_device"
+            android:summary="@string/device_RMX1971_summary"
+            android:title="@string/device_RMX1971" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/LuckyVii" />
+        </Preference>
+
      </PreferenceCategory>
 
      <PreferenceCategory
