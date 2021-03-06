@@ -31,7 +31,7 @@ limitations under the License.
     <string name="quicksettings_title">Быстрые настройки</string>
     <string name="statusbar_title">Строка состояния</string>
     <string name="battery_title">Батарея</string>
-    <string name="interface_title">Пользовательский интерфейс</string>
+    <string name="interface_title">Темы</string>
     <!-- About -->
     <string name="developers_category_title">Разработчики</string>
     <string name="support_category_title">Команда поддержки</string>
