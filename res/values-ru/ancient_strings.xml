@@ -82,17 +82,17 @@ limitations under the License.
     <string name="battery_bar_bottomnav">Нижняя часть панели навигации</string>
     <string name="battery_bar_reg">Обычный</string>
     <string name="battery_bar_center">По центру зеркально</string>
-    <string name="battery_bar_reversed">Обратное</string>
+    <string name="battery_bar_reversed">Обратный</string>
     <string name="battery_bar_use_gradient_color">Использовать градиентный цвет</string>
     <string name="battery_bar_gradient_color_summary">Использовать градиентный цвет как шкалу для уровня заряда батареи</string>
-    <string name="battery_bar_high_color">Высокий уровень цвета \"</string>
-    <string name="battery_bar_low_color">Низкий уровень цвета \"</string>
+    <string name="battery_bar_high_color">Высокий уровень цвета</string>
+    <string name="battery_bar_low_color">Низкий уровень цвета</string>
     <!-- QS rows and columns -->
     <string name="qs_column_rows_settings_title">Настройки панели быстрых настроек</string>
     <string name="qs_columns_rows_category_title">Колонки и строки быстрых настроек</string>
     <string name="qs_rows_columns_title">Строки и колонки быстрых настроек</string>
     <string name="qs_rows_portrait_title">Строки в портретном режиме</string>
-    <string name="qs_rows_landscape_title">Строки в ландшафтном режиме</string>
+    <string name="qs_rows_landscape_title">Строки в горизонтальном режиме</string>
     <string name="qs_columns_portrait_title">Столбцы плиток в портретном режиме</string>
     <string name="qs_columns_landscape_title">Столбцы плиток в ландшафтном режиме</string>
     <!-- QS tile visibility -->
@@ -117,7 +117,7 @@ limitations under the License.
     <string name="status_bar_clock_style_center">По центру</string>
     <string name="status_bar_clock_style_left">Слева</string>
     <string name="status_bar_am_pm_title">Отображать время в AM/PM стиле</string>
-    <string name="status_bar_am_pm_info">24-часовой формат включен</string>
+    <string name="status_bar_am_pm_info">24-часовой формат</string>
     <string name="status_bar_am_pm_normal">Нормальный</string>
     <string name="status_bar_am_pm_small">Маленький</string>
     <string name="status_bar_am_pm_hidden">Скрыто (по умолчанию)</string>
@@ -131,7 +131,7 @@ limitations under the License.
     <string name="clock_date_style_normal">Нормальный</string>
     <string name="clock_date_style_lowercase">Строчные буквы</string>
     <string name="clock_date_style_uppercase">Заглавные</string>
-    <string name="clock_date_format_custom">Пользовательский формат java</string>
+    <string name="clock_date_format_custom">Пользовательский формат Java</string>
     <string name="clock_date_format">Формат даты</string>
     <string name="clock_date_string_edittext_title">Должен быть в формате даты, напр. ММ/дд/гг</string>
     <string name="clock_date_string_edittext_summary">Введите строку</string>
@@ -139,13 +139,13 @@ limitations under the License.
     <string name="status_bar_clock_font_style_title">Стиль шрифта часов</string>
     <string name="status_bar_clock_font_size_title">Размер шрифта часов</string>
     <string name="status_bar_clock_color_title">Цвет шрифта часов</string>
-    <string name="clock_date_right">Справа от времени</string>
-    <string name="clock_date_left">Слева от времени</string>
+    <string name="clock_date_right">Справа</string>
+    <string name="clock_date_left">Слева</string>
     <string name="clock_date_position">Расположение даты</string>
     <!-- Sb Clock Fonts -->
     <string name="sb_clock_font_title">Параметры шрифта часов</string>
     <string name="sb_clock_font_summary">Изменить стандартный шрифт часов экрана блокировки</string>
-    <string name="sb_clock_font_dialog_title">Выберите шрифт часов на экране блокировки</string>
+    <string name="sb_clock_font_dialog_title">Выбрать шрифт часов на экране блокировки</string>
     <string name="sb_clock_font_stock">Нормальный (по умолчанию)</string>
     <string name="sb_clock_font_bold">Жирный</string>
     <string name="sb_clock_font_italic">Курсив</string>
@@ -156,8 +156,8 @@ limitations under the License.
     <string name="sb_clock_font_thin">Тонкий</string>
     <string name="sb_clock_font_condensed_normal">Уплотненный</string>
     <string name="sb_clock_font_condensed_italic">Уплотненный курсив</string>
-    <string name="sb_clock_font_condensed_bold">Уплотнённый жирный</string>
-    <string name="sb_clock_font_condensed_bold_italic">Уплотнённый жирный курсив</string>
+    <string name="sb_clock_font_condensed_bold">Уплотненный жирный</string>
+    <string name="sb_clock_font_condensed_bold_italic">Уплотненный жирный курсив</string>
     <string name="sb_clock_font_condensed_light">Уплотненный легкий</string>
     <string name="sb_clock_font_condensed_light_italic">Уплотнённый легкий курсив</string>
     <string name="sb_clock_font_medium_normal">Средний</string>
@@ -177,10 +177,10 @@ limitations under the License.
     <string name="sb_clock_font_googlesans">Google Sans</string>
     <string name="sb_clock_font_neoneon">Neoneon</string>
     <string name="sb_clock_font_themeable">Тематика (или VCR OSD Mono)</string>
-    <string name="sb_clock_font_samsung">Shamshung</string>
+    <string name="sb_clock_font_samsung">Samsung</string>
     <string name="sb_clock_font_mexcellent">Mexcellent</string>
     <string name="sb_clock_font_burnstown">Burnstown</string>
-    <string name="sb_clock_font_dumbledor">Dumbledor</string>
+    <string name="sb_clock_font_dumbledor">Дамблдор</string>
     <string name="sb_clock_font_phantombold">PhantomBold</string>
     <!-- 4G icon -->
     <string name="statusbar_items_category">Значки</string>
@@ -235,7 +235,7 @@ limitations under the License.
     <string name="volume_rocker_music_controls_title">Управление воспроизведением</string>
     <string name="volume_rocker_music_controls_summary">Переключать треки долгим нажатием кнопок громкости при выключенном экране</string>
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Разбудить устройство</string>
+    <string name="volume_rocker_wake_title">Пробудить устройство</string>
     <string name="volume_rocker_wake_summary">Нажмите клавиши громкости для пробуждения устройства</string>
     <!-- Wake on charge -->
     <string name="wakeup_when_plugged_unplugged_title">Пробуждать при зарядке</string>
@@ -266,7 +266,7 @@ limitations under the License.
     <string name="text_charging_symbol_cent">Цент</string>
     <!-- Network Traffic -->
     <string name="statusbar_trafficat">Сетевой трафик</string>
-    <string name="trafficat">Индикаторы сетевого трафика</string>
+    <string name="trafficat">Индикатор сетевого трафика</string>
     <string name="trafficat_summary">Индикатор скорости сети</string>
     <string name="network_traffic_state_title">Расположение</string>
     <string name="network_traffic_autohide_threshold_title">Порог автоскрытия индикатора</string>
@@ -278,8 +278,8 @@ limitations under the License.
     <string name="network_traffic_layout_v">Вертикальный</string>
     <string name="show_network_traffic_combined">Комбинированный (Загрузить + Скачать)</string>
     <string name="show_network_traffic_dynamic">Динамический</string>
-    <string name="show_network_traffic_up">Загрузка</string>
-    <string name="show_network_traffic_down">Скачивание</string>
+    <string name="show_network_traffic_up">Отдача</string>
+    <string name="show_network_traffic_down">Загрузка</string>
     <string name="show_network_traffic_all">Все</string>
     <string name="traffic_disabled">Отключено</string>
     <string name="traffic_statusbar">Строка состояния</string>
