@@ -126,4 +126,7 @@
     <string name="device_breeze" translatable="false">UMIDIGI A5 Pro</string>
     <string name="device_breeze_summary" translatable="false">breeze\nFlashKiller</string>
 
+    <string name="device_lava" translatable="false">Redmi 9 / Poco M2 </string>
+    <string name="device_lava_summary" translatable="false">lava\nhenloboi</string>
+
 </resources>
