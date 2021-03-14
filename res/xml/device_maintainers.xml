@@ -48,7 +48,7 @@
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="https://t.me/riquebarros17" />
-          </Preference>          
+          </Preference>
 
          <Preference
             android:id="@+id/device_mido"
@@ -60,33 +60,33 @@
                 android:data="https://t.me/smokey_18" />
           </Preference>
 
-         <Preference 
-            android:id="@+id/device_violet" 
-            android:icon="@drawable/ancient_device" 
-            android:summary="@string/device_violet_summary" 
-            android:title="@string/device_violet" > 
+         <Preference
+            android:id="@+id/device_violet"
+            android:icon="@drawable/ancient_device"
+            android:summary="@string/device_violet_summary"
+            android:title="@string/device_violet" >
             <intent
-                 android:action="android.intent.action.VIEW" 
+                 android:action="android.intent.action.VIEW"
                  android:data="https://t.me/mavji007" />
          </Preference>
 
-         <Preference 
-            android:id="@+id/device_tulip" 
-            android:icon="@drawable/ancient_device" 
-            android:summary="@string/device_tulip_summary" 
-            android:title="@string/device_tulip" > 
+         <Preference
+            android:id="@+id/device_tulip"
+            android:icon="@drawable/ancient_device"
+            android:summary="@string/device_tulip_summary"
+            android:title="@string/device_tulip" >
             <intent
-                 android:action="android.intent.action.VIEW" 
+                 android:action="android.intent.action.VIEW"
                  android:data="https://t.me/Niteshkumar15" />
          </Preference>
-		 
-	 <Preference 
-            android:id="@+id/device_ysl" 
-            android:icon="@drawable/ancient_device" 
-            android:summary="@string/device_ysl_summary" 
-            android:title="@string/device_ysl" > 
+
+	 <Preference
+            android:id="@+id/device_ysl"
+            android:icon="@drawable/ancient_device"
+            android:summary="@string/device_ysl_summary"
+            android:title="@string/device_ysl" >
             <intent
-                 android:action="android.intent.action.VIEW" 
+                 android:action="android.intent.action.VIEW"
                  android:data="https://t.me/hats721" />
          </Preference>
 
@@ -129,7 +129,7 @@
                 android:action="android.intent.action.VIEW"
                 android:data="https://t.me/adislice" />
           </Preference>
-         
+
           <Preference
              android:id="@+id/device_riva"
              android:icon="@drawable/ancient_device"
@@ -160,12 +160,22 @@
                 android:data="https://t.me/HaSSaN_MoHl" />
           </Preference>
 
+          <Preference
+            android:id="@+id/device_davinci"
+            android:icon="@drawable/ancient_device"
+            android:summary="@string/device_davinci_summary"
+            android:title="@string/device_davinci" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/SVB22" />
+          </Preference>
+
      </PreferenceCategory>
 
      <PreferenceCategory
         android:id="@+id/device_category_asus"
-        android:title="@string/device_category_asus_title" >   
-         
+        android:title="@string/device_category_asus_title" >
+
           <Preference
             android:id="@+id/device_X01BD"
             android:icon="@drawable/ancient_device"

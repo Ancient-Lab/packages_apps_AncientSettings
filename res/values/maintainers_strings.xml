@@ -42,31 +42,31 @@
     <string name="device_mido" translatable="false">Xiaomi Redmi Note 4X</string>
     <string name="device_mido_summary" translatable="false">mido\nSmokey (smokey_18)</string>
 
-    <string name="device_violet" translatable="false">Xiaomi Redmi Note 7 Pro</string> 
+    <string name="device_violet" translatable="false">Xiaomi Redmi Note 7 Pro</string>
     <string name="device_violet_summary" translatable="false">violet\nvishwas7 </string>
 
-    <string name="device_tulip" translatable="false">Xiaomi Redmi Note 6 Pro</string> 
+    <string name="device_tulip" translatable="false">Xiaomi Redmi Note 6 Pro</string>
     <string name="device_tulip_summary" translatable="false">tulip\nNiteshkumar</string>
 
     <string name="device_Z01R" translatable="false">Asus Zenfone 5Z</string>
     <string name="device_Z01R_summary" translatable="false">Z01R\nAyan Mukherjee (ayanm09)</string>
- 
+
     <string name="device_X01BD" translatable="false">Asus Zenfone Max Pro M2</string>
     <string name="device_X01BD_summary" translatable="false">X01BD\nAhmed Shaikh</string>
-	
-    <string name="device_ysl" translatable="false">Xiaomi Redmi S2/Y2</string> 
+
+    <string name="device_ysl" translatable="false">Xiaomi Redmi S2/Y2</string>
     <string name="device_ysl_summary" translatable="false">ysl\nHatsune -</string>
 
     <string name="device_ginkgo" translatable="false">Xiaomi Redmi Note 8</string>
     <string name="device_ginkgo_summary" translatable="false">ginkgo\nIntrodructor </string>
 
-    <string name="device_miatoll" translatable="false">Xiaomi SD720G</string> 
+    <string name="device_miatoll" translatable="false">Xiaomi SD720G</string>
     <string name="device_miatoll_summary" translatable="false">miatoll\nHaSSaN (@HaSSaN_MOHl)</string>
-	
+
     <string name="device_tissot" translatable="false">Xiaomi Mi A1</string>
     <string name="device_tissot_summary" translatable="false">tissot\nAprianto WPJ (ThisIsTag)</string>
 
-    <string name="device_fajita" translatable="false">OnePlus 6T</string> 
+    <string name="device_fajita" translatable="false">OnePlus 6T</string>
     <string name="device_fajita_summary" translatable="false">fajita\nNon Maintainer</string>
 
     <string name="device_oneplus3" translatable="false">OnePlus 3/3T</string>
@@ -92,10 +92,10 @@
 
     <string name="device_Dragon" translatable="false">Nokia 6.1 PLUS</string>
     <string name="device_Dragon_summary" translatable="false">Dragon\nAnkit Kene (ankitkene)</string>
-	
+
     <string name="device_Onyx" translatable="false">Nokia 7 PLUS</string>
     <string name="device_Onyx_summary" translatable="false">Onyx\nAnkit Kene (ankitkene)</string>
-	
+
     <string name="device_sanders" translatable="false">Motorola Moto G5S Plus</string>
     <string name="device_sanders_summary" translatable="false">sanders\nNon Maintainer</string>
 
@@ -110,14 +110,14 @@
 
     <string name="device_riva" translatable="false">Xiaomi Redmi 5A</string>
     <string name="device_riva_summary" translatable="false">riva\nErwin Abu Bakar Sidik</string>
-	
+
     <string name="device_vince" translatable="false">Redmi 5 Plus/Note 5</string>
     <string name="device_vince_summary" translatable="false">vince\nSrinand.E.K</string>
 
-    <string name="device_greatlte" translatable="false">Samsung Galaxy Note 8</string> 
+    <string name="device_greatlte" translatable="false">Samsung Galaxy Note 8</string>
     <string name="device_greatlte_summary" translatable="false">greatlte\nHaSSaN</string>
 
-    <string name="device_dreamlte" translatable="false">Samsung Galaxy S8</string> 
+    <string name="device_dreamlte" translatable="false">Samsung Galaxy S8</string>
     <string name="device_dreamlte_summary" translatable="false">greatlte\nHaSSaN</string>
 
     <string name="device_dream2lte" translatable="false">Samsung Galaxy S8+</string>
@@ -125,5 +125,8 @@
 
     <string name="device_breeze" translatable="false">UMIDIGI A5 Pro</string>
     <string name="device_breeze_summary" translatable="false">breeze\nFlashKiller</string>
+
+    <string name="device_davinci" translatable="false">Xiaomi Redmi K20/Mi9T</string>
+    <string name="device_davinci_summary" translatable="false">davinci\nSVB22</string>
 
 </resources>
