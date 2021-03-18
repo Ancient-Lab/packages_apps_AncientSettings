@@ -191,6 +191,16 @@
     <PreferenceCategory
         android:id="@+id/device_category_oneplus"
         android:title="@string/device_category_oneplus_title">
+	    
+        <Preference
+            android:id="@+id/device_enchilada"
+            android:icon="@drawable/ancient_device"
+            android:summary="@string/device_enchilada_summary"
+            android:title="@string/device_enchilada">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/NeoTheSavage" />
+        </Preference>
 
         <Preference
             android:id="@+id/device_fajita"
