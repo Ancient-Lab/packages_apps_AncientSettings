@@ -65,6 +65,9 @@
 	
     <string name="device_tissot" translatable="false">Xiaomi Mi A1</string>
     <string name="device_tissot_summary" translatable="false">tissot\nAprianto WPJ (ThisIsTag)</string>
+	
+    <string name="device_enchilada" translatable="false">OnePlus 6</string> 
+    <string name="device_enchilada_summary" translatable="false">enchilada\neduardo</string>
 
     <string name="device_fajita" translatable="false">OnePlus 6T</string> 
     <string name="device_fajita_summary" translatable="false">fajita\nNon Maintainer</string>
