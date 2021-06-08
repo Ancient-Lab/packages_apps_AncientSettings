@@ -257,6 +257,16 @@
                 android:action="android.intent.action.VIEW"
                 android:data="https://t.me/hellohoneybunny" />
         </Preference>
+	 
+	<Preference
+            android:id="@+id/device_RMX2081"
+            android:icon="@drawable/ancient_device"
+            android:summary="@string/device_RMX2081_summary"
+            android:title="@string/device_RMX2081" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/NishantKumar6342" />
+        </Preference>
 
      </PreferenceCategory>
 
