@@ -32,6 +32,9 @@
     <!-- Device -->
     <string name="device_whyred" translatable="false">Xiaomi Redmi Note 5 Pro</string>
     <string name="device_whyred_summary" translatable="false">whyred\nReza Adi Pangestu (rezaadi0105)</string>
+	
+    <string name="device_sweet" translatable="false">Xiaomi Redmi Note 10 Pro/Pro Max</string>
+    <string name="device_sweet_summary" translatable="false">sweet\nJash (brucetech)</string>
 
     <string name="device_lavender" translatable="false">Xiaomi Redmi Note 7</string>
     <string name="device_lavender_summary" translatable="false">lavender\nJodyYuantoro (xyzuan)</string>
