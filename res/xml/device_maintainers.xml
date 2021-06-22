@@ -29,6 +29,16 @@
                 android:action="android.intent.action.VIEW"
                 android:data="https://t.me/reza_adi_pangestu" />
           </Preference>
+	  
+	   <Preference
+            android:id="@+id/device_sweet"
+            android:icon="@drawable/ancient_device"
+            android:summary="@string/device_sweet_summary"
+            android:title="@string/device_sweet" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/brucetech" />
+          </Preference>
 
         <Preference
             android:id="@+id/device_lavender"
